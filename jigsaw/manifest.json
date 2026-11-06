@@ -1,18 +1,18 @@
 {
  "mode": "jigsaw",
- "note": "Jigsaw content. Each picture is a plain square PNG; the app cuts it into pieces (easy 9-16, medium 25-36, hard 49-64). Scale with nearest-neighbour. Categories with status \"pending\" are not complete yet: hide them.",
+ "note": "Jigsaw content. Each picture is a plain square PNG; the app cuts it into pieces (easy 9-12, medium 16-25, hard 25-36). Scale with nearest-neighbour. Categories with status \"pending\" are not complete yet: hide them.",
  "pieces": {
   "easy": [
    9,
-   16
+   12
   ],
   "medium": [
-   25,
-   36
+   16,
+   25
   ],
   "hard": [
-   49,
-   64
+   25,
+   36
   ]
  },
  "categories": [
@@ -1157,7 +1157,7 @@
     "de": "Steampunk-Stadt"
    },
    "tier": "hard",
-   "status": "pending",
+   "status": "ready",
    "pictures": [
     {
      "id": "brass_airship",
@@ -1223,6 +1223,19 @@
      "image": "steampunk-city/copper_rooftops.png",
      "width": 496,
      "height": 496
+    },
+    {
+     "id": "masterpiece_steampunk_city",
+     "order": 6,
+     "name": {
+      "en": "Steampunk City",
+      "tr": "Steampunk Şehri",
+      "de": "Steampunk-Stadt"
+     },
+     "role": "masterpiece",
+     "image": "steampunk-city/masterpiece_steampunk_city.png",
+     "width": 1254,
+     "height": 1254
     }
    ],
    "spare": {
@@ -1237,6 +1250,315 @@
     "image": "steampunk-city/gear_clock_tower.png",
     "width": 496,
     "height": 496
+   }
+  },
+  {
+   "id": "floating-islands",
+   "name": {
+    "en": "Floating Islands",
+    "tr": "Uçan Adalar",
+    "de": "Schwebende Inseln"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "sky_castle",
+     "order": 1,
+     "name": {
+      "en": "Sky Castle",
+      "tr": "Gökyüzü Şatosu",
+      "de": "Himmelsburg"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_castle.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "rope_bridge_isles",
+     "order": 2,
+     "name": {
+      "en": "Rope Bridge",
+      "tr": "Asma Köprü",
+      "de": "Hängebrücke"
+     },
+     "role": "picture",
+     "image": "floating-islands/rope_bridge_isles.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "sky_garden",
+     "order": 3,
+     "name": {
+      "en": "Sky Garden",
+      "tr": "Gökyüzü Bahçesi",
+      "de": "Himmelsgarten"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_garden.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "sky_ship",
+     "order": 4,
+     "name": {
+      "en": "Sky Ship",
+      "tr": "Gökyüzü Gemisi",
+      "de": "Himmelsschiff"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_ship.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "forest_isles",
+     "order": 5,
+     "name": {
+      "en": "Forest Isles",
+      "tr": "Ormanlı Adalar",
+      "de": "Waldinseln"
+     },
+     "role": "picture",
+     "image": "floating-islands/forest_isles.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "masterpiece_floating_islands",
+     "order": 6,
+     "name": {
+      "en": "Floating Islands",
+      "tr": "Uçan Adalar",
+      "de": "Schwebende Inseln"
+     },
+     "role": "masterpiece",
+     "image": "floating-islands/masterpiece_floating_islands.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "crystal_tower",
+    "order": 0,
+    "name": {
+     "en": "Crystal Tower",
+     "tr": "Kristal Kule",
+     "de": "Kristallturm"
+    },
+    "role": "spare",
+    "image": "floating-islands/crystal_tower.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "christmas-market",
+   "name": {
+    "en": "Christmas Market",
+    "tr": "Noel Pazarı",
+    "de": "Weihnachtsmarkt"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "gingerbread_stalls",
+     "order": 1,
+     "name": {
+      "en": "Gingerbread Stalls",
+      "tr": "Kurabiye Tezgahları",
+      "de": "Lebkuchenstände"
+     },
+     "role": "picture",
+     "image": "christmas-market/gingerbread_stalls.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "christmas_tree",
+     "order": 2,
+     "name": {
+      "en": "Christmas Tree",
+      "tr": "Noel Ağacı",
+      "de": "Weihnachtsbaum"
+     },
+     "role": "picture",
+     "image": "christmas-market/christmas_tree.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "cider_stall",
+     "order": 3,
+     "name": {
+      "en": "Hot Cider",
+      "tr": "Sıcak İçecek Tezgahı",
+      "de": "Glühweinstand"
+     },
+     "role": "picture",
+     "image": "christmas-market/cider_stall.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "snowy_carousel",
+     "order": 4,
+     "name": {
+      "en": "Snowy Carousel",
+      "tr": "Karlı Atlıkarınca",
+      "de": "Verschneites Karussell"
+     },
+     "role": "picture",
+     "image": "christmas-market/snowy_carousel.png",
+     "width": 494,
+     "height": 494
+    },
+    {
+     "id": "town_hall",
+     "order": 5,
+     "name": {
+      "en": "Town Hall",
+      "tr": "Belediye Binası",
+      "de": "Rathaus"
+     },
+     "role": "picture",
+     "image": "christmas-market/town_hall.png",
+     "width": 494,
+     "height": 494
+    },
+    {
+     "id": "masterpiece_christmas_market",
+     "order": 6,
+     "name": {
+      "en": "Christmas Market",
+      "tr": "Noel Pazarı",
+      "de": "Weihnachtsmarkt"
+     },
+     "role": "masterpiece",
+     "image": "christmas-market/masterpiece_christmas_market.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "toy_stall",
+    "order": 0,
+    "name": {
+     "en": "Toy Stall",
+     "tr": "Oyuncak Tezgahı",
+     "de": "Spielzeugstand"
+    },
+    "role": "spare",
+    "image": "christmas-market/toy_stall.png",
+    "width": 494,
+    "height": 494
+   }
+  },
+  {
+   "id": "crystal-cave",
+   "name": {
+    "en": "Crystal Cave",
+    "tr": "Kristal Mağara",
+    "de": "Kristallhöhle"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "crystal_lake",
+     "order": 1,
+     "name": {
+      "en": "Crystal Lake",
+      "tr": "Kristal Göl",
+      "de": "Kristallsee"
+     },
+     "role": "picture",
+     "image": "crystal-cave/crystal_lake.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "mushroom_waterfall",
+     "order": 2,
+     "name": {
+      "en": "Mushroom Waterfall",
+      "tr": "Mantarlı Şelale",
+      "de": "Pilzwasserfall"
+     },
+     "role": "picture",
+     "image": "crystal-cave/mushroom_waterfall.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "lantern_bridge",
+     "order": 3,
+     "name": {
+      "en": "Lantern Bridge",
+      "tr": "Fenerli Köprü",
+      "de": "Laternenbrücke"
+     },
+     "role": "picture",
+     "image": "crystal-cave/lantern_bridge.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "glowing_garden",
+     "order": 4,
+     "name": {
+      "en": "Glowing Garden",
+      "tr": "Parlayan Bahçe",
+      "de": "Leuchtender Garten"
+     },
+     "role": "picture",
+     "image": "crystal-cave/glowing_garden.png",
+     "width": 490,
+     "height": 490
+    },
+    {
+     "id": "cave_opening",
+     "order": 5,
+     "name": {
+      "en": "Cave Opening",
+      "tr": "Mağara Ağzı",
+      "de": "Höhlenausgang"
+     },
+     "role": "picture",
+     "image": "crystal-cave/cave_opening.png",
+     "width": 490,
+     "height": 490
+    },
+    {
+     "id": "masterpiece_crystal_cave",
+     "order": 6,
+     "name": {
+      "en": "Crystal Cave",
+      "tr": "Kristal Mağara",
+      "de": "Kristallhöhle"
+     },
+     "role": "masterpiece",
+     "image": "crystal-cave/masterpiece_crystal_cave.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "gem_cart",
+    "order": 0,
+    "name": {
+     "en": "Gem Cart",
+     "tr": "Mücevher Arabası",
+     "de": "Edelsteinwagen"
+    },
+    "role": "spare",
+    "image": "crystal-cave/gem_cart.png",
+    "width": 490,
+    "height": 490
    }
   }
  ]
