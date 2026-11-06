@@ -1,0 +1,1852 @@
+{
+ "mode": "spot_the_pixel",
+ "note": "Picture A = <id>.png, picture B = <id>_b.png (5 differences already applied). diffs are grid cells (x, y, size) on a grid_width x grid_height grid laid over the image; cell px = image px / grid.",
+ "categories": [
+  {
+   "id": "picnic",
+   "name": {
+    "en": "Picnic",
+    "tr": "Piknik",
+    "de": "Picknick"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "blanket",
+     "order": 1,
+     "name": {
+      "en": "Picnic Blanket",
+      "tr": "Piknik Örtüsü",
+      "de": "Picknickdecke"
+     },
+     "role": "picture",
+     "file": "picnic/blanket.json",
+     "image": "picnic/blanket.png",
+     "image_b": "picnic/blanket_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "swing_tree",
+     "order": 2,
+     "name": {
+      "en": "Swing Tree",
+      "tr": "Salıncaklı Ağaç",
+      "de": "Schaukelbaum"
+     },
+     "role": "picture",
+     "file": "picnic/swing_tree.json",
+     "image": "picnic/swing_tree.png",
+     "image_b": "picnic/swing_tree_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "duck_pond",
+     "order": 3,
+     "name": {
+      "en": "Duck Pond",
+      "tr": "Ördek Göleti",
+      "de": "Ententeich"
+     },
+     "role": "picture",
+     "file": "picnic/duck_pond.json",
+     "image": "picnic/duck_pond.png",
+     "image_b": "picnic/duck_pond_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "bicycle",
+     "order": 4,
+     "name": {
+      "en": "Bicycle",
+      "tr": "Bisiklet",
+      "de": "Fahrrad"
+     },
+     "role": "picture",
+     "file": "picnic/bicycle.json",
+     "image": "picnic/bicycle.png",
+     "image_b": "picnic/bicycle_b.png",
+     "width": 491,
+     "height": 488,
+     "status": "ready"
+    },
+    {
+     "id": "kites",
+     "order": 5,
+     "name": {
+      "en": "Kites",
+      "tr": "Uçurtmalar",
+      "de": "Drachen"
+     },
+     "role": "picture",
+     "file": "picnic/kites.json",
+     "image": "picnic/kites.png",
+     "image_b": "picnic/kites_b.png",
+     "width": 491,
+     "height": 488,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_picnic_meadow",
+     "order": 6,
+     "name": {
+      "en": "Picnic Meadow",
+      "tr": "Piknik Çayırı",
+      "de": "Picknickwiese"
+     },
+     "role": "masterpiece",
+     "file": "picnic/masterpiece_picnic_meadow.json",
+     "image": "picnic/masterpiece_picnic_meadow.png",
+     "image_b": "picnic/masterpiece_picnic_meadow_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "picnic_table",
+    "order": 0,
+    "name": {
+     "en": "Picnic Table",
+     "tr": "Piknik Masası",
+     "de": "Picknicktisch"
+    },
+    "role": "spare",
+    "file": "picnic/picnic_table.json",
+    "image": "picnic/picnic_table.png",
+    "image_b": "picnic/picnic_table_b.png",
+    "width": 491,
+    "height": 488,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "toy-shop",
+   "name": {
+    "en": "Toy Shop",
+    "tr": "Oyuncak Dükkanı",
+    "de": "Spielzeugladen"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "toy_shelf",
+     "order": 1,
+     "name": {
+      "en": "Toy Shelf",
+      "tr": "Oyuncak Rafı",
+      "de": "Spielzeugregal"
+     },
+     "role": "picture",
+     "file": "toy-shop/toy_shelf.json",
+     "image": "toy-shop/toy_shelf.png",
+     "image_b": "toy-shop/toy_shelf_b.png",
+     "width": 490,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "toy_train",
+     "order": 2,
+     "name": {
+      "en": "Toy Train",
+      "tr": "Oyuncak Tren",
+      "de": "Spielzeugzug"
+     },
+     "role": "picture",
+     "file": "toy-shop/toy_train.json",
+     "image": "toy-shop/toy_train.png",
+     "image_b": "toy-shop/toy_train_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "rocking_horse",
+     "order": 3,
+     "name": {
+      "en": "Rocking Horse",
+      "tr": "Sallanan At",
+      "de": "Schaukelpferd"
+     },
+     "role": "picture",
+     "file": "toy-shop/rocking_horse.json",
+     "image": "toy-shop/rocking_horse.png",
+     "image_b": "toy-shop/rocking_horse_b.png",
+     "width": 491,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "cash_register",
+     "order": 4,
+     "name": {
+      "en": "Cash Register",
+      "tr": "Yazar Kasa",
+      "de": "Registrierkasse"
+     },
+     "role": "picture",
+     "file": "toy-shop/cash_register.json",
+     "image": "toy-shop/cash_register.png",
+     "image_b": "toy-shop/cash_register_b.png",
+     "width": 490,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "sailboat_drum",
+     "order": 5,
+     "name": {
+      "en": "Sailboat & Drum",
+      "tr": "Yelkenli ve Davul",
+      "de": "Segelboot & Trommel"
+     },
+     "role": "picture",
+     "file": "toy-shop/sailboat_drum.json",
+     "image": "toy-shop/sailboat_drum.png",
+     "image_b": "toy-shop/sailboat_drum_b.png",
+     "width": 492,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_toy_shop",
+     "order": 6,
+     "name": {
+      "en": "Toy Shop",
+      "tr": "Oyuncak Dükkanı",
+      "de": "Spielzeugladen"
+     },
+     "role": "masterpiece",
+     "file": "toy-shop/masterpiece_toy_shop.json",
+     "image": "toy-shop/masterpiece_toy_shop.png",
+     "image_b": "toy-shop/masterpiece_toy_shop_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "dollhouse",
+    "order": 0,
+    "name": {
+     "en": "Dollhouse",
+     "tr": "Bebek Evi",
+     "de": "Puppenhaus"
+    },
+    "role": "spare",
+    "file": "toy-shop/dollhouse.json",
+    "image": "toy-shop/dollhouse.png",
+    "image_b": "toy-shop/dollhouse_b.png",
+    "width": 491,
+    "height": 491,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "farm",
+   "name": {
+    "en": "Farm",
+    "tr": "Çiftlik",
+    "de": "Bauernhof"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "red_barn",
+     "order": 1,
+     "name": {
+      "en": "Red Barn",
+      "tr": "Kırmızı Ahır",
+      "de": "Rote Scheune"
+     },
+     "role": "picture",
+     "file": "farm/red_barn.json",
+     "image": "farm/red_barn.png",
+     "image_b": "farm/red_barn_b.png",
+     "width": 492,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "chicken_coop",
+     "order": 2,
+     "name": {
+      "en": "Chicken Coop",
+      "tr": "Tavuk Kümesi",
+      "de": "Hühnerstall"
+     },
+     "role": "picture",
+     "file": "farm/chicken_coop.json",
+     "image": "farm/chicken_coop.png",
+     "image_b": "farm/chicken_coop_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "goose_pond",
+     "order": 3,
+     "name": {
+      "en": "Goose Pond",
+      "tr": "Kaz Göleti",
+      "de": "Gänseteich"
+     },
+     "role": "picture",
+     "file": "farm/goose_pond.json",
+     "image": "farm/goose_pond.png",
+     "image_b": "farm/goose_pond_b.png",
+     "width": 491,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "vegetable_garden",
+     "order": 4,
+     "name": {
+      "en": "Vegetable Garden",
+      "tr": "Sebze Bahçesi",
+      "de": "Gemüsegarten"
+     },
+     "role": "picture",
+     "file": "farm/vegetable_garden.json",
+     "image": "farm/vegetable_garden.png",
+     "image_b": "farm/vegetable_garden_b.png",
+     "width": 492,
+     "height": 495,
+     "status": "ready"
+    },
+    {
+     "id": "horse_stable",
+     "order": 5,
+     "name": {
+      "en": "Horse Stable",
+      "tr": "At Ahırı",
+      "de": "Pferdestall"
+     },
+     "role": "picture",
+     "file": "farm/horse_stable.json",
+     "image": "farm/horse_stable.png",
+     "image_b": "farm/horse_stable_b.png",
+     "width": 490,
+     "height": 495,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_farm",
+     "order": 6,
+     "name": {
+      "en": "Country Farm",
+      "tr": "Kır Çiftliği",
+      "de": "Landhof"
+     },
+     "role": "masterpiece",
+     "file": "farm/masterpiece_farm.json",
+     "image": "farm/masterpiece_farm.png",
+     "image_b": "farm/masterpiece_farm_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "cow_windmill",
+    "order": 0,
+    "name": {
+     "en": "Cow & Windmill",
+     "tr": "İnek ve Değirmen",
+     "de": "Kuh & Windmühle"
+    },
+    "role": "spare",
+    "file": "farm/cow_windmill.json",
+    "image": "farm/cow_windmill.png",
+    "image_b": "farm/cow_windmill_b.png",
+    "width": 491,
+    "height": 495,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "beach-day",
+   "name": {
+    "en": "Beach Day",
+    "tr": "Plaj Günü",
+    "de": "Strandtag"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "beach_umbrella",
+     "order": 1,
+     "name": {
+      "en": "Beach Umbrella",
+      "tr": "Plaj Şemsiyesi",
+      "de": "Sonnenschirm"
+     },
+     "role": "picture",
+     "file": "beach-day/beach_umbrella.json",
+     "image": "beach-day/beach_umbrella.png",
+     "image_b": "beach-day/beach_umbrella_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "sandcastle",
+     "order": 2,
+     "name": {
+      "en": "Sandcastle",
+      "tr": "Kumdan Kale",
+      "de": "Sandburg"
+     },
+     "role": "picture",
+     "file": "beach-day/sandcastle.json",
+     "image": "beach-day/sandcastle.png",
+     "image_b": "beach-day/sandcastle_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "lifeguard_hut",
+     "order": 3,
+     "name": {
+      "en": "Lifeguard Hut",
+      "tr": "Cankurtaran Kulübesi",
+      "de": "Rettungshütte"
+     },
+     "role": "picture",
+     "file": "beach-day/lifeguard_hut.json",
+     "image": "beach-day/lifeguard_hut.png",
+     "image_b": "beach-day/lifeguard_hut_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "fishing_boat",
+     "order": 4,
+     "name": {
+      "en": "Fishing Boat",
+      "tr": "Balıkçı Teknesi",
+      "de": "Fischerboot"
+     },
+     "role": "picture",
+     "file": "beach-day/fishing_boat.json",
+     "image": "beach-day/fishing_boat.png",
+     "image_b": "beach-day/fishing_boat_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "ice_cream_cart",
+     "order": 5,
+     "name": {
+      "en": "Ice Cream Cart",
+      "tr": "Dondurma Arabası",
+      "de": "Eiswagen"
+     },
+     "role": "picture",
+     "file": "beach-day/ice_cream_cart.json",
+     "image": "beach-day/ice_cream_cart.png",
+     "image_b": "beach-day/ice_cream_cart_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_beach",
+     "order": 6,
+     "name": {
+      "en": "Mediterranean Beach",
+      "tr": "Akdeniz Plajı",
+      "de": "Mittelmeerstrand"
+     },
+     "role": "masterpiece",
+     "file": "beach-day/masterpiece_beach.json",
+     "image": "beach-day/masterpiece_beach.png",
+     "image_b": "beach-day/masterpiece_beach_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "lighthouse_rocks",
+    "order": 0,
+    "name": {
+     "en": "Lighthouse",
+     "tr": "Fener",
+     "de": "Leuchtturm"
+    },
+    "role": "spare",
+    "file": "beach-day/lighthouse_rocks.json",
+    "image": "beach-day/lighthouse_rocks.png",
+    "image_b": "beach-day/lighthouse_rocks_b.png",
+    "width": 489,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "kitchen-shelf",
+   "name": {
+    "en": "Kitchen Shelf",
+    "tr": "Mutfak Rafı",
+    "de": "Küchenregal"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "jam_shelf",
+     "order": 1,
+     "name": {
+      "en": "Jam Shelf",
+      "tr": "Reçel Rafı",
+      "de": "Marmeladenregal"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/jam_shelf.json",
+     "image": "kitchen-shelf/jam_shelf.png",
+     "image_b": "kitchen-shelf/jam_shelf_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "iron_stove",
+     "order": 2,
+     "name": {
+      "en": "Iron Stove",
+      "tr": "Döküm Soba",
+      "de": "Eisenherd"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/iron_stove.json",
+     "image": "kitchen-shelf/iron_stove.png",
+     "image_b": "kitchen-shelf/iron_stove_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "cat_window",
+     "order": 3,
+     "name": {
+      "en": "Cat Window",
+      "tr": "Kedili Pencere",
+      "de": "Katzenfenster"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/cat_window.json",
+     "image": "kitchen-shelf/cat_window.png",
+     "image_b": "kitchen-shelf/cat_window_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "bread_table",
+     "order": 4,
+     "name": {
+      "en": "Bread Table",
+      "tr": "Ekmek Masası",
+      "de": "Brottisch"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/bread_table.json",
+     "image": "kitchen-shelf/bread_table.png",
+     "image_b": "kitchen-shelf/bread_table_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "baking_corner",
+     "order": 5,
+     "name": {
+      "en": "Baking Corner",
+      "tr": "Hamur Köşesi",
+      "de": "Backecke"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/baking_corner.json",
+     "image": "kitchen-shelf/baking_corner.png",
+     "image_b": "kitchen-shelf/baking_corner_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_country_kitchen",
+     "order": 6,
+     "name": {
+      "en": "Country Kitchen",
+      "tr": "Köy Mutfağı",
+      "de": "Landküche"
+     },
+     "role": "masterpiece",
+     "file": "kitchen-shelf/masterpiece_country_kitchen.json",
+     "image": "kitchen-shelf/masterpiece_country_kitchen.png",
+     "image_b": "kitchen-shelf/masterpiece_country_kitchen_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "china_cupboard",
+    "order": 0,
+    "name": {
+     "en": "China Cupboard",
+     "tr": "Porselen Dolabı",
+     "de": "Geschirrschrank"
+    },
+    "role": "spare",
+    "file": "kitchen-shelf/china_cupboard.json",
+    "image": "kitchen-shelf/china_cupboard.png",
+    "image_b": "kitchen-shelf/china_cupboard_b.png",
+    "width": 490,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "camp-night",
+   "name": {
+    "en": "Camp Night",
+    "tr": "Kamp Gecesi",
+    "de": "Zeltnacht"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "glowing_tent",
+     "order": 1,
+     "name": {
+      "en": "Glowing Tent",
+      "tr": "Parlayan Çadır",
+      "de": "Leuchtendes Zelt"
+     },
+     "role": "picture",
+     "file": "camp-night/glowing_tent.json",
+     "image": "camp-night/glowing_tent.png",
+     "image_b": "camp-night/glowing_tent_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "campfire",
+     "order": 2,
+     "name": {
+      "en": "Campfire",
+      "tr": "Kamp Ateşi",
+      "de": "Lagerfeuer"
+     },
+     "role": "picture",
+     "file": "camp-night/campfire.json",
+     "image": "camp-night/campfire.png",
+     "image_b": "camp-night/campfire_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "moonlit_canoe",
+     "order": 3,
+     "name": {
+      "en": "Moonlit Canoe",
+      "tr": "Ay Işığında Kano",
+      "de": "Kanu im Mondlicht"
+     },
+     "role": "picture",
+     "file": "camp-night/moonlit_canoe.json",
+     "image": "camp-night/moonlit_canoe.png",
+     "image_b": "camp-night/moonlit_canoe_b.png",
+     "width": 491,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "camp_table",
+     "order": 4,
+     "name": {
+      "en": "Camp Table",
+      "tr": "Kamp Masası",
+      "de": "Campingtisch"
+     },
+     "role": "picture",
+     "file": "camp-night/camp_table.json",
+     "image": "camp-night/camp_table.png",
+     "image_b": "camp-night/camp_table_b.png",
+     "width": 489,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "hammock_owl",
+     "order": 5,
+     "name": {
+      "en": "Hammock & Owl",
+      "tr": "Hamak ve Baykuş",
+      "de": "Hängematte & Eule"
+     },
+     "role": "picture",
+     "file": "camp-night/hammock_owl.json",
+     "image": "camp-night/hammock_owl.png",
+     "image_b": "camp-night/hammock_owl_b.png",
+     "width": 489,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_campsite",
+     "order": 6,
+     "name": {
+      "en": "Campsite",
+      "tr": "Kamp Alanı",
+      "de": "Zeltplatz"
+     },
+     "role": "masterpiece",
+     "file": "camp-night/masterpiece_campsite.json",
+     "image": "camp-night/masterpiece_campsite.png",
+     "image_b": "camp-night/masterpiece_campsite_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "telescope_rock",
+    "order": 0,
+    "name": {
+     "en": "Telescope",
+     "tr": "Teleskop",
+     "de": "Teleskop"
+    },
+    "role": "spare",
+    "file": "camp-night/telescope_rock.json",
+    "image": "camp-night/telescope_rock.png",
+    "image_b": "camp-night/telescope_rock_b.png",
+    "width": 491,
+    "height": 491,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "library",
+   "name": {
+    "en": "Library",
+    "tr": "Kütüphane",
+    "de": "Bibliothek"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "bookshelf_ladder",
+     "order": 1,
+     "name": {
+      "en": "Bookshelf",
+      "tr": "Kitaplık",
+      "de": "Bücherregal"
+     },
+     "role": "picture",
+     "file": "library/bookshelf_ladder.json",
+     "image": "library/bookshelf_ladder.png",
+     "image_b": "library/bookshelf_ladder_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "reading_chair",
+     "order": 2,
+     "name": {
+      "en": "Reading Chair",
+      "tr": "Okuma Koltuğu",
+      "de": "Lesesessel"
+     },
+     "role": "picture",
+     "file": "library/reading_chair.json",
+     "image": "library/reading_chair.png",
+     "image_b": "library/reading_chair_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "window_seat_cat",
+     "order": 3,
+     "name": {
+      "en": "Window Seat",
+      "tr": "Pencere Köşesi",
+      "de": "Fensterbank"
+     },
+     "role": "picture",
+     "file": "library/window_seat_cat.json",
+     "image": "library/window_seat_cat.png",
+     "image_b": "library/window_seat_cat_b.png",
+     "width": 492,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "map_desk",
+     "order": 4,
+     "name": {
+      "en": "Map Desk",
+      "tr": "Harita Masası",
+      "de": "Kartentisch"
+     },
+     "role": "picture",
+     "file": "library/map_desk.json",
+     "image": "library/map_desk.png",
+     "image_b": "library/map_desk_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "spiral_stairs",
+     "order": 5,
+     "name": {
+      "en": "Spiral Stairs",
+      "tr": "Döner Merdiven",
+      "de": "Wendeltreppe"
+     },
+     "role": "picture",
+     "file": "library/spiral_stairs.json",
+     "image": "library/spiral_stairs.png",
+     "image_b": "library/spiral_stairs_b.png",
+     "width": 490,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_grand_library",
+     "order": 6,
+     "name": {
+      "en": "Grand Library",
+      "tr": "Büyük Kütüphane",
+      "de": "Große Bibliothek"
+     },
+     "role": "masterpiece",
+     "file": "library/masterpiece_grand_library.json",
+     "image": "library/masterpiece_grand_library.png",
+     "image_b": "library/masterpiece_grand_library_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "fireplace_globe",
+    "order": 0,
+    "name": {
+     "en": "Fireplace & Globe",
+     "tr": "Şömine ve Küre",
+     "de": "Kamin & Globus"
+    },
+    "role": "spare",
+    "file": "library/fireplace_globe.json",
+    "image": "library/fireplace_globe.png",
+    "image_b": "library/fireplace_globe_b.png",
+    "width": 492,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "train-station",
+   "name": {
+    "en": "Train Station",
+    "tr": "Tren İstasyonu",
+    "de": "Bahnhof"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "steam_train",
+     "order": 1,
+     "name": {
+      "en": "Steam Train",
+      "tr": "Buharlı Tren",
+      "de": "Dampfzug"
+     },
+     "role": "picture",
+     "file": "train-station/steam_train.json",
+     "image": "train-station/steam_train.png",
+     "image_b": "train-station/steam_train_b.png",
+     "width": 513,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "station_clock",
+     "order": 2,
+     "name": {
+      "en": "Station Clock",
+      "tr": "İstasyon Saati",
+      "de": "Bahnhofsuhr"
+     },
+     "role": "picture",
+     "file": "train-station/station_clock.json",
+     "image": "train-station/station_clock.png",
+     "image_b": "train-station/station_clock_b.png",
+     "width": 501,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "luggage_trolley",
+     "order": 3,
+     "name": {
+      "en": "Luggage Trolley",
+      "tr": "Bavul Arabası",
+      "de": "Gepäckwagen"
+     },
+     "role": "picture",
+     "file": "train-station/luggage_trolley.json",
+     "image": "train-station/luggage_trolley.png",
+     "image_b": "train-station/luggage_trolley_b.png",
+     "width": 494,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "ticket_window",
+     "order": 4,
+     "name": {
+      "en": "Ticket Window",
+      "tr": "Bilet Gişesi",
+      "de": "Fahrkartenschalter"
+     },
+     "role": "picture",
+     "file": "train-station/ticket_window.json",
+     "image": "train-station/ticket_window.png",
+     "image_b": "train-station/ticket_window_b.png",
+     "width": 513,
+     "height": 506,
+     "status": "ready"
+    },
+    {
+     "id": "station_cafe",
+     "order": 5,
+     "name": {
+      "en": "Station Cafe",
+      "tr": "İstasyon Kafesi",
+      "de": "Bahnhofscafé"
+     },
+     "role": "picture",
+     "file": "train-station/station_cafe.json",
+     "image": "train-station/station_cafe.png",
+     "image_b": "train-station/station_cafe_b.png",
+     "width": 501,
+     "height": 506,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_autumn_station",
+     "order": 6,
+     "name": {
+      "en": "Autumn Station",
+      "tr": "Sonbahar İstasyonu",
+      "de": "Herbstbahnhof"
+     },
+     "role": "masterpiece",
+     "file": "train-station/masterpiece_autumn_station.json",
+     "image": "train-station/masterpiece_autumn_station.png",
+     "image_b": "train-station/masterpiece_autumn_station_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "signal_box",
+    "order": 0,
+    "name": {
+     "en": "Signal Box",
+     "tr": "Sinyal Kulübesi",
+     "de": "Stellwerk"
+    },
+    "role": "spare",
+    "file": "train-station/signal_box.json",
+    "image": "train-station/signal_box.png",
+    "image_b": "train-station/signal_box_b.png",
+    "width": 494,
+    "height": 506,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "autumn-market",
+   "name": {
+    "en": "Autumn Market",
+    "tr": "Sonbahar Pazarı",
+    "de": "Herbstmarkt"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "pumpkin_stall",
+     "order": 1,
+     "name": {
+      "en": "Pumpkin Stall",
+      "tr": "Balkabağı Tezgahı",
+      "de": "Kürbisstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/pumpkin_stall.json",
+     "image": "autumn-market/pumpkin_stall.png",
+     "image_b": "autumn-market/pumpkin_stall_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "apple_cart",
+     "order": 2,
+     "name": {
+      "en": "Apple Cart",
+      "tr": "Elma Arabası",
+      "de": "Apfelkarren"
+     },
+     "role": "picture",
+     "file": "autumn-market/apple_cart.json",
+     "image": "autumn-market/apple_cart.png",
+     "image_b": "autumn-market/apple_cart_b.png",
+     "width": 503,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "bakery_stall",
+     "order": 3,
+     "name": {
+      "en": "Bakery Stall",
+      "tr": "Fırın Tezgahı",
+      "de": "Bäckerstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/bakery_stall.json",
+     "image": "autumn-market/bakery_stall.png",
+     "image_b": "autumn-market/bakery_stall_b.png",
+     "width": 501,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_stall",
+     "order": 4,
+     "name": {
+      "en": "Flower Stall",
+      "tr": "Çiçek Tezgahı",
+      "de": "Blumenstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/flower_stall.json",
+     "image": "autumn-market/flower_stall.png",
+     "image_b": "autumn-market/flower_stall_b.png",
+     "width": 502,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "knitted_goods",
+     "order": 5,
+     "name": {
+      "en": "Knitted Goods",
+      "tr": "Örgü Tezgahı",
+      "de": "Strickwaren"
+     },
+     "role": "picture",
+     "file": "autumn-market/knitted_goods.json",
+     "image": "autumn-market/knitted_goods.png",
+     "image_b": "autumn-market/knitted_goods_b.png",
+     "width": 503,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_autumn_market",
+     "order": 6,
+     "name": {
+      "en": "Autumn Market",
+      "tr": "Sonbahar Pazarı",
+      "de": "Herbstmarkt"
+     },
+     "role": "masterpiece",
+     "file": "autumn-market/masterpiece_autumn_market.json",
+     "image": "autumn-market/masterpiece_autumn_market.png",
+     "image_b": "autumn-market/masterpiece_autumn_market_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "chestnut_cart",
+    "order": 0,
+    "name": {
+     "en": "Chestnut Cart",
+     "tr": "Kestane Arabası",
+     "de": "Maronenwagen"
+    },
+    "role": "spare",
+    "file": "autumn-market/chestnut_cart.json",
+    "image": "autumn-market/chestnut_cart.png",
+    "image_b": "autumn-market/chestnut_cart_b.png",
+    "width": 501,
+    "height": 505,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "florist",
+   "name": {
+    "en": "Flower Shop",
+    "tr": "Çiçekçi Dükkanı",
+    "de": "Blumenladen"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "shop_front",
+     "order": 1,
+     "name": {
+      "en": "Shop Front",
+      "tr": "Dükkan Önü",
+      "de": "Ladenfront"
+     },
+     "role": "picture",
+     "file": "florist/shop_front.json",
+     "image": "florist/shop_front.png",
+     "image_b": "florist/shop_front_b.png",
+     "width": 500,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "bouquet_table",
+     "order": 2,
+     "name": {
+      "en": "Bouquet Table",
+      "tr": "Buket Masası",
+      "de": "Straußtisch"
+     },
+     "role": "picture",
+     "file": "florist/bouquet_table.json",
+     "image": "florist/bouquet_table.png",
+     "image_b": "florist/bouquet_table_b.png",
+     "width": 503,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "plant_shelves",
+     "order": 3,
+     "name": {
+      "en": "Plant Shelves",
+      "tr": "Bitki Rafları",
+      "de": "Pflanzenregale"
+     },
+     "role": "picture",
+     "file": "florist/plant_shelves.json",
+     "image": "florist/plant_shelves.png",
+     "image_b": "florist/plant_shelves_b.png",
+     "width": 501,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_cooler",
+     "order": 4,
+     "name": {
+      "en": "Flower Cooler",
+      "tr": "Çiçek Dolabı",
+      "de": "Blumenkühlschrank"
+     },
+     "role": "picture",
+     "file": "florist/flower_cooler.json",
+     "image": "florist/flower_cooler.png",
+     "image_b": "florist/flower_cooler_b.png",
+     "width": 500,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "sunflower_bicycle",
+     "order": 5,
+     "name": {
+      "en": "Sunflower Bicycle",
+      "tr": "Ayçiçekli Bisiklet",
+      "de": "Sonnenblumenrad"
+     },
+     "role": "picture",
+     "file": "florist/sunflower_bicycle.json",
+     "image": "florist/sunflower_bicycle.png",
+     "image_b": "florist/sunflower_bicycle_b.png",
+     "width": 503,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_paris_florist",
+     "order": 6,
+     "name": {
+      "en": "Paris Florist",
+      "tr": "Paris Çiçekçisi",
+      "de": "Pariser Blumenladen"
+     },
+     "role": "masterpiece",
+     "file": "florist/masterpiece_paris_florist.json",
+     "image": "florist/masterpiece_paris_florist.png",
+     "image_b": "florist/masterpiece_paris_florist_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "orchid_greenhouse",
+    "order": 0,
+    "name": {
+     "en": "Orchid Greenhouse",
+     "tr": "Orkide Serası",
+     "de": "Orchideenhaus"
+    },
+    "role": "spare",
+    "file": "florist/orchid_greenhouse.json",
+    "image": "florist/orchid_greenhouse.png",
+    "image_b": "florist/orchid_greenhouse_b.png",
+    "width": 501,
+    "height": 502,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "pirate-cove",
+   "name": {
+    "en": "Pirate Cove",
+    "tr": "Korsan Koyu",
+    "de": "Piratenbucht"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "pirate_galleon",
+     "order": 1,
+     "name": {
+      "en": "Pirate Galleon",
+      "tr": "Korsan Gemisi",
+      "de": "Piratengaleone"
+     },
+     "role": "picture",
+     "file": "pirate-cove/pirate_galleon.json",
+     "image": "pirate-cove/pirate_galleon.png",
+     "image_b": "pirate-cove/pirate_galleon_b.png",
+     "width": 501,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "treasure_chest",
+     "order": 2,
+     "name": {
+      "en": "Treasure Chest",
+      "tr": "Hazine Sandığı",
+      "de": "Schatztruhe"
+     },
+     "role": "picture",
+     "file": "pirate-cove/treasure_chest.json",
+     "image": "pirate-cove/treasure_chest.png",
+     "image_b": "pirate-cove/treasure_chest_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "captains_cabin",
+     "order": 3,
+     "name": {
+      "en": "Captain's Cabin",
+      "tr": "Kaptan Kamarası",
+      "de": "Kapitänskajüte"
+     },
+     "role": "picture",
+     "file": "pirate-cove/captains_cabin.json",
+     "image": "pirate-cove/captains_cabin.png",
+     "image_b": "pirate-cove/captains_cabin_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "pirate_dock",
+     "order": 4,
+     "name": {
+      "en": "Pirate Dock",
+      "tr": "Korsan İskelesi",
+      "de": "Piratensteg"
+     },
+     "role": "picture",
+     "file": "pirate-cove/pirate_dock.json",
+     "image": "pirate-cove/pirate_dock.png",
+     "image_b": "pirate-cove/pirate_dock_b.png",
+     "width": 501,
+     "height": 504,
+     "status": "ready"
+    },
+    {
+     "id": "skull_cave",
+     "order": 5,
+     "name": {
+      "en": "Skull Cave",
+      "tr": "Kafatası Mağarası",
+      "de": "Totenkopfhöhle"
+     },
+     "role": "picture",
+     "file": "pirate-cove/skull_cave.json",
+     "image": "pirate-cove/skull_cave.png",
+     "image_b": "pirate-cove/skull_cave_b.png",
+     "width": 502,
+     "height": 504,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_pirate_cove",
+     "order": 6,
+     "name": {
+      "en": "Pirate Cove",
+      "tr": "Korsan Koyu",
+      "de": "Piratenbucht"
+     },
+     "role": "masterpiece",
+     "file": "pirate-cove/masterpiece_pirate_cove.json",
+     "image": "pirate-cove/masterpiece_pirate_cove.png",
+     "image_b": "pirate-cove/masterpiece_pirate_cove_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "treasure_beach",
+    "order": 0,
+    "name": {
+     "en": "Treasure Beach",
+     "tr": "Hazine Plajı",
+     "de": "Schatzstrand"
+    },
+    "role": "spare",
+    "file": "pirate-cove/treasure_beach.json",
+    "image": "pirate-cove/treasure_beach.png",
+    "image_b": "pirate-cove/treasure_beach_b.png",
+    "width": 502,
+    "height": 504,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "wizard-room",
+   "name": {
+    "en": "Wizard's Room",
+    "tr": "Büyücünün Odası",
+    "de": "Zauberzimmer"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "bubbling_cauldron",
+     "order": 1,
+     "name": {
+      "en": "Cauldron",
+      "tr": "Kazan",
+      "de": "Kessel"
+     },
+     "role": "picture",
+     "file": "wizard-room/bubbling_cauldron.json",
+     "image": "wizard-room/bubbling_cauldron.png",
+     "image_b": "wizard-room/bubbling_cauldron_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "potion_shelf",
+     "order": 2,
+     "name": {
+      "en": "Potion Shelf",
+      "tr": "İksir Rafı",
+      "de": "Trankregal"
+     },
+     "role": "picture",
+     "file": "wizard-room/potion_shelf.json",
+     "image": "wizard-room/potion_shelf.png",
+     "image_b": "wizard-room/potion_shelf_b.png",
+     "width": 502,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "spellbook_desk",
+     "order": 3,
+     "name": {
+      "en": "Spellbook Desk",
+      "tr": "Büyü Kitabı Masası",
+      "de": "Zauberbuchtisch"
+     },
+     "role": "picture",
+     "file": "wizard-room/spellbook_desk.json",
+     "image": "wizard-room/spellbook_desk.png",
+     "image_b": "wizard-room/spellbook_desk_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "owl_window",
+     "order": 4,
+     "name": {
+      "en": "Owl Window",
+      "tr": "Baykuşlu Pencere",
+      "de": "Eulenfenster"
+     },
+     "role": "picture",
+     "file": "wizard-room/owl_window.json",
+     "image": "wizard-room/owl_window.png",
+     "image_b": "wizard-room/owl_window_b.png",
+     "width": 501,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "orrery_hat",
+     "order": 5,
+     "name": {
+      "en": "Orrery & Hat",
+      "tr": "Gezegen Modeli ve Şapka",
+      "de": "Planetarium & Hut"
+     },
+     "role": "picture",
+     "file": "wizard-room/orrery_hat.json",
+     "image": "wizard-room/orrery_hat.png",
+     "image_b": "wizard-room/orrery_hat_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_wizard_tower",
+     "order": 6,
+     "name": {
+      "en": "Wizard's Tower",
+      "tr": "Büyücü Kulesi",
+      "de": "Zauberturm"
+     },
+     "role": "masterpiece",
+     "file": "wizard-room/masterpiece_wizard_tower.json",
+     "image": "wizard-room/masterpiece_wizard_tower.png",
+     "image_b": "wizard-room/masterpiece_wizard_tower_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "magic_circle",
+    "order": 0,
+    "name": {
+     "en": "Magic Circle",
+     "tr": "Büyü Çemberi",
+     "de": "Zauberkreis"
+    },
+    "role": "spare",
+    "file": "wizard-room/magic_circle.json",
+    "image": "wizard-room/magic_circle.png",
+    "image_b": "wizard-room/magic_circle_b.png",
+    "width": 501,
+    "height": 502,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "venice-canals",
+   "name": {
+    "en": "Venice Canals",
+    "tr": "Venedik Kanalları",
+    "de": "Kanäle von Venedig"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "gondola",
+     "order": 1,
+     "name": {
+      "en": "Gondola",
+      "tr": "Gondol",
+      "de": "Gondel"
+     },
+     "role": "picture",
+     "file": "venice-canals/gondola.json",
+     "image": "venice-canals/gondola.png",
+     "image_b": "venice-canals/gondola_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_bridge",
+     "order": 2,
+     "name": {
+      "en": "Flower Bridge",
+      "tr": "Çiçekli Köprü",
+      "de": "Blumenbrücke"
+     },
+     "role": "picture",
+     "file": "venice-canals/flower_bridge.json",
+     "image": "venice-canals/flower_bridge.png",
+     "image_b": "venice-canals/flower_bridge_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "basilica_lagoon",
+     "order": 3,
+     "name": {
+      "en": "Basilica",
+      "tr": "Bazilika",
+      "de": "Basilika"
+     },
+     "role": "picture",
+     "file": "venice-canals/basilica_lagoon.json",
+     "image": "venice-canals/basilica_lagoon.png",
+     "image_b": "venice-canals/basilica_lagoon_b.png",
+     "width": 499,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "canal_cafe",
+     "order": 4,
+     "name": {
+      "en": "Canal Cafe",
+      "tr": "Kanal Kafesi",
+      "de": "Kanalcafé"
+     },
+     "role": "picture",
+     "file": "venice-canals/canal_cafe.json",
+     "image": "venice-canals/canal_cafe.png",
+     "image_b": "venice-canals/canal_cafe_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "mask_balcony",
+     "order": 5,
+     "name": {
+      "en": "Mask Balcony",
+      "tr": "Maskeli Balkon",
+      "de": "Maskenbalkon"
+     },
+     "role": "picture",
+     "file": "venice-canals/mask_balcony.json",
+     "image": "venice-canals/mask_balcony.png",
+     "image_b": "venice-canals/mask_balcony_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_venice_canal",
+     "order": 6,
+     "name": {
+      "en": "Venice Canal",
+      "tr": "Venedik Kanalı",
+      "de": "Kanal in Venedig"
+     },
+     "role": "masterpiece",
+     "file": "venice-canals/masterpiece_venice_canal.json",
+     "image": "venice-canals/masterpiece_venice_canal.png",
+     "image_b": "venice-canals/masterpiece_venice_canal_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "murano_glass",
+    "order": 0,
+    "name": {
+     "en": "Murano Glass",
+     "tr": "Murano Camı",
+     "de": "Muranoglas"
+    },
+    "role": "spare",
+    "file": "venice-canals/murano_glass.json",
+    "image": "venice-canals/murano_glass.png",
+    "image_b": "venice-canals/murano_glass_b.png",
+    "width": 499,
+    "height": 503,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "antique-shop",
+   "name": {
+    "en": "Antique Shop",
+    "tr": "Antika Dükkanı",
+    "de": "Antiquitätenladen"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "mirror_wall",
+     "order": 1,
+     "name": {
+      "en": "Mirror Wall",
+      "tr": "Ayna Duvarı",
+      "de": "Spiegelwand"
+     },
+     "role": "picture",
+     "file": "antique-shop/mirror_wall.json",
+     "image": "antique-shop/mirror_wall.png",
+     "image_b": "antique-shop/mirror_wall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "watch_case",
+     "order": 2,
+     "name": {
+      "en": "Watch Case",
+      "tr": "Saat Vitrini",
+      "de": "Uhrenvitrine"
+     },
+     "role": "picture",
+     "file": "antique-shop/watch_case.json",
+     "image": "antique-shop/watch_case.png",
+     "image_b": "antique-shop/watch_case_b.png",
+     "width": 499,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "gramophone_corner",
+     "order": 3,
+     "name": {
+      "en": "Gramophone",
+      "tr": "Gramofon",
+      "de": "Grammophon"
+     },
+     "role": "picture",
+     "file": "antique-shop/gramophone_corner.json",
+     "image": "antique-shop/gramophone_corner.png",
+     "image_b": "antique-shop/gramophone_corner_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "porcelain_shelf",
+     "order": 4,
+     "name": {
+      "en": "Porcelain Shelf",
+      "tr": "Porselen Rafı",
+      "de": "Porzellanregal"
+     },
+     "role": "picture",
+     "file": "antique-shop/porcelain_shelf.json",
+     "image": "antique-shop/porcelain_shelf.png",
+     "image_b": "antique-shop/porcelain_shelf_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "globe_desk",
+     "order": 5,
+     "name": {
+      "en": "Globe Desk",
+      "tr": "Küreli Masa",
+      "de": "Globustisch"
+     },
+     "role": "picture",
+     "file": "antique-shop/globe_desk.json",
+     "image": "antique-shop/globe_desk.png",
+     "image_b": "antique-shop/globe_desk_b.png",
+     "width": 499,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_antique_shop",
+     "order": 6,
+     "name": {
+      "en": "Antique Shop",
+      "tr": "Antika Dükkanı",
+      "de": "Antiquitätenladen"
+     },
+     "role": "masterpiece",
+     "file": "antique-shop/masterpiece_antique_shop.json",
+     "image": "antique-shop/masterpiece_antique_shop.png",
+     "image_b": "antique-shop/masterpiece_antique_shop_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "rocking_chair",
+    "order": 0,
+    "name": {
+     "en": "Rocking Chair",
+     "tr": "Sallanan Sandalye",
+     "de": "Schaukelstuhl"
+    },
+    "role": "spare",
+    "file": "antique-shop/rocking_chair.json",
+    "image": "antique-shop/rocking_chair.png",
+    "image_b": "antique-shop/rocking_chair_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "tropical-island",
+   "name": {
+    "en": "Tropical Island",
+    "tr": "Tropik Ada",
+    "de": "Tropeninsel"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "stilt_hut",
+     "order": 1,
+     "name": {
+      "en": "Stilt Hut",
+      "tr": "Su Üstü Kulübe",
+      "de": "Pfahlhütte"
+     },
+     "role": "picture",
+     "file": "tropical-island/stilt_hut.json",
+     "image": "tropical-island/stilt_hut.png",
+     "image_b": "tropical-island/stilt_hut_b.png",
+     "width": 500,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "jungle_waterfall",
+     "order": 2,
+     "name": {
+      "en": "Jungle Waterfall",
+      "tr": "Orman Şelalesi",
+      "de": "Dschungelwasserfall"
+     },
+     "role": "picture",
+     "file": "tropical-island/jungle_waterfall.json",
+     "image": "tropical-island/jungle_waterfall.png",
+     "image_b": "tropical-island/jungle_waterfall_b.png",
+     "width": 502,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "coral_shallows",
+     "order": 3,
+     "name": {
+      "en": "Coral Shallows",
+      "tr": "Mercan Sığlığı",
+      "de": "Korallenriff"
+     },
+     "role": "picture",
+     "file": "tropical-island/coral_shallows.json",
+     "image": "tropical-island/coral_shallows.png",
+     "image_b": "tropical-island/coral_shallows_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "fruit_stand",
+     "order": 4,
+     "name": {
+      "en": "Fruit Stand",
+      "tr": "Meyve Tezgahı",
+      "de": "Obststand"
+     },
+     "role": "picture",
+     "file": "tropical-island/fruit_stand.json",
+     "image": "tropical-island/fruit_stand.png",
+     "image_b": "tropical-island/fruit_stand_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "outrigger_canoe",
+     "order": 5,
+     "name": {
+      "en": "Outrigger Canoe",
+      "tr": "Kano",
+      "de": "Auslegerkanu"
+     },
+     "role": "picture",
+     "file": "tropical-island/outrigger_canoe.json",
+     "image": "tropical-island/outrigger_canoe.png",
+     "image_b": "tropical-island/outrigger_canoe_b.png",
+     "width": 502,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_tropical_island",
+     "order": 6,
+     "name": {
+      "en": "Tropical Island",
+      "tr": "Tropik Ada",
+      "de": "Tropeninsel"
+     },
+     "role": "masterpiece",
+     "file": "tropical-island/masterpiece_tropical_island.json",
+     "image": "tropical-island/masterpiece_tropical_island.png",
+     "image_b": "tropical-island/masterpiece_tropical_island_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "volcano_bridge",
+    "order": 0,
+    "name": {
+     "en": "Volcano Bridge",
+     "tr": "Yanardağ Köprüsü",
+     "de": "Vulkanbrücke"
+    },
+    "role": "spare",
+    "file": "tropical-island/volcano_bridge.json",
+    "image": "tropical-island/volcano_bridge.png",
+    "image_b": "tropical-island/volcano_bridge_b.png",
+    "width": 501,
+    "height": 500,
+    "status": "ready"
+   }
+  }
+ ],
+ "base_url": "https://raw.githubusercontent.com/hllkrdmr-netizen/paintlings-content/spot-v1/spot/"
+}
