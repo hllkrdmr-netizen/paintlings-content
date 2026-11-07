@@ -1,0 +1,1357 @@
+{
+ "mode": "dots",
+ "version": 1,
+ "note": "Dot to dot. Each picture: <id>.png (finished colour picture, transparent background, smooth scaling OK) and <id>.json. Points are in 0..1 of the PNG width and height. parts[0] is the outer line; every next part is a separate closed line whose first dot starts a new line (show a small gold ring on it). Numbers run on across parts. Each category has bg.jpg (780x1688, cover-fit) and bg colour. Spares are not shown in this release.",
+ "categories": [
+  {
+   "id": "swan-lake",
+   "tier": "easy",
+   "status": "ready",
+   "name": {
+    "en": "Swan Lake",
+    "tr": "Kuğu Gölü",
+    "de": "Schwanensee"
+   },
+   "bg": "#095C5C",
+   "pictures": [
+    {
+     "id": "swan",
+     "role": "picture",
+     "order": 0,
+     "dots": 42,
+     "name": {
+      "en": "Swan",
+      "tr": "Kuğu",
+      "de": "Schwan"
+     }
+    },
+    {
+     "id": "duck",
+     "role": "picture",
+     "order": 1,
+     "dots": 40,
+     "name": {
+      "en": "Duck",
+      "tr": "Ördek",
+      "de": "Ente"
+     }
+    },
+    {
+     "id": "dragonfly",
+     "role": "picture",
+     "order": 2,
+     "dots": 40,
+     "name": {
+      "en": "Dragonfly",
+      "tr": "Yusufçuk",
+      "de": "Libelle"
+     }
+    },
+    {
+     "id": "turtle",
+     "role": "picture",
+     "order": 3,
+     "dots": 40,
+     "name": {
+      "en": "Turtle",
+      "tr": "Kaplumbağa",
+      "de": "Schildkröte"
+     }
+    },
+    {
+     "id": "frog",
+     "role": "picture",
+     "order": 4,
+     "dots": 40,
+     "name": {
+      "en": "Frog",
+      "tr": "Kurbağa",
+      "de": "Frosch"
+     }
+    },
+    {
+     "id": "swan-hearts",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 60,
+     "name": {
+      "en": "Swan Hearts",
+      "tr": "Kuğu Kalbi",
+      "de": "Schwanenherz"
+     }
+    },
+    {
+     "id": "water-lily",
+     "role": "spare",
+     "order": 6,
+     "dots": 40,
+     "name": {
+      "en": "Water Lily",
+      "tr": "Nilüfer",
+      "de": "Seerose"
+     }
+    }
+   ]
+  },
+  {
+   "id": "night-forest",
+   "tier": "easy",
+   "status": "ready",
+   "name": {
+    "en": "Night Forest",
+    "tr": "Gece Ormanı",
+    "de": "Nachtwald"
+   },
+   "bg": "#133B23",
+   "pictures": [
+    {
+     "id": "fox",
+     "role": "picture",
+     "order": 0,
+     "dots": 40,
+     "name": {
+      "en": "Fox",
+      "tr": "Tilki",
+      "de": "Fuchs"
+     }
+    },
+    {
+     "id": "rabbit",
+     "role": "picture",
+     "order": 1,
+     "dots": 40,
+     "name": {
+      "en": "Rabbit",
+      "tr": "Tavşan",
+      "de": "Hase"
+     }
+    },
+    {
+     "id": "deer",
+     "role": "picture",
+     "order": 2,
+     "dots": 48,
+     "name": {
+      "en": "Deer",
+      "tr": "Geyik",
+      "de": "Hirsch"
+     }
+    },
+    {
+     "id": "mushrooms",
+     "role": "picture",
+     "order": 3,
+     "dots": 40,
+     "name": {
+      "en": "Mushrooms",
+      "tr": "Mantarlar",
+      "de": "Pilze"
+     }
+    },
+    {
+     "id": "squirrel",
+     "role": "picture",
+     "order": 4,
+     "dots": 44,
+     "name": {
+      "en": "Squirrel",
+      "tr": "Sincap",
+      "de": "Eichhörnchen"
+     }
+    },
+    {
+     "id": "barn-owl",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 64,
+     "name": {
+      "en": "Barn Owl",
+      "tr": "Peçeli Baykuş",
+      "de": "Schleiereule"
+     }
+    },
+    {
+     "id": "hedgehog",
+     "role": "spare",
+     "order": 6,
+     "dots": 46,
+     "name": {
+      "en": "Hedgehog",
+      "tr": "Kirpi",
+      "de": "Igel"
+     }
+    }
+   ]
+  },
+  {
+   "id": "butterfly-garden",
+   "tier": "easy",
+   "status": "ready",
+   "name": {
+    "en": "Butterfly Garden",
+    "tr": "Kelebek Bahçesi",
+    "de": "Schmetterlingsgarten"
+   },
+   "bg": "#4C1B3B",
+   "pictures": [
+    {
+     "id": "butterfly",
+     "role": "picture",
+     "order": 0,
+     "dots": 40,
+     "name": {
+      "en": "Butterfly",
+      "tr": "Kelebek",
+      "de": "Schmetterling"
+     }
+    },
+    {
+     "id": "rose",
+     "role": "picture",
+     "order": 1,
+     "dots": 40,
+     "name": {
+      "en": "Rose",
+      "tr": "Gül",
+      "de": "Rose"
+     }
+    },
+    {
+     "id": "snail",
+     "role": "picture",
+     "order": 2,
+     "dots": 40,
+     "name": {
+      "en": "Snail",
+      "tr": "Salyangoz",
+      "de": "Schnecke"
+     }
+    },
+    {
+     "id": "tulip",
+     "role": "picture",
+     "order": 3,
+     "dots": 40,
+     "name": {
+      "en": "Tulip",
+      "tr": "Lale",
+      "de": "Tulpe"
+     }
+    },
+    {
+     "id": "bee",
+     "role": "picture",
+     "order": 4,
+     "dots": 40,
+     "name": {
+      "en": "Bee",
+      "tr": "Arı",
+      "de": "Biene"
+     }
+    },
+    {
+     "id": "hummingbird",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 80,
+     "name": {
+      "en": "Hummingbird & Rose",
+      "tr": "Sinek Kuşu ve Gül",
+      "de": "Kolibri und Rose"
+     }
+    },
+    {
+     "id": "ladybug",
+     "role": "spare",
+     "order": 6,
+     "dots": 40,
+     "name": {
+      "en": "Ladybug",
+      "tr": "Uğur Böceği",
+      "de": "Marienkäfer"
+     }
+    }
+   ]
+  },
+  {
+   "id": "coral-sea",
+   "tier": "easy",
+   "status": "ready",
+   "name": {
+    "en": "Coral Sea",
+    "tr": "Mercan Denizi",
+    "de": "Korallenmeer"
+   },
+   "bg": "#01334C",
+   "pictures": [
+    {
+     "id": "seahorse",
+     "role": "picture",
+     "order": 0,
+     "dots": 40,
+     "name": {
+      "en": "Seahorse",
+      "tr": "Deniz Atı",
+      "de": "Seepferdchen"
+     }
+    },
+    {
+     "id": "whale",
+     "role": "picture",
+     "order": 1,
+     "dots": 40,
+     "name": {
+      "en": "Whale",
+      "tr": "Balina",
+      "de": "Wal"
+     }
+    },
+    {
+     "id": "starfish",
+     "role": "picture",
+     "order": 2,
+     "dots": 40,
+     "name": {
+      "en": "Starfish",
+      "tr": "Deniz Yıldızı",
+      "de": "Seestern"
+     }
+    },
+    {
+     "id": "sea-turtle",
+     "role": "picture",
+     "order": 3,
+     "dots": 40,
+     "name": {
+      "en": "Sea Turtle",
+      "tr": "Deniz Kaplumbağası",
+      "de": "Meeresschildkröte"
+     }
+    },
+    {
+     "id": "angelfish",
+     "role": "picture",
+     "order": 4,
+     "dots": 42,
+     "name": {
+      "en": "Angelfish",
+      "tr": "Melek Balığı",
+      "de": "Skalar"
+     }
+    },
+    {
+     "id": "dolphins",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 76,
+     "name": {
+      "en": "Dolphin Ring",
+      "tr": "Yunus Halkası",
+      "de": "Delfinring"
+     }
+    },
+    {
+     "id": "octopus",
+     "role": "spare",
+     "order": 6,
+     "dots": 64,
+     "name": {
+      "en": "Octopus",
+      "tr": "Ahtapot",
+      "de": "Krake"
+     }
+    }
+   ]
+  },
+  {
+   "id": "winter-tale",
+   "tier": "easy",
+   "status": "ready",
+   "name": {
+    "en": "Winter Tale",
+    "tr": "Kış Masalı",
+    "de": "Wintermärchen"
+   },
+   "bg": "#182F61",
+   "pictures": [
+    {
+     "id": "polar-bear",
+     "role": "picture",
+     "order": 0,
+     "dots": 40,
+     "name": {
+      "en": "Polar Bear",
+      "tr": "Kutup Ayısı",
+      "de": "Eisbär"
+     }
+    },
+    {
+     "id": "snowflake",
+     "role": "picture",
+     "order": 1,
+     "dots": 40,
+     "name": {
+      "en": "Snowflake",
+      "tr": "Kar Tanesi",
+      "de": "Schneeflocke"
+     }
+    },
+    {
+     "id": "reindeer",
+     "role": "picture",
+     "order": 2,
+     "dots": 40,
+     "name": {
+      "en": "Reindeer",
+      "tr": "Ren Geyiği",
+      "de": "Rentier"
+     }
+    },
+    {
+     "id": "penguin",
+     "role": "picture",
+     "order": 3,
+     "dots": 40,
+     "name": {
+      "en": "Penguin",
+      "tr": "Penguen",
+      "de": "Pinguin"
+     }
+    },
+    {
+     "id": "cottage",
+     "role": "picture",
+     "order": 4,
+     "dots": 40,
+     "name": {
+      "en": "Winter Cottage",
+      "tr": "Kış Kulübesi",
+      "de": "Winterhütte"
+     }
+    },
+    {
+     "id": "winter-castle",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 80,
+     "name": {
+      "en": "Winter Castle",
+      "tr": "Kış Şatosu",
+      "de": "Winterschloss"
+     }
+    },
+    {
+     "id": "snowman",
+     "role": "spare",
+     "order": 6,
+     "dots": 42,
+     "name": {
+      "en": "Snowman",
+      "tr": "Kardan Adam",
+      "de": "Schneemann"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fairy-land",
+   "tier": "medium",
+   "status": "ready",
+   "name": {
+    "en": "Fairy Tale Land",
+    "tr": "Masal Diyarı",
+    "de": "Märchenland"
+   },
+   "bg": "#391C64",
+   "pictures": [
+    {
+     "id": "crown",
+     "role": "picture",
+     "order": 0,
+     "dots": 60,
+     "name": {
+      "en": "Crown",
+      "tr": "Taç",
+      "de": "Krone"
+     }
+    },
+    {
+     "id": "dragon",
+     "role": "picture",
+     "order": 1,
+     "dots": 60,
+     "name": {
+      "en": "Dragon",
+      "tr": "Ejderha",
+      "de": "Drache"
+     }
+    },
+    {
+     "id": "magic-lamp",
+     "role": "picture",
+     "order": 2,
+     "dots": 60,
+     "name": {
+      "en": "Magic Lamp",
+      "tr": "Sihirli Lamba",
+      "de": "Wunderlampe"
+     }
+    },
+    {
+     "id": "unicorn",
+     "role": "picture",
+     "order": 3,
+     "dots": 60,
+     "name": {
+      "en": "Unicorn",
+      "tr": "Tek Boynuzlu At",
+      "de": "Einhorn"
+     }
+    },
+    {
+     "id": "glass-slipper",
+     "role": "picture",
+     "order": 4,
+     "dots": 56,
+     "name": {
+      "en": "Glass Slipper",
+      "tr": "Cam Ayakkabı",
+      "de": "Gläserner Schuh"
+     }
+    },
+    {
+     "id": "pegasus",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 90,
+     "name": {
+      "en": "Pegasus",
+      "tr": "Pegasus",
+      "de": "Pegasus"
+     }
+    },
+    {
+     "id": "fairy",
+     "role": "spare",
+     "order": 6,
+     "dots": 60,
+     "name": {
+      "en": "Fairy",
+      "tr": "Peri",
+      "de": "Fee"
+     }
+    }
+   ]
+  },
+  {
+   "id": "safari",
+   "tier": "medium",
+   "status": "ready",
+   "name": {
+    "en": "Safari",
+    "tr": "Safari",
+    "de": "Safari"
+   },
+   "bg": "#562309",
+   "pictures": [
+    {
+     "id": "elephant",
+     "role": "picture",
+     "order": 0,
+     "dots": 60,
+     "name": {
+      "en": "Elephant",
+      "tr": "Fil",
+      "de": "Elefant"
+     }
+    },
+    {
+     "id": "rhino",
+     "role": "picture",
+     "order": 1,
+     "dots": 60,
+     "name": {
+      "en": "Rhino",
+      "tr": "Gergedan",
+      "de": "Nashorn"
+     }
+    },
+    {
+     "id": "kangaroo",
+     "role": "picture",
+     "order": 2,
+     "dots": 60,
+     "name": {
+      "en": "Kangaroo",
+      "tr": "Kanguru",
+      "de": "Känguru"
+     }
+    },
+    {
+     "id": "zebra",
+     "role": "picture",
+     "order": 3,
+     "dots": 60,
+     "name": {
+      "en": "Zebra",
+      "tr": "Zebra",
+      "de": "Zebra"
+     }
+    },
+    {
+     "id": "giraffe",
+     "role": "picture",
+     "order": 4,
+     "dots": 60,
+     "name": {
+      "en": "Giraffe",
+      "tr": "Zürafa",
+      "de": "Giraffe"
+     }
+    },
+    {
+     "id": "elephants",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 90,
+     "name": {
+      "en": "Mother & Baby Elephant",
+      "tr": "Anne ve Yavru Fil",
+      "de": "Elefantenmutter und Kind"
+     }
+    },
+    {
+     "id": "lion",
+     "role": "spare",
+     "order": 6,
+     "dots": 60,
+     "name": {
+      "en": "Lion",
+      "tr": "Aslan",
+      "de": "Löwe"
+     }
+    }
+   ]
+  },
+  {
+   "id": "world-wonders",
+   "tier": "medium",
+   "status": "ready",
+   "name": {
+    "en": "World Wonders",
+    "tr": "Dünya Harikaları",
+    "de": "Weltwunder"
+   },
+   "bg": "#502A51",
+   "pictures": [
+    {
+     "id": "eiffel-tower",
+     "role": "picture",
+     "order": 0,
+     "dots": 60,
+     "name": {
+      "en": "Eiffel Tower",
+      "tr": "Eyfel Kulesi",
+      "de": "Eiffelturm"
+     }
+    },
+    {
+     "id": "taj-mahal",
+     "role": "picture",
+     "order": 1,
+     "dots": 60,
+     "name": {
+      "en": "Taj Mahal",
+      "tr": "Tac Mahal",
+      "de": "Taj Mahal"
+     }
+    },
+    {
+     "id": "statue-of-liberty",
+     "role": "picture",
+     "order": 2,
+     "dots": 60,
+     "name": {
+      "en": "Statue of Liberty",
+      "tr": "Özgürlük Heykeli",
+      "de": "Freiheitsstatue"
+     }
+    },
+    {
+     "id": "galata-tower",
+     "role": "picture",
+     "order": 3,
+     "dots": 60,
+     "name": {
+      "en": "Galata Tower",
+      "tr": "Galata Kulesi",
+      "de": "Galataturm"
+     }
+    },
+    {
+     "id": "sydney-opera-house",
+     "role": "picture",
+     "order": 4,
+     "dots": 64,
+     "name": {
+      "en": "Sydney Opera House",
+      "tr": "Sidney Opera Binası",
+      "de": "Opernhaus Sydney"
+     }
+    },
+    {
+     "id": "pyramids",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 72,
+     "name": {
+      "en": "Pyramids of Giza",
+      "tr": "Gize Piramitleri",
+      "de": "Pyramiden von Gizeh"
+     }
+    },
+    {
+     "id": "big-ben",
+     "role": "spare",
+     "order": 6,
+     "dots": 60,
+     "name": {
+      "en": "Big Ben",
+      "tr": "Big Ben",
+      "de": "Big Ben"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sky-birds",
+   "tier": "medium",
+   "status": "ready",
+   "name": {
+    "en": "Birds of the Sky",
+    "tr": "Gökyüzü Kuşları",
+    "de": "Vögel des Himmels"
+   },
+   "bg": "#475572",
+   "pictures": [
+    {
+     "id": "swallow",
+     "role": "picture",
+     "order": 0,
+     "dots": 64,
+     "name": {
+      "en": "Swallow",
+      "tr": "Kırlangıç",
+      "de": "Schwalbe"
+     }
+    },
+    {
+     "id": "eagle",
+     "role": "picture",
+     "order": 1,
+     "dots": 64,
+     "name": {
+      "en": "Eagle",
+      "tr": "Kartal",
+      "de": "Adler"
+     }
+    },
+    {
+     "id": "stork",
+     "role": "picture",
+     "order": 2,
+     "dots": 64,
+     "name": {
+      "en": "Stork",
+      "tr": "Leylek",
+      "de": "Storch"
+     }
+    },
+    {
+     "id": "parrot",
+     "role": "picture",
+     "order": 3,
+     "dots": 64,
+     "name": {
+      "en": "Parrot",
+      "tr": "Papağan",
+      "de": "Papagei"
+     }
+    },
+    {
+     "id": "peacock",
+     "role": "picture",
+     "order": 4,
+     "dots": 64,
+     "name": {
+      "en": "Peacock",
+      "tr": "Tavus Kuşu",
+      "de": "Pfau"
+     }
+    },
+    {
+     "id": "phoenix",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 120,
+     "name": {
+      "en": "Phoenix",
+      "tr": "Anka Kuşu",
+      "de": "Phönix"
+     }
+    },
+    {
+     "id": "flamingo",
+     "role": "spare",
+     "order": 6,
+     "dots": 64,
+     "name": {
+      "en": "Flamingo",
+      "tr": "Flamingo",
+      "de": "Flamingo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "sweet-patisserie",
+   "tier": "medium",
+   "status": "ready",
+   "name": {
+    "en": "Sweet Patisserie",
+    "tr": "Tatlı Pastane",
+    "de": "Süße Konditorei"
+   },
+   "bg": "#622D39",
+   "pictures": [
+    {
+     "id": "ice-cream",
+     "role": "picture",
+     "order": 0,
+     "dots": 56,
+     "name": {
+      "en": "Ice Cream",
+      "tr": "Dondurma",
+      "de": "Eiscreme"
+     }
+    },
+    {
+     "id": "layer-cake",
+     "role": "picture",
+     "order": 1,
+     "dots": 56,
+     "name": {
+      "en": "Layer Cake",
+      "tr": "Kat Pastası",
+      "de": "Etagentorte"
+     }
+    },
+    {
+     "id": "croissant",
+     "role": "picture",
+     "order": 2,
+     "dots": 56,
+     "name": {
+      "en": "Croissant",
+      "tr": "Kruvasan",
+      "de": "Croissant"
+     }
+    },
+    {
+     "id": "teacup",
+     "role": "picture",
+     "order": 3,
+     "dots": 56,
+     "name": {
+      "en": "Teacup",
+      "tr": "Çay Fincanı",
+      "de": "Teetasse"
+     }
+    },
+    {
+     "id": "teapot",
+     "role": "picture",
+     "order": 4,
+     "dots": 68,
+     "name": {
+      "en": "Teapot",
+      "tr": "Çaydanlık",
+      "de": "Teekanne"
+     }
+    },
+    {
+     "id": "tea-stand",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 96,
+     "name": {
+      "en": "Afternoon Tea",
+      "tr": "İkindi Çayı",
+      "de": "Nachmittagstee"
+     }
+    },
+    {
+     "id": "cupcake",
+     "role": "spare",
+     "order": 6,
+     "dots": 56,
+     "name": {
+      "en": "Cupcake",
+      "tr": "Kupkek",
+      "de": "Cupcake"
+     }
+    }
+   ]
+  },
+  {
+   "id": "japanese-garden",
+   "tier": "hard",
+   "status": "ready",
+   "name": {
+    "en": "Japanese Garden",
+    "tr": "Japon Bahçesi",
+    "de": "Japanischer Garten"
+   },
+   "bg": "#4B1E33",
+   "pictures": [
+    {
+     "id": "crane",
+     "role": "picture",
+     "order": 0,
+     "dots": 110,
+     "name": {
+      "en": "Crane",
+      "tr": "Turna",
+      "de": "Kranich"
+     }
+    },
+    {
+     "id": "bonsai",
+     "role": "picture",
+     "order": 1,
+     "dots": 110,
+     "name": {
+      "en": "Bonsai",
+      "tr": "Bonsai",
+      "de": "Bonsai"
+     }
+    },
+    {
+     "id": "hand-fan",
+     "role": "picture",
+     "order": 2,
+     "dots": 110,
+     "name": {
+      "en": "Hand Fan",
+      "tr": "Yelpaze",
+      "de": "Fächer"
+     }
+    },
+    {
+     "id": "paper-lantern",
+     "role": "picture",
+     "order": 3,
+     "dots": 110,
+     "name": {
+      "en": "Paper Lantern",
+      "tr": "Kâğıt Fener",
+      "de": "Papierlaterne"
+     }
+    },
+    {
+     "id": "arched-bridge",
+     "role": "picture",
+     "order": 4,
+     "dots": 110,
+     "name": {
+      "en": "Arched Bridge",
+      "tr": "Kemerli Köprü",
+      "de": "Bogenbrücke"
+     }
+    },
+    {
+     "id": "japanese-castle",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 140,
+     "name": {
+      "en": "Japanese Castle",
+      "tr": "Japon Şatosu",
+      "de": "Japanische Burg"
+     }
+    },
+    {
+     "id": "koi",
+     "role": "spare",
+     "order": 6,
+     "dots": 110,
+     "name": {
+      "en": "Koi",
+      "tr": "Koi Balığı",
+      "de": "Koi"
+     }
+    }
+   ]
+  },
+  {
+   "id": "lighthouse-harbor",
+   "tier": "hard",
+   "status": "ready",
+   "name": {
+    "en": "Lighthouse Harbor",
+    "tr": "Deniz Feneri Limanı",
+    "de": "Leuchtturmhafen"
+   },
+   "bg": "#143852",
+   "pictures": [
+    {
+     "id": "ship-wheel",
+     "role": "picture",
+     "order": 0,
+     "dots": 110,
+     "name": {
+      "en": "Ship Wheel",
+      "tr": "Dümen",
+      "de": "Steuerrad"
+     }
+    },
+    {
+     "id": "anchor",
+     "role": "picture",
+     "order": 1,
+     "dots": 110,
+     "name": {
+      "en": "Anchor",
+      "tr": "Çapa",
+      "de": "Anker"
+     }
+    },
+    {
+     "id": "steamboat",
+     "role": "picture",
+     "order": 2,
+     "dots": 110,
+     "name": {
+      "en": "Steamboat",
+      "tr": "Vapur",
+      "de": "Dampfer"
+     }
+    },
+    {
+     "id": "lighthouse",
+     "role": "picture",
+     "order": 3,
+     "dots": 110,
+     "name": {
+      "en": "Lighthouse",
+      "tr": "Deniz Feneri",
+      "de": "Leuchtturm"
+     }
+    },
+    {
+     "id": "diving-helmet",
+     "role": "picture",
+     "order": 4,
+     "dots": 124,
+     "name": {
+      "en": "Diving Helmet",
+      "tr": "Dalgıç Kaskı",
+      "de": "Taucherhelm"
+     }
+    },
+    {
+     "id": "harbor",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 140,
+     "name": {
+      "en": "Seaside Harbor",
+      "tr": "Sahil Limanı",
+      "de": "Küstenhafen"
+     }
+    },
+    {
+     "id": "sailing-ship",
+     "role": "spare",
+     "order": 6,
+     "dots": 120,
+     "name": {
+      "en": "Sailing Ship",
+      "tr": "Yelkenli",
+      "de": "Segelschiff"
+     }
+    }
+   ]
+  },
+  {
+   "id": "music-hall",
+   "tier": "hard",
+   "status": "ready",
+   "name": {
+    "en": "Music Hall",
+    "tr": "Müzik Salonu",
+    "de": "Konzertsaal"
+   },
+   "bg": "#411B10",
+   "pictures": [
+    {
+     "id": "saxophone",
+     "role": "picture",
+     "order": 0,
+     "dots": 110,
+     "name": {
+      "en": "Saxophone",
+      "tr": "Saksafon",
+      "de": "Saxofon"
+     }
+    },
+    {
+     "id": "french-horn",
+     "role": "picture",
+     "order": 1,
+     "dots": 110,
+     "name": {
+      "en": "French Horn",
+      "tr": "Korno",
+      "de": "Waldhorn"
+     }
+    },
+    {
+     "id": "gramophone",
+     "role": "picture",
+     "order": 2,
+     "dots": 110,
+     "name": {
+      "en": "Gramophone",
+      "tr": "Gramofon",
+      "de": "Grammofon"
+     }
+    },
+    {
+     "id": "harp",
+     "role": "picture",
+     "order": 3,
+     "dots": 110,
+     "name": {
+      "en": "Harp",
+      "tr": "Arp",
+      "de": "Harfe"
+     }
+    },
+    {
+     "id": "violin",
+     "role": "picture",
+     "order": 4,
+     "dots": 110,
+     "name": {
+      "en": "Violin",
+      "tr": "Keman",
+      "de": "Geige"
+     }
+    },
+    {
+     "id": "golden-harp",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 120,
+     "name": {
+      "en": "Golden Harp",
+      "tr": "Altın Arp",
+      "de": "Goldene Harfe"
+     }
+    },
+    {
+     "id": "grand-piano",
+     "role": "spare",
+     "order": 6,
+     "dots": 110,
+     "name": {
+      "en": "Grand Piano",
+      "tr": "Kuyruklu Piyano",
+      "de": "Flügel"
+     }
+    }
+   ]
+  },
+  {
+   "id": "space-voyage",
+   "tier": "hard",
+   "status": "ready",
+   "name": {
+    "en": "Space Voyage",
+    "tr": "Uzay Yolculuğu",
+    "de": "Weltraumreise"
+   },
+   "bg": "#191C57",
+   "pictures": [
+    {
+     "id": "satellite",
+     "role": "picture",
+     "order": 0,
+     "dots": 110,
+     "name": {
+      "en": "Satellite",
+      "tr": "Uydu",
+      "de": "Satellit"
+     }
+    },
+    {
+     "id": "rocket",
+     "role": "picture",
+     "order": 1,
+     "dots": 110,
+     "name": {
+      "en": "Rocket",
+      "tr": "Roket",
+      "de": "Rakete"
+     }
+    },
+    {
+     "id": "astronaut",
+     "role": "picture",
+     "order": 2,
+     "dots": 110,
+     "name": {
+      "en": "Astronaut",
+      "tr": "Astronot",
+      "de": "Astronaut"
+     }
+    },
+    {
+     "id": "lunar-module",
+     "role": "picture",
+     "order": 3,
+     "dots": 110,
+     "name": {
+      "en": "Lunar Module",
+      "tr": "Ay Modülü",
+      "de": "Mondfähre"
+     }
+    },
+    {
+     "id": "saturn",
+     "role": "picture",
+     "order": 4,
+     "dots": 80,
+     "name": {
+      "en": "Saturn",
+      "tr": "Satürn",
+      "de": "Saturn"
+     }
+    },
+    {
+     "id": "space-station",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 148,
+     "name": {
+      "en": "Space Station",
+      "tr": "Uzay İstasyonu",
+      "de": "Raumstation"
+     }
+    },
+    {
+     "id": "ufo",
+     "role": "spare",
+     "order": 6,
+     "dots": 110,
+     "name": {
+      "en": "UFO",
+      "tr": "UFO",
+      "de": "UFO"
+     }
+    }
+   ]
+  },
+  {
+   "id": "nostalgia-journey",
+   "tier": "hard",
+   "status": "ready",
+   "name": {
+    "en": "Nostalgic Journey",
+    "tr": "Nostalji Yolculuğu",
+    "de": "Nostalgische Reise"
+   },
+   "bg": "#552E18",
+   "pictures": [
+    {
+     "id": "steam-train",
+     "role": "picture",
+     "order": 0,
+     "dots": 110,
+     "name": {
+      "en": "Steam Train",
+      "tr": "Buharlı Tren",
+      "de": "Dampflok"
+     }
+    },
+    {
+     "id": "hot-air-balloon",
+     "role": "picture",
+     "order": 1,
+     "dots": 110,
+     "name": {
+      "en": "Hot Air Balloon",
+      "tr": "Sıcak Hava Balonu",
+      "de": "Heißluftballon"
+     }
+    },
+    {
+     "id": "biplane",
+     "role": "picture",
+     "order": 2,
+     "dots": 126,
+     "name": {
+      "en": "Biplane",
+      "tr": "Çift Kanatlı Uçak",
+      "de": "Doppeldecker"
+     }
+    },
+    {
+     "id": "classic-car",
+     "role": "picture",
+     "order": 3,
+     "dots": 110,
+     "name": {
+      "en": "Classic Car",
+      "tr": "Klasik Araba",
+      "de": "Oldtimer"
+     }
+    },
+    {
+     "id": "tram",
+     "role": "picture",
+     "order": 4,
+     "dots": 110,
+     "name": {
+      "en": "Tram",
+      "tr": "Tramvay",
+      "de": "Straßenbahn"
+     }
+    },
+    {
+     "id": "train-bridge",
+     "role": "masterpiece",
+     "order": 5,
+     "dots": 210,
+     "name": {
+      "en": "Train over the Bridge",
+      "tr": "Köprüdeki Tren",
+      "de": "Zug auf der Brücke"
+     }
+    },
+    {
+     "id": "penny-farthing",
+     "role": "spare",
+     "order": 6,
+     "dots": 238,
+     "name": {
+      "en": "Penny-Farthing",
+      "tr": "Büyük Tekerlekli Bisiklet",
+      "de": "Hochrad"
+     }
+    }
+   ]
+  }
+ ]
+}
