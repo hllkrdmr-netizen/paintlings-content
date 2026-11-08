@@ -1,7 +1,7 @@
 {
  "mode": "dots",
- "version": 1,
- "note": "Dot to dot. Each picture: <id>.png (finished colour picture, transparent background, smooth scaling OK) and <id>.json. Points are in 0..1 of the PNG width and height. parts[0] is the outer line; every next part is a separate closed line whose first dot starts a new line (show a small gold ring on it). Numbers run on across parts. Each category has bg.jpg (780x1688, cover-fit) and bg colour. Spares are not shown in this release. twinkles = [x, y, size] in 0..1 of bg.jpg: soft gold glows the app fades in and out over the golden sparkles already in the picture (3.2 s loop, each with its own delay).",
+ "version": 2,
+ "note": "Dot to dot v2. Each picture: <id>.png (finished colour picture, transparent background) and <id>.json. parts = list of lines {closed, pts}; pts are [x, y] in 0..1 of the PNG. Numbers run on across parts in this order. A closed part's line goes back to its first dot when its last dot is connected; an open part ends at its last dot. The first dot of every part (except the very first) gets a small gold ring. Parts are ordered so the next line usually starts far away. Each category has bg.jpg (780x1688, cover-fit), bg colour and twinkles = [x, y, size] in 0..1 of bg.jpg. Spares are not shown.",
  "categories": [
   {
    "id": "swan-lake",
@@ -18,7 +18,7 @@
      "id": "swan",
      "role": "picture",
      "order": 0,
-     "dots": 42,
+     "dots": 82,
      "name": {
       "en": "Swan",
       "tr": "Kuğu",
@@ -29,7 +29,7 @@
      "id": "duck",
      "role": "picture",
      "order": 1,
-     "dots": 40,
+     "dots": 89,
      "name": {
       "en": "Duck",
       "tr": "Ördek",
@@ -40,7 +40,7 @@
      "id": "dragonfly",
      "role": "picture",
      "order": 2,
-     "dots": 40,
+     "dots": 90,
      "name": {
       "en": "Dragonfly",
       "tr": "Yusufçuk",
@@ -51,7 +51,7 @@
      "id": "turtle",
      "role": "picture",
      "order": 3,
-     "dots": 40,
+     "dots": 127,
      "name": {
       "en": "Turtle",
       "tr": "Kaplumbağa",
@@ -62,7 +62,7 @@
      "id": "frog",
      "role": "picture",
      "order": 4,
-     "dots": 40,
+     "dots": 115,
      "name": {
       "en": "Frog",
       "tr": "Kurbağa",
@@ -73,7 +73,7 @@
      "id": "swan-hearts",
      "role": "masterpiece",
      "order": 5,
-     "dots": 60,
+     "dots": 109,
      "name": {
       "en": "Swan Hearts",
       "tr": "Kuğu Kalbi",
@@ -84,7 +84,7 @@
      "id": "water-lily",
      "role": "spare",
      "order": 6,
-     "dots": 40,
+     "dots": 97,
      "name": {
       "en": "Water Lily",
       "tr": "Nilüfer",
@@ -160,7 +160,7 @@
      "id": "fox",
      "role": "picture",
      "order": 0,
-     "dots": 40,
+     "dots": 83,
      "name": {
       "en": "Fox",
       "tr": "Tilki",
@@ -171,7 +171,7 @@
      "id": "rabbit",
      "role": "picture",
      "order": 1,
-     "dots": 40,
+     "dots": 83,
      "name": {
       "en": "Rabbit",
       "tr": "Tavşan",
@@ -182,7 +182,7 @@
      "id": "deer",
      "role": "picture",
      "order": 2,
-     "dots": 48,
+     "dots": 88,
      "name": {
       "en": "Deer",
       "tr": "Geyik",
@@ -193,7 +193,7 @@
      "id": "mushrooms",
      "role": "picture",
      "order": 3,
-     "dots": 40,
+     "dots": 104,
      "name": {
       "en": "Mushrooms",
       "tr": "Mantarlar",
@@ -204,7 +204,7 @@
      "id": "squirrel",
      "role": "picture",
      "order": 4,
-     "dots": 44,
+     "dots": 109,
      "name": {
       "en": "Squirrel",
       "tr": "Sincap",
@@ -215,7 +215,7 @@
      "id": "barn-owl",
      "role": "masterpiece",
      "order": 5,
-     "dots": 64,
+     "dots": 107,
      "name": {
       "en": "Barn Owl",
       "tr": "Peçeli Baykuş",
@@ -226,7 +226,7 @@
      "id": "hedgehog",
      "role": "spare",
      "order": 6,
-     "dots": 46,
+     "dots": 98,
      "name": {
       "en": "Hedgehog",
       "tr": "Kirpi",
@@ -302,7 +302,7 @@
      "id": "butterfly",
      "role": "picture",
      "order": 0,
-     "dots": 40,
+     "dots": 95,
      "name": {
       "en": "Butterfly",
       "tr": "Kelebek",
@@ -313,7 +313,7 @@
      "id": "rose",
      "role": "picture",
      "order": 1,
-     "dots": 40,
+     "dots": 82,
      "name": {
       "en": "Rose",
       "tr": "Gül",
@@ -324,7 +324,7 @@
      "id": "snail",
      "role": "picture",
      "order": 2,
-     "dots": 40,
+     "dots": 105,
      "name": {
       "en": "Snail",
       "tr": "Salyangoz",
@@ -335,7 +335,7 @@
      "id": "tulip",
      "role": "picture",
      "order": 3,
-     "dots": 40,
+     "dots": 103,
      "name": {
       "en": "Tulip",
       "tr": "Lale",
@@ -346,7 +346,7 @@
      "id": "bee",
      "role": "picture",
      "order": 4,
-     "dots": 40,
+     "dots": 104,
      "name": {
       "en": "Bee",
       "tr": "Arı",
@@ -357,7 +357,7 @@
      "id": "hummingbird",
      "role": "masterpiece",
      "order": 5,
-     "dots": 80,
+     "dots": 121,
      "name": {
       "en": "Hummingbird & Rose",
       "tr": "Sinek Kuşu ve Gül",
@@ -368,7 +368,7 @@
      "id": "ladybug",
      "role": "spare",
      "order": 6,
-     "dots": 40,
+     "dots": 98,
      "name": {
       "en": "Ladybug",
       "tr": "Uğur Böceği",
@@ -444,7 +444,7 @@
      "id": "seahorse",
      "role": "picture",
      "order": 0,
-     "dots": 40,
+     "dots": 77,
      "name": {
       "en": "Seahorse",
       "tr": "Deniz Atı",
@@ -455,7 +455,7 @@
      "id": "whale",
      "role": "picture",
      "order": 1,
-     "dots": 40,
+     "dots": 88,
      "name": {
       "en": "Whale",
       "tr": "Balina",
@@ -466,7 +466,7 @@
      "id": "starfish",
      "role": "picture",
      "order": 2,
-     "dots": 40,
+     "dots": 89,
      "name": {
       "en": "Starfish",
       "tr": "Deniz Yıldızı",
@@ -477,7 +477,7 @@
      "id": "sea-turtle",
      "role": "picture",
      "order": 3,
-     "dots": 40,
+     "dots": 110,
      "name": {
       "en": "Sea Turtle",
       "tr": "Deniz Kaplumbağası",
@@ -488,7 +488,7 @@
      "id": "angelfish",
      "role": "picture",
      "order": 4,
-     "dots": 42,
+     "dots": 103,
      "name": {
       "en": "Angelfish",
       "tr": "Melek Balığı",
@@ -499,7 +499,7 @@
      "id": "dolphins",
      "role": "masterpiece",
      "order": 5,
-     "dots": 76,
+     "dots": 107,
      "name": {
       "en": "Dolphin Ring",
       "tr": "Yunus Halkası",
@@ -510,7 +510,7 @@
      "id": "octopus",
      "role": "spare",
      "order": 6,
-     "dots": 64,
+     "dots": 92,
      "name": {
       "en": "Octopus",
       "tr": "Ahtapot",
@@ -586,7 +586,7 @@
      "id": "polar-bear",
      "role": "picture",
      "order": 0,
-     "dots": 40,
+     "dots": 77,
      "name": {
       "en": "Polar Bear",
       "tr": "Kutup Ayısı",
@@ -597,7 +597,7 @@
      "id": "snowflake",
      "role": "picture",
      "order": 1,
-     "dots": 40,
+     "dots": 86,
      "name": {
       "en": "Snowflake",
       "tr": "Kar Tanesi",
@@ -608,7 +608,7 @@
      "id": "reindeer",
      "role": "picture",
      "order": 2,
-     "dots": 40,
+     "dots": 89,
      "name": {
       "en": "Reindeer",
       "tr": "Ren Geyiği",
@@ -619,7 +619,7 @@
      "id": "penguin",
      "role": "picture",
      "order": 3,
-     "dots": 40,
+     "dots": 98,
      "name": {
       "en": "Penguin",
       "tr": "Penguen",
@@ -630,7 +630,7 @@
      "id": "cottage",
      "role": "picture",
      "order": 4,
-     "dots": 40,
+     "dots": 101,
      "name": {
       "en": "Winter Cottage",
       "tr": "Kış Kulübesi",
@@ -641,7 +641,7 @@
      "id": "winter-castle",
      "role": "masterpiece",
      "order": 5,
-     "dots": 80,
+     "dots": 112,
      "name": {
       "en": "Winter Castle",
       "tr": "Kış Şatosu",
@@ -652,7 +652,7 @@
      "id": "snowman",
      "role": "spare",
      "order": 6,
-     "dots": 42,
+     "dots": 92,
      "name": {
       "en": "Snowman",
       "tr": "Kardan Adam",
@@ -728,7 +728,7 @@
      "id": "crown",
      "role": "picture",
      "order": 0,
-     "dots": 60,
+     "dots": 127,
      "name": {
       "en": "Crown",
       "tr": "Taç",
@@ -739,7 +739,7 @@
      "id": "dragon",
      "role": "picture",
      "order": 1,
-     "dots": 60,
+     "dots": 137,
      "name": {
       "en": "Dragon",
       "tr": "Ejderha",
@@ -750,7 +750,7 @@
      "id": "magic-lamp",
      "role": "picture",
      "order": 2,
-     "dots": 60,
+     "dots": 151,
      "name": {
       "en": "Magic Lamp",
       "tr": "Sihirli Lamba",
@@ -761,7 +761,7 @@
      "id": "unicorn",
      "role": "picture",
      "order": 3,
-     "dots": 60,
+     "dots": 174,
      "name": {
       "en": "Unicorn",
       "tr": "Tek Boynuzlu At",
@@ -772,7 +772,7 @@
      "id": "glass-slipper",
      "role": "picture",
      "order": 4,
-     "dots": 56,
+     "dots": 183,
      "name": {
       "en": "Glass Slipper",
       "tr": "Cam Ayakkabı",
@@ -783,7 +783,7 @@
      "id": "pegasus",
      "role": "masterpiece",
      "order": 5,
-     "dots": 90,
+     "dots": 200,
      "name": {
       "en": "Pegasus",
       "tr": "Pegasus",
@@ -794,7 +794,7 @@
      "id": "fairy",
      "role": "spare",
      "order": 6,
-     "dots": 60,
+     "dots": 155,
      "name": {
       "en": "Fairy",
       "tr": "Peri",
@@ -870,7 +870,7 @@
      "id": "elephant",
      "role": "picture",
      "order": 0,
-     "dots": 60,
+     "dots": 135,
      "name": {
       "en": "Elephant",
       "tr": "Fil",
@@ -881,7 +881,7 @@
      "id": "rhino",
      "role": "picture",
      "order": 1,
-     "dots": 60,
+     "dots": 152,
      "name": {
       "en": "Rhino",
       "tr": "Gergedan",
@@ -892,7 +892,7 @@
      "id": "kangaroo",
      "role": "picture",
      "order": 2,
-     "dots": 60,
+     "dots": 149,
      "name": {
       "en": "Kangaroo",
       "tr": "Kanguru",
@@ -903,7 +903,7 @@
      "id": "zebra",
      "role": "picture",
      "order": 3,
-     "dots": 60,
+     "dots": 167,
      "name": {
       "en": "Zebra",
       "tr": "Zebra",
@@ -914,7 +914,7 @@
      "id": "giraffe",
      "role": "picture",
      "order": 4,
-     "dots": 60,
+     "dots": 184,
      "name": {
       "en": "Giraffe",
       "tr": "Zürafa",
@@ -925,7 +925,7 @@
      "id": "elephants",
      "role": "masterpiece",
      "order": 5,
-     "dots": 90,
+     "dots": 196,
      "name": {
       "en": "Mother & Baby Elephant",
       "tr": "Anne ve Yavru Fil",
@@ -936,7 +936,7 @@
      "id": "lion",
      "role": "spare",
      "order": 6,
-     "dots": 60,
+     "dots": 164,
      "name": {
       "en": "Lion",
       "tr": "Aslan",
@@ -1012,7 +1012,7 @@
      "id": "eiffel-tower",
      "role": "picture",
      "order": 0,
-     "dots": 60,
+     "dots": 129,
      "name": {
       "en": "Eiffel Tower",
       "tr": "Eyfel Kulesi",
@@ -1023,7 +1023,7 @@
      "id": "taj-mahal",
      "role": "picture",
      "order": 1,
-     "dots": 60,
+     "dots": 138,
      "name": {
       "en": "Taj Mahal",
       "tr": "Tac Mahal",
@@ -1034,7 +1034,7 @@
      "id": "statue-of-liberty",
      "role": "picture",
      "order": 2,
-     "dots": 60,
+     "dots": 151,
      "name": {
       "en": "Statue of Liberty",
       "tr": "Özgürlük Heykeli",
@@ -1045,7 +1045,7 @@
      "id": "galata-tower",
      "role": "picture",
      "order": 3,
-     "dots": 60,
+     "dots": 169,
      "name": {
       "en": "Galata Tower",
       "tr": "Galata Kulesi",
@@ -1056,7 +1056,7 @@
      "id": "sydney-opera-house",
      "role": "picture",
      "order": 4,
-     "dots": 64,
+     "dots": 181,
      "name": {
       "en": "Sydney Opera House",
       "tr": "Sidney Opera Binası",
@@ -1067,7 +1067,7 @@
      "id": "pyramids",
      "role": "masterpiece",
      "order": 5,
-     "dots": 72,
+     "dots": 195,
      "name": {
       "en": "Pyramids of Giza",
       "tr": "Gize Piramitleri",
@@ -1078,7 +1078,7 @@
      "id": "big-ben",
      "role": "spare",
      "order": 6,
-     "dots": 60,
+     "dots": 157,
      "name": {
       "en": "Big Ben",
       "tr": "Big Ben",
@@ -1154,7 +1154,7 @@
      "id": "swallow",
      "role": "picture",
      "order": 0,
-     "dots": 64,
+     "dots": 131,
      "name": {
       "en": "Swallow",
       "tr": "Kırlangıç",
@@ -1165,7 +1165,7 @@
      "id": "eagle",
      "role": "picture",
      "order": 1,
-     "dots": 64,
+     "dots": 141,
      "name": {
       "en": "Eagle",
       "tr": "Kartal",
@@ -1176,7 +1176,7 @@
      "id": "stork",
      "role": "picture",
      "order": 2,
-     "dots": 64,
+     "dots": 155,
      "name": {
       "en": "Stork",
       "tr": "Leylek",
@@ -1187,7 +1187,7 @@
      "id": "parrot",
      "role": "picture",
      "order": 3,
-     "dots": 64,
+     "dots": 169,
      "name": {
       "en": "Parrot",
       "tr": "Papağan",
@@ -1198,7 +1198,7 @@
      "id": "peacock",
      "role": "picture",
      "order": 4,
-     "dots": 64,
+     "dots": 191,
      "name": {
       "en": "Peacock",
       "tr": "Tavus Kuşu",
@@ -1209,7 +1209,7 @@
      "id": "phoenix",
      "role": "masterpiece",
      "order": 5,
-     "dots": 120,
+     "dots": 201,
      "name": {
       "en": "Phoenix",
       "tr": "Anka Kuşu",
@@ -1220,7 +1220,7 @@
      "id": "flamingo",
      "role": "spare",
      "order": 6,
-     "dots": 64,
+     "dots": 161,
      "name": {
       "en": "Flamingo",
       "tr": "Flamingo",
@@ -1296,7 +1296,7 @@
      "id": "ice-cream",
      "role": "picture",
      "order": 0,
-     "dots": 56,
+     "dots": 133,
      "name": {
       "en": "Ice Cream",
       "tr": "Dondurma",
@@ -1307,7 +1307,7 @@
      "id": "layer-cake",
      "role": "picture",
      "order": 1,
-     "dots": 56,
+     "dots": 143,
      "name": {
       "en": "Layer Cake",
       "tr": "Kat Pastası",
@@ -1318,7 +1318,7 @@
      "id": "croissant",
      "role": "picture",
      "order": 2,
-     "dots": 56,
+     "dots": 151,
      "name": {
       "en": "Croissant",
       "tr": "Kruvasan",
@@ -1329,7 +1329,7 @@
      "id": "teacup",
      "role": "picture",
      "order": 3,
-     "dots": 56,
+     "dots": 167,
      "name": {
       "en": "Teacup",
       "tr": "Çay Fincanı",
@@ -1340,7 +1340,7 @@
      "id": "teapot",
      "role": "picture",
      "order": 4,
-     "dots": 68,
+     "dots": 183,
      "name": {
       "en": "Teapot",
       "tr": "Çaydanlık",
@@ -1351,7 +1351,7 @@
      "id": "tea-stand",
      "role": "masterpiece",
      "order": 5,
-     "dots": 96,
+     "dots": 204,
      "name": {
       "en": "Afternoon Tea",
       "tr": "İkindi Çayı",
@@ -1362,7 +1362,7 @@
      "id": "cupcake",
      "role": "spare",
      "order": 6,
-     "dots": 56,
+     "dots": 158,
      "name": {
       "en": "Cupcake",
       "tr": "Kupkek",
@@ -1438,7 +1438,7 @@
      "id": "crane",
      "role": "picture",
      "order": 0,
-     "dots": 110,
+     "dots": 219,
      "name": {
       "en": "Crane",
       "tr": "Turna",
@@ -1449,7 +1449,7 @@
      "id": "bonsai",
      "role": "picture",
      "order": 1,
-     "dots": 110,
+     "dots": 235,
      "name": {
       "en": "Bonsai",
       "tr": "Bonsai",
@@ -1460,7 +1460,7 @@
      "id": "hand-fan",
      "role": "picture",
      "order": 2,
-     "dots": 110,
+     "dots": 270,
      "name": {
       "en": "Hand Fan",
       "tr": "Yelpaze",
@@ -1471,7 +1471,7 @@
      "id": "paper-lantern",
      "role": "picture",
      "order": 3,
-     "dots": 110,
+     "dots": 285,
      "name": {
       "en": "Paper Lantern",
       "tr": "Kâğıt Fener",
@@ -1482,7 +1482,7 @@
      "id": "arched-bridge",
      "role": "picture",
      "order": 4,
-     "dots": 110,
+     "dots": 330,
      "name": {
       "en": "Arched Bridge",
       "tr": "Kemerli Köprü",
@@ -1493,7 +1493,7 @@
      "id": "japanese-castle",
      "role": "masterpiece",
      "order": 5,
-     "dots": 140,
+     "dots": 336,
      "name": {
       "en": "Japanese Castle",
       "tr": "Japon Şatosu",
@@ -1504,7 +1504,7 @@
      "id": "koi",
      "role": "spare",
      "order": 6,
-     "dots": 110,
+     "dots": 279,
      "name": {
       "en": "Koi",
       "tr": "Koi Balığı",
@@ -1580,7 +1580,7 @@
      "id": "ship-wheel",
      "role": "picture",
      "order": 0,
-     "dots": 110,
+     "dots": 222,
      "name": {
       "en": "Ship Wheel",
       "tr": "Dümen",
@@ -1591,7 +1591,7 @@
      "id": "anchor",
      "role": "picture",
      "order": 1,
-     "dots": 110,
+     "dots": 246,
      "name": {
       "en": "Anchor",
       "tr": "Çapa",
@@ -1602,7 +1602,7 @@
      "id": "steamboat",
      "role": "picture",
      "order": 2,
-     "dots": 110,
+     "dots": 270,
      "name": {
       "en": "Steamboat",
       "tr": "Vapur",
@@ -1613,7 +1613,7 @@
      "id": "lighthouse",
      "role": "picture",
      "order": 3,
-     "dots": 110,
+     "dots": 287,
      "name": {
       "en": "Lighthouse",
       "tr": "Deniz Feneri",
@@ -1624,7 +1624,7 @@
      "id": "diving-helmet",
      "role": "picture",
      "order": 4,
-     "dots": 124,
+     "dots": 321,
      "name": {
       "en": "Diving Helmet",
       "tr": "Dalgıç Kaskı",
@@ -1635,7 +1635,7 @@
      "id": "harbor",
      "role": "masterpiece",
      "order": 5,
-     "dots": 140,
+     "dots": 353,
      "name": {
       "en": "Seaside Harbor",
       "tr": "Sahil Limanı",
@@ -1646,7 +1646,7 @@
      "id": "sailing-ship",
      "role": "spare",
      "order": 6,
-     "dots": 120,
+     "dots": 271,
      "name": {
       "en": "Sailing Ship",
       "tr": "Yelkenli",
@@ -1722,7 +1722,7 @@
      "id": "saxophone",
      "role": "picture",
      "order": 0,
-     "dots": 110,
+     "dots": 226,
      "name": {
       "en": "Saxophone",
       "tr": "Saksafon",
@@ -1733,7 +1733,7 @@
      "id": "french-horn",
      "role": "picture",
      "order": 1,
-     "dots": 110,
+     "dots": 236,
      "name": {
       "en": "French Horn",
       "tr": "Korno",
@@ -1744,7 +1744,7 @@
      "id": "gramophone",
      "role": "picture",
      "order": 2,
-     "dots": 110,
+     "dots": 252,
      "name": {
       "en": "Gramophone",
       "tr": "Gramofon",
@@ -1755,7 +1755,7 @@
      "id": "harp",
      "role": "picture",
      "order": 3,
-     "dots": 110,
+     "dots": 300,
      "name": {
       "en": "Harp",
       "tr": "Arp",
@@ -1766,7 +1766,7 @@
      "id": "violin",
      "role": "picture",
      "order": 4,
-     "dots": 110,
+     "dots": 317,
      "name": {
       "en": "Violin",
       "tr": "Keman",
@@ -1777,7 +1777,7 @@
      "id": "golden-harp",
      "role": "masterpiece",
      "order": 5,
-     "dots": 120,
+     "dots": 356,
      "name": {
       "en": "Golden Harp",
       "tr": "Altın Arp",
@@ -1788,7 +1788,7 @@
      "id": "grand-piano",
      "role": "spare",
      "order": 6,
-     "dots": 110,
+     "dots": 273,
      "name": {
       "en": "Grand Piano",
       "tr": "Kuyruklu Piyano",
@@ -1864,7 +1864,7 @@
      "id": "satellite",
      "role": "picture",
      "order": 0,
-     "dots": 110,
+     "dots": 219,
      "name": {
       "en": "Satellite",
       "tr": "Uydu",
@@ -1875,7 +1875,7 @@
      "id": "rocket",
      "role": "picture",
      "order": 1,
-     "dots": 110,
+     "dots": 239,
      "name": {
       "en": "Rocket",
       "tr": "Roket",
@@ -1886,7 +1886,7 @@
      "id": "astronaut",
      "role": "picture",
      "order": 2,
-     "dots": 110,
+     "dots": 252,
      "name": {
       "en": "Astronaut",
       "tr": "Astronot",
@@ -1897,7 +1897,7 @@
      "id": "lunar-module",
      "role": "picture",
      "order": 3,
-     "dots": 110,
+     "dots": 299,
      "name": {
       "en": "Lunar Module",
       "tr": "Ay Modülü",
@@ -1908,7 +1908,7 @@
      "id": "saturn",
      "role": "picture",
      "order": 4,
-     "dots": 80,
+     "dots": 316,
      "name": {
       "en": "Saturn",
       "tr": "Satürn",
@@ -1919,7 +1919,7 @@
      "id": "space-station",
      "role": "masterpiece",
      "order": 5,
-     "dots": 148,
+     "dots": 352,
      "name": {
       "en": "Space Station",
       "tr": "Uzay İstasyonu",
@@ -1930,7 +1930,7 @@
      "id": "ufo",
      "role": "spare",
      "order": 6,
-     "dots": 110,
+     "dots": 288,
      "name": {
       "en": "UFO",
       "tr": "UFO",
@@ -2006,7 +2006,7 @@
      "id": "steam-train",
      "role": "picture",
      "order": 0,
-     "dots": 110,
+     "dots": 220,
      "name": {
       "en": "Steam Train",
       "tr": "Buharlı Tren",
@@ -2017,7 +2017,7 @@
      "id": "hot-air-balloon",
      "role": "picture",
      "order": 1,
-     "dots": 110,
+     "dots": 241,
      "name": {
       "en": "Hot Air Balloon",
       "tr": "Sıcak Hava Balonu",
@@ -2028,7 +2028,7 @@
      "id": "biplane",
      "role": "picture",
      "order": 2,
-     "dots": 126,
+     "dots": 263,
      "name": {
       "en": "Biplane",
       "tr": "Çift Kanatlı Uçak",
@@ -2039,7 +2039,7 @@
      "id": "classic-car",
      "role": "picture",
      "order": 3,
-     "dots": 110,
+     "dots": 293,
      "name": {
       "en": "Classic Car",
       "tr": "Klasik Araba",
@@ -2050,7 +2050,7 @@
      "id": "tram",
      "role": "picture",
      "order": 4,
-     "dots": 110,
+     "dots": 315,
      "name": {
       "en": "Tram",
       "tr": "Tramvay",
@@ -2061,7 +2061,7 @@
      "id": "train-bridge",
      "role": "masterpiece",
      "order": 5,
-     "dots": 210,
+     "dots": 362,
      "name": {
       "en": "Train over the Bridge",
       "tr": "Köprüdeki Tren",
@@ -2072,7 +2072,7 @@
      "id": "penny-farthing",
      "role": "spare",
      "order": 6,
-     "dots": 238,
+     "dots": 284,
      "name": {
       "en": "Penny-Farthing",
       "tr": "Büyük Tekerlekli Bisiklet",
