@@ -1,7 +1,7 @@
 {
  "mode": "dots",
  "version": 2,
- "note": "Dot to dot v2. Each picture: <id>.png (finished colour picture, transparent background) and <id>.json. parts = list of lines {closed, pts}; pts are [x, y] in 0..1 of the PNG. Numbers run on across parts in this order. A closed part's line goes back to its first dot when its last dot is connected; an open part ends at its last dot. The first dot of every part (except the very first) gets a small gold ring. Parts are ordered so the next line usually starts far away. Each category has bg.jpg (780x1688, cover-fit), bg colour and twinkles = [x, y, size] in 0..1 of bg.jpg. Spares are not shown.",
+ "note": "Dot to dot v2. Each picture: <id>.png (finished colour picture, transparent background) and <id>.json. parts = list of lines, each a list of [x, y] in 0..1 of the PNG; closed = one flag per part (true = closed line, false = open stroke). Numbers run on across parts in this order. A closed part's line goes back to its first dot when its last dot is connected; an open part ends at its last dot. The first dot of every part (except the very first) gets a small gold ring. Parts are ordered so the next line usually starts far away. Each category has bg.jpg (780x1688, cover-fit), bg colour and twinkles = [x, y, size] in 0..1 of bg.jpg. Spares are not shown.",
  "categories": [
   {
    "id": "swan-lake",
