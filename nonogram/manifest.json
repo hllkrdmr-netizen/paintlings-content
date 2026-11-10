@@ -1,0 +1,80 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "fruit-orchard",
+   "tier": "easy",
+   "pictures": 7
+  },
+  {
+   "id": "flower-market",
+   "tier": "easy",
+   "pictures": 7
+  },
+  {
+   "id": "coffee-shop",
+   "tier": "easy",
+   "pictures": 7
+  },
+  {
+   "id": "beach-day",
+   "tier": "easy",
+   "pictures": 7
+  },
+  {
+   "id": "forest-walk",
+   "tier": "easy",
+   "pictures": 7
+  },
+  {
+   "id": "ancient-egypt",
+   "tier": "medium",
+   "pictures": 7
+  },
+  {
+   "id": "vintage-travel",
+   "tier": "medium",
+   "pictures": 7
+  },
+  {
+   "id": "paris-streets",
+   "tier": "medium",
+   "pictures": 7
+  },
+  {
+   "id": "campfire-night",
+   "tier": "medium",
+   "pictures": 7
+  },
+  {
+   "id": "music-workshop",
+   "tier": "medium",
+   "pictures": 7
+  },
+  {
+   "id": "famous-landmarks",
+   "tier": "hard",
+   "pictures": 7
+  },
+  {
+   "id": "mythology",
+   "tier": "hard",
+   "pictures": 7
+  },
+  {
+   "id": "ocean-depths",
+   "tier": "hard",
+   "pictures": 7
+  },
+  {
+   "id": "castles-knights",
+   "tier": "hard",
+   "pictures": 7
+  },
+  {
+   "id": "night-sky",
+   "tier": "hard",
+   "pictures": 7
+  }
+ ]
+}
