@@ -1,0 +1,244 @@
+{
+ "mode": "stories",
+ "version": 1,
+ "note": "Story chapter content (design-reference/STORIES.md). Each story folder holds: dots (same format as dots/: <id>.png transparent + <id>.json v2, plus bg.jpg / bg colour / twinkles), spot (same format as spot/: <id>.png = A, <id>_b.png = B, <id>.json diffs), jigsaw (plain square PNG, nearest-neighbour). Hidden picture and final painting are in the app repo (art/stories/<story>/).",
+ "stories": [
+  {
+   "id": "lighthouse",
+   "dots": {
+    "id": "lighthouse",
+    "image": "stories/lighthouse/lighthouse.png",
+    "file": "stories/lighthouse/lighthouse.json",
+    "dots": 124,
+    "bg_image": "stories/lighthouse/dots_bg.jpg",
+    "bg": "#143852",
+    "twinkles": [
+     [
+      0.0552,
+      0.1179,
+      1.4
+     ],
+     [
+      0.9571,
+      0.1365,
+      1.38
+     ],
+     [
+      0.9443,
+      0.2871,
+      1.38
+     ],
+     [
+      0.6493,
+      0.0228,
+      1.29
+     ],
+     [
+      0.0497,
+      0.313,
+      1.27
+     ],
+     [
+      0.1694,
+      0.0553,
+      1.26
+     ],
+     [
+      0.0391,
+      0.2155,
+      1.19
+     ],
+     [
+      0.3121,
+      0.0271,
+      1.07
+     ],
+     [
+      0.8735,
+      0.1034,
+      1.01
+     ],
+     [
+      0.8717,
+      0.0441,
+      0.9
+     ]
+    ]
+   },
+   "spot": {
+    "id": "lighthouse_shore",
+    "tier": "easy",
+    "file": "stories/lighthouse/lighthouse_shore.json",
+    "image": "stories/lighthouse/lighthouse_shore.png",
+    "image_b": "stories/lighthouse/lighthouse_shore_b.png",
+    "width": 860,
+    "height": 860
+   },
+   "jigsaw": {
+    "image": "stories/lighthouse/jigsaw.png",
+    "width": 528,
+    "height": 528,
+    "tier": "easy"
+   },
+   "status": "ready"
+  },
+  {
+   "id": "winter-village",
+   "dots": {
+    "id": "chapel",
+    "image": "stories/winter-village/chapel.png",
+    "file": "stories/winter-village/chapel.json",
+    "dots": 124,
+    "bg_image": "stories/winter-village/dots_bg.jpg",
+    "bg": "#182F61",
+    "twinkles": [
+     [
+      0.1429,
+      0.0851,
+      1.26
+     ],
+     [
+      0.0921,
+      0.1241,
+      1.05
+     ],
+     [
+      0.8538,
+      0.109,
+      1.01
+     ],
+     [
+      0.0466,
+      0.2972,
+      0.9
+     ],
+     [
+      0.2885,
+      0.0381,
+      0.89
+     ],
+     [
+      0.2113,
+      0.043,
+      0.84
+     ],
+     [
+      0.9204,
+      0.2452,
+      0.81
+     ],
+     [
+      0.8214,
+      0.0569,
+      0.67
+     ],
+     [
+      0.0866,
+      0.2129,
+      0.6
+     ],
+     [
+      0.875,
+      0.1592,
+      0.6
+     ]
+    ]
+   },
+   "spot": {
+    "id": "winter_village",
+    "tier": "easy",
+    "file": "stories/winter-village/winter_village.json",
+    "image": "stories/winter-village/winter_village.png",
+    "image_b": "stories/winter-village/winter_village_b.png",
+    "width": 714,
+    "height": 714
+   },
+   "jigsaw": {
+    "image": "stories/winter-village/jigsaw.png",
+    "width": 496,
+    "height": 496,
+    "tier": "easy"
+   },
+   "status": "ready"
+  },
+  {
+   "id": "japanese-garden",
+   "dots": {
+    "id": "stone-lantern",
+    "image": "stories/japanese-garden/stone-lantern.png",
+    "file": "stories/japanese-garden/stone-lantern.json",
+    "dots": 105,
+    "bg_image": "stories/japanese-garden/dots_bg.jpg",
+    "bg": "#4B1E33",
+    "twinkles": [
+     [
+      0.7552,
+      0.0683,
+      1.4
+     ],
+     [
+      0.3293,
+      0.0133,
+      1.4
+     ],
+     [
+      0.1025,
+      0.0702,
+      1.4
+     ],
+     [
+      0.0491,
+      0.218,
+      1.4
+     ],
+     [
+      0.8972,
+      0.0163,
+      1.4
+     ],
+     [
+      0.2117,
+      0.086,
+      1.4
+     ],
+     [
+      0.0846,
+      0.1148,
+      1.4
+     ],
+     [
+      0.932,
+      0.2505,
+      1.38
+     ],
+     [
+      0.1977,
+      0.0064,
+      1.35
+     ],
+     [
+      0.8352,
+      0.1192,
+      1.24
+     ]
+    ]
+   },
+   "spot": {
+    "id": "japanese_garden",
+    "tier": "easy",
+    "file": "stories/japanese-garden/japanese_garden.json",
+    "image": "stories/japanese-garden/japanese_garden.png",
+    "image_b": "stories/japanese-garden/japanese_garden_b.png",
+    "width": 754,
+    "height": 754
+   },
+   "jigsaw": {
+    "image": "stories/japanese-garden/jigsaw.png",
+    "width": 512,
+    "height": 512,
+    "tier": "easy"
+   },
+   "status": "ready"
+  }
+ ]
+}
