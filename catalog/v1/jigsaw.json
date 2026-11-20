@@ -1,0 +1,1928 @@
+{
+ "version": 1,
+ "mode": "jigsaw",
+ "note": "Jigsaw content. Each picture is a plain square PNG; the app cuts it into pieces (easy 9-12, medium 16-25, hard 25-36). Scale with nearest-neighbour. Categories with status \"pending\" are not complete yet: hide them.",
+ "pieces": {
+  "easy": [
+   9,
+   12
+  ],
+  "medium": [
+   16,
+   25
+  ],
+  "hard": [
+   25,
+   36
+  ]
+ },
+ "categories": [
+  {
+   "id": "lake-house",
+   "name": {
+    "en": "Lake House",
+    "tr": "Göl Evi",
+    "de": "Seehaus"
+   },
+   "tier": "easy",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "lake_house",
+     "order": 1,
+     "name": {
+      "en": "Lake House",
+      "tr": "Göl Evi",
+      "de": "Seehaus"
+     },
+     "role": "picture",
+     "image": "lake-house/lake_house.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "red_canoe",
+     "order": 2,
+     "name": {
+      "en": "Red Canoe",
+      "tr": "Kırmızı Kano",
+      "de": "Rotes Kanu"
+     },
+     "role": "picture",
+     "image": "lake-house/red_canoe.png",
+     "width": 502,
+     "height": 502
+    },
+    {
+     "id": "sunrise_pier",
+     "order": 3,
+     "name": {
+      "en": "Sunrise Pier",
+      "tr": "Gün Doğumunda İskele",
+      "de": "Steg im Morgenrot"
+     },
+     "role": "picture",
+     "image": "lake-house/sunrise_pier.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "swan_family",
+     "order": 4,
+     "name": {
+      "en": "Swan Family",
+      "tr": "Kuğu Ailesi",
+      "de": "Schwanenfamilie"
+     },
+     "role": "picture",
+     "image": "lake-house/swan_family.png",
+     "width": 504,
+     "height": 504
+    },
+    {
+     "id": "stone_bridge",
+     "order": 5,
+     "name": {
+      "en": "Stone Bridge",
+      "tr": "Taş Köprü",
+      "de": "Steinbrücke"
+     },
+     "role": "picture",
+     "image": "lake-house/stone_bridge.png",
+     "width": 502,
+     "height": 502
+    },
+    {
+     "id": "masterpiece_mountain_lake",
+     "order": 6,
+     "name": {
+      "en": "Mountain Lake",
+      "tr": "Dağ Gölü",
+      "de": "Bergsee"
+     },
+     "role": "masterpiece",
+     "image": "lake-house/masterpiece_mountain_lake.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "hill_cabin",
+    "order": 0,
+    "name": {
+     "en": "Hill Cabin",
+     "tr": "Tepedeki Kulübe",
+     "de": "Hütte am Hügel"
+    },
+    "role": "spare",
+    "image": "lake-house/hill_cabin.png",
+    "width": 504,
+    "height": 504
+   }
+  },
+  {
+   "id": "balloon-festival",
+   "name": {
+    "en": "Balloon Festival",
+    "tr": "Balon Festivali",
+    "de": "Ballonfestival"
+   },
+   "tier": "easy",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "striped_balloon",
+     "order": 1,
+     "name": {
+      "en": "Striped Balloon",
+      "tr": "Çizgili Balon",
+      "de": "Gestreifter Ballon"
+     },
+     "role": "picture",
+     "image": "balloon-festival/striped_balloon.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "river_valley",
+     "order": 2,
+     "name": {
+      "en": "River Valley",
+      "tr": "Nehir Vadisi",
+      "de": "Flusstal"
+     },
+     "role": "picture",
+     "image": "balloon-festival/river_valley.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "inflating_balloon",
+     "order": 3,
+     "name": {
+      "en": "Inflating Balloon",
+      "tr": "Şişirilen Balon",
+      "de": "Ballonstart"
+     },
+     "role": "picture",
+     "image": "balloon-festival/inflating_balloon.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "windmill_balloon",
+     "order": 4,
+     "name": {
+      "en": "Windmill",
+      "tr": "Yel Değirmeni",
+      "de": "Windmühle"
+     },
+     "role": "picture",
+     "image": "balloon-festival/windmill_balloon.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "sunrise_lake",
+     "order": 5,
+     "name": {
+      "en": "Sunrise Lake",
+      "tr": "Gün Doğumunda Göl",
+      "de": "See im Morgenrot"
+     },
+     "role": "picture",
+     "image": "balloon-festival/sunrise_lake.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "masterpiece_balloon_festival",
+     "order": 6,
+     "name": {
+      "en": "Balloon Festival",
+      "tr": "Balon Festivali",
+      "de": "Ballonfestival"
+     },
+     "role": "masterpiece",
+     "image": "balloon-festival/masterpiece_balloon_festival.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "balloon_basket",
+    "order": 0,
+    "name": {
+     "en": "Balloon Basket",
+     "tr": "Balon Sepeti",
+     "de": "Ballonkorb"
+    },
+    "role": "spare",
+    "image": "balloon-festival/balloon_basket.png",
+    "width": 498,
+    "height": 498
+   }
+  },
+  {
+   "id": "lavender-fields",
+   "name": {
+    "en": "Lavender Fields",
+    "tr": "Lavanta Tarlaları",
+    "de": "Lavendelfelder"
+   },
+   "tier": "easy",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "stone_farmhouse",
+     "order": 1,
+     "name": {
+      "en": "Stone Farmhouse",
+      "tr": "Taş Çiftlik Evi",
+      "de": "Steinbauernhaus"
+     },
+     "role": "picture",
+     "image": "lavender-fields/stone_farmhouse.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "sunset_tree",
+     "order": 2,
+     "name": {
+      "en": "Sunset Tree",
+      "tr": "Gün Batımında Ağaç",
+      "de": "Baum im Abendrot"
+     },
+     "role": "picture",
+     "image": "lavender-fields/sunset_tree.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "lavender_abbey",
+     "order": 3,
+     "name": {
+      "en": "Lavender Abbey",
+      "tr": "Lavantalı Manastır",
+      "de": "Lavendelabtei"
+     },
+     "role": "picture",
+     "image": "lavender-fields/lavender_abbey.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "lavender_cart",
+     "order": 4,
+     "name": {
+      "en": "Lavender Cart",
+      "tr": "Lavanta Arabası",
+      "de": "Lavendelkarren"
+     },
+     "role": "picture",
+     "image": "lavender-fields/lavender_cart.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "hilltop_village",
+     "order": 5,
+     "name": {
+      "en": "Hilltop Village",
+      "tr": "Tepe Köyü",
+      "de": "Hügeldorf"
+     },
+     "role": "picture",
+     "image": "lavender-fields/hilltop_village.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "masterpiece_provence",
+     "order": 6,
+     "name": {
+      "en": "Provence",
+      "tr": "Provence",
+      "de": "Provence"
+     },
+     "role": "masterpiece",
+     "image": "lavender-fields/masterpiece_provence.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "blue_window",
+    "order": 0,
+    "name": {
+     "en": "Blue Window",
+     "tr": "Mavi Pencere",
+     "de": "Blaues Fenster"
+    },
+    "role": "spare",
+    "image": "lavender-fields/blue_window.png",
+    "width": 498,
+    "height": 498
+   }
+  },
+  {
+   "id": "treehouse",
+   "name": {
+    "en": "Treehouse",
+    "tr": "Ağaç Ev",
+    "de": "Baumhaus"
+   },
+   "tier": "easy",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "oak_treehouse",
+     "order": 1,
+     "name": {
+      "en": "Oak Treehouse",
+      "tr": "Meşedeki Ev",
+      "de": "Eichenbaumhaus"
+     },
+     "role": "picture",
+     "image": "treehouse/oak_treehouse.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "rope_bridge",
+     "order": 2,
+     "name": {
+      "en": "Rope Bridge",
+      "tr": "Asma Köprü",
+      "de": "Hängebrücke"
+     },
+     "role": "picture",
+     "image": "treehouse/rope_bridge.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "tree_swings",
+     "order": 3,
+     "name": {
+      "en": "Swings",
+      "tr": "Salıncaklar",
+      "de": "Schaukeln"
+     },
+     "role": "picture",
+     "image": "treehouse/tree_swings.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "treehouse_inside",
+     "order": 4,
+     "name": {
+      "en": "Inside the Treehouse",
+      "tr": "Ağaç Evin İçi",
+      "de": "Im Baumhaus"
+     },
+     "role": "picture",
+     "image": "treehouse/treehouse_inside.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "forest_stream",
+     "order": 5,
+     "name": {
+      "en": "Forest Stream",
+      "tr": "Orman Deresi",
+      "de": "Waldbach"
+     },
+     "role": "picture",
+     "image": "treehouse/forest_stream.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "masterpiece_oak_treehouse",
+     "order": 6,
+     "name": {
+      "en": "Magic Treehouse",
+      "tr": "Sihirli Ağaç Ev",
+      "de": "Zauberbaumhaus"
+     },
+     "role": "masterpiece",
+     "image": "treehouse/masterpiece_oak_treehouse.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "treehouse_dusk",
+    "order": 0,
+    "name": {
+     "en": "Treehouse at Dusk",
+     "tr": "Akşamüstü Ağaç Ev",
+     "de": "Baumhaus am Abend"
+    },
+    "role": "spare",
+    "image": "treehouse/treehouse_dusk.png",
+    "width": 498,
+    "height": 498
+   }
+  },
+  {
+   "id": "cherry-blossom-park",
+   "name": {
+    "en": "Cherry Blossom Park",
+    "tr": "Kiraz Çiçeği Parkı",
+    "de": "Kirschblütenpark"
+   },
+   "tier": "easy",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "red_bridge",
+     "order": 1,
+     "name": {
+      "en": "Red Bridge",
+      "tr": "Kırmızı Köprü",
+      "de": "Rote Brücke"
+     },
+     "role": "picture",
+     "image": "cherry-blossom-park/red_bridge.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "stone_lantern",
+     "order": 2,
+     "name": {
+      "en": "Stone Lantern",
+      "tr": "Taş Fener",
+      "de": "Steinlaterne"
+     },
+     "role": "picture",
+     "image": "cherry-blossom-park/stone_lantern.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "tea_house",
+     "order": 3,
+     "name": {
+      "en": "Tea House",
+      "tr": "Çay Evi",
+      "de": "Teehaus"
+     },
+     "role": "picture",
+     "image": "cherry-blossom-park/tea_house.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "pagoda_fuji",
+     "order": 4,
+     "name": {
+      "en": "Pagoda",
+      "tr": "Pagoda",
+      "de": "Pagode"
+     },
+     "role": "picture",
+     "image": "cherry-blossom-park/pagoda_fuji.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "blossom_river",
+     "order": 5,
+     "name": {
+      "en": "Blossom River",
+      "tr": "Çiçekli Nehir",
+      "de": "Blütenfluss"
+     },
+     "role": "picture",
+     "image": "cherry-blossom-park/blossom_river.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "masterpiece_sakura_garden",
+     "order": 6,
+     "name": {
+      "en": "Sakura Garden",
+      "tr": "Sakura Bahçesi",
+      "de": "Sakura-Garten"
+     },
+     "role": "masterpiece",
+     "image": "cherry-blossom-park/masterpiece_sakura_garden.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "parasol_bench",
+    "order": 0,
+    "name": {
+     "en": "Parasol Bench",
+     "tr": "Şemsiyeli Bank",
+     "de": "Bank mit Schirm"
+    },
+    "role": "spare",
+    "image": "cherry-blossom-park/parasol_bench.png",
+    "width": 497,
+    "height": 497
+   }
+  },
+  {
+   "id": "alpine-village",
+   "name": {
+    "en": "Alpine Village",
+    "tr": "Alp Köyü",
+    "de": "Alpendorf"
+   },
+   "tier": "medium",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "geranium_chalets",
+     "order": 1,
+     "name": {
+      "en": "Chalets",
+      "tr": "Dağ Evleri",
+      "de": "Chalets"
+     },
+     "role": "picture",
+     "image": "alpine-village/geranium_chalets.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "lake_church",
+     "order": 2,
+     "name": {
+      "en": "Lake Church",
+      "tr": "Göl Kenarında Kilise",
+      "de": "Seekirche"
+     },
+     "role": "picture",
+     "image": "alpine-village/lake_church.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "alpine_cows",
+     "order": 3,
+     "name": {
+      "en": "Alpine Cows",
+      "tr": "Alp İnekleri",
+      "de": "Alpenkühe"
+     },
+     "role": "picture",
+     "image": "alpine-village/alpine_cows.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "mountain_train",
+     "order": 4,
+     "name": {
+      "en": "Mountain Train",
+      "tr": "Dağ Treni",
+      "de": "Bergbahn"
+     },
+     "role": "picture",
+     "image": "alpine-village/mountain_train.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "village_fountain",
+     "order": 5,
+     "name": {
+      "en": "Village Fountain",
+      "tr": "Köy Çeşmesi",
+      "de": "Dorfbrunnen"
+     },
+     "role": "picture",
+     "image": "alpine-village/village_fountain.png",
+     "width": 503,
+     "height": 503
+    },
+    {
+     "id": "masterpiece_alpine_village",
+     "order": 6,
+     "name": {
+      "en": "Alpine Village",
+      "tr": "Alp Köyü",
+      "de": "Alpendorf"
+     },
+     "role": "masterpiece",
+     "image": "alpine-village/masterpiece_alpine_village.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "cable_car",
+    "order": 0,
+    "name": {
+     "en": "Cable Car",
+     "tr": "Teleferik",
+     "de": "Seilbahn"
+    },
+    "role": "spare",
+    "image": "alpine-village/cable_car.png",
+    "width": 503,
+    "height": 503
+   }
+  },
+  {
+   "id": "santorini",
+   "name": {
+    "en": "Santorini",
+    "tr": "Santorini",
+    "de": "Santorini"
+   },
+   "tier": "medium",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "blue_domes",
+     "order": 1,
+     "name": {
+      "en": "Blue Domes",
+      "tr": "Mavi Kubbeler",
+      "de": "Blaue Kuppeln"
+     },
+     "role": "picture",
+     "image": "santorini/blue_domes.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "bougainvillea_alley",
+     "order": 2,
+     "name": {
+      "en": "Flower Alley",
+      "tr": "Çiçekli Sokak",
+      "de": "Blumengasse"
+     },
+     "role": "picture",
+     "image": "santorini/bougainvillea_alley.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "bell_tower",
+     "order": 3,
+     "name": {
+      "en": "Bell Tower",
+      "tr": "Çan Kulesi",
+      "de": "Glockenturm"
+     },
+     "role": "picture",
+     "image": "santorini/bell_tower.png",
+     "width": 498,
+     "height": 498
+    },
+    {
+     "id": "sunset_windmill",
+     "order": 4,
+     "name": {
+      "en": "Sunset Windmill",
+      "tr": "Gün Batımında Değirmen",
+      "de": "Windmühle im Abendrot"
+     },
+     "role": "picture",
+     "image": "santorini/sunset_windmill.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "harbor_taverna",
+     "order": 5,
+     "name": {
+      "en": "Harbor Taverna",
+      "tr": "Liman Tavernası",
+      "de": "Hafentaverne"
+     },
+     "role": "picture",
+     "image": "santorini/harbor_taverna.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "masterpiece_santorini",
+     "order": 6,
+     "name": {
+      "en": "Santorini",
+      "tr": "Santorini",
+      "de": "Santorini"
+     },
+     "role": "masterpiece",
+     "image": "santorini/masterpiece_santorini.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "infinity_pool",
+    "order": 0,
+    "name": {
+     "en": "Infinity Pool",
+     "tr": "Sonsuzluk Havuzu",
+     "de": "Infinity-Pool"
+    },
+    "role": "spare",
+    "image": "santorini/infinity_pool.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "moroccan-bazaar",
+   "name": {
+    "en": "Moroccan Bazaar",
+    "tr": "Fas Çarşısı",
+    "de": "Marokkanischer Basar"
+   },
+   "tier": "medium",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "spice_stall",
+     "order": 1,
+     "name": {
+      "en": "Spice Stall",
+      "tr": "Baharat Tezgahı",
+      "de": "Gewürzstand"
+     },
+     "role": "picture",
+     "image": "moroccan-bazaar/spice_stall.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "lantern_shop",
+     "order": 2,
+     "name": {
+      "en": "Lantern Shop",
+      "tr": "Fener Dükkanı",
+      "de": "Laternenladen"
+     },
+     "role": "picture",
+     "image": "moroccan-bazaar/lantern_shop.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "carpet_alley",
+     "order": 3,
+     "name": {
+      "en": "Carpet Alley",
+      "tr": "Halı Sokağı",
+      "de": "Teppichgasse"
+     },
+     "role": "picture",
+     "image": "moroccan-bazaar/carpet_alley.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "riad_courtyard",
+     "order": 4,
+     "name": {
+      "en": "Riad Courtyard",
+      "tr": "Avlu",
+      "de": "Riad-Innenhof"
+     },
+     "role": "picture",
+     "image": "moroccan-bazaar/riad_courtyard.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "pottery_stall",
+     "order": 5,
+     "name": {
+      "en": "Pottery Stall",
+      "tr": "Çömlek Tezgahı",
+      "de": "Töpferstand"
+     },
+     "role": "picture",
+     "image": "moroccan-bazaar/pottery_stall.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "masterpiece_medina_bazaar",
+     "order": 6,
+     "name": {
+      "en": "Medina Bazaar",
+      "tr": "Medine Çarşısı",
+      "de": "Basar der Medina"
+     },
+     "role": "masterpiece",
+     "image": "moroccan-bazaar/masterpiece_medina_bazaar.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "medina_rooftop",
+    "order": 0,
+    "name": {
+     "en": "Medina Rooftops",
+     "tr": "Medine Çatıları",
+     "de": "Dächer der Medina"
+    },
+    "role": "spare",
+    "image": "moroccan-bazaar/medina_rooftop.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "cappadocia",
+   "name": {
+    "en": "Cappadocia",
+    "tr": "Kapadokya",
+    "de": "Kappadokien"
+   },
+   "tier": "medium",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "balloon_valley",
+     "order": 1,
+     "name": {
+      "en": "Balloon Valley",
+      "tr": "Balon Vadisi",
+      "de": "Ballontal"
+     },
+     "role": "picture",
+     "image": "cappadocia/balloon_valley.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "cave_terrace",
+     "order": 2,
+     "name": {
+      "en": "Cave Terrace",
+      "tr": "Mağara Terası",
+      "de": "Höhlenterrasse"
+     },
+     "role": "picture",
+     "image": "cappadocia/cave_terrace.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "uchisar_castle",
+     "order": 3,
+     "name": {
+      "en": "Uchisar Castle",
+      "tr": "Uçhisar Kalesi",
+      "de": "Burg Uçhisar"
+     },
+     "role": "picture",
+     "image": "cappadocia/uchisar_castle.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "vineyard_path",
+     "order": 4,
+     "name": {
+      "en": "Vineyard Path",
+      "tr": "Bağ Yolu",
+      "de": "Weinbergpfad"
+     },
+     "role": "picture",
+     "image": "cappadocia/vineyard_path.png",
+     "width": 499,
+     "height": 499
+    },
+    {
+     "id": "avanos_pottery",
+     "order": 5,
+     "name": {
+      "en": "Avanos Pottery",
+      "tr": "Avanos Çömlekçisi",
+      "de": "Töpferei Avanos"
+     },
+     "role": "picture",
+     "image": "cappadocia/avanos_pottery.png",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "id": "masterpiece_cappadocia",
+     "order": 6,
+     "name": {
+      "en": "Cappadocia",
+      "tr": "Kapadokya",
+      "de": "Kappadokien"
+     },
+     "role": "masterpiece",
+     "image": "cappadocia/masterpiece_cappadocia.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "rock_church",
+    "order": 0,
+    "name": {
+     "en": "Rock Church",
+     "tr": "Kaya Kilisesi",
+     "de": "Felsenkirche"
+    },
+    "role": "spare",
+    "image": "cappadocia/rock_church.png",
+    "width": 500,
+    "height": 500
+   }
+  },
+  {
+   "id": "northern-lights",
+   "name": {
+    "en": "Northern Lights",
+    "tr": "Kuzey Işıkları",
+    "de": "Nordlichter"
+   },
+   "tier": "medium",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "aurora_cabin",
+     "order": 1,
+     "name": {
+      "en": "Aurora Cabin",
+      "tr": "Aurora Kulübesi",
+      "de": "Polarlichthütte"
+     },
+     "role": "picture",
+     "image": "northern-lights/aurora_cabin.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "glass_igloo",
+     "order": 2,
+     "name": {
+      "en": "Glass Igloo",
+      "tr": "Cam İglo",
+      "de": "Glasiglu"
+     },
+     "role": "picture",
+     "image": "northern-lights/glass_igloo.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "husky_sled",
+     "order": 3,
+     "name": {
+      "en": "Husky Sled",
+      "tr": "Husky Kızağı",
+      "de": "Huskyschlitten"
+     },
+     "role": "picture",
+     "image": "northern-lights/husky_sled.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "fjord_village",
+     "order": 4,
+     "name": {
+      "en": "Fjord Village",
+      "tr": "Fiyort Köyü",
+      "de": "Fjorddorf"
+     },
+     "role": "picture",
+     "image": "northern-lights/fjord_village.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "snowy_reindeer",
+     "order": 5,
+     "name": {
+      "en": "Reindeer",
+      "tr": "Ren Geyiği",
+      "de": "Rentier"
+     },
+     "role": "picture",
+     "image": "northern-lights/snowy_reindeer.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "masterpiece_northern_lights",
+     "order": 6,
+     "name": {
+      "en": "Northern Lights",
+      "tr": "Kuzey Işıkları",
+      "de": "Nordlichter"
+     },
+     "role": "masterpiece",
+     "image": "northern-lights/masterpiece_northern_lights.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "snow_chapel",
+    "order": 0,
+    "name": {
+     "en": "Snow Chapel",
+     "tr": "Karlı Şapel",
+     "de": "Schneekapelle"
+    },
+    "role": "spare",
+    "image": "northern-lights/snow_chapel.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "fairground-night",
+   "name": {
+    "en": "Fairground Night",
+    "tr": "Lunapark Gecesi",
+    "de": "Rummelnacht"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "ferris_wheel",
+     "order": 1,
+     "name": {
+      "en": "Ferris Wheel",
+      "tr": "Dönme Dolap",
+      "de": "Riesenrad"
+     },
+     "role": "picture",
+     "image": "fairground-night/ferris_wheel.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "carousel",
+     "order": 2,
+     "name": {
+      "en": "Carousel",
+      "tr": "Atlıkarınca",
+      "de": "Karussell"
+     },
+     "role": "picture",
+     "image": "fairground-night/carousel.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "game_stalls",
+     "order": 3,
+     "name": {
+      "en": "Game Stalls",
+      "tr": "Oyun Tezgahları",
+      "de": "Spielbuden"
+     },
+     "role": "picture",
+     "image": "fairground-night/game_stalls.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "candy_cart",
+     "order": 4,
+     "name": {
+      "en": "Candy Cart",
+      "tr": "Pamuk Şeker Arabası",
+      "de": "Zuckerwattewagen"
+     },
+     "role": "picture",
+     "image": "fairground-night/candy_cart.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "fireworks_pier",
+     "order": 5,
+     "name": {
+      "en": "Fireworks Pier",
+      "tr": "Havai Fişekli İskele",
+      "de": "Feuerwerkssteg"
+     },
+     "role": "picture",
+     "image": "fairground-night/fireworks_pier.png",
+     "width": 497,
+     "height": 497
+    },
+    {
+     "id": "masterpiece_fairground",
+     "order": 6,
+     "name": {
+      "en": "Fairground",
+      "tr": "Lunapark",
+      "de": "Rummelplatz"
+     },
+     "role": "masterpiece",
+     "image": "fairground-night/masterpiece_fairground.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "roller_coaster",
+    "order": 0,
+    "name": {
+     "en": "Roller Coaster",
+     "tr": "Hız Treni",
+     "de": "Achterbahn"
+    },
+    "role": "spare",
+    "image": "fairground-night/roller_coaster.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "steampunk-city",
+   "name": {
+    "en": "Steampunk City",
+    "tr": "Steampunk Şehri",
+    "de": "Steampunk-Stadt"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "brass_airship",
+     "order": 1,
+     "name": {
+      "en": "Brass Airship",
+      "tr": "Pirinç Zeplin",
+      "de": "Messingluftschiff"
+     },
+     "role": "picture",
+     "image": "steampunk-city/brass_airship.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "steam_tram",
+     "order": 2,
+     "name": {
+      "en": "Steam Tram",
+      "tr": "Buharlı Tramvay",
+      "de": "Dampfstraßenbahn"
+     },
+     "role": "picture",
+     "image": "steampunk-city/steam_tram.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "inventor_workshop",
+     "order": 3,
+     "name": {
+      "en": "Inventor's Workshop",
+      "tr": "Mucit Atölyesi",
+      "de": "Erfinderwerkstatt"
+     },
+     "role": "picture",
+     "image": "steampunk-city/inventor_workshop.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "iron_bridge_train",
+     "order": 4,
+     "name": {
+      "en": "Iron Bridge",
+      "tr": "Demir Köprü",
+      "de": "Eisenbrücke"
+     },
+     "role": "picture",
+     "image": "steampunk-city/iron_bridge_train.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "copper_rooftops",
+     "order": 5,
+     "name": {
+      "en": "Copper Rooftops",
+      "tr": "Bakır Çatılar",
+      "de": "Kupferdächer"
+     },
+     "role": "picture",
+     "image": "steampunk-city/copper_rooftops.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "masterpiece_steampunk_city",
+     "order": 6,
+     "name": {
+      "en": "Steampunk City",
+      "tr": "Steampunk Şehri",
+      "de": "Steampunk-Stadt"
+     },
+     "role": "masterpiece",
+     "image": "steampunk-city/masterpiece_steampunk_city.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "gear_clock_tower",
+    "order": 0,
+    "name": {
+     "en": "Clock Tower",
+     "tr": "Saat Kulesi",
+     "de": "Uhrturm"
+    },
+    "role": "spare",
+    "image": "steampunk-city/gear_clock_tower.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "floating-islands",
+   "name": {
+    "en": "Floating Islands",
+    "tr": "Uçan Adalar",
+    "de": "Schwebende Inseln"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "sky_castle",
+     "order": 1,
+     "name": {
+      "en": "Sky Castle",
+      "tr": "Gökyüzü Şatosu",
+      "de": "Himmelsburg"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_castle.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "rope_bridge_isles",
+     "order": 2,
+     "name": {
+      "en": "Rope Bridge",
+      "tr": "Asma Köprü",
+      "de": "Hängebrücke"
+     },
+     "role": "picture",
+     "image": "floating-islands/rope_bridge_isles.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "sky_garden",
+     "order": 3,
+     "name": {
+      "en": "Sky Garden",
+      "tr": "Gökyüzü Bahçesi",
+      "de": "Himmelsgarten"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_garden.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "sky_ship",
+     "order": 4,
+     "name": {
+      "en": "Sky Ship",
+      "tr": "Gökyüzü Gemisi",
+      "de": "Himmelsschiff"
+     },
+     "role": "picture",
+     "image": "floating-islands/sky_ship.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "forest_isles",
+     "order": 5,
+     "name": {
+      "en": "Forest Isles",
+      "tr": "Ormanlı Adalar",
+      "de": "Waldinseln"
+     },
+     "role": "picture",
+     "image": "floating-islands/forest_isles.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "masterpiece_floating_islands",
+     "order": 6,
+     "name": {
+      "en": "Floating Islands",
+      "tr": "Uçan Adalar",
+      "de": "Schwebende Inseln"
+     },
+     "role": "masterpiece",
+     "image": "floating-islands/masterpiece_floating_islands.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "crystal_tower",
+    "order": 0,
+    "name": {
+     "en": "Crystal Tower",
+     "tr": "Kristal Kule",
+     "de": "Kristallturm"
+    },
+    "role": "spare",
+    "image": "floating-islands/crystal_tower.png",
+    "width": 496,
+    "height": 496
+   }
+  },
+  {
+   "id": "christmas-market",
+   "name": {
+    "en": "Christmas Market",
+    "tr": "Noel Pazarı",
+    "de": "Weihnachtsmarkt"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "gingerbread_stalls",
+     "order": 1,
+     "name": {
+      "en": "Gingerbread Stalls",
+      "tr": "Kurabiye Tezgahları",
+      "de": "Lebkuchenstände"
+     },
+     "role": "picture",
+     "image": "christmas-market/gingerbread_stalls.png",
+     "width": 495,
+     "height": 495
+    },
+    {
+     "id": "christmas_tree",
+     "order": 2,
+     "name": {
+      "en": "Christmas Tree",
+      "tr": "Noel Ağacı",
+      "de": "Weihnachtsbaum"
+     },
+     "role": "picture",
+     "image": "christmas-market/christmas_tree.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "cider_stall",
+     "order": 3,
+     "name": {
+      "en": "Hot Cider",
+      "tr": "Sıcak İçecek Tezgahı",
+      "de": "Glühweinstand"
+     },
+     "role": "picture",
+     "image": "christmas-market/cider_stall.png",
+     "width": 496,
+     "height": 496
+    },
+    {
+     "id": "snowy_carousel",
+     "order": 4,
+     "name": {
+      "en": "Snowy Carousel",
+      "tr": "Karlı Atlıkarınca",
+      "de": "Verschneites Karussell"
+     },
+     "role": "picture",
+     "image": "christmas-market/snowy_carousel.png",
+     "width": 494,
+     "height": 494
+    },
+    {
+     "id": "town_hall",
+     "order": 5,
+     "name": {
+      "en": "Town Hall",
+      "tr": "Belediye Binası",
+      "de": "Rathaus"
+     },
+     "role": "picture",
+     "image": "christmas-market/town_hall.png",
+     "width": 494,
+     "height": 494
+    },
+    {
+     "id": "masterpiece_christmas_market",
+     "order": 6,
+     "name": {
+      "en": "Christmas Market",
+      "tr": "Noel Pazarı",
+      "de": "Weihnachtsmarkt"
+     },
+     "role": "masterpiece",
+     "image": "christmas-market/masterpiece_christmas_market.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "toy_stall",
+    "order": 0,
+    "name": {
+     "en": "Toy Stall",
+     "tr": "Oyuncak Tezgahı",
+     "de": "Spielzeugstand"
+    },
+    "role": "spare",
+    "image": "christmas-market/toy_stall.png",
+    "width": 494,
+    "height": 494
+   }
+  },
+  {
+   "id": "crystal-cave",
+   "name": {
+    "en": "Crystal Cave",
+    "tr": "Kristal Mağara",
+    "de": "Kristallhöhle"
+   },
+   "tier": "hard",
+   "status": "ready",
+   "pictures": [
+    {
+     "id": "crystal_lake",
+     "order": 1,
+     "name": {
+      "en": "Crystal Lake",
+      "tr": "Kristal Göl",
+      "de": "Kristallsee"
+     },
+     "role": "picture",
+     "image": "crystal-cave/crystal_lake.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "mushroom_waterfall",
+     "order": 2,
+     "name": {
+      "en": "Mushroom Waterfall",
+      "tr": "Mantarlı Şelale",
+      "de": "Pilzwasserfall"
+     },
+     "role": "picture",
+     "image": "crystal-cave/mushroom_waterfall.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "lantern_bridge",
+     "order": 3,
+     "name": {
+      "en": "Lantern Bridge",
+      "tr": "Fenerli Köprü",
+      "de": "Laternenbrücke"
+     },
+     "role": "picture",
+     "image": "crystal-cave/lantern_bridge.png",
+     "width": 493,
+     "height": 493
+    },
+    {
+     "id": "glowing_garden",
+     "order": 4,
+     "name": {
+      "en": "Glowing Garden",
+      "tr": "Parlayan Bahçe",
+      "de": "Leuchtender Garten"
+     },
+     "role": "picture",
+     "image": "crystal-cave/glowing_garden.png",
+     "width": 490,
+     "height": 490
+    },
+    {
+     "id": "cave_opening",
+     "order": 5,
+     "name": {
+      "en": "Cave Opening",
+      "tr": "Mağara Ağzı",
+      "de": "Höhlenausgang"
+     },
+     "role": "picture",
+     "image": "crystal-cave/cave_opening.png",
+     "width": 490,
+     "height": 490
+    },
+    {
+     "id": "masterpiece_crystal_cave",
+     "order": 6,
+     "name": {
+      "en": "Crystal Cave",
+      "tr": "Kristal Mağara",
+      "de": "Kristallhöhle"
+     },
+     "role": "masterpiece",
+     "image": "crystal-cave/masterpiece_crystal_cave.png",
+     "width": 1254,
+     "height": 1254
+    }
+   ],
+   "spare": {
+    "id": "gem_cart",
+    "order": 0,
+    "name": {
+     "en": "Gem Cart",
+     "tr": "Mücevher Arabası",
+     "de": "Edelsteinwagen"
+    },
+    "role": "spare",
+    "image": "crystal-cave/gem_cart.png",
+    "width": 490,
+    "height": 490
+   }
+  }
+ ],
+ "files": {
+  "lake-house/lake_house.png": {
+   "size": 139211,
+   "sha": "88298164f08295ab1235c4e104aaa3280c3ae715d9f2254c7723dd4d4e2df946"
+  },
+  "lake-house/red_canoe.png": {
+   "size": 116537,
+   "sha": "e76d97fd356d4b40f60afa5c7280cc1f87360a0c5873bc43be3319085c240749"
+  },
+  "lake-house/sunrise_pier.png": {
+   "size": 103196,
+   "sha": "0e424467b3e3528b9c66345a4a84144856a249bc301ff6752b8b95d09d404395"
+  },
+  "lake-house/swan_family.png": {
+   "size": 130555,
+   "sha": "271ee3f1d8034019d9ae3cc0aaa46d72060446b0ec32a549b1056ee6f37dbc83"
+  },
+  "lake-house/stone_bridge.png": {
+   "size": 153677,
+   "sha": "fc3f2cfe0f942fd049f2fb64e26c5cc612643cc5f4191029435e3cfdc3786d5d"
+  },
+  "lake-house/masterpiece_mountain_lake.png": {
+   "size": 748236,
+   "sha": "d970e91a48f72abe45354622498fe11bde6bc0f038ec5b266de2db192e286df9"
+  },
+  "balloon-festival/striped_balloon.png": {
+   "size": 150261,
+   "sha": "f9c39fbf9191982c92f43c29187a0cb5cb5145a55ab55b2b979e8f1a835ba654"
+  },
+  "balloon-festival/river_valley.png": {
+   "size": 160387,
+   "sha": "4e390f0c92a15aa1aea25b5bfe61bac075d8ce0373c169ad462c8d9c4dc33d69"
+  },
+  "balloon-festival/inflating_balloon.png": {
+   "size": 154450,
+   "sha": "1960c5d7314dcc4ff5f62d76081185165f8fe7df1c79a7d3655523c7d868078d"
+  },
+  "balloon-festival/windmill_balloon.png": {
+   "size": 170358,
+   "sha": "9e4f49a6ab66c634435de923b67fbe846772ec4fad561b23686d00ffc346e1a2"
+  },
+  "balloon-festival/sunrise_lake.png": {
+   "size": 142304,
+   "sha": "047e693b5aa6d5dbbcff86f314733567f82381cf0087b540718a498930953ac7"
+  },
+  "balloon-festival/masterpiece_balloon_festival.png": {
+   "size": 877746,
+   "sha": "3659c421fb12da15b972b2799812cb445d0857dacda6e3dd807ed8122421d273"
+  },
+  "lavender-fields/stone_farmhouse.png": {
+   "size": 184008,
+   "sha": "b0b3009b1084bd1a5339e2ee789b1b82efdd174e60e52deed550e5313d986641"
+  },
+  "lavender-fields/sunset_tree.png": {
+   "size": 170956,
+   "sha": "e9b00ba2432db63a532cac34871f6f4154bf4d27acd95bc54047cadb9373a606"
+  },
+  "lavender-fields/lavender_abbey.png": {
+   "size": 176256,
+   "sha": "bf5a84da1694e71020c19e1312d4a091d3d855c33d3d1a2ea3b68bc81c794481"
+  },
+  "lavender-fields/lavender_cart.png": {
+   "size": 188283,
+   "sha": "58ef9e28b22ba1d52124203006036d036e19c998a2f8fd90ca89ac9a53d43e7c"
+  },
+  "lavender-fields/hilltop_village.png": {
+   "size": 182258,
+   "sha": "afae892528874bf46eaab754732b2bf817f73a0e44a1f4e3eb6cbfbfe18d59ea"
+  },
+  "lavender-fields/masterpiece_provence.png": {
+   "size": 1083851,
+   "sha": "ac101a5bc3665e3683119facb11065af1ffef47e68830ec6c73fba0e04ec012c"
+  },
+  "treehouse/oak_treehouse.png": {
+   "size": 193628,
+   "sha": "cca6cfc77e0e084ebfd903e2384f6f70c3cec8aa5847651b1dfbe0c8853687cf"
+  },
+  "treehouse/rope_bridge.png": {
+   "size": 180316,
+   "sha": "41b69a0f3aa6a8e58e92a1cce3aec8c837e236e49cd7af04ff7c0bde0a852fe7"
+  },
+  "treehouse/tree_swings.png": {
+   "size": 191227,
+   "sha": "28bb3538c9707acd0100b4a8f63751c65e6fb4dc950dfb36a85fbeaef145b333"
+  },
+  "treehouse/treehouse_inside.png": {
+   "size": 191680,
+   "sha": "85c6fa9e0c6664077a69777ef1ce2d3ebecec3b45e3cb8dbaf106d2d9c9d7a65"
+  },
+  "treehouse/forest_stream.png": {
+   "size": 190568,
+   "sha": "b56ada00e0ddde4f5596ccad51c891424c0b633dc940fee29583be313a98c55a"
+  },
+  "treehouse/masterpiece_oak_treehouse.png": {
+   "size": 1069141,
+   "sha": "d8c09e8eb956231d297f8f27aeaf39efdc788f322470dd0a2f1532961c709920"
+  },
+  "cherry-blossom-park/red_bridge.png": {
+   "size": 181423,
+   "sha": "a416a58a344e63bae870d7d003dc6908a1abb69a61b9676568163b1c3381d398"
+  },
+  "cherry-blossom-park/stone_lantern.png": {
+   "size": 203614,
+   "sha": "c3b412620eacfdd7e3aedd1f848523819922fd4d9b3475993d7f5df2e53465b3"
+  },
+  "cherry-blossom-park/tea_house.png": {
+   "size": 178239,
+   "sha": "ee99c2fec82a13589ac088e02ba3edd60b5d3d2657af1373ada1e26d8f2d17a1"
+  },
+  "cherry-blossom-park/pagoda_fuji.png": {
+   "size": 173478,
+   "sha": "cf9b7338f96a8a79bca630655e217aea5a72f61e9d76d9ae718ca5333252ded4"
+  },
+  "cherry-blossom-park/blossom_river.png": {
+   "size": 178336,
+   "sha": "740a158d8669ca323234873cd178f542a4495f976c04955b86ee7013123136f2"
+  },
+  "cherry-blossom-park/masterpiece_sakura_garden.png": {
+   "size": 1036995,
+   "sha": "e8409f5718a598d0f167694568ca350fc6fd1153f0891b07547735d1971c4e4a"
+  },
+  "alpine-village/geranium_chalets.png": {
+   "size": 162060,
+   "sha": "2ac49d0dbe31399f37f8ce4598885ca2c7668c1e70c2ed6b0fd7fc29e8072cc7"
+  },
+  "alpine-village/lake_church.png": {
+   "size": 149429,
+   "sha": "3a46da46df36e494216178b1361912bb3b480d5e40b02379378d4fd67353c0f2"
+  },
+  "alpine-village/alpine_cows.png": {
+   "size": 161811,
+   "sha": "4ac52f0878763b5b5781286dd3e35685d46be5b368cc1dfc9424e44ae732cd87"
+  },
+  "alpine-village/mountain_train.png": {
+   "size": 173096,
+   "sha": "e8894651dfc4f50094b9e39647c85a7d48995283daa0fda105a26231c93814b7"
+  },
+  "alpine-village/village_fountain.png": {
+   "size": 167237,
+   "sha": "e0d82b569e85decc03db540557ad7650ca508ab9a5110b93370c7c8faa553cbd"
+  },
+  "alpine-village/masterpiece_alpine_village.png": {
+   "size": 879587,
+   "sha": "816a23ad8147d9ff3ef7e03de6e7b5a7d3f7e85b8145b4193611ac84d47ad934"
+  },
+  "santorini/blue_domes.png": {
+   "size": 153495,
+   "sha": "29d37fc9dd0d24fb718ede66cf599118985d21289f459319c15939283a6deaa3"
+  },
+  "santorini/bougainvillea_alley.png": {
+   "size": 174759,
+   "sha": "9d337261cb04d10c8175cd2181ca7d460bbe1819b40ea3fdfbe0400b23517da2"
+  },
+  "santorini/bell_tower.png": {
+   "size": 150170,
+   "sha": "372a03546e3278eb3aa589ed6ed51b1a67dc1bec43be3ef4cf41f557154ff5ea"
+  },
+  "santorini/sunset_windmill.png": {
+   "size": 147048,
+   "sha": "24e355e28ca2a3ad3824b8c2276b0d2b25d6c71d98f0dbc778e67c759483fc7f"
+  },
+  "santorini/harbor_taverna.png": {
+   "size": 173699,
+   "sha": "a310f4b640354e630e7c12a7b77242f85a797cbb01b8aced3efb0a01be8911f8"
+  },
+  "santorini/masterpiece_santorini.png": {
+   "size": 866868,
+   "sha": "98df296941946c1c7df4dee68f68dc7e0ed57fe8e7a3428580ddf04ee1d1eb06"
+  },
+  "moroccan-bazaar/spice_stall.png": {
+   "size": 193342,
+   "sha": "b3a3cdbeb1ab10ce74b30dac14722735fbfa0bcaf2486ea9e53d0db7b974b722"
+  },
+  "moroccan-bazaar/lantern_shop.png": {
+   "size": 208932,
+   "sha": "67f854130d85119338cbb324523bbe5880fa5fbb1198acac8f1cbfd5dcd66795"
+  },
+  "moroccan-bazaar/carpet_alley.png": {
+   "size": 205508,
+   "sha": "b5b6e82f33bb3b3c570f4284db0d92eca38b2300278690b199b523c92f205f04"
+  },
+  "moroccan-bazaar/riad_courtyard.png": {
+   "size": 178953,
+   "sha": "014afc5479b352f52f67600d56ba75f2ee869d214d19425fd4b3d96d5529fbe8"
+  },
+  "moroccan-bazaar/pottery_stall.png": {
+   "size": 193008,
+   "sha": "60eae312947e6ccf68d6683ba0e38c61900c19f2f90542bd4403608c4169b08d"
+  },
+  "moroccan-bazaar/masterpiece_medina_bazaar.png": {
+   "size": 883629,
+   "sha": "ec9989163e44f068c73efb75ac76d1bca3cf1f2154ac6beca283bf1170fbaccb"
+  },
+  "cappadocia/balloon_valley.png": {
+   "size": 154679,
+   "sha": "dac6d308db7a95b45212e88823279cd9f97cf13899355a84b79a385b843a07c9"
+  },
+  "cappadocia/cave_terrace.png": {
+   "size": 181288,
+   "sha": "c01128110b198a178a857e5f78721665d8a68183cbc5c9e182d2bb7ba2c19b02"
+  },
+  "cappadocia/uchisar_castle.png": {
+   "size": 170239,
+   "sha": "d12ceaf051c41e9800c0bbf43a71f3428c5ad95366d4cbc4eb8cd9c8e499afa2"
+  },
+  "cappadocia/vineyard_path.png": {
+   "size": 185842,
+   "sha": "0282aa8f471a18a6bccff787aa031de32676e826fe4f529882f0a79834d820a1"
+  },
+  "cappadocia/avanos_pottery.png": {
+   "size": 169127,
+   "sha": "9256cdf6a27d6e5988cfae14c5dd335a66459459a0c86651ed22727cd8527f6c"
+  },
+  "cappadocia/masterpiece_cappadocia.png": {
+   "size": 1107250,
+   "sha": "ca6354fddf66811807efe6e2bfdb3426665930582afa7cd331373efc05590bba"
+  },
+  "northern-lights/aurora_cabin.png": {
+   "size": 168301,
+   "sha": "bdd184af76d808de7a665692a9b453a437c994e423752b921aa9e799ab999d13"
+  },
+  "northern-lights/glass_igloo.png": {
+   "size": 176288,
+   "sha": "6eb1b75a35190b9c0fa9bbb26dfec9294656b7ab7175b0536ee45a9e8bebd1ed"
+  },
+  "northern-lights/husky_sled.png": {
+   "size": 163252,
+   "sha": "77a3962d37ed9e7693df99ac1f4d34db2c4ad05c723634610af328a6bd4f76d2"
+  },
+  "northern-lights/fjord_village.png": {
+   "size": 181211,
+   "sha": "25977bdbdf863b7f166d94a361d76a94074ef00c844fac37d93be7f13898f48c"
+  },
+  "northern-lights/snowy_reindeer.png": {
+   "size": 167552,
+   "sha": "59a27fbc5f446f3079664de8406affbb40838c47796af81bb20345a005cde5a9"
+  },
+  "northern-lights/masterpiece_northern_lights.png": {
+   "size": 1011255,
+   "sha": "ab3bd9b848becc878f9cd563a8ee448ec818cb2cfede0019882578048a2d7885"
+  },
+  "fairground-night/ferris_wheel.png": {
+   "size": 189989,
+   "sha": "81d561e6c243e320b3ea803a50bb6908642886cfc18209e5b42c838874d7bf91"
+  },
+  "fairground-night/carousel.png": {
+   "size": 191557,
+   "sha": "852a1bbaa822d2aa703b0e30927c31672fd2d6c9603f11703b1fe52ae3ed9d6a"
+  },
+  "fairground-night/game_stalls.png": {
+   "size": 182558,
+   "sha": "4fd93b84cbec0cb653f1ec64e39cfd4eedee94e6cde8bf6d71234317241beda5"
+  },
+  "fairground-night/candy_cart.png": {
+   "size": 170166,
+   "sha": "913b0b6326b150955717a4871346354c51402a34a7b476caf5ab317259b1ce3e"
+  },
+  "fairground-night/fireworks_pier.png": {
+   "size": 185713,
+   "sha": "4675e7781f33add8d161b817688639f739cc8076a3039801ebb29680f8531910"
+  },
+  "fairground-night/masterpiece_fairground.png": {
+   "size": 1072121,
+   "sha": "8888532149e6226fa911a2aa717c6b88f33fd57d9a1c60bae5c5fa306fa395e5"
+  },
+  "steampunk-city/brass_airship.png": {
+   "size": 177698,
+   "sha": "3d10c91827e6b47508b39fe066f7738a4d38d0fbe6acac551cf2d5d39b8c88a0"
+  },
+  "steampunk-city/steam_tram.png": {
+   "size": 201060,
+   "sha": "0c00af7c156fa68e0e062de9fdcf82a1fd30c237fae8cda3e1cfdeb0d0d5d89f"
+  },
+  "steampunk-city/inventor_workshop.png": {
+   "size": 196875,
+   "sha": "86807bf08a1be62fdac074931b7744f3164bcc3517fb16fa335d4c861029a9b1"
+  },
+  "steampunk-city/iron_bridge_train.png": {
+   "size": 193450,
+   "sha": "7ee95493507e4ee02dfcc3850f131fb6b50b77b77c7dd56de91af6c202464401"
+  },
+  "steampunk-city/copper_rooftops.png": {
+   "size": 183795,
+   "sha": "1011dfb01f4e17cb98f10916073927ca163fe0a7e5d6fa337c17c79b7b13fbbd"
+  },
+  "steampunk-city/masterpiece_steampunk_city.png": {
+   "size": 1081715,
+   "sha": "71ad138f699465a87c4a094762c733441f5d175ec15c8de239f247f5cc6a0900"
+  },
+  "floating-islands/sky_castle.png": {
+   "size": 165728,
+   "sha": "d038f7386074b68344c2b9b1a6241c7b93e3ad440b0b090c67855bc64fd3ee66"
+  },
+  "floating-islands/rope_bridge_isles.png": {
+   "size": 171226,
+   "sha": "e75cd86db839e6ce83df5bc9b722280e54bea4ad83ede0e67696fff61b738741"
+  },
+  "floating-islands/sky_garden.png": {
+   "size": 175573,
+   "sha": "a27a845506266b248f68ee518cc33e6e08583f96671ecfbb8e04d07d543a59fd"
+  },
+  "floating-islands/sky_ship.png": {
+   "size": 179840,
+   "sha": "5c69ea3203fa318174944fa6b4ac2c1dbdca2ad6cd6166568569859d7e1fd9f3"
+  },
+  "floating-islands/forest_isles.png": {
+   "size": 159519,
+   "sha": "f16879dc380005f30ec26139d3115c1403caac062412232abbb164c5a576472f"
+  },
+  "floating-islands/masterpiece_floating_islands.png": {
+   "size": 1023910,
+   "sha": "1266c37f08a3d9ef7862ef8ea8c7e0e5b2adf7b7e64f9b291aecad3416ead00f"
+  },
+  "christmas-market/gingerbread_stalls.png": {
+   "size": 194251,
+   "sha": "8cc25068dfbfc79cbe2e5140b0087dc87979999136564ef733f8f97df8d87414"
+  },
+  "christmas-market/christmas_tree.png": {
+   "size": 184731,
+   "sha": "fe39f307c6e5f8748126bad8f657e53ac3ad9e9db156477fc7109384aa459e6b"
+  },
+  "christmas-market/cider_stall.png": {
+   "size": 181013,
+   "sha": "de3a46d7c9301fa5016ebfc5d34e4f4c147d3c5b0475d6967c8ba3ee7b0b34c5"
+  },
+  "christmas-market/snowy_carousel.png": {
+   "size": 192363,
+   "sha": "ec0c5714f77155d36a355b659b0a8102bac983f5c32b88cc3d8be4c3ec5dadc9"
+  },
+  "christmas-market/town_hall.png": {
+   "size": 191452,
+   "sha": "e6e07b90d4d0132bdad6bbc945b8cc5b2815b41f5953c2c3080fe798844f3e83"
+  },
+  "christmas-market/masterpiece_christmas_market.png": {
+   "size": 1106090,
+   "sha": "8d286a2acb0da9c5bfe04ba59718f537e1dbae66fe509c1802cdf83dc26b7362"
+  },
+  "crystal-cave/crystal_lake.png": {
+   "size": 85982,
+   "sha": "91c5004cc753ee1a255854594379995dc3ac54dbdcc82f5c6f3bd7a946addf3f"
+  },
+  "crystal-cave/mushroom_waterfall.png": {
+   "size": 85518,
+   "sha": "decc478c3a7e4c5871207c3bbf6ea6c2a1dd788abf864ec0a6fba5419abb1273"
+  },
+  "crystal-cave/lantern_bridge.png": {
+   "size": 86333,
+   "sha": "c26ec12e357a31ebc2d0ad142ea7b778d8f7e7b4840fce3c4f87a117a34a8c75"
+  },
+  "crystal-cave/glowing_garden.png": {
+   "size": 78447,
+   "sha": "fda47ec544ac75f8d2a72d12f006e301102a1ba632001dfdb5eaff6f22e27aa3"
+  },
+  "crystal-cave/cave_opening.png": {
+   "size": 76488,
+   "sha": "23a5b4e643927fde2e7fb706febf403943f033086844ad519d9fbae94d4dbffa"
+  },
+  "crystal-cave/masterpiece_crystal_cave.png": {
+   "size": 391712,
+   "sha": "0dbefb48011f342f3d73b85e00097586510b91009d70939a27c0ed2980b01d81"
+  }
+ }
+}

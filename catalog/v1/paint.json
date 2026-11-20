@@ -1,0 +1,1543 @@
+{
+ "version": 1,
+ "worlds": [
+  {
+   "id": "birds",
+   "name": {
+    "en": "Birds",
+    "tr": "Kuşlar",
+    "de": "Vögel"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel elegant bird portraits on cream, very easy first world",
+   "release": "v0.3",
+   "pictures": [
+    {
+     "id": "flamingo",
+     "order": 1,
+     "name": {
+      "en": "Flamingo",
+      "tr": "Flamingo",
+      "de": "Flamingo"
+     },
+     "file": "art/birds/flamingo.json",
+     "kind": "scene",
+     "width": 38,
+     "height": 58,
+     "size": 58,
+     "paintable": 746,
+     "colors": 10,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "barn_swallow",
+     "order": 2,
+     "name": {
+      "en": "Swallow",
+      "tr": "Kırlangıç",
+      "de": "Schwalbe"
+     },
+     "file": "art/birds/barn_swallow.json",
+     "kind": "scene",
+     "width": 53,
+     "height": 57,
+     "size": 57,
+     "paintable": 1167,
+     "colors": 10,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "scarlet_macaw",
+     "order": 3,
+     "name": {
+      "en": "Macaw",
+      "tr": "Papağan",
+      "de": "Ara"
+     },
+     "file": "art/birds/scarlet_macaw.json",
+     "kind": "scene",
+     "width": 43,
+     "height": 75,
+     "size": 75,
+     "paintable": 1431,
+     "colors": 14,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "snowy_owl",
+     "order": 4,
+     "name": {
+      "en": "Snowy Owl",
+      "tr": "Kar Baykuşu",
+      "de": "Schneeeule"
+     },
+     "file": "art/birds/snowy_owl.json",
+     "kind": "scene",
+     "width": 42,
+     "height": 62,
+     "size": 62,
+     "paintable": 1877,
+     "colors": 11,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "peacock",
+     "order": 5,
+     "name": {
+      "en": "Peacock",
+      "tr": "Tavus Kuşu",
+      "de": "Pfau"
+     },
+     "file": "art/birds/peacock.json",
+     "kind": "scene",
+     "width": 72,
+     "height": 70,
+     "size": 72,
+     "paintable": 3122,
+     "colors": 8,
+     "level": "medium",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_blossom_birds",
+    "order": 6,
+    "name": {
+     "en": "Birds in Bloom",
+     "tr": "Çiçekli Dalda Kuşlar",
+     "de": "Vögel in der Blüte"
+    },
+    "file": "art/birds/masterpiece_blossom_birds.json",
+    "kind": "scene",
+    "width": 80,
+    "height": 79,
+    "size": 80,
+    "paintable": 6320,
+    "colors": 18,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "japan-zen",
+   "name": {
+    "en": "Japanese Zen",
+    "tr": "Japon Esintisi",
+    "de": "Japanischer Zen"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel elegant Japanese motifs on cream, very easy second world",
+   "release": "v0.3",
+   "pictures": [
+    {
+     "id": "paper_lantern",
+     "order": 1,
+     "name": {
+      "en": "Paper Lantern",
+      "tr": "Kâğıt Fener",
+      "de": "Papierlaterne"
+     },
+     "file": "art/japan-zen/paper_lantern.json",
+     "kind": "scene",
+     "width": 32,
+     "height": 53,
+     "size": 53,
+     "paintable": 888,
+     "colors": 11,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "koi_fish",
+     "order": 2,
+     "name": {
+      "en": "Koi",
+      "tr": "Koi Balığı",
+      "de": "Koi"
+     },
+     "file": "art/japan-zen/koi_fish.json",
+     "kind": "scene",
+     "width": 40,
+     "height": 66,
+     "size": 66,
+     "paintable": 1430,
+     "colors": 11,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "torii_gate",
+     "order": 3,
+     "name": {
+      "en": "Torii Gate",
+      "tr": "Torii Kapısı",
+      "de": "Torii-Tor"
+     },
+     "file": "art/japan-zen/torii_gate.json",
+     "kind": "scene",
+     "width": 66,
+     "height": 64,
+     "size": 66,
+     "paintable": 2084,
+     "colors": 11,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "bonsai_tree",
+     "order": 4,
+     "name": {
+      "en": "Bonsai",
+      "tr": "Bonsai",
+      "de": "Bonsai"
+     },
+     "file": "art/japan-zen/bonsai_tree.json",
+     "kind": "scene",
+     "width": 71,
+     "height": 76,
+     "size": 76,
+     "paintable": 2693,
+     "colors": 9,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "mount_fuji",
+     "order": 5,
+     "name": {
+      "en": "Mount Fuji",
+      "tr": "Fuji Dağı",
+      "de": "Fuji"
+     },
+     "file": "art/japan-zen/mount_fuji.json",
+     "kind": "scene",
+     "width": 80,
+     "height": 53,
+     "size": 80,
+     "paintable": 2728,
+     "colors": 8,
+     "level": "medium",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_fuji_blossom",
+    "order": 6,
+    "name": {
+     "en": "Fuji in Spring",
+     "tr": "Baharda Fuji",
+     "de": "Fuji im Frühling"
+    },
+    "file": "art/japan-zen/masterpiece_fuji_blossom.json",
+    "kind": "scene",
+    "width": 88,
+    "height": 88,
+    "size": 88,
+    "paintable": 7744,
+    "colors": 30,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "city-icons",
+   "name": {
+    "en": "City Icons",
+    "tr": "Şehir Simgeleri",
+    "de": "Wahrzeichen"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel minimalist travel posters, beginner world",
+   "release": "v0.2",
+   "pictures": [
+    {
+     "id": "eiffel_tower",
+     "order": 1,
+     "name": {
+      "en": "Eiffel Tower",
+      "tr": "Eyfel Kulesi",
+      "de": "Eiffelturm"
+     },
+     "file": "art/city-icons/eiffel_tower.json",
+     "kind": "scene",
+     "width": 92,
+     "height": 85,
+     "size": 92,
+     "paintable": 7820,
+     "colors": 18,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "galata_tower",
+     "order": 2,
+     "name": {
+      "en": "Galata Tower",
+      "tr": "Galata Kulesi",
+      "de": "Galataturm"
+     },
+     "file": "art/city-icons/galata_tower.json",
+     "kind": "scene",
+     "width": 96,
+     "height": 91,
+     "size": 96,
+     "paintable": 8736,
+     "colors": 20,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "big_ben",
+     "order": 3,
+     "name": {
+      "en": "Big Ben",
+      "tr": "Big Ben",
+      "de": "Big Ben"
+     },
+     "file": "art/city-icons/big_ben.json",
+     "kind": "scene",
+     "width": 107,
+     "height": 108,
+     "size": 108,
+     "paintable": 11556,
+     "colors": 18,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "pisa_tower",
+     "order": 4,
+     "name": {
+      "en": "Leaning Tower of Pisa",
+      "tr": "Pisa Kulesi",
+      "de": "Schiefer Turm von Pisa"
+     },
+     "file": "art/city-icons/pisa_tower.json",
+     "kind": "scene",
+     "width": 108,
+     "height": 109,
+     "size": 109,
+     "paintable": 11772,
+     "colors": 18,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "golden_gate",
+     "order": 5,
+     "name": {
+      "en": "Golden Gate Bridge",
+      "tr": "Golden Gate Köprüsü",
+      "de": "Golden Gate Bridge"
+     },
+     "file": "art/city-icons/golden_gate.json",
+     "kind": "scene",
+     "width": 116,
+     "height": 105,
+     "size": 116,
+     "paintable": 12180,
+     "colors": 20,
+     "level": "medium",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_new_york",
+    "order": 6,
+    "name": {
+     "en": "New York",
+     "tr": "New York",
+     "de": "New York"
+    },
+    "file": "art/city-icons/masterpiece_new_york.json",
+    "kind": "scene",
+    "width": 126,
+    "height": 123,
+    "size": 126,
+    "paintable": 15498,
+    "colors": 30,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "world-kitchen",
+   "name": {
+    "en": "World Kitchen",
+    "tr": "Dünya Mutfağı",
+    "de": "Weltküche"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel elegant still lifes, beginner world",
+   "release": "v0.2",
+   "pictures": [
+    {
+     "id": "turkish_coffee",
+     "order": 1,
+     "name": {
+      "en": "Turkish Coffee",
+      "tr": "Türk Kahvesi",
+      "de": "Türkischer Kaffee"
+     },
+     "file": "art/world-kitchen/turkish_coffee.json",
+     "kind": "decor",
+     "width": 92,
+     "height": 65,
+     "size": 92,
+     "paintable": 4329,
+     "colors": 20,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "sushi_plate",
+     "order": 2,
+     "name": {
+      "en": "Sushi Plate",
+      "tr": "Suşi Tabağı",
+      "de": "Sushi-Teller"
+     },
+     "file": "art/world-kitchen/sushi_plate.json",
+     "kind": "decor",
+     "width": 102,
+     "height": 74,
+     "size": 102,
+     "paintable": 5054,
+     "colors": 20,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "street_tacos",
+     "order": 3,
+     "name": {
+      "en": "Street Tacos",
+      "tr": "Tako",
+      "de": "Tacos"
+     },
+     "file": "art/world-kitchen/street_tacos.json",
+     "kind": "decor",
+     "width": 95,
+     "height": 69,
+     "size": 95,
+     "paintable": 5166,
+     "colors": 18,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "croissant_coffee",
+     "order": 4,
+     "name": {
+      "en": "Croissant & Coffee",
+      "tr": "Kruvasan ve Kahve",
+      "de": "Croissant & Kaffee"
+     },
+     "file": "art/world-kitchen/croissant_coffee.json",
+     "kind": "decor",
+     "width": 94,
+     "height": 93,
+     "size": 94,
+     "paintable": 5545,
+     "colors": 18,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "margherita_pizza",
+     "order": 5,
+     "name": {
+      "en": "Pizza Margherita",
+      "tr": "Margarita Pizza",
+      "de": "Pizza Margherita"
+     },
+     "file": "art/world-kitchen/margherita_pizza.json",
+     "kind": "decor",
+     "width": 104,
+     "height": 79,
+     "size": 104,
+     "paintable": 6480,
+     "colors": 18,
+     "level": "easy",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_dinner_table",
+    "order": 6,
+    "name": {
+     "en": "Dinner Table",
+     "tr": "Kurulu Sofra",
+     "de": "Gedeckter Tisch"
+    },
+    "file": "art/world-kitchen/masterpiece_dinner_table.json",
+    "kind": "scene",
+    "width": 158,
+    "height": 156,
+    "size": 158,
+    "paintable": 24648,
+    "colors": 30,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "space",
+   "name": {
+    "en": "Space",
+    "tr": "Uzay",
+    "de": "Weltraum"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel elegant space posters, beginner world",
+   "release": "v0.2",
+   "pictures": [
+    {
+     "id": "retro_rocket",
+     "order": 1,
+     "name": {
+      "en": "Retro Rocket",
+      "tr": "Roket",
+      "de": "Rakete"
+     },
+     "file": "art/space/retro_rocket.json",
+     "kind": "scene",
+     "width": 94,
+     "height": 96,
+     "size": 96,
+     "paintable": 9024,
+     "colors": 16,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "astronaut",
+     "order": 2,
+     "name": {
+      "en": "Astronaut",
+      "tr": "Astronot",
+      "de": "Astronaut"
+     },
+     "file": "art/space/astronaut.json",
+     "kind": "scene",
+     "width": 99,
+     "height": 105,
+     "size": 105,
+     "paintable": 10395,
+     "colors": 16,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "saturn",
+     "order": 3,
+     "name": {
+      "en": "Saturn",
+      "tr": "Satürn",
+      "de": "Saturn"
+     },
+     "file": "art/space/saturn.json",
+     "kind": "scene",
+     "width": 107,
+     "height": 102,
+     "size": 107,
+     "paintable": 10914,
+     "colors": 14,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "space_station",
+     "order": 4,
+     "name": {
+      "en": "Space Station",
+      "tr": "Uzay İstasyonu",
+      "de": "Raumstation"
+     },
+     "file": "art/space/space_station.json",
+     "kind": "scene",
+     "width": 120,
+     "height": 120,
+     "size": 120,
+     "paintable": 14400,
+     "colors": 18,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "earth_moon",
+     "order": 5,
+     "name": {
+      "en": "Earthrise",
+      "tr": "Ay ve Dünya",
+      "de": "Erdaufgang"
+     },
+     "file": "art/space/earth_moon.json",
+     "kind": "scene",
+     "width": 111,
+     "height": 107,
+     "size": 111,
+     "paintable": 11877,
+     "colors": 16,
+     "level": "medium",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_solar_system",
+    "order": 6,
+    "name": {
+     "en": "Solar System",
+     "tr": "Güneş Sistemi",
+     "de": "Sonnensystem"
+    },
+    "file": "art/space/masterpiece_solar_system.json",
+    "kind": "scene",
+    "width": 160,
+    "height": 160,
+    "size": 160,
+    "paintable": 25600,
+    "colors": 30,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "seasons",
+   "name": {
+    "en": "Seasons",
+    "tr": "Mevsimler",
+    "de": "Jahreszeiten"
+   },
+   "tier": "starter",
+   "style": "chunky-pixel elegant seasonal landscapes, beginner world",
+   "release": "v0.2",
+   "pictures": [
+    {
+     "id": "spring_blossom",
+     "order": 1,
+     "name": {
+      "en": "Spring Blossom",
+      "tr": "İlkbahar",
+      "de": "Frühlingsblüte"
+     },
+     "file": "art/seasons/spring_blossom.json",
+     "kind": "scene",
+     "width": 104,
+     "height": 104,
+     "size": 104,
+     "paintable": 10816,
+     "colors": 24,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "summer_beach",
+     "order": 2,
+     "name": {
+      "en": "Summer Beach",
+      "tr": "Yaz Plajı",
+      "de": "Sommerstrand"
+     },
+     "file": "art/seasons/summer_beach.json",
+     "kind": "scene",
+     "width": 95,
+     "height": 97,
+     "size": 97,
+     "paintable": 9215,
+     "colors": 18,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "autumn_park",
+     "order": 3,
+     "name": {
+      "en": "Autumn Park",
+      "tr": "Sonbahar Parkı",
+      "de": "Herbstpark"
+     },
+     "file": "art/seasons/autumn_park.json",
+     "kind": "scene",
+     "width": 111,
+     "height": 108,
+     "size": 111,
+     "paintable": 11988,
+     "colors": 16,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "winter_cabin",
+     "order": 4,
+     "name": {
+      "en": "Winter Cabin",
+      "tr": "Kış Kulübesi",
+      "de": "Winterhütte"
+     },
+     "file": "art/seasons/winter_cabin.json",
+     "kind": "scene",
+     "width": 103,
+     "height": 103,
+     "size": 103,
+     "paintable": 10609,
+     "colors": 18,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "rainy_street",
+     "order": 5,
+     "name": {
+      "en": "Rainy Street",
+      "tr": "Yağmurlu Sokak",
+      "de": "Regenstraße"
+     },
+     "file": "art/seasons/rainy_street.json",
+     "kind": "scene",
+     "width": 101,
+     "height": 104,
+     "size": 104,
+     "paintable": 10504,
+     "colors": 24,
+     "level": "medium",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_four_seasons",
+    "order": 6,
+    "name": {
+     "en": "Four Seasons",
+     "tr": "Dört Mevsim",
+     "de": "Vier Jahreszeiten"
+    },
+    "file": "art/seasons/masterpiece_four_seasons.json",
+    "kind": "scene",
+    "width": 106,
+    "height": 106,
+    "size": 106,
+    "paintable": 11236,
+    "colors": 30,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "seven-wonders",
+   "name": {
+    "en": "Wonders of the World",
+    "tr": "Dünyanın Harikaları",
+    "de": "Weltwunder"
+   },
+   "tier": "medium",
+   "style": "elegant travel-poster pixel scenes, medium tier",
+   "release": "v0.2",
+   "pictures": [
+    {
+     "id": "giza_pyramids",
+     "order": 1,
+     "name": {
+      "en": "Pyramids of Giza",
+      "tr": "Gize Piramitleri",
+      "de": "Die Pyramiden von Gizeh"
+     },
+     "file": "art/seven-wonders/giza_pyramids.json",
+     "kind": "scene",
+     "width": 105,
+     "height": 101,
+     "size": 105,
+     "paintable": 10605,
+     "colors": 16,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "chichen_itza",
+     "order": 2,
+     "name": {
+      "en": "Chichén Itzá",
+      "tr": "Chichén Itzá",
+      "de": "Chichén Itzá"
+     },
+     "file": "art/seven-wonders/chichen_itza.json",
+     "kind": "scene",
+     "width": 105,
+     "height": 105,
+     "size": 105,
+     "paintable": 11025,
+     "colors": 24,
+     "level": "easy",
+     "status": "ready"
+    },
+    {
+     "id": "great_wall",
+     "order": 3,
+     "name": {
+      "en": "The Great Wall",
+      "tr": "Çin Seddi",
+      "de": "Die Chinesische Mauer"
+     },
+     "file": "art/seven-wonders/great_wall.json",
+     "kind": "scene",
+     "width": 121,
+     "height": 124,
+     "size": 124,
+     "paintable": 15004,
+     "colors": 24,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "colosseum",
+     "order": 4,
+     "name": {
+      "en": "The Colosseum",
+      "tr": "Kolezyum",
+      "de": "Das Kolosseum"
+     },
+     "file": "art/seven-wonders/colosseum.json",
+     "kind": "scene",
+     "width": 140,
+     "height": 140,
+     "size": 140,
+     "paintable": 19600,
+     "colors": 28,
+     "level": "medium",
+     "status": "ready"
+    },
+    {
+     "id": "petra",
+     "order": 5,
+     "name": {
+      "en": "Petra",
+      "tr": "Petra",
+      "de": "Petra"
+     },
+     "file": "art/seven-wonders/petra.json",
+     "kind": "scene",
+     "width": 144,
+     "height": 144,
+     "size": 144,
+     "paintable": 20736,
+     "colors": 30,
+     "level": "hard",
+     "status": "ready"
+    },
+    {
+     "id": "machu_picchu",
+     "order": 6,
+     "name": {
+      "en": "Machu Picchu",
+      "tr": "Machu Picchu",
+      "de": "Machu Picchu"
+     },
+     "file": "art/seven-wonders/machu_picchu.json",
+     "kind": "scene",
+     "width": 152,
+     "height": 152,
+     "size": 152,
+     "paintable": 23104,
+     "colors": 32,
+     "level": "master",
+     "status": "ready"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_taj_mahal",
+    "order": 7,
+    "name": {
+     "en": "Taj Mahal",
+     "tr": "Tac Mahal",
+     "de": "Taj Mahal"
+    },
+    "file": "art/seven-wonders/masterpiece_taj_mahal.json",
+    "kind": "scene",
+    "width": 176,
+    "height": 176,
+    "size": 176,
+    "paintable": 30976,
+    "colors": 40,
+    "level": "masterpiece",
+    "status": "ready"
+   }
+  },
+  {
+   "id": "coastal",
+   "name": {
+    "en": "Coastal Village",
+    "tr": "Sahil Köyü",
+    "de": "Küstendorf"
+   },
+   "style": "artistic pixel",
+   "release": "closed-test-update",
+   "pictures": [
+    {
+     "id": "harbor_evening",
+     "order": 1,
+     "name": {
+      "en": "Harbor Evening",
+      "tr": "Akşam Limanı",
+      "de": "Abend am Hafen"
+     },
+     "file": "art/coastal/harbor_evening.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "master",
+     "status": "ready",
+     "kind": "scene"
+    },
+    {
+     "id": "cliffside_village",
+     "order": 2,
+     "name": {
+      "en": "Cliffside Village",
+      "tr": "Yamaç Köyü",
+      "de": "Dorf an der Klippe"
+     },
+     "file": "art/coastal/cliffside_village.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "master",
+     "status": "ready",
+     "kind": "scene"
+    },
+    {
+     "id": "seaside_cafe",
+     "order": 3,
+     "name": {
+      "en": "Seaside Café",
+      "tr": "Sahil Kafesi",
+      "de": "Café am Meer"
+     },
+     "file": "art/coastal/seaside_cafe.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "master",
+     "status": "ready",
+     "kind": "scene"
+    },
+    {
+     "id": "beach_huts",
+     "order": 4,
+     "name": {
+      "en": "Beach Huts",
+      "tr": "Plaj Kulübeleri",
+      "de": "Strandhütten"
+     },
+     "file": "art/coastal/beach_huts.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "master",
+     "status": "ready",
+     "kind": "scene"
+    },
+    {
+     "id": "bookshop_street",
+     "order": 5,
+     "name": {
+      "en": "Bookshop Street",
+      "tr": "Kitapçı Sokağı",
+      "de": "Buchladengasse"
+     },
+     "file": "art/coastal/bookshop_street.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "master",
+     "status": "ready",
+     "kind": "scene"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_coastal_town",
+    "name": {
+     "en": "Coastal Town at Sunset",
+     "tr": "Gün Batımında Sahil Kasabası",
+     "de": "Küstenstadt bei Sonnenuntergang"
+    },
+    "file": "art/coastal/masterpiece_coastal_town.json",
+    "size": 256,
+    "paintable": 65536,
+    "colors": 48,
+    "level": "masterpiece",
+    "status": "ready",
+    "order": 6,
+    "release": "closed-test-update"
+   },
+   "converter": "tools/scene2grid.py --size 160 --colors 36",
+   "bonus": [
+    {
+     "id": "masterpiece_lighthouse_sunset",
+     "name": {
+      "en": "Lighthouse Sunset",
+      "tr": "Gün Batımında Deniz Feneri",
+      "de": "Leuchtturm im Abendrot"
+     },
+     "file": "art/coastal/lighthouse_sunset.json",
+     "size": 160,
+     "paintable": 25600,
+     "colors": 36,
+     "level": "masterpiece",
+     "status": "bonus",
+     "order": 6,
+     "release": "closed-test-update",
+     "note": "former masterpiece, use later as a daily/bonus picture"
+    }
+   ],
+   "tier": "medium"
+  },
+  {
+   "id": "spooky-night",
+   "name": {
+    "en": "Spooky Night",
+    "tr": "Ürkütücü Gece",
+    "de": "Gruselnacht"
+   },
+   "style": "artistic atmospheric pixel scenes like Coastal (160 wide, ~36 colors); cozy, not scary; open all year, featured every October",
+   "release": "post-launch-update",
+   "pictures": [
+    {
+     "id": "pumpkin_porch",
+     "order": 1,
+     "name": {
+      "en": "Pumpkin Porch",
+      "tr": "Balkabaklı Veranda",
+      "de": "Kürbisveranda"
+     },
+     "kind": "scene",
+     "size": 192,
+     "status": "ready",
+     "file": "art/spooky-night/pumpkin_porch.json",
+     "width": 192,
+     "height": 192,
+     "paintable": 36864,
+     "colors": 48,
+     "level": "master",
+     "source": "ChatGPT pixel art, scene2grid --gamma 1"
+    },
+    {
+     "id": "witch_kitchen",
+     "order": 2,
+     "name": {
+      "en": "Witch's Kitchen",
+      "tr": "Cadının Mutfağı",
+      "de": "Hexenküche"
+     },
+     "kind": "scene",
+     "size": 192,
+     "status": "ready",
+     "file": "art/spooky-night/witch_kitchen.json",
+     "width": 192,
+     "height": 192,
+     "paintable": 36864,
+     "colors": 48,
+     "level": "master",
+     "source": "ChatGPT pixel art, scene2grid --gamma 1"
+    },
+    {
+     "id": "lantern_lane",
+     "order": 3,
+     "name": {
+      "en": "Foggy Lantern Lane",
+      "tr": "Sisli Fener Sokağı",
+      "de": "Nebelige Laternengasse"
+     },
+     "kind": "scene",
+     "size": 192,
+     "status": "ready",
+     "file": "art/spooky-night/lantern_lane.json",
+     "width": 192,
+     "height": 192,
+     "paintable": 36864,
+     "colors": 48,
+     "level": "master",
+     "source": "ChatGPT pixel art, scene2grid --gamma 1"
+    },
+    {
+     "id": "autumn_market",
+     "order": 4,
+     "name": {
+      "en": "Harvest Market",
+      "tr": "Hasat Pazarı",
+      "de": "Erntemarkt"
+     },
+     "kind": "scene",
+     "size": 192,
+     "status": "ready",
+     "file": "art/spooky-night/autumn_market.json",
+     "width": 192,
+     "height": 192,
+     "paintable": 36864,
+     "colors": 48,
+     "level": "master",
+     "source": "ChatGPT pixel art, scene2grid --gamma 1"
+    },
+    {
+     "id": "haunted_manor",
+     "order": 5,
+     "name": {
+      "en": "Manor on the Hill",
+      "tr": "Tepedeki Köşk",
+      "de": "Herrenhaus auf dem Hügel"
+     },
+     "kind": "scene",
+     "size": 192,
+     "status": "ready",
+     "file": "art/spooky-night/haunted_manor.json",
+     "width": 192,
+     "height": 192,
+     "paintable": 36864,
+     "colors": 60,
+     "level": "master",
+     "source": "ChatGPT pixel art, scene2grid --gamma 1"
+    }
+   ],
+   "masterpiece": {
+    "id": "masterpiece_halloween_town",
+    "order": 6,
+    "name": {
+     "en": "Halloween Town",
+     "tr": "Cadılar Bayramı Kasabası",
+     "de": "Halloween-Stadt"
+    },
+    "size": 256,
+    "level": "masterpiece",
+    "status": "ready",
+    "file": "art/spooky-night/masterpiece_halloween_town.json",
+    "width": 256,
+    "height": 256,
+    "paintable": 65536,
+    "colors": 60,
+    "source": "ChatGPT pixel art, scene2grid --gamma 1"
+   },
+   "tier": "hard"
+  },
+  {
+   "id": "famous-art",
+   "name": {
+    "en": "Famous Art",
+    "tr": "Ünlü Tablolar",
+    "de": "Berühmte Gemälde"
+   },
+   "style": "public-domain paintings, real images converted (no AI redraw)",
+   "release": "closed-test-update",
+   "pictures": [
+    {
+     "id": "mona_lisa",
+     "order": 1,
+     "name": {
+      "en": "Mona Lisa",
+      "tr": "Mona Lisa",
+      "de": "Mona Lisa"
+     },
+     "artist": "Leonardo da Vinci, c. 1503–1519",
+     "file": "art/famous-art/mona_lisa.json",
+     "width": 180,
+     "height": 268,
+     "size": 268,
+     "paintable": 48240,
+     "colors": 48,
+     "level": "master",
+     "status": "ready",
+     "kind": "painting",
+     "source": "Wikimedia Commons, public domain (C2RMF)"
+    },
+    {
+     "id": "girl_pearl_earring",
+     "order": 2,
+     "name": {
+      "en": "Girl with a Pearl Earring",
+      "tr": "İnci Küpeli Kız",
+      "de": "Das Mädchen mit dem Perlenohrring"
+     },
+     "status": "ready",
+     "artist": "Johannes Vermeer, c. 1665",
+     "file": "art/famous-art/girl_pearl_earring.json",
+     "width": 180,
+     "height": 213,
+     "size": 213,
+     "paintable": 38340,
+     "colors": 48,
+     "level": "master",
+     "kind": "painting",
+     "source": "Wikimedia Commons, public domain"
+    },
+    {
+     "id": "starry_night",
+     "order": 3,
+     "name": {
+      "en": "The Starry Night",
+      "tr": "Yıldızlı Gece",
+      "de": "Die Sternennacht"
+     },
+     "artist": "Vincent van Gogh, 1889",
+     "file": "art/famous-art/starry_night.json",
+     "width": 200,
+     "height": 158,
+     "size": 200,
+     "paintable": 31600,
+     "colors": 48,
+     "level": "master",
+     "status": "ready",
+     "kind": "painting",
+     "source": "Wikimedia Commons, public domain (Google Art Project)"
+    },
+    {
+     "id": "the_scream",
+     "order": 4,
+     "name": {
+      "en": "The Scream",
+      "tr": "Çığlık",
+      "de": "Der Schrei"
+     },
+     "artist": "Edvard Munch, 1893",
+     "file": "art/famous-art/the_scream.json",
+     "width": 180,
+     "height": 224,
+     "size": 224,
+     "paintable": 40320,
+     "colors": 48,
+     "level": "master",
+     "status": "ready",
+     "kind": "painting",
+     "source": "public domain (artist died 1944; National Museum, Oslo); face features hand-restored"
+    },
+    {
+     "id": "tortoise_trainer",
+     "order": 5,
+     "name": {
+      "en": "The Tortoise Trainer",
+      "tr": "Kaplumbağa Terbiyecisi",
+      "de": "Der Schildkrötenerzieher"
+     },
+     "artist": "Osman Hamdi Bey, 1906",
+     "file": "art/famous-art/tortoise_trainer.json",
+     "width": 160,
+     "height": 293,
+     "size": 293,
+     "paintable": 46880,
+     "colors": 48,
+     "level": "master",
+     "status": "ready",
+     "kind": "painting",
+     "source": "public domain (artist died 1910; Pera Museum, Istanbul)"
+    }
+   ],
+   "masterpiece": {
+    "id": "last_supper",
+    "order": 6,
+    "name": {
+     "en": "The Last Supper",
+     "tr": "Son Akşam Yemeği",
+     "de": "Das Abendmahl"
+    },
+    "artist": "Leonardo da Vinci, c. 1495–1498",
+    "file": "art/famous-art/last_supper.json",
+    "width": 320,
+    "height": 168,
+    "size": 320,
+    "paintable": 53760,
+    "colors": 60,
+    "level": "masterpiece",
+    "status": "ready",
+    "kind": "painting",
+    "source": "restored image, public domain (Wikimedia Commons); 320 wide still under the 65,536-cell limit"
+   },
+   "bonus": [
+    {
+     "id": "cafe_terrace",
+     "order": 2,
+     "name": {
+      "en": "Café Terrace at Night",
+      "tr": "Gece Kafe Terası",
+      "de": "Caféterrasse am Abend"
+     },
+     "artist": "Vincent van Gogh, 1888",
+     "file": "art/famous-art/cafe_terrace.json",
+     "width": 200,
+     "height": 251,
+     "size": 251,
+     "paintable": 50200,
+     "colors": 48,
+     "level": "master",
+     "status": "bonus",
+     "kind": "painting",
+     "source": "reproduction with watermark cropped; replace with a museum/Wikimedia scan before release"
+    }
+   ],
+   "content_note": "No nudity: keep the app at Apple 4+ / Google Everyone (target audience stays 13+, not Families).",
+   "tier": "hard"
+  }
+ ],
+ "levels": {
+  "easy": "< 800 cells",
+  "medium": "800-1499 cells",
+  "hard": "1500-2199 cells",
+  "master": "2200+ cells"
+ },
+ "unlocking": "all worlds open; masterpiece is the last part of each world",
+ "masterpiece_ladder": "each new world gets a bigger, richer masterpiece: cute worlds 128, Coastal Village 256 (48 colours); later worlds may go further only if phone tests stay smooth",
+ "files": {
+  "art/birds/flamingo.json": {
+   "size": 2626,
+   "sha": "e254ba00b1b21a605e3382a050ba0026cdedace1d6be0bbee0ab83a2dc54c7c3"
+  },
+  "art/birds/barn_swallow.json": {
+   "size": 3440,
+   "sha": "040bacb5a56d0020f7e3a8d4c0723ed045c2dcfaf21c25edd657e1b76f2adc09"
+  },
+  "art/birds/scarlet_macaw.json": {
+   "size": 3760,
+   "sha": "c6fc72eac77a07fe86ff3feb4a994f01384b023556b3ffa28a769cc18feaebba"
+  },
+  "art/birds/snowy_owl.json": {
+   "size": 3054,
+   "sha": "14b0239e8f53691714f1f7c41081732c7671f4f9c1ba594e31148a8b0d921982"
+  },
+  "art/birds/peacock.json": {
+   "size": 5489,
+   "sha": "bf3948eeb659c2c8e4384547d6b225aab6ce85c84458a4d117bfba529c4e896d"
+  },
+  "art/birds/masterpiece_blossom_birds.json": {
+   "size": 6915,
+   "sha": "312ce3613238d16d73f6e355f84d357a928297e86e0e89abc3176fc99fad998d"
+  },
+  "art/japan-zen/paper_lantern.json": {
+   "size": 2109,
+   "sha": "3e6cafba7a3cb7bb5cd2a6cdaa161a4e3371deab2775347dc35ac1179cdd1002"
+  },
+  "art/japan-zen/koi_fish.json": {
+   "size": 3106,
+   "sha": "14c9bc8d78d0e05af3989fdac943d3d686f31c9af889a3bcd59afea2c30e1a5f"
+  },
+  "art/japan-zen/torii_gate.json": {
+   "size": 4682,
+   "sha": "634fe39dfae53da05ab6691f7a85d616779a88d61840265d35bfb18f2501aafc"
+  },
+  "art/japan-zen/bonsai_tree.json": {
+   "size": 5880,
+   "sha": "73c9a9a217050c16039d0f86d2383282132a8c68c9611f400de44de3052af7f6"
+  },
+  "art/japan-zen/mount_fuji.json": {
+   "size": 4636,
+   "sha": "88305eae6b2c7760feb423eb635b748f9ae829a6eba3836f51bd151d73042b6f"
+  },
+  "art/japan-zen/masterpiece_fuji_blossom.json": {
+   "size": 8522,
+   "sha": "5b02de652b789ab549ae2d244aad0b1f86af837570a798cc8da10b542589c55a"
+  },
+  "art/city-icons/eiffel_tower.json": {
+   "size": 8439,
+   "sha": "7ba8141e6fef69be56af0942f64b9bd1e48243bec10544e760ac942c1feed1a2"
+  },
+  "art/city-icons/galata_tower.json": {
+   "size": 9401,
+   "sha": "cfae73979f97918bec62a9b6923fa2dd458f745f6598cb4749725868ba309c7e"
+  },
+  "art/city-icons/big_ben.json": {
+   "size": 12271,
+   "sha": "2183660f679bc1ee3ccc99776e5a4dc39dccb0b463ba96345a100856be630c95"
+  },
+  "art/city-icons/pisa_tower.json": {
+   "size": 12491,
+   "sha": "13ca7fa03f3e00ec487ae16792e85b2a690d01c5b0bc870a13bd23c161c70bce"
+  },
+  "art/city-icons/golden_gate.json": {
+   "size": 12905,
+   "sha": "f71ba699a54c064e76c95bc7214d9647a57612610164a7739e9f99670b42fa99"
+  },
+  "art/city-icons/masterpiece_new_york.json": {
+   "size": 16405,
+   "sha": "89ac4549e79e3064a1aa665e31437bf4acb12fbfe7c276cfae9074c119d30fb4"
+  },
+  "art/world-kitchen/turkish_coffee.json": {
+   "size": 6541,
+   "sha": "d9051320926f277767e5bf443c6a1377bac9410aa0db4701af1c83872a53d205"
+  },
+  "art/world-kitchen/sushi_plate.json": {
+   "size": 8147,
+   "sha": "3382c4f784635755a9671e808059996eb4bce11f46815b7dc0ff8190da123a72"
+  },
+  "art/world-kitchen/street_tacos.json": {
+   "size": 7110,
+   "sha": "306140e312b721e7cfde6d3a8f5edaa0f19793dee5a7cd2d6718f7983e634cc0"
+  },
+  "art/world-kitchen/croissant_coffee.json": {
+   "size": 9393,
+   "sha": "8d7a504a9660038b23ae175d6911548e11d70c513afce09976cfc6e01cc0095c"
+  },
+  "art/world-kitchen/margherita_pizza.json": {
+   "size": 8813,
+   "sha": "d7a68ec06188e921df8243780ba5173531ff469de2b3b64fa000b4b390950818"
+  },
+  "art/world-kitchen/masterpiece_dinner_table.json": {
+   "size": 25687,
+   "sha": "9cf6de05a5251cd65dc4a36daa12f260a93d91ab82c695af6aa8c1cf0d8de04d"
+  },
+  "art/space/retro_rocket.json": {
+   "size": 9665,
+   "sha": "856d4ca58254f80d253de28156962f45660656642529b3e8ce585a139f371319"
+  },
+  "art/space/astronaut.json": {
+   "size": 11075,
+   "sha": "28ae5b45d54314b0c290de0daed5f065089a5f5b9d7e979b055c6dc78d5fbd31"
+  },
+  "art/space/saturn.json": {
+   "size": 11561,
+   "sha": "855f2feb55e48995c0025eee69fc328547252c78036aec76d10303d435c642c3"
+  },
+  "art/space/space_station.json": {
+   "size": 15178,
+   "sha": "a2e0e1807506c41d4819d90611811181c0472c24ab6106487b20414e9b543909"
+  },
+  "art/space/earth_moon.json": {
+   "size": 12566,
+   "sha": "9957d33157013f444a874cdaab16aa51da7140e97ed7526b788afc9d2b4fa17d"
+  },
+  "art/space/masterpiece_solar_system.json": {
+   "size": 26670,
+   "sha": "50692e05fc8d4f2710e6fe01185fba2c338ab7960e6dc94ec09365429e3713cf"
+  },
+  "art/seasons/spring_blossom.json": {
+   "size": 11595,
+   "sha": "eb2570354e257321166fc89641a36ae7daa1b3692705841e645725f10a4b5542"
+  },
+  "art/seasons/summer_beach.json": {
+   "size": 9882,
+   "sha": "45276532e9368ff151e13f4d4abc1c5f81637ec92301558f7cdf255f70b49be2"
+  },
+  "art/seasons/autumn_park.json": {
+   "size": 12681,
+   "sha": "bdd1d48830e8890daac5b4fb20ce264177754fbcc93dd375481222a379a4ff82"
+  },
+  "art/seasons/winter_cabin.json": {
+   "size": 11304,
+   "sha": "5d784bb5c8a9b950e042f8d4e2bbe497cf73b124ec628bc756bfa82c9f360c35"
+  },
+  "art/seasons/rainy_street.json": {
+   "size": 11269,
+   "sha": "7db18f28967e1990720326ae2a59caafc4a1c4babc472ef26012edbee94a2ba3"
+  },
+  "art/seasons/masterpiece_four_seasons.json": {
+   "size": 12075,
+   "sha": "318d9de8291d5e30ad75d7ed121f493efed0d2bc9eb4a76c0148000aebd3d71f"
+  },
+  "art/seven-wonders/giza_pyramids.json": {
+   "size": 11270,
+   "sha": "5651c989ea52416f193e0b8de040ddbdd12f81f795011ed4afa9bff5535abc89"
+  },
+  "art/seven-wonders/chichen_itza.json": {
+   "size": 11794,
+   "sha": "206cd387957703705dc29bb6af4a4a2e967416c5f4dd033259f905f00e850fad"
+  },
+  "art/seven-wonders/great_wall.json": {
+   "size": 15849,
+   "sha": "1708601aa90c55a7b624c8e34dceba2afbad9f4e8211caa80b903ce8898e9f64"
+  },
+  "art/seven-wonders/colosseum.json": {
+   "size": 20568,
+   "sha": "79c59c824a9efcd6bba0de0540940da1402fac787f64226721816b914f3b2563"
+  },
+  "art/seven-wonders/petra.json": {
+   "size": 21742,
+   "sha": "d17463a0bff30e5cca1004cbb5dfad4a1e223fd7b781f0c97c29b31612cf15ed"
+  },
+  "art/seven-wonders/machu_picchu.json": {
+   "size": 24164,
+   "sha": "762eae10230bd9c15d4594b6f575e831b6a4ec10851d09625f403f2977204a73"
+  },
+  "art/seven-wonders/masterpiece_taj_mahal.json": {
+   "size": 32220,
+   "sha": "494a6b2ed8dcf18d3c4fea1e4a047ce1ab53842c8f5de349429fc8a7787c4085"
+  },
+  "art/coastal/harbor_evening.json": {
+   "size": 26707,
+   "sha": "5de2a3f36934e792b49d38645b12f8522f35e2e1b0cd736347fec049464e55e6"
+  },
+  "art/coastal/cliffside_village.json": {
+   "size": 26707,
+   "sha": "015e26adef6518813e87f67b22c07ba6a13470015da54cdbe66f770517879023"
+  },
+  "art/coastal/seaside_cafe.json": {
+   "size": 26707,
+   "sha": "091fa2d808e8e484295b5ca8069f08c902f21a454592740c1a3178f63a1f45fe"
+  },
+  "art/coastal/beach_huts.json": {
+   "size": 26707,
+   "sha": "49fc970217a7c5aca41842855ad15696ff46d5b888bb21d856d3400418d57a0b"
+  },
+  "art/coastal/bookshop_street.json": {
+   "size": 26708,
+   "sha": "cb9878edf78cffde078745db0d6de2bf85b39355706c8e84c9226aded26c890f"
+  },
+  "art/coastal/masterpiece_coastal_town.json": {
+   "size": 67159,
+   "sha": "b5961c0b77739b12e6a3ebdfcd44270ef0af4b562fb5f516835390b80fc71bbc"
+  },
+  "art/coastal/lighthouse_sunset.json": {
+   "size": 26707,
+   "sha": "5b5cc46db234b911a0fdabd2c1d832bf15f8afd551a7903c4ded21e1bc5b9123"
+  },
+  "art/spooky-night/pumpkin_porch.json": {
+   "size": 38260,
+   "sha": "8006aaf34d484ff4b5ddbfd71623929817d696d061f1af75a289b19d97823428"
+  },
+  "art/spooky-night/witch_kitchen.json": {
+   "size": 38259,
+   "sha": "5445865fdafa992bc2f3c2b27ccddf3677732f5cfe91536a0a0da99e1180577b"
+  },
+  "art/spooky-night/lantern_lane.json": {
+   "size": 38260,
+   "sha": "403f224118f44ac8986e108f2708bf52bf2256a0834c9e3ba31e143aad07b357"
+  },
+  "art/spooky-night/autumn_market.json": {
+   "size": 38260,
+   "sha": "36190b0c95213eb6683a02270a7285eae7f312abcfbc3bbe36c3e418aa29b86e"
+  },
+  "art/spooky-night/haunted_manor.json": {
+   "size": 38391,
+   "sha": "25617a6fee27f54a700d215c88e8382159b22410c2d44b0993fec63f0dfe6fde"
+  },
+  "art/spooky-night/masterpiece_halloween_town.json": {
+   "size": 67320,
+   "sha": "465cefec2d6ce79687b88c858bfcbd8e146314a59ebe2af829f5eb161d2f17cd"
+  },
+  "art/famous-art/mona_lisa.json": {
+   "size": 49940,
+   "sha": "ecfd738b708c79edaf08a0379ddc4ff720be9826a2b5e0df19e6f6539e1f49cc"
+  },
+  "art/famous-art/girl_pearl_earring.json": {
+   "size": 39820,
+   "sha": "1a670863531698fcbb05fbd45c53118da5f6c4ab3207e79366164dbe4bbb9c7d"
+  },
+  "art/famous-art/starry_night.json": {
+   "size": 32859,
+   "sha": "6c73e46105aa1cc32a7bb590f2dacdea9d45cfbeed9276bf5503c60af03f1420"
+  },
+  "art/famous-art/the_scream.json": {
+   "size": 41844,
+   "sha": "f48539c5a8361b04eac52e310cf76701483d002da07499398c4bf6eed7477deb"
+  },
+  "art/famous-art/tortoise_trainer.json": {
+   "size": 48680,
+   "sha": "9391a8515b5454d2f2e40ea372999cb05667c699016dc4d10fe8a69ebeb1fc14"
+  },
+  "art/famous-art/last_supper.json": {
+   "size": 55192,
+   "sha": "e49923c52de4eb6ee87dc2a36f39adf9952eb8be6169a4a13d7cba210825467c"
+  },
+  "art/famous-art/cafe_terrace.json": {
+   "size": 51832,
+   "sha": "6ee7063837354a5c8542d6a932859eb09ca183b4eeb5be70a22a47f83e254c3f"
+  }
+ }
+}

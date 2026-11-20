@@ -1,0 +1,2379 @@
+{
+ "version": 1,
+ "mode": "hidden",
+ "note": "Gizli resim (Hidden Picture) content. 5 easy, 5 medium, 5 hard categories; each 5 pictures + 1 masterpiece, plus 1 spare picture.",
+ "categories": [
+  {
+   "id": "fruit-orchard",
+   "name": {
+    "en": "Fruit Orchard",
+    "tr": "Meyve Bahçesi",
+    "de": "Obstgarten"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "cherries",
+     "order": 1,
+     "name": {
+      "en": "Cherries",
+      "tr": "Kiraz",
+      "de": "Kirschen"
+     },
+     "role": "picture",
+     "file": "art/hidden/fruit-orchard/cherries.json",
+     "width": 32,
+     "height": 39,
+     "size": 39,
+     "paintable": 778,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "strawberry",
+     "order": 2,
+     "name": {
+      "en": "Strawberry",
+      "tr": "Çilek",
+      "de": "Erdbeere"
+     },
+     "role": "picture",
+     "file": "art/hidden/fruit-orchard/strawberry.json",
+     "width": 29,
+     "height": 39,
+     "size": 39,
+     "paintable": 750,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "pear",
+     "order": 3,
+     "name": {
+      "en": "Pear",
+      "tr": "Armut",
+      "de": "Birne"
+     },
+     "role": "picture",
+     "file": "art/hidden/fruit-orchard/pear.json",
+     "width": 32,
+     "height": 38,
+     "size": 38,
+     "paintable": 743,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "watermelon",
+     "order": 4,
+     "name": {
+      "en": "Watermelon",
+      "tr": "Karpuz",
+      "de": "Wassermelone"
+     },
+     "role": "picture",
+     "file": "art/hidden/fruit-orchard/watermelon.json",
+     "width": 38,
+     "height": 32,
+     "size": 38,
+     "paintable": 793,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "pomegranate",
+     "order": 5,
+     "name": {
+      "en": "Pomegranate",
+      "tr": "Nar",
+      "de": "Granatapfel"
+     },
+     "role": "picture",
+     "file": "art/hidden/fruit-orchard/pomegranate.json",
+     "width": 35,
+     "height": 39,
+     "size": 39,
+     "paintable": 945,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_fruit_basket",
+     "order": 6,
+     "name": {
+      "en": "Fruit Basket",
+      "tr": "Meyve Sepeti",
+      "de": "Obstkorb"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/fruit-orchard/masterpiece_fruit_basket.json",
+     "width": 104,
+     "height": 111,
+     "size": 111,
+     "paintable": 7478,
+     "colors": 16,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "grapes",
+    "order": 0,
+    "name": {
+     "en": "Grapes",
+     "tr": "Üzüm",
+     "de": "Trauben"
+    },
+    "role": "spare",
+    "file": "art/hidden/fruit-orchard/grapes.json",
+    "width": 37,
+    "height": 39,
+    "size": 39,
+    "paintable": 840,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "flowers",
+   "name": {
+    "en": "Flowers",
+    "tr": "Çiçekler",
+    "de": "Blumen"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "rose",
+     "order": 1,
+     "name": {
+      "en": "Rose",
+      "tr": "Gül",
+      "de": "Rose"
+     },
+     "role": "picture",
+     "file": "art/hidden/flowers/rose.json",
+     "width": 45,
+     "height": 49,
+     "size": 49,
+     "paintable": 1376,
+     "colors": 11,
+     "status": "ready"
+    },
+    {
+     "id": "sunflower",
+     "order": 2,
+     "name": {
+      "en": "Sunflower",
+      "tr": "Ayçiçeği",
+      "de": "Sonnenblume"
+     },
+     "role": "picture",
+     "file": "art/hidden/flowers/sunflower.json",
+     "width": 45,
+     "height": 51,
+     "size": 51,
+     "paintable": 1555,
+     "colors": 11,
+     "status": "ready"
+    },
+    {
+     "id": "daisy",
+     "order": 3,
+     "name": {
+      "en": "Daisy",
+      "tr": "Papatya",
+      "de": "Gänseblümchen"
+     },
+     "role": "picture",
+     "file": "art/hidden/flowers/daisy.json",
+     "width": 42,
+     "height": 49,
+     "size": 49,
+     "paintable": 1298,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "tulip",
+     "order": 4,
+     "name": {
+      "en": "Tulip",
+      "tr": "Lale",
+      "de": "Tulpe"
+     },
+     "role": "picture",
+     "file": "art/hidden/flowers/tulip.json",
+     "width": 43,
+     "height": 50,
+     "size": 50,
+     "paintable": 1116,
+     "colors": 11,
+     "status": "ready"
+    },
+    {
+     "id": "lotus",
+     "order": 5,
+     "name": {
+      "en": "Lotus",
+      "tr": "Nilüfer",
+      "de": "Lotus"
+     },
+     "role": "picture",
+     "file": "art/hidden/flowers/lotus.json",
+     "width": 50,
+     "height": 46,
+     "size": 50,
+     "paintable": 1686,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_flower_vase",
+     "order": 6,
+     "name": {
+      "en": "Flower Vase",
+      "tr": "Vazoda Buket",
+      "de": "Blumenvase"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/flowers/masterpiece_flower_vase.json",
+     "width": 117,
+     "height": 132,
+     "size": 132,
+     "paintable": 9632,
+     "colors": 16,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "forget_me_not",
+    "order": 0,
+    "name": {
+     "en": "Forget-me-not",
+     "tr": "Unutmabeni",
+     "de": "Vergissmeinnicht"
+    },
+    "role": "spare",
+    "file": "art/hidden/flowers/forget_me_not.json",
+    "width": 45,
+    "height": 48,
+    "size": 48,
+    "paintable": 1109,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "desserts",
+   "name": {
+    "en": "Desserts",
+    "tr": "Tatlılar",
+    "de": "Desserts"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "strawberry_cake",
+     "order": 1,
+     "name": {
+      "en": "Strawberry Cake",
+      "tr": "Çilekli Pasta",
+      "de": "Erdbeertorte"
+     },
+     "role": "picture",
+     "file": "art/hidden/desserts/strawberry_cake.json",
+     "width": 41,
+     "height": 49,
+     "size": 49,
+     "paintable": 1459,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "pink_donut",
+     "order": 2,
+     "name": {
+      "en": "Donut",
+      "tr": "Donut",
+      "de": "Donut"
+     },
+     "role": "picture",
+     "file": "art/hidden/desserts/pink_donut.json",
+     "width": 46,
+     "height": 40,
+     "size": 46,
+     "paintable": 1426,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "macarons",
+     "order": 3,
+     "name": {
+      "en": "Macarons",
+      "tr": "Makaron",
+      "de": "Macarons"
+     },
+     "role": "picture",
+     "file": "art/hidden/desserts/macarons.json",
+     "width": 35,
+     "height": 49,
+     "size": 49,
+     "paintable": 1303,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "cupcake",
+     "order": 4,
+     "name": {
+      "en": "Cupcake",
+      "tr": "Cupcake",
+      "de": "Cupcake"
+     },
+     "role": "picture",
+     "file": "art/hidden/desserts/cupcake.json",
+     "width": 37,
+     "height": 48,
+     "size": 48,
+     "paintable": 1152,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "ice_cream",
+     "order": 5,
+     "name": {
+      "en": "Ice Cream",
+      "tr": "Dondurma",
+      "de": "Eis"
+     },
+     "role": "picture",
+     "file": "art/hidden/desserts/ice_cream.json",
+     "width": 31,
+     "height": 49,
+     "size": 49,
+     "paintable": 903,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_pastry_stand",
+     "order": 6,
+     "name": {
+      "en": "Pastry Stand",
+      "tr": "Pasta Standı",
+      "de": "Etagere"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/desserts/masterpiece_pastry_stand.json",
+     "width": 124,
+     "height": 146,
+     "size": 146,
+     "paintable": 10433,
+     "colors": 16,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "croissant",
+    "order": 0,
+    "name": {
+     "en": "Croissant",
+     "tr": "Kruvasan",
+     "de": "Croissant"
+    },
+    "role": "spare",
+    "file": "art/hidden/desserts/croissant.json",
+    "width": 48,
+    "height": 36,
+    "size": 48,
+    "paintable": 1140,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "sea-creatures",
+   "name": {
+    "en": "Sea Creatures",
+    "tr": "Deniz Canlıları",
+    "de": "Meerestiere"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "clownfish",
+     "order": 1,
+     "name": {
+      "en": "Clownfish",
+      "tr": "Palyaço Balığı",
+      "de": "Clownfisch"
+     },
+     "role": "picture",
+     "file": "art/hidden/sea-creatures/clownfish.json",
+     "width": 42,
+     "height": 32,
+     "size": 42,
+     "paintable": 814,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "sea_turtle",
+     "order": 2,
+     "name": {
+      "en": "Sea Turtle",
+      "tr": "Deniz Kaplumbağası",
+      "de": "Meeresschildkröte"
+     },
+     "role": "picture",
+     "file": "art/hidden/sea-creatures/sea_turtle.json",
+     "width": 44,
+     "height": 35,
+     "size": 44,
+     "paintable": 865,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "jellyfish",
+     "order": 3,
+     "name": {
+      "en": "Jellyfish",
+      "tr": "Denizanası",
+      "de": "Qualle"
+     },
+     "role": "picture",
+     "file": "art/hidden/sea-creatures/jellyfish.json",
+     "width": 34,
+     "height": 46,
+     "size": 46,
+     "paintable": 911,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "starfish",
+     "order": 4,
+     "name": {
+      "en": "Starfish",
+      "tr": "Deniz Yıldızı",
+      "de": "Seestern"
+     },
+     "role": "picture",
+     "file": "art/hidden/sea-creatures/starfish.json",
+     "width": 40,
+     "height": 38,
+     "size": 40,
+     "paintable": 763,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "seashell",
+     "order": 5,
+     "name": {
+      "en": "Seashell",
+      "tr": "Deniz Kabuğu",
+      "de": "Muschel"
+     },
+     "role": "picture",
+     "file": "art/hidden/sea-creatures/seashell.json",
+     "width": 37,
+     "height": 36,
+     "size": 37,
+     "paintable": 953,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_coral_reef",
+     "order": 6,
+     "name": {
+      "en": "Coral Reef",
+      "tr": "Mercan Resifi",
+      "de": "Korallenriff"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/sea-creatures/masterpiece_coral_reef.json",
+     "width": 90,
+     "height": 92,
+     "size": 92,
+     "paintable": 5363,
+     "colors": 16,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "seahorse",
+    "order": 0,
+    "name": {
+     "en": "Seahorse",
+     "tr": "Denizatı",
+     "de": "Seepferdchen"
+    },
+    "role": "spare",
+    "file": "art/hidden/sea-creatures/seahorse.json",
+    "width": 27,
+    "height": 45,
+    "size": 45,
+    "paintable": 664,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "garden-birds",
+   "name": {
+    "en": "Garden Birds",
+    "tr": "Bahçe Kuşları",
+    "de": "Gartenvögel"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "cardinal",
+     "order": 1,
+     "name": {
+      "en": "Cardinal",
+      "tr": "Kardinal",
+      "de": "Kardinal"
+     },
+     "role": "picture",
+     "file": "art/hidden/garden-birds/cardinal.json",
+     "width": 33,
+     "height": 39,
+     "size": 39,
+     "paintable": 579,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "blue_tit",
+     "order": 2,
+     "name": {
+      "en": "Blue Tit",
+      "tr": "Mavi Baştankara",
+      "de": "Blaumeise"
+     },
+     "role": "picture",
+     "file": "art/hidden/garden-birds/blue_tit.json",
+     "width": 33,
+     "height": 35,
+     "size": 35,
+     "paintable": 563,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "robin",
+     "order": 3,
+     "name": {
+      "en": "Robin",
+      "tr": "Kızılgerdan",
+      "de": "Rotkehlchen"
+     },
+     "role": "picture",
+     "file": "art/hidden/garden-birds/robin.json",
+     "width": 32,
+     "height": 33,
+     "size": 33,
+     "paintable": 556,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "sparrow",
+     "order": 4,
+     "name": {
+      "en": "Sparrow",
+      "tr": "Serçe",
+      "de": "Spatz"
+     },
+     "role": "picture",
+     "file": "art/hidden/garden-birds/sparrow.json",
+     "width": 33,
+     "height": 31,
+     "size": 33,
+     "paintable": 531,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "goldfinch",
+     "order": 5,
+     "name": {
+      "en": "Goldfinch",
+      "tr": "Saka",
+      "de": "Stieglitz"
+     },
+     "role": "picture",
+     "file": "art/hidden/garden-birds/goldfinch.json",
+     "width": 34,
+     "height": 33,
+     "size": 34,
+     "paintable": 524,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_bird_feeder",
+     "order": 6,
+     "name": {
+      "en": "Bird Feeder",
+      "tr": "Kuş Yemliği",
+      "de": "Futterhaus"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/garden-birds/masterpiece_bird_feeder.json",
+     "width": 113,
+     "height": 113,
+     "size": 113,
+     "paintable": 7098,
+     "colors": 16,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "blue_jay",
+    "order": 0,
+    "name": {
+     "en": "Blue Jay",
+     "tr": "Mavi Alakarga",
+     "de": "Blauhäher"
+    },
+    "role": "spare",
+    "file": "art/hidden/garden-birds/blue_jay.json",
+    "width": 36,
+    "height": 37,
+    "size": 37,
+    "paintable": 612,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "butterflies",
+   "name": {
+    "en": "Butterflies",
+    "tr": "Kelebekler",
+    "de": "Schmetterlinge"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "monarch",
+     "order": 1,
+     "name": {
+      "en": "Monarch",
+      "tr": "Monark",
+      "de": "Monarchfalter"
+     },
+     "role": "picture",
+     "file": "art/hidden/butterflies/monarch.json",
+     "width": 75,
+     "height": 51,
+     "size": 75,
+     "paintable": 2589,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "blue_morpho",
+     "order": 2,
+     "name": {
+      "en": "Blue Morpho",
+      "tr": "Mavi Morfo",
+      "de": "Blauer Morphofalter"
+     },
+     "role": "picture",
+     "file": "art/hidden/butterflies/blue_morpho.json",
+     "width": 71,
+     "height": 55,
+     "size": 71,
+     "paintable": 2614,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "swallowtail",
+     "order": 3,
+     "name": {
+      "en": "Swallowtail",
+      "tr": "Kırlangıçkuyruk",
+      "de": "Schwalbenschwanz"
+     },
+     "role": "picture",
+     "file": "art/hidden/butterflies/swallowtail.json",
+     "width": 79,
+     "height": 56,
+     "size": 79,
+     "paintable": 2449,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "pink_butterfly",
+     "order": 4,
+     "name": {
+      "en": "Pink Butterfly",
+      "tr": "Pembe Kelebek",
+      "de": "Rosa Falter"
+     },
+     "role": "picture",
+     "file": "art/hidden/butterflies/pink_butterfly.json",
+     "width": 73,
+     "height": 54,
+     "size": 73,
+     "paintable": 2695,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "luna_moth",
+     "order": 5,
+     "name": {
+      "en": "Luna Moth",
+      "tr": "Ay Güvesi",
+      "de": "Mondspinner"
+     },
+     "role": "picture",
+     "file": "art/hidden/butterflies/luna_moth.json",
+     "width": 75,
+     "height": 68,
+     "size": 75,
+     "paintable": 2311,
+     "colors": 12,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_butterfly_branch",
+     "order": 6,
+     "name": {
+      "en": "Butterfly Branch",
+      "tr": "Kelebek Dalı",
+      "de": "Schmetterlingszweig"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/butterflies/masterpiece_butterfly_branch.json",
+     "width": 117,
+     "height": 116,
+     "size": 117,
+     "paintable": 8750,
+     "colors": 18,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "red_admiral",
+    "order": 0,
+    "name": {
+     "en": "Red Admiral",
+     "tr": "Amiral Kelebeği",
+     "de": "Admiral"
+    },
+    "role": "spare",
+    "file": "art/hidden/butterflies/red_admiral.json",
+    "width": 73,
+    "height": 51,
+    "size": 73,
+    "paintable": 2447,
+    "colors": 12,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "forest-walk",
+   "name": {
+    "en": "Forest Walk",
+    "tr": "Orman Gezisi",
+    "de": "Waldspaziergang"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "red_fox",
+     "order": 1,
+     "name": {
+      "en": "Fox",
+      "tr": "Tilki",
+      "de": "Fuchs"
+     },
+     "role": "picture",
+     "file": "art/hidden/forest-walk/red_fox.json",
+     "width": 50,
+     "height": 56,
+     "size": 56,
+     "paintable": 1735,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "fawn",
+     "order": 2,
+     "name": {
+      "en": "Fawn",
+      "tr": "Yavru Geyik",
+      "de": "Rehkitz"
+     },
+     "role": "picture",
+     "file": "art/hidden/forest-walk/fawn.json",
+     "width": 50,
+     "height": 57,
+     "size": 57,
+     "paintable": 1296,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "hedgehog",
+     "order": 3,
+     "name": {
+      "en": "Hedgehog",
+      "tr": "Kirpi",
+      "de": "Igel"
+     },
+     "role": "picture",
+     "file": "art/hidden/forest-walk/hedgehog.json",
+     "width": 57,
+     "height": 48,
+     "size": 57,
+     "paintable": 1884,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "red_squirrel",
+     "order": 4,
+     "name": {
+      "en": "Squirrel",
+      "tr": "Sincap",
+      "de": "Eichhörnchen"
+     },
+     "role": "picture",
+     "file": "art/hidden/forest-walk/red_squirrel.json",
+     "width": 56,
+     "height": 55,
+     "size": 56,
+     "paintable": 2176,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "wild_rabbit",
+     "order": 5,
+     "name": {
+      "en": "Rabbit",
+      "tr": "Tavşan",
+      "de": "Hase"
+     },
+     "role": "picture",
+     "file": "art/hidden/forest-walk/wild_rabbit.json",
+     "width": 47,
+     "height": 58,
+     "size": 58,
+     "paintable": 1557,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_forest_clearing",
+     "order": 6,
+     "name": {
+      "en": "Forest Clearing",
+      "tr": "Orman Açıklığı",
+      "de": "Waldlichtung"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/forest-walk/masterpiece_forest_clearing.json",
+     "width": 136,
+     "height": 127,
+     "size": 136,
+     "paintable": 12018,
+     "colors": 18,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "forest_mushrooms",
+    "order": 0,
+    "name": {
+     "en": "Mushrooms",
+     "tr": "Mantarlar",
+     "de": "Pilze"
+    },
+    "role": "spare",
+    "file": "art/hidden/forest-walk/forest_mushrooms.json",
+    "width": 56,
+    "height": 51,
+    "size": 56,
+    "paintable": 1914,
+    "colors": 14,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "winter-tale",
+   "name": {
+    "en": "Winter Tale",
+    "tr": "Kış Masalı",
+    "de": "Wintermärchen"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "snowman",
+     "order": 1,
+     "name": {
+      "en": "Snowman",
+      "tr": "Kardan Adam",
+      "de": "Schneemann"
+     },
+     "role": "picture",
+     "file": "art/hidden/winter-tale/snowman.json",
+     "width": 56,
+     "height": 69,
+     "size": 69,
+     "paintable": 2409,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "log_cabin",
+     "order": 2,
+     "name": {
+      "en": "Log Cabin",
+      "tr": "Kütük Ev",
+      "de": "Blockhütte"
+     },
+     "role": "picture",
+     "file": "art/hidden/winter-tale/log_cabin.json",
+     "width": 71,
+     "height": 65,
+     "size": 71,
+     "paintable": 3600,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "christmas_tree",
+     "order": 3,
+     "name": {
+      "en": "Pine Tree",
+      "tr": "Çam Ağacı",
+      "de": "Tannenbaum"
+     },
+     "role": "picture",
+     "file": "art/hidden/winter-tale/christmas_tree.json",
+     "width": 53,
+     "height": 66,
+     "size": 66,
+     "paintable": 1958,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "sled_gift",
+     "order": 4,
+     "name": {
+      "en": "Sled",
+      "tr": "Kızak",
+      "de": "Schlitten"
+     },
+     "role": "picture",
+     "file": "art/hidden/winter-tale/sled_gift.json",
+     "width": 66,
+     "height": 57,
+     "size": 66,
+     "paintable": 2095,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "hot_cocoa",
+     "order": 5,
+     "name": {
+      "en": "Hot Cocoa",
+      "tr": "Sıcak Kakao",
+      "de": "Heiße Schokolade"
+     },
+     "role": "picture",
+     "file": "art/hidden/winter-tale/hot_cocoa.json",
+     "width": 49,
+     "height": 55,
+     "size": 55,
+     "paintable": 1573,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_winter_village",
+     "order": 6,
+     "name": {
+      "en": "Winter Village",
+      "tr": "Kış Köyü",
+      "de": "Winterdorf"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/winter-tale/masterpiece_winter_village.json",
+     "width": 115,
+     "height": 119,
+     "size": 119,
+     "paintable": 9599,
+     "colors": 18,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "ice_skates",
+    "order": 0,
+    "name": {
+     "en": "Ice Skates",
+     "tr": "Buz Patenleri",
+     "de": "Schlittschuhe"
+    },
+    "role": "spare",
+    "file": "art/hidden/winter-tale/ice_skates.json",
+    "width": 62,
+    "height": 60,
+    "size": 62,
+    "paintable": 2432,
+    "colors": 14,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "music",
+   "name": {
+    "en": "Musical Instruments",
+    "tr": "Müzik Aletleri",
+    "de": "Musikinstrumente"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "violin",
+     "order": 1,
+     "name": {
+      "en": "Violin",
+      "tr": "Keman",
+      "de": "Geige"
+     },
+     "role": "picture",
+     "file": "art/hidden/music/violin.json",
+     "width": 56,
+     "height": 72,
+     "size": 72,
+     "paintable": 1949,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "guitar",
+     "order": 2,
+     "name": {
+      "en": "Guitar",
+      "tr": "Gitar",
+      "de": "Gitarre"
+     },
+     "role": "picture",
+     "file": "art/hidden/music/guitar.json",
+     "width": 58,
+     "height": 77,
+     "size": 77,
+     "paintable": 2024,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "trumpet",
+     "order": 3,
+     "name": {
+      "en": "Trumpet",
+      "tr": "Trompet",
+      "de": "Trompete"
+     },
+     "role": "picture",
+     "file": "art/hidden/music/trumpet.json",
+     "width": 70,
+     "height": 44,
+     "size": 70,
+     "paintable": 1323,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "harp",
+     "order": 4,
+     "name": {
+      "en": "Harp",
+      "tr": "Arp",
+      "de": "Harfe"
+     },
+     "role": "picture",
+     "file": "art/hidden/music/harp.json",
+     "width": 57,
+     "height": 73,
+     "size": 73,
+     "paintable": 2285,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "snare_drum",
+     "order": 5,
+     "name": {
+      "en": "Snare Drum",
+      "tr": "Trampet",
+      "de": "Trommel"
+     },
+     "role": "picture",
+     "file": "art/hidden/music/snare_drum.json",
+     "width": 59,
+     "height": 55,
+     "size": 59,
+     "paintable": 2536,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_music_still_life",
+     "order": 6,
+     "name": {
+      "en": "Music Still Life",
+      "tr": "Müzik Natürmortu",
+      "de": "Musikstillleben"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/music/masterpiece_music_still_life.json",
+     "width": 109,
+     "height": 121,
+     "size": 121,
+     "paintable": 8463,
+     "colors": 18,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "saxophone",
+    "order": 0,
+    "name": {
+     "en": "Saxophone",
+     "tr": "Saksafon",
+     "de": "Saxofon"
+    },
+    "role": "spare",
+    "file": "art/hidden/music/saxophone.json",
+    "width": 53,
+    "height": 73,
+    "size": 73,
+    "paintable": 1761,
+    "colors": 14,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "cafe-corner",
+   "name": {
+    "en": "Cafe Corner",
+    "tr": "Kafe Köşesi",
+    "de": "Caféecke"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "cappuccino",
+     "order": 1,
+     "name": {
+      "en": "Cappuccino",
+      "tr": "Kapuçino",
+      "de": "Cappuccino"
+     },
+     "role": "picture",
+     "file": "art/hidden/cafe-corner/cappuccino.json",
+     "width": 66,
+     "height": 57,
+     "size": 66,
+     "paintable": 2858,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "espresso_machine",
+     "order": 2,
+     "name": {
+      "en": "Espresso Machine",
+      "tr": "Espresso Makinesi",
+      "de": "Espressomaschine"
+     },
+     "role": "picture",
+     "file": "art/hidden/cafe-corner/espresso_machine.json",
+     "width": 66,
+     "height": 73,
+     "size": 73,
+     "paintable": 3911,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "french_press",
+     "order": 3,
+     "name": {
+      "en": "French Press",
+      "tr": "French Press",
+      "de": "French Press"
+     },
+     "role": "picture",
+     "file": "art/hidden/cafe-corner/french_press.json",
+     "width": 55,
+     "height": 72,
+     "size": 72,
+     "paintable": 2569,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "cheesecake",
+     "order": 4,
+     "name": {
+      "en": "Cheesecake",
+      "tr": "Cheesecake",
+      "de": "Käsekuchen"
+     },
+     "role": "picture",
+     "file": "art/hidden/cafe-corner/cheesecake.json",
+     "width": 69,
+     "height": 63,
+     "size": 69,
+     "paintable": 2808,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "pancakes",
+     "order": 5,
+     "name": {
+      "en": "Pancakes",
+      "tr": "Pankek",
+      "de": "Pfannkuchen"
+     },
+     "role": "picture",
+     "file": "art/hidden/cafe-corner/pancakes.json",
+     "width": 70,
+     "height": 59,
+     "size": 70,
+     "paintable": 2959,
+     "colors": 14,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_cafe_counter",
+     "order": 6,
+     "name": {
+      "en": "Cafe Counter",
+      "tr": "Kafe Tezgahı",
+      "de": "Cafétheke"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/cafe-corner/masterpiece_cafe_counter.json",
+     "width": 113,
+     "height": 115,
+     "size": 115,
+     "paintable": 9280,
+     "colors": 18,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "teapot",
+    "order": 0,
+    "name": {
+     "en": "Teapot",
+     "tr": "Çaydanlık",
+     "de": "Teekanne"
+    },
+    "role": "spare",
+    "file": "art/hidden/cafe-corner/teapot.json",
+    "width": 70,
+    "height": 62,
+    "size": 70,
+    "paintable": 2582,
+    "colors": 14,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "ancient-egypt",
+   "name": {
+    "en": "Ancient Egypt",
+    "tr": "Antik Mısır",
+    "de": "Altes Ägypten"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "pharaoh_mask",
+     "order": 1,
+     "name": {
+      "en": "Pharaoh Mask",
+      "tr": "Firavun Maskesi",
+      "de": "Pharaonenmaske"
+     },
+     "role": "picture",
+     "file": "art/hidden/ancient-egypt/pharaoh_mask.json",
+     "width": 75,
+     "height": 86,
+     "size": 86,
+     "paintable": 5265,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "bastet_cat",
+     "order": 2,
+     "name": {
+      "en": "Bastet",
+      "tr": "Bastet",
+      "de": "Bastet"
+     },
+     "role": "picture",
+     "file": "art/hidden/ancient-egypt/bastet_cat.json",
+     "width": 54,
+     "height": 89,
+     "size": 89,
+     "paintable": 2884,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "winged_scarab",
+     "order": 3,
+     "name": {
+      "en": "Winged Scarab",
+      "tr": "Kanatlı Skarabe",
+      "de": "Geflügelter Skarabäus"
+     },
+     "role": "picture",
+     "file": "art/hidden/ancient-egypt/winged_scarab.json",
+     "width": 90,
+     "height": 83,
+     "size": 90,
+     "paintable": 4558,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "canopic_jar",
+     "order": 4,
+     "name": {
+      "en": "Canopic Jar",
+      "tr": "Kanop Kavanozu",
+      "de": "Kanope"
+     },
+     "role": "picture",
+     "file": "art/hidden/ancient-egypt/canopic_jar.json",
+     "width": 55,
+     "height": 88,
+     "size": 88,
+     "paintable": 3440,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "eye_of_horus",
+     "order": 5,
+     "name": {
+      "en": "Eye of Horus",
+      "tr": "Horus'un Gözü",
+      "de": "Horusauge"
+     },
+     "role": "picture",
+     "file": "art/hidden/ancient-egypt/eye_of_horus.json",
+     "width": 78,
+     "height": 65,
+     "size": 78,
+     "paintable": 3280,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_egypt_treasure",
+     "order": 6,
+     "name": {
+      "en": "Pharaoh's Treasure",
+      "tr": "Firavunun Hazinesi",
+      "de": "Schatz des Pharao"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/ancient-egypt/masterpiece_egypt_treasure.json",
+     "width": 136,
+     "height": 150,
+     "size": 150,
+     "paintable": 15575,
+     "colors": 20,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "golden_ankh",
+    "order": 0,
+    "name": {
+     "en": "Ankh",
+     "tr": "Ankh",
+     "de": "Anch"
+    },
+    "role": "spare",
+    "file": "art/hidden/ancient-egypt/golden_ankh.json",
+    "width": 61,
+    "height": 83,
+    "size": 83,
+    "paintable": 2444,
+    "colors": 16,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "ocean-depths",
+   "name": {
+    "en": "Ocean Depths",
+    "tr": "Okyanus Derinlikleri",
+    "de": "Tiefsee"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "anglerfish",
+     "order": 1,
+     "name": {
+      "en": "Anglerfish",
+      "tr": "Fener Balığı",
+      "de": "Anglerfisch"
+     },
+     "role": "picture",
+     "file": "art/hidden/ocean-depths/anglerfish.json",
+     "width": 81,
+     "height": 73,
+     "size": 81,
+     "paintable": 3446,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "giant_octopus",
+     "order": 2,
+     "name": {
+      "en": "Octopus",
+      "tr": "Ahtapot",
+      "de": "Krake"
+     },
+     "role": "picture",
+     "file": "art/hidden/ocean-depths/giant_octopus.json",
+     "width": 80,
+     "height": 78,
+     "size": 80,
+     "paintable": 4167,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "manta_ray",
+     "order": 3,
+     "name": {
+      "en": "Manta Ray",
+      "tr": "Vatoz",
+      "de": "Mantarochen"
+     },
+     "role": "picture",
+     "file": "art/hidden/ocean-depths/manta_ray.json",
+     "width": 83,
+     "height": 80,
+     "size": 83,
+     "paintable": 2488,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "hammerhead",
+     "order": 4,
+     "name": {
+      "en": "Hammerhead",
+      "tr": "Çekiç Başlı Köpekbalığı",
+      "de": "Hammerhai"
+     },
+     "role": "picture",
+     "file": "art/hidden/ocean-depths/hammerhead.json",
+     "width": 80,
+     "height": 74,
+     "size": 80,
+     "paintable": 2588,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "diving_helmet",
+     "order": 5,
+     "name": {
+      "en": "Diving Helmet",
+      "tr": "Dalgıç Kaskı",
+      "de": "Taucherhelm"
+     },
+     "role": "picture",
+     "file": "art/hidden/ocean-depths/diving_helmet.json",
+     "width": 76,
+     "height": 82,
+     "size": 82,
+     "paintable": 4457,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_deep_sea_treasure",
+     "order": 6,
+     "name": {
+      "en": "Deep Sea Treasure",
+      "tr": "Derin Deniz Hazinesi",
+      "de": "Tiefseeschatz"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/ocean-depths/masterpiece_deep_sea_treasure.json",
+     "width": 140,
+     "height": 142,
+     "size": 142,
+     "paintable": 14246,
+     "colors": 20,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "treasure_chest",
+    "order": 0,
+    "name": {
+     "en": "Treasure Chest",
+     "tr": "Hazine Sandığı",
+     "de": "Schatztruhe"
+    },
+    "role": "spare",
+    "file": "art/hidden/ocean-depths/treasure_chest.json",
+    "width": 78,
+    "height": 79,
+    "size": 79,
+    "paintable": 4727,
+    "colors": 16,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "castles-dragons",
+   "name": {
+    "en": "Castles & Dragons",
+    "tr": "Şato ve Ejderhalar",
+    "de": "Burgen & Drachen"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "green_dragon",
+     "order": 1,
+     "name": {
+      "en": "Dragon",
+      "tr": "Ejderha",
+      "de": "Drache"
+     },
+     "role": "picture",
+     "file": "art/hidden/castles-dragons/green_dragon.json",
+     "width": 83,
+     "height": 83,
+     "size": 83,
+     "paintable": 4663,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "castle",
+     "order": 2,
+     "name": {
+      "en": "Castle",
+      "tr": "Şato",
+      "de": "Burg"
+     },
+     "role": "picture",
+     "file": "art/hidden/castles-dragons/castle.json",
+     "width": 82,
+     "height": 83,
+     "size": 83,
+     "paintable": 4219,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "knight_helmet",
+     "order": 3,
+     "name": {
+      "en": "Knight Helmet",
+      "tr": "Şövalye Miğferi",
+      "de": "Ritterhelm"
+     },
+     "role": "picture",
+     "file": "art/hidden/castles-dragons/knight_helmet.json",
+     "width": 79,
+     "height": 88,
+     "size": 88,
+     "paintable": 4680,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "sword_shield",
+     "order": 4,
+     "name": {
+      "en": "Sword & Shield",
+      "tr": "Kılıç ve Kalkan",
+      "de": "Schwert & Schild"
+     },
+     "role": "picture",
+     "file": "art/hidden/castles-dragons/sword_shield.json",
+     "width": 77,
+     "height": 85,
+     "size": 85,
+     "paintable": 4305,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "royal_crown",
+     "order": 5,
+     "name": {
+      "en": "Royal Crown",
+      "tr": "Kraliyet Tacı",
+      "de": "Königskrone"
+     },
+     "role": "picture",
+     "file": "art/hidden/castles-dragons/royal_crown.json",
+     "width": 84,
+     "height": 81,
+     "size": 84,
+     "paintable": 4556,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_dragon_castle",
+     "order": 6,
+     "name": {
+      "en": "Dragon Castle",
+      "tr": "Ejderha Şatosu",
+      "de": "Drachenburg"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/castles-dragons/masterpiece_dragon_castle.json",
+     "width": 131,
+     "height": 133,
+     "size": 133,
+     "paintable": 13551,
+     "colors": 20,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "dragon_egg",
+    "order": 0,
+    "name": {
+     "en": "Dragon Egg",
+     "tr": "Ejderha Yumurtası",
+     "de": "Drachenei"
+    },
+    "role": "spare",
+    "file": "art/hidden/castles-dragons/dragon_egg.json",
+    "width": 86,
+    "height": 81,
+    "size": 86,
+    "paintable": 4555,
+    "colors": 16,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "wild-safari",
+   "name": {
+    "en": "Wild Safari",
+    "tr": "Vahşi Safari",
+    "de": "Wilde Safari"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "lion",
+     "order": 1,
+     "name": {
+      "en": "Lion",
+      "tr": "Aslan",
+      "de": "Löwe"
+     },
+     "role": "picture",
+     "file": "art/hidden/wild-safari/lion.json",
+     "width": 68,
+     "height": 78,
+     "size": 78,
+     "paintable": 3565,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "elephant",
+     "order": 2,
+     "name": {
+      "en": "Elephant",
+      "tr": "Fil",
+      "de": "Elefant"
+     },
+     "role": "picture",
+     "file": "art/hidden/wild-safari/elephant.json",
+     "width": 72,
+     "height": 76,
+     "size": 76,
+     "paintable": 4121,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "giraffe",
+     "order": 3,
+     "name": {
+      "en": "Giraffe",
+      "tr": "Zürafa",
+      "de": "Giraffe"
+     },
+     "role": "picture",
+     "file": "art/hidden/wild-safari/giraffe.json",
+     "width": 88,
+     "height": 115,
+     "size": 115,
+     "paintable": 3636,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "zebra",
+     "order": 4,
+     "name": {
+      "en": "Zebra",
+      "tr": "Zebra",
+      "de": "Zebra"
+     },
+     "role": "picture",
+     "file": "art/hidden/wild-safari/zebra.json",
+     "width": 74,
+     "height": 78,
+     "size": 78,
+     "paintable": 2802,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "cheetah",
+     "order": 5,
+     "name": {
+      "en": "Cheetah",
+      "tr": "Çita",
+      "de": "Gepard"
+     },
+     "role": "picture",
+     "file": "art/hidden/wild-safari/cheetah.json",
+     "width": 61,
+     "height": 83,
+     "size": 83,
+     "paintable": 2914,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_savanna",
+     "order": 6,
+     "name": {
+      "en": "Savanna",
+      "tr": "Savan",
+      "de": "Savanne"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/wild-safari/masterpiece_savanna.json",
+     "width": 141,
+     "height": 142,
+     "size": 142,
+     "paintable": 14474,
+     "colors": 20,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "rhinoceros",
+    "order": 0,
+    "name": {
+     "en": "Rhino",
+     "tr": "Gergedan",
+     "de": "Nashorn"
+    },
+    "role": "spare",
+    "file": "art/hidden/wild-safari/rhinoceros.json",
+    "width": 82,
+    "height": 71,
+    "size": 82,
+    "paintable": 4131,
+    "colors": 16,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "night-city",
+   "name": {
+    "en": "Night City",
+    "tr": "Gece Şehri",
+    "de": "Stadt bei Nacht"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "yellow_taxi",
+     "order": 1,
+     "name": {
+      "en": "Taxi",
+      "tr": "Taksi",
+      "de": "Taxi"
+     },
+     "role": "picture",
+     "file": "art/hidden/night-city/yellow_taxi.json",
+     "width": 94,
+     "height": 63,
+     "size": 94,
+     "paintable": 3700,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "street_lamp",
+     "order": 2,
+     "name": {
+      "en": "Street Lamp",
+      "tr": "Sokak Lambası",
+      "de": "Straßenlaterne"
+     },
+     "role": "picture",
+     "file": "art/hidden/night-city/street_lamp.json",
+     "width": 65,
+     "height": 97,
+     "size": 97,
+     "paintable": 2111,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "art_deco_tower",
+     "order": 3,
+     "name": {
+      "en": "Skyscraper",
+      "tr": "Gökdelen",
+      "de": "Wolkenkratzer"
+     },
+     "role": "picture",
+     "file": "art/hidden/night-city/art_deco_tower.json",
+     "width": 58,
+     "height": 73,
+     "size": 73,
+     "paintable": 2371,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "corner_bookshop",
+     "order": 4,
+     "name": {
+      "en": "Bookshop",
+      "tr": "Kitapçı",
+      "de": "Buchladen"
+     },
+     "role": "picture",
+     "file": "art/hidden/night-city/corner_bookshop.json",
+     "width": 63,
+     "height": 66,
+     "size": 66,
+     "paintable": 3664,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "double_decker",
+     "order": 5,
+     "name": {
+      "en": "Double-Decker",
+      "tr": "Çift Katlı Otobüs",
+      "de": "Doppeldecker"
+     },
+     "role": "picture",
+     "file": "art/hidden/night-city/double_decker.json",
+     "width": 68,
+     "height": 62,
+     "size": 68,
+     "paintable": 3453,
+     "colors": 16,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_night_street",
+     "order": 6,
+     "name": {
+      "en": "Night Street",
+      "tr": "Gece Sokağı",
+      "de": "Nachtstraße"
+     },
+     "role": "masterpiece",
+     "file": "art/hidden/night-city/masterpiece_night_street.json",
+     "width": 151,
+     "height": 154,
+     "size": 154,
+     "paintable": 17788,
+     "colors": 20,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "jazz_club",
+    "order": 0,
+    "name": {
+     "en": "Jazz Club",
+     "tr": "Caz Kulübü",
+     "de": "Jazzclub"
+    },
+    "role": "spare",
+    "file": "art/hidden/night-city/jazz_club.json",
+    "width": 94,
+    "height": 101,
+    "size": 101,
+    "paintable": 7521,
+    "colors": 16,
+    "status": "ready"
+   }
+  }
+ ],
+ "files": {
+  "art/hidden/fruit-orchard/cherries.json": {
+   "size": 1616,
+   "sha": "55e40100aa6c24f232d5f1bfff0f101878f7be7aef928bb46dd144b0038f8606"
+  },
+  "art/hidden/fruit-orchard/strawberry.json": {
+   "size": 1499,
+   "sha": "24d42108a84f1edd4672e74629ffac0154da14a2f7d14a988a2be972c3669709"
+  },
+  "art/hidden/fruit-orchard/pear.json": {
+   "size": 1580,
+   "sha": "4d3aff62ff5d4bdab7e9d416cb0b9a7506eff3906849b7a3c381249e25caad89"
+  },
+  "art/hidden/fruit-orchard/watermelon.json": {
+   "size": 1556,
+   "sha": "e1643ecd002678815ce097eaba58453ddc4fb880e208b102660b6be308e05953"
+  },
+  "art/hidden/fruit-orchard/pomegranate.json": {
+   "size": 1733,
+   "sha": "58e658274d17e1ad3843b38231642961c05001a3228f8ea38874929b6e64aec2"
+  },
+  "art/hidden/fruit-orchard/masterpiece_fruit_basket.json": {
+   "size": 12248,
+   "sha": "c6c8291a8ceff61298d624dd500a09d735647b1a55c32d65eee06c0cd5f3a228"
+  },
+  "art/hidden/fruit-orchard/grapes.json": {
+   "size": 1811,
+   "sha": "90d0e72a4c66cb35b6898f3434b5e500e2025796ca66803df4a802d729dd74e3"
+  },
+  "art/hidden/flowers/rose.json": {
+   "size": 2603,
+   "sha": "14304e49011391e9e0495a65abf6750d935311d82c4759211953bc83955fbc8c"
+  },
+  "art/hidden/flowers/sunflower.json": {
+   "size": 2701,
+   "sha": "24ff04c6e333f23e4c5a6ac1b9c18d618b59a1180619a4dcfbb4d882d3d5fd77"
+  },
+  "art/hidden/flowers/daisy.json": {
+   "size": 2467,
+   "sha": "c57f6b55c4fa2a0d74aec52715529beaefb6c871a2f308086e611693fc545267"
+  },
+  "art/hidden/flowers/tulip.json": {
+   "size": 2552,
+   "sha": "994fde353ae55e30002674a3455d6fabc61bb5fcac1758b12c0cb79c6986cb13"
+  },
+  "art/hidden/flowers/lotus.json": {
+   "size": 2697,
+   "sha": "5bd7295cd46eb6f7b85698a09415993129d33cd9a95305f800bf08309fce0414"
+  },
+  "art/hidden/flowers/masterpiece_flower_vase.json": {
+   "size": 16232,
+   "sha": "fa030b5b57e969215d776dfce36aa7d78e1a38e4f39239f979a7735c2068de04"
+  },
+  "art/hidden/flowers/forget_me_not.json": {
+   "size": 2565,
+   "sha": "3bf9b77a233e95a7ba6a490c4ca6c576b3cfa3c2124dfbfd344e75ea935c90d7"
+  },
+  "art/hidden/desserts/strawberry_cake.json": {
+   "size": 2418,
+   "sha": "65e2c5cff526b51a60adee6ae54ff11eeb42f8efdbd59c6dcaf13e9a3e445942"
+  },
+  "art/hidden/desserts/pink_donut.json": {
+   "size": 2213,
+   "sha": "3717018c7f600a1e1c9aa9d500a3796189f4ed388b5b64b66f1cb2b3c2df280d"
+  },
+  "art/hidden/desserts/macarons.json": {
+   "size": 2124,
+   "sha": "161b7fbae1765d249a3087caf28900023724411b19e6828c05e066857d624dc4"
+  },
+  "art/hidden/desserts/cupcake.json": {
+   "size": 2181,
+   "sha": "06beb256aadfafed0f28faa4317262fb3aa1196c5c0cdca0cb519de132b8f7f9"
+  },
+  "art/hidden/desserts/ice_cream.json": {
+   "size": 1927,
+   "sha": "647f135b086f914b7c8ad7175a14b4190a81d9be76a5661057cba56f490fd829"
+  },
+  "art/hidden/desserts/masterpiece_pastry_stand.json": {
+   "size": 18949,
+   "sha": "b8ecf2f1fc8f15bc4ce4da387bfb73b91d06a8f697f1f905fac9036ffbab081e"
+  },
+  "art/hidden/desserts/croissant.json": {
+   "size": 2085,
+   "sha": "00ec8b7927823511ee1b9ef53ec0861e3e6dd6a043cbb8296793624c64ba0f3b"
+  },
+  "art/hidden/sea-creatures/clownfish.json": {
+   "size": 1684,
+   "sha": "483571f3b348ff51a5dbf87cbd238c3078741e75352b880cd83459fdd57751a3"
+  },
+  "art/hidden/sea-creatures/sea_turtle.json": {
+   "size": 1892,
+   "sha": "68dfc586b1b624a5f2c0f4b057b4ab5e0f4cee50615d91194a5e03ed8b3afb95"
+  },
+  "art/hidden/sea-creatures/jellyfish.json": {
+   "size": 1960,
+   "sha": "56eea87a3266d9bf4f88161428cc73bdefc4734e2d1914298287137c1f4418e8"
+  },
+  "art/hidden/sea-creatures/starfish.json": {
+   "size": 1884,
+   "sha": "2e4d7fe51d1f8875e0c60563626e102533f7f9f2b9dccf3e839f0059243d0be9"
+  },
+  "art/hidden/sea-creatures/seashell.json": {
+   "size": 1688,
+   "sha": "4ed9b876461281e2ea3581b1a453fefa0f3d997937f47c893b7bb6de18a6a49a"
+  },
+  "art/hidden/sea-creatures/masterpiece_coral_reef.json": {
+   "size": 8905,
+   "sha": "37c1d833e1d310f18e2ac976d585a142d38aad245829f5601c9a2d5652fa7a0e"
+  },
+  "art/hidden/sea-creatures/seahorse.json": {
+   "size": 1607,
+   "sha": "17108386ee02b3e05341cf0809e948ec1d1913bc1296a612424f3a3f16ee1547"
+  },
+  "art/hidden/garden-birds/cardinal.json": {
+   "size": 1655,
+   "sha": "ff9d5dff5a1e3e2e4eec7f15b82113559ea0be2e98db3c9f6224894f36b53453"
+  },
+  "art/hidden/garden-birds/blue_tit.json": {
+   "size": 1507,
+   "sha": "9e98c88d8f81d5d7e6d6ca09ac1d4a31124d000bacaeabd5d50bd567f19ad425"
+  },
+  "art/hidden/garden-birds/robin.json": {
+   "size": 1400,
+   "sha": "6f3719d4a72e45f497ea506664b79178bc9d59cef44ca6a0a5f7c7932173c263"
+  },
+  "art/hidden/garden-birds/sparrow.json": {
+   "size": 1359,
+   "sha": "64d83fbfd0f511c3d89685510c4c2144ef0ff50884bf1599f2051ad1ca14cfff"
+  },
+  "art/hidden/garden-birds/goldfinch.json": {
+   "size": 1466,
+   "sha": "b3dcbab616f3b7886e9638877becdb0f382ffba9a3b282407cba935b620c7089"
+  },
+  "art/hidden/garden-birds/masterpiece_bird_feeder.json": {
+   "size": 13481,
+   "sha": "7ae33f0779906c4189b9680f74a58dca0952f2ee81ff7a62db6bbba648d259eb"
+  },
+  "art/hidden/garden-birds/blue_jay.json": {
+   "size": 1692,
+   "sha": "473f8bc10d96e2913e80d603a53fe7082941fc0790b0b070c505394c1465b3a0"
+  },
+  "art/hidden/butterflies/monarch.json": {
+   "size": 4242,
+   "sha": "61e1bdc76933961dfaa74609c0047e08e917739093d13323741a6d013b15be96"
+  },
+  "art/hidden/butterflies/blue_morpho.json": {
+   "size": 4338,
+   "sha": "93491d7cceebc45b01fd45d4f199f496141b7299a6a3861834bda17483a0b22c"
+  },
+  "art/hidden/butterflies/swallowtail.json": {
+   "size": 4861,
+   "sha": "2660de23d256bce41fb7a85f22a432fd19d3324321026c6ffb76d59b5ff54002"
+  },
+  "art/hidden/butterflies/pink_butterfly.json": {
+   "size": 4371,
+   "sha": "c46e2d610b9c24cb0e0555a9dcfb79993764f828e93c34acc37bc0d242c4fa97"
+  },
+  "art/hidden/butterflies/luna_moth.json": {
+   "size": 5585,
+   "sha": "5034a137ad8e9ed89a5ce8994080883ebd94d69aa50037e45a877a24e9241f2c"
+  },
+  "art/hidden/butterflies/masterpiece_butterfly_branch.json": {
+   "size": 14318,
+   "sha": "dcdc2e62965d625b08134121266de29eee39956b693bddba1a72e6bc743e36be"
+  },
+  "art/hidden/butterflies/red_admiral.json": {
+   "size": 4140,
+   "sha": "a41b8ad3c8c607067c5c8456e491ce022bd6b986f54397ea3a959321aa6ce42d"
+  },
+  "art/hidden/forest-walk/red_fox.json": {
+   "size": 3259,
+   "sha": "bb7f33febfe96ce98df9ebe29b0e375ebd0a078066485d4bd7eb5981a52093a7"
+  },
+  "art/hidden/forest-walk/fawn.json": {
+   "size": 3313,
+   "sha": "a39a939f705a99433d56a96f1337086c757fc3188343ea224d0666c057063f63"
+  },
+  "art/hidden/forest-walk/hedgehog.json": {
+   "size": 3163,
+   "sha": "4107c36f1cf18766f34f17549aa8761dc3fa3e5fb13c80f680104702ac6797b8"
+  },
+  "art/hidden/forest-walk/red_squirrel.json": {
+   "size": 3535,
+   "sha": "91e962469dcfe920e9a7811203a80293149786ac6ac6831455a2783fe8fe275e"
+  },
+  "art/hidden/forest-walk/wild_rabbit.json": {
+   "size": 3193,
+   "sha": "ee4c27133dcb363f3d00b364d0d2c05eee2cf789ad9059ff10b95d48b5a12665"
+  },
+  "art/hidden/forest-walk/masterpiece_forest_clearing.json": {
+   "size": 18063,
+   "sha": "b229d07e288d00df4e8d0402f371087eb4991666adb73f447989b5aaa12efef3"
+  },
+  "art/hidden/forest-walk/forest_mushrooms.json": {
+   "size": 3295,
+   "sha": "8f2348f0d18f983414ca4a0b8a9091d29c544c96e2399e7ed728bbb4b228d407"
+  },
+  "art/hidden/winter-tale/snowman.json": {
+   "size": 4375,
+   "sha": "c158f59590381ee0295143de5d228b94ae6fd43036d052cd0955a07d66dcf930"
+  },
+  "art/hidden/winter-tale/log_cabin.json": {
+   "size": 5110,
+   "sha": "dd63b3ad2f121369c5aa9f1e3a8f67805da7def4aff72923459854b2e90350c2"
+  },
+  "art/hidden/winter-tale/christmas_tree.json": {
+   "size": 3997,
+   "sha": "8c1bb1124eb1e972dd598f0d2e71e9401d50b2996e3ea21a6abb77dd0b109224"
+  },
+  "art/hidden/winter-tale/sled_gift.json": {
+   "size": 4225,
+   "sha": "21f885df3d229018b1753a900869e98baf5d1dab8196884f26bfba5830c2ca3e"
+  },
+  "art/hidden/winter-tale/hot_cocoa.json": {
+   "size": 3150,
+   "sha": "5a8a509beb5f9a5ba704ae199bca96de95cda0f2d7eff95578bfb22ede2f9dd9"
+  },
+  "art/hidden/winter-tale/masterpiece_winter_village.json": {
+   "size": 14443,
+   "sha": "fdfefbb933a136c5e89097c1fe9393f34b8476e542b41d859d81c7bcc854cc4a"
+  },
+  "art/hidden/winter-tale/ice_skates.json": {
+   "size": 4195,
+   "sha": "98a455b51975a73321d3dc9bd2fd6d0a92e9bc99c0ef0b7bbc76341cd04d674c"
+  },
+  "art/hidden/music/violin.json": {
+   "size": 4555,
+   "sha": "31d6b5a7463bc6e0080dae78f161d30e36f58607d2f05d76bceaeb70046e0358"
+  },
+  "art/hidden/music/guitar.json": {
+   "size": 5009,
+   "sha": "ddc6e0286d42bd2ca4ac37ae28797ad9fd6af28e7e86aea36aba6ff998c4c60e"
+  },
+  "art/hidden/music/trumpet.json": {
+   "size": 3491,
+   "sha": "e64fbd27a522c38ef8adae0d31f685e152ccc0d8b60a0cf2eaf0f1752ab11a15"
+  },
+  "art/hidden/music/harp.json": {
+   "size": 4688,
+   "sha": "5ce87d9428bfbf8fac7b47f87c5f51670907f1db0599f95a286e7f02ceb410b1"
+  },
+  "art/hidden/music/snare_drum.json": {
+   "size": 3700,
+   "sha": "005088505be1be254e63f8988866c9b69fbd4ef349a38975a434035527b39c86"
+  },
+  "art/hidden/music/masterpiece_music_still_life.json": {
+   "size": 13955,
+   "sha": "50fe9bfe9360ce92582f748597efedeb7288dd8f30afb98db0cf08cdb1f117e2"
+  },
+  "art/hidden/music/saxophone.json": {
+   "size": 4396,
+   "sha": "3394fa3d5149ba55412730f27d0ab0b6b8c8b8d2f9739918738e5920c57febaf"
+  },
+  "art/hidden/cafe-corner/cappuccino.json": {
+   "size": 4225,
+   "sha": "f5e84a5d76d18bfbb1b06f11f53d603b9b4bd9cc1854d5ab14fb5e41a532df51"
+  },
+  "art/hidden/cafe-corner/espresso_machine.json": {
+   "size": 5345,
+   "sha": "f6a470e505933e26e3e5f512fad34f604c805cdec8bfdf32039ff59984a4cae3"
+  },
+  "art/hidden/cafe-corner/french_press.json": {
+   "size": 4483,
+   "sha": "886910bd55701409857371975a0f32f02a928131db68764118925bb00f2e5e9d"
+  },
+  "art/hidden/cafe-corner/cheesecake.json": {
+   "size": 4834,
+   "sha": "427b94d7560f11d63c2c7c89f8d87ef02b5d1652627d677145a38f361916f3f6"
+  },
+  "art/hidden/cafe-corner/pancakes.json": {
+   "size": 4601,
+   "sha": "a2d9cedc0c0197bf08ab417d664b1959f77e8ad7f224415905c2b26c5972da40"
+  },
+  "art/hidden/cafe-corner/masterpiece_cafe_counter.json": {
+   "size": 13737,
+   "sha": "3b2aa4042e4310c75a6b85e3a0d53838893357587adf9410df624ec94da8e9a2"
+  },
+  "art/hidden/cafe-corner/teapot.json": {
+   "size": 4823,
+   "sha": "7eec76c9f9c76b8e2d772cefbb49d6fd4027254613d63576509d4f108b87b54c"
+  },
+  "art/hidden/ancient-egypt/pharaoh_mask.json": {
+   "size": 7051,
+   "sha": "bc75f0f040418df61fdbe88792457a8129672342978404840481fa93906ab052"
+  },
+  "art/hidden/ancient-egypt/bastet_cat.json": {
+   "size": 5419,
+   "sha": "d13898c628648c755bb435d362df3725ed22a55014fe526787734944ad23d471"
+  },
+  "art/hidden/ancient-egypt/winged_scarab.json": {
+   "size": 8059,
+   "sha": "04d5c01336a4633517f8daa3c249b33c5edb2bb1ad6c8fa12acb6c445ad58d6d"
+  },
+  "art/hidden/ancient-egypt/canopic_jar.json": {
+   "size": 5449,
+   "sha": "5ec7b73b9e58519d74fa4ca254429ee0979dcdbb55fe29a78a9872b68f838ff6"
+  },
+  "art/hidden/ancient-egypt/eye_of_horus.json": {
+   "size": 5587,
+   "sha": "5e9ab2ba304085892d3dc9bb7457855f0875ff623b010cf9e52bc102ef64b0f0"
+  },
+  "art/hidden/ancient-egypt/masterpiece_egypt_treasure.json": {
+   "size": 21305,
+   "sha": "6b874ecb2e8551fb9c130dd97245178a4a0e414cf4dc0fff785be73e7f1e674b"
+  },
+  "art/hidden/ancient-egypt/golden_ankh.json": {
+   "size": 5652,
+   "sha": "bc4dfc4b1f894553da8c8e1594ad7b8785d5f05bcd384e50026d8dee601f367e"
+  },
+  "art/hidden/ocean-depths/anglerfish.json": {
+   "size": 6462,
+   "sha": "b37de5817bdff1641ac20d1f55928ab7f2a9012cc50fa7f1c82a47579ebc498e"
+  },
+  "art/hidden/ocean-depths/giant_octopus.json": {
+   "size": 6809,
+   "sha": "1dc04a66d0cb4cd0290f4f9b9ff7a2b31d4cdbf894f25842d2646befe9badec0"
+  },
+  "art/hidden/ocean-depths/manta_ray.json": {
+   "size": 7217,
+   "sha": "82840e6cfb188002092e635dce87ba8ef62fac8588fe434131000db4a82c2c55"
+  },
+  "art/hidden/ocean-depths/hammerhead.json": {
+   "size": 6473,
+   "sha": "5b55539c7afb9aa54aaaa041489674957d5a810e66ae3736438beb8e9f5d80b2"
+  },
+  "art/hidden/ocean-depths/diving_helmet.json": {
+   "size": 6817,
+   "sha": "5178467bdeadc63f3a885a666afd5c5de191f93f7ebfd3e535d9136db672a7a6"
+  },
+  "art/hidden/ocean-depths/masterpiece_deep_sea_treasure.json": {
+   "size": 20753,
+   "sha": "b93aaf8e044f740c162ecd7f329a9803fc5abc99de9f7e52e3cf351718fb7db1"
+  },
+  "art/hidden/ocean-depths/treasure_chest.json": {
+   "size": 6735,
+   "sha": "9f6cb9b3d0d0510fd5e5abbd48e29c019b4dac28a2b361466af78f168e79942c"
+  },
+  "art/hidden/castles-dragons/green_dragon.json": {
+   "size": 7478,
+   "sha": "2ec14dc5c671b7653c91a2e46c6c45d52940f819156761d7a62d30f3e2b43d22"
+  },
+  "art/hidden/castles-dragons/castle.json": {
+   "size": 7395,
+   "sha": "9eaecb9c5afcc5dd62aa645fd06a794b162d8856e2f57456c0d04e33d7c08daa"
+  },
+  "art/hidden/castles-dragons/knight_helmet.json": {
+   "size": 7561,
+   "sha": "dc2f4f552da8d5e92d474cc5f9fd30ea73f8c0f3ddf40b54230a4078184ce257"
+  },
+  "art/hidden/castles-dragons/sword_shield.json": {
+   "size": 7142,
+   "sha": "8269133909ad6ccad2095fb89b2d9907c0085d6777efc509cbf5eb42153dc8fa"
+  },
+  "art/hidden/castles-dragons/royal_crown.json": {
+   "size": 7385,
+   "sha": "ac9faefcd6911414591c8702a71995a3096172ce217edab14bf968cbfe52341d"
+  },
+  "art/hidden/castles-dragons/masterpiece_dragon_castle.json": {
+   "size": 18260,
+   "sha": "e228ee12d83957e7fa84c032283690368cd46fdb1f15438b689a778d65004694"
+  },
+  "art/hidden/castles-dragons/dragon_egg.json": {
+   "size": 7547,
+   "sha": "39930db0b523b8ffe8b2b9449b34529c32ec225bcf9406d6db18e82c5157f564"
+  },
+  "art/hidden/wild-safari/lion.json": {
+   "size": 5873,
+   "sha": "5cd713c944beb34155c407732a50c23680ce646e6621138fd0f1cd0798d6250c"
+  },
+  "art/hidden/wild-safari/elephant.json": {
+   "size": 6033,
+   "sha": "70f79d5ab2bc52996f749f3b9c32d190cbe4b54ca00630ac19f9e5b74c59a157"
+  },
+  "art/hidden/wild-safari/giraffe.json": {
+   "size": 10839,
+   "sha": "0ed2fc85537331930f9d30babeb19407c5f6c00a1612f9c8313fc0d3660fff1e"
+  },
+  "art/hidden/wild-safari/zebra.json": {
+   "size": 6341,
+   "sha": "00c6504a89de2a26f0983ad878976286932c647c3287f41ecccbcbbd93182531"
+  },
+  "art/hidden/wild-safari/cheetah.json": {
+   "size": 5652,
+   "sha": "2b36dd7120cc5dd4816fd6c15fa13e9752c89622f37afa209cf5021a2422e2b9"
+  },
+  "art/hidden/wild-safari/masterpiece_savanna.json": {
+   "size": 20895,
+   "sha": "c10ff4d7d35c7486d63d1011f15d4ef7fafe8043d545f86ff579f4974ae5edc3"
+  },
+  "art/hidden/wild-safari/rhinoceros.json": {
+   "size": 6363,
+   "sha": "16126052ded82686d5ec8acd010c5f2ee6801da3c8407cea03204a6a8b5d577e"
+  },
+  "art/hidden/night-city/yellow_taxi.json": {
+   "size": 6431,
+   "sha": "152bd6b3cd2caa5db4c628d66191ac5b4fdb07fd5945254e296c1bb1976fe1b4"
+  },
+  "art/hidden/night-city/street_lamp.json": {
+   "size": 6950,
+   "sha": "2cae0fe4b01244f3d3e2807cbcd29e68027c35130e43b32aac77f61a14706b7e"
+  },
+  "art/hidden/night-city/art_deco_tower.json": {
+   "size": 4783,
+   "sha": "5571f5380bc460fc25180433708d8fe68e8f365a82e6627954ed0f72337daa9d"
+  },
+  "art/hidden/night-city/corner_bookshop.json": {
+   "size": 4679,
+   "sha": "d909a1dcd92d57fc85053a733e28c1d098f8824e92fd696568bb2b03a068772c"
+  },
+  "art/hidden/night-city/double_decker.json": {
+   "size": 4721,
+   "sha": "f16c335dcf6a6c7a449ec5556240adb87081f68cb02e804e722ce2f32c129711"
+  },
+  "art/hidden/night-city/masterpiece_night_street.json": {
+   "size": 24175,
+   "sha": "8b985522ed62e8838593de457a60d5a369649cb9cbbec95ea318964e4239d379"
+  },
+  "art/hidden/night-city/jazz_club.json": {
+   "size": 10157,
+   "sha": "e874c1aa77544b126713203301f981239df8de5ef572f04821751481f144ea8c"
+  }
+ }
+}

@@ -1,0 +1,6161 @@
+{
+ "version": 1,
+ "mode": "spot_the_pixel",
+ "note": "Picture A = <id>.png, picture B = <id>_b.png (5 differences already applied). diffs are grid cells (x, y, size) on a grid_width x grid_height grid laid over the image; cell px = image px / grid.",
+ "categories": [
+  {
+   "id": "picnic",
+   "name": {
+    "en": "Picnic",
+    "tr": "Piknik",
+    "de": "Picknick"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "blanket",
+     "order": 1,
+     "name": {
+      "en": "Picnic Blanket",
+      "tr": "Piknik Örtüsü",
+      "de": "Picknickdecke"
+     },
+     "role": "picture",
+     "file": "picnic/blanket.json",
+     "image": "picnic/blanket.png",
+     "image_b": "picnic/blanket_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "swing_tree",
+     "order": 2,
+     "name": {
+      "en": "Swing Tree",
+      "tr": "Salıncaklı Ağaç",
+      "de": "Schaukelbaum"
+     },
+     "role": "picture",
+     "file": "picnic/swing_tree.json",
+     "image": "picnic/swing_tree.png",
+     "image_b": "picnic/swing_tree_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "duck_pond",
+     "order": 3,
+     "name": {
+      "en": "Duck Pond",
+      "tr": "Ördek Göleti",
+      "de": "Ententeich"
+     },
+     "role": "picture",
+     "file": "picnic/duck_pond.json",
+     "image": "picnic/duck_pond.png",
+     "image_b": "picnic/duck_pond_b.png",
+     "width": 491,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "bicycle",
+     "order": 4,
+     "name": {
+      "en": "Bicycle",
+      "tr": "Bisiklet",
+      "de": "Fahrrad"
+     },
+     "role": "picture",
+     "file": "picnic/bicycle.json",
+     "image": "picnic/bicycle.png",
+     "image_b": "picnic/bicycle_b.png",
+     "width": 491,
+     "height": 488,
+     "status": "ready"
+    },
+    {
+     "id": "kites",
+     "order": 5,
+     "name": {
+      "en": "Kites",
+      "tr": "Uçurtmalar",
+      "de": "Drachen"
+     },
+     "role": "picture",
+     "file": "picnic/kites.json",
+     "image": "picnic/kites.png",
+     "image_b": "picnic/kites_b.png",
+     "width": 491,
+     "height": 488,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_picnic_meadow",
+     "order": 6,
+     "name": {
+      "en": "Picnic Meadow",
+      "tr": "Piknik Çayırı",
+      "de": "Picknickwiese"
+     },
+     "role": "masterpiece",
+     "file": "picnic/masterpiece_picnic_meadow.json",
+     "image": "picnic/masterpiece_picnic_meadow.png",
+     "image_b": "picnic/masterpiece_picnic_meadow_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "picnic_table",
+    "order": 0,
+    "name": {
+     "en": "Picnic Table",
+     "tr": "Piknik Masası",
+     "de": "Picknicktisch"
+    },
+    "role": "spare",
+    "file": "picnic/picnic_table.json",
+    "image": "picnic/picnic_table.png",
+    "image_b": "picnic/picnic_table_b.png",
+    "width": 491,
+    "height": 488,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "toy-shop",
+   "name": {
+    "en": "Toy Shop",
+    "tr": "Oyuncak Dükkanı",
+    "de": "Spielzeugladen"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "toy_shelf",
+     "order": 1,
+     "name": {
+      "en": "Toy Shelf",
+      "tr": "Oyuncak Rafı",
+      "de": "Spielzeugregal"
+     },
+     "role": "picture",
+     "file": "toy-shop/toy_shelf.json",
+     "image": "toy-shop/toy_shelf.png",
+     "image_b": "toy-shop/toy_shelf_b.png",
+     "width": 490,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "toy_train",
+     "order": 2,
+     "name": {
+      "en": "Toy Train",
+      "tr": "Oyuncak Tren",
+      "de": "Spielzeugzug"
+     },
+     "role": "picture",
+     "file": "toy-shop/toy_train.json",
+     "image": "toy-shop/toy_train.png",
+     "image_b": "toy-shop/toy_train_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "rocking_horse",
+     "order": 3,
+     "name": {
+      "en": "Rocking Horse",
+      "tr": "Sallanan At",
+      "de": "Schaukelpferd"
+     },
+     "role": "picture",
+     "file": "toy-shop/rocking_horse.json",
+     "image": "toy-shop/rocking_horse.png",
+     "image_b": "toy-shop/rocking_horse_b.png",
+     "width": 491,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "cash_register",
+     "order": 4,
+     "name": {
+      "en": "Cash Register",
+      "tr": "Yazar Kasa",
+      "de": "Registrierkasse"
+     },
+     "role": "picture",
+     "file": "toy-shop/cash_register.json",
+     "image": "toy-shop/cash_register.png",
+     "image_b": "toy-shop/cash_register_b.png",
+     "width": 490,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "sailboat_drum",
+     "order": 5,
+     "name": {
+      "en": "Sailboat & Drum",
+      "tr": "Yelkenli ve Davul",
+      "de": "Segelboot & Trommel"
+     },
+     "role": "picture",
+     "file": "toy-shop/sailboat_drum.json",
+     "image": "toy-shop/sailboat_drum.png",
+     "image_b": "toy-shop/sailboat_drum_b.png",
+     "width": 492,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_toy_shop",
+     "order": 6,
+     "name": {
+      "en": "Toy Shop",
+      "tr": "Oyuncak Dükkanı",
+      "de": "Spielzeugladen"
+     },
+     "role": "masterpiece",
+     "file": "toy-shop/masterpiece_toy_shop.json",
+     "image": "toy-shop/masterpiece_toy_shop.png",
+     "image_b": "toy-shop/masterpiece_toy_shop_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "dollhouse",
+    "order": 0,
+    "name": {
+     "en": "Dollhouse",
+     "tr": "Bebek Evi",
+     "de": "Puppenhaus"
+    },
+    "role": "spare",
+    "file": "toy-shop/dollhouse.json",
+    "image": "toy-shop/dollhouse.png",
+    "image_b": "toy-shop/dollhouse_b.png",
+    "width": 491,
+    "height": 491,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "farm",
+   "name": {
+    "en": "Farm",
+    "tr": "Çiftlik",
+    "de": "Bauernhof"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "red_barn",
+     "order": 1,
+     "name": {
+      "en": "Red Barn",
+      "tr": "Kırmızı Ahır",
+      "de": "Rote Scheune"
+     },
+     "role": "picture",
+     "file": "farm/red_barn.json",
+     "image": "farm/red_barn.png",
+     "image_b": "farm/red_barn_b.png",
+     "width": 492,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "chicken_coop",
+     "order": 2,
+     "name": {
+      "en": "Chicken Coop",
+      "tr": "Tavuk Kümesi",
+      "de": "Hühnerstall"
+     },
+     "role": "picture",
+     "file": "farm/chicken_coop.json",
+     "image": "farm/chicken_coop.png",
+     "image_b": "farm/chicken_coop_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "goose_pond",
+     "order": 3,
+     "name": {
+      "en": "Goose Pond",
+      "tr": "Kaz Göleti",
+      "de": "Gänseteich"
+     },
+     "role": "picture",
+     "file": "farm/goose_pond.json",
+     "image": "farm/goose_pond.png",
+     "image_b": "farm/goose_pond_b.png",
+     "width": 491,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "vegetable_garden",
+     "order": 4,
+     "name": {
+      "en": "Vegetable Garden",
+      "tr": "Sebze Bahçesi",
+      "de": "Gemüsegarten"
+     },
+     "role": "picture",
+     "file": "farm/vegetable_garden.json",
+     "image": "farm/vegetable_garden.png",
+     "image_b": "farm/vegetable_garden_b.png",
+     "width": 492,
+     "height": 495,
+     "status": "ready"
+    },
+    {
+     "id": "horse_stable",
+     "order": 5,
+     "name": {
+      "en": "Horse Stable",
+      "tr": "At Ahırı",
+      "de": "Pferdestall"
+     },
+     "role": "picture",
+     "file": "farm/horse_stable.json",
+     "image": "farm/horse_stable.png",
+     "image_b": "farm/horse_stable_b.png",
+     "width": 490,
+     "height": 495,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_farm",
+     "order": 6,
+     "name": {
+      "en": "Country Farm",
+      "tr": "Kır Çiftliği",
+      "de": "Landhof"
+     },
+     "role": "masterpiece",
+     "file": "farm/masterpiece_farm.json",
+     "image": "farm/masterpiece_farm.png",
+     "image_b": "farm/masterpiece_farm_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "cow_windmill",
+    "order": 0,
+    "name": {
+     "en": "Cow & Windmill",
+     "tr": "İnek ve Değirmen",
+     "de": "Kuh & Windmühle"
+    },
+    "role": "spare",
+    "file": "farm/cow_windmill.json",
+    "image": "farm/cow_windmill.png",
+    "image_b": "farm/cow_windmill_b.png",
+    "width": 491,
+    "height": 495,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "beach-day",
+   "name": {
+    "en": "Beach Day",
+    "tr": "Plaj Günü",
+    "de": "Strandtag"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "beach_umbrella",
+     "order": 1,
+     "name": {
+      "en": "Beach Umbrella",
+      "tr": "Plaj Şemsiyesi",
+      "de": "Sonnenschirm"
+     },
+     "role": "picture",
+     "file": "beach-day/beach_umbrella.json",
+     "image": "beach-day/beach_umbrella.png",
+     "image_b": "beach-day/beach_umbrella_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "sandcastle",
+     "order": 2,
+     "name": {
+      "en": "Sandcastle",
+      "tr": "Kumdan Kale",
+      "de": "Sandburg"
+     },
+     "role": "picture",
+     "file": "beach-day/sandcastle.json",
+     "image": "beach-day/sandcastle.png",
+     "image_b": "beach-day/sandcastle_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "lifeguard_hut",
+     "order": 3,
+     "name": {
+      "en": "Lifeguard Hut",
+      "tr": "Cankurtaran Kulübesi",
+      "de": "Rettungshütte"
+     },
+     "role": "picture",
+     "file": "beach-day/lifeguard_hut.json",
+     "image": "beach-day/lifeguard_hut.png",
+     "image_b": "beach-day/lifeguard_hut_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "fishing_boat",
+     "order": 4,
+     "name": {
+      "en": "Fishing Boat",
+      "tr": "Balıkçı Teknesi",
+      "de": "Fischerboot"
+     },
+     "role": "picture",
+     "file": "beach-day/fishing_boat.json",
+     "image": "beach-day/fishing_boat.png",
+     "image_b": "beach-day/fishing_boat_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "ice_cream_cart",
+     "order": 5,
+     "name": {
+      "en": "Ice Cream Cart",
+      "tr": "Dondurma Arabası",
+      "de": "Eiswagen"
+     },
+     "role": "picture",
+     "file": "beach-day/ice_cream_cart.json",
+     "image": "beach-day/ice_cream_cart.png",
+     "image_b": "beach-day/ice_cream_cart_b.png",
+     "width": 492,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_beach",
+     "order": 6,
+     "name": {
+      "en": "Mediterranean Beach",
+      "tr": "Akdeniz Plajı",
+      "de": "Mittelmeerstrand"
+     },
+     "role": "masterpiece",
+     "file": "beach-day/masterpiece_beach.json",
+     "image": "beach-day/masterpiece_beach.png",
+     "image_b": "beach-day/masterpiece_beach_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "lighthouse_rocks",
+    "order": 0,
+    "name": {
+     "en": "Lighthouse",
+     "tr": "Fener",
+     "de": "Leuchtturm"
+    },
+    "role": "spare",
+    "file": "beach-day/lighthouse_rocks.json",
+    "image": "beach-day/lighthouse_rocks.png",
+    "image_b": "beach-day/lighthouse_rocks_b.png",
+    "width": 489,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "kitchen-shelf",
+   "name": {
+    "en": "Kitchen Shelf",
+    "tr": "Mutfak Rafı",
+    "de": "Küchenregal"
+   },
+   "tier": "easy",
+   "pictures": [
+    {
+     "id": "jam_shelf",
+     "order": 1,
+     "name": {
+      "en": "Jam Shelf",
+      "tr": "Reçel Rafı",
+      "de": "Marmeladenregal"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/jam_shelf.json",
+     "image": "kitchen-shelf/jam_shelf.png",
+     "image_b": "kitchen-shelf/jam_shelf_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "iron_stove",
+     "order": 2,
+     "name": {
+      "en": "Iron Stove",
+      "tr": "Döküm Soba",
+      "de": "Eisenherd"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/iron_stove.json",
+     "image": "kitchen-shelf/iron_stove.png",
+     "image_b": "kitchen-shelf/iron_stove_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "cat_window",
+     "order": 3,
+     "name": {
+      "en": "Cat Window",
+      "tr": "Kedili Pencere",
+      "de": "Katzenfenster"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/cat_window.json",
+     "image": "kitchen-shelf/cat_window.png",
+     "image_b": "kitchen-shelf/cat_window_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "bread_table",
+     "order": 4,
+     "name": {
+      "en": "Bread Table",
+      "tr": "Ekmek Masası",
+      "de": "Brottisch"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/bread_table.json",
+     "image": "kitchen-shelf/bread_table.png",
+     "image_b": "kitchen-shelf/bread_table_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "baking_corner",
+     "order": 5,
+     "name": {
+      "en": "Baking Corner",
+      "tr": "Hamur Köşesi",
+      "de": "Backecke"
+     },
+     "role": "picture",
+     "file": "kitchen-shelf/baking_corner.json",
+     "image": "kitchen-shelf/baking_corner.png",
+     "image_b": "kitchen-shelf/baking_corner_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_country_kitchen",
+     "order": 6,
+     "name": {
+      "en": "Country Kitchen",
+      "tr": "Köy Mutfağı",
+      "de": "Landküche"
+     },
+     "role": "masterpiece",
+     "file": "kitchen-shelf/masterpiece_country_kitchen.json",
+     "image": "kitchen-shelf/masterpiece_country_kitchen.png",
+     "image_b": "kitchen-shelf/masterpiece_country_kitchen_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "china_cupboard",
+    "order": 0,
+    "name": {
+     "en": "China Cupboard",
+     "tr": "Porselen Dolabı",
+     "de": "Geschirrschrank"
+    },
+    "role": "spare",
+    "file": "kitchen-shelf/china_cupboard.json",
+    "image": "kitchen-shelf/china_cupboard.png",
+    "image_b": "kitchen-shelf/china_cupboard_b.png",
+    "width": 490,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "camp-night",
+   "name": {
+    "en": "Camp Night",
+    "tr": "Kamp Gecesi",
+    "de": "Zeltnacht"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "glowing_tent",
+     "order": 1,
+     "name": {
+      "en": "Glowing Tent",
+      "tr": "Parlayan Çadır",
+      "de": "Leuchtendes Zelt"
+     },
+     "role": "picture",
+     "file": "camp-night/glowing_tent.json",
+     "image": "camp-night/glowing_tent.png",
+     "image_b": "camp-night/glowing_tent_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "campfire",
+     "order": 2,
+     "name": {
+      "en": "Campfire",
+      "tr": "Kamp Ateşi",
+      "de": "Lagerfeuer"
+     },
+     "role": "picture",
+     "file": "camp-night/campfire.json",
+     "image": "camp-night/campfire.png",
+     "image_b": "camp-night/campfire_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "moonlit_canoe",
+     "order": 3,
+     "name": {
+      "en": "Moonlit Canoe",
+      "tr": "Ay Işığında Kano",
+      "de": "Kanu im Mondlicht"
+     },
+     "role": "picture",
+     "file": "camp-night/moonlit_canoe.json",
+     "image": "camp-night/moonlit_canoe.png",
+     "image_b": "camp-night/moonlit_canoe_b.png",
+     "width": 491,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "camp_table",
+     "order": 4,
+     "name": {
+      "en": "Camp Table",
+      "tr": "Kamp Masası",
+      "de": "Campingtisch"
+     },
+     "role": "picture",
+     "file": "camp-night/camp_table.json",
+     "image": "camp-night/camp_table.png",
+     "image_b": "camp-night/camp_table_b.png",
+     "width": 489,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "hammock_owl",
+     "order": 5,
+     "name": {
+      "en": "Hammock & Owl",
+      "tr": "Hamak ve Baykuş",
+      "de": "Hängematte & Eule"
+     },
+     "role": "picture",
+     "file": "camp-night/hammock_owl.json",
+     "image": "camp-night/hammock_owl.png",
+     "image_b": "camp-night/hammock_owl_b.png",
+     "width": 489,
+     "height": 491,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_campsite",
+     "order": 6,
+     "name": {
+      "en": "Campsite",
+      "tr": "Kamp Alanı",
+      "de": "Zeltplatz"
+     },
+     "role": "masterpiece",
+     "file": "camp-night/masterpiece_campsite.json",
+     "image": "camp-night/masterpiece_campsite.png",
+     "image_b": "camp-night/masterpiece_campsite_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "telescope_rock",
+    "order": 0,
+    "name": {
+     "en": "Telescope",
+     "tr": "Teleskop",
+     "de": "Teleskop"
+    },
+    "role": "spare",
+    "file": "camp-night/telescope_rock.json",
+    "image": "camp-night/telescope_rock.png",
+    "image_b": "camp-night/telescope_rock_b.png",
+    "width": 491,
+    "height": 491,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "library",
+   "name": {
+    "en": "Library",
+    "tr": "Kütüphane",
+    "de": "Bibliothek"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "bookshelf_ladder",
+     "order": 1,
+     "name": {
+      "en": "Bookshelf",
+      "tr": "Kitaplık",
+      "de": "Bücherregal"
+     },
+     "role": "picture",
+     "file": "library/bookshelf_ladder.json",
+     "image": "library/bookshelf_ladder.png",
+     "image_b": "library/bookshelf_ladder_b.png",
+     "width": 489,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "reading_chair",
+     "order": 2,
+     "name": {
+      "en": "Reading Chair",
+      "tr": "Okuma Koltuğu",
+      "de": "Lesesessel"
+     },
+     "role": "picture",
+     "file": "library/reading_chair.json",
+     "image": "library/reading_chair.png",
+     "image_b": "library/reading_chair_b.png",
+     "width": 490,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "window_seat_cat",
+     "order": 3,
+     "name": {
+      "en": "Window Seat",
+      "tr": "Pencere Köşesi",
+      "de": "Fensterbank"
+     },
+     "role": "picture",
+     "file": "library/window_seat_cat.json",
+     "image": "library/window_seat_cat.png",
+     "image_b": "library/window_seat_cat_b.png",
+     "width": 492,
+     "height": 493,
+     "status": "ready"
+    },
+    {
+     "id": "map_desk",
+     "order": 4,
+     "name": {
+      "en": "Map Desk",
+      "tr": "Harita Masası",
+      "de": "Kartentisch"
+     },
+     "role": "picture",
+     "file": "library/map_desk.json",
+     "image": "library/map_desk.png",
+     "image_b": "library/map_desk_b.png",
+     "width": 489,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "spiral_stairs",
+     "order": 5,
+     "name": {
+      "en": "Spiral Stairs",
+      "tr": "Döner Merdiven",
+      "de": "Wendeltreppe"
+     },
+     "role": "picture",
+     "file": "library/spiral_stairs.json",
+     "image": "library/spiral_stairs.png",
+     "image_b": "library/spiral_stairs_b.png",
+     "width": 490,
+     "height": 492,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_grand_library",
+     "order": 6,
+     "name": {
+      "en": "Grand Library",
+      "tr": "Büyük Kütüphane",
+      "de": "Große Bibliothek"
+     },
+     "role": "masterpiece",
+     "file": "library/masterpiece_grand_library.json",
+     "image": "library/masterpiece_grand_library.png",
+     "image_b": "library/masterpiece_grand_library_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "fireplace_globe",
+    "order": 0,
+    "name": {
+     "en": "Fireplace & Globe",
+     "tr": "Şömine ve Küre",
+     "de": "Kamin & Globus"
+    },
+    "role": "spare",
+    "file": "library/fireplace_globe.json",
+    "image": "library/fireplace_globe.png",
+    "image_b": "library/fireplace_globe_b.png",
+    "width": 492,
+    "height": 492,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "train-station",
+   "name": {
+    "en": "Train Station",
+    "tr": "Tren İstasyonu",
+    "de": "Bahnhof"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "steam_train",
+     "order": 1,
+     "name": {
+      "en": "Steam Train",
+      "tr": "Buharlı Tren",
+      "de": "Dampfzug"
+     },
+     "role": "picture",
+     "file": "train-station/steam_train.json",
+     "image": "train-station/steam_train.png",
+     "image_b": "train-station/steam_train_b.png",
+     "width": 513,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "station_clock",
+     "order": 2,
+     "name": {
+      "en": "Station Clock",
+      "tr": "İstasyon Saati",
+      "de": "Bahnhofsuhr"
+     },
+     "role": "picture",
+     "file": "train-station/station_clock.json",
+     "image": "train-station/station_clock.png",
+     "image_b": "train-station/station_clock_b.png",
+     "width": 501,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "luggage_trolley",
+     "order": 3,
+     "name": {
+      "en": "Luggage Trolley",
+      "tr": "Bavul Arabası",
+      "de": "Gepäckwagen"
+     },
+     "role": "picture",
+     "file": "train-station/luggage_trolley.json",
+     "image": "train-station/luggage_trolley.png",
+     "image_b": "train-station/luggage_trolley_b.png",
+     "width": 494,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "ticket_window",
+     "order": 4,
+     "name": {
+      "en": "Ticket Window",
+      "tr": "Bilet Gişesi",
+      "de": "Fahrkartenschalter"
+     },
+     "role": "picture",
+     "file": "train-station/ticket_window.json",
+     "image": "train-station/ticket_window.png",
+     "image_b": "train-station/ticket_window_b.png",
+     "width": 513,
+     "height": 506,
+     "status": "ready"
+    },
+    {
+     "id": "station_cafe",
+     "order": 5,
+     "name": {
+      "en": "Station Cafe",
+      "tr": "İstasyon Kafesi",
+      "de": "Bahnhofscafé"
+     },
+     "role": "picture",
+     "file": "train-station/station_cafe.json",
+     "image": "train-station/station_cafe.png",
+     "image_b": "train-station/station_cafe_b.png",
+     "width": 501,
+     "height": 506,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_autumn_station",
+     "order": 6,
+     "name": {
+      "en": "Autumn Station",
+      "tr": "Sonbahar İstasyonu",
+      "de": "Herbstbahnhof"
+     },
+     "role": "masterpiece",
+     "file": "train-station/masterpiece_autumn_station.json",
+     "image": "train-station/masterpiece_autumn_station.png",
+     "image_b": "train-station/masterpiece_autumn_station_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "signal_box",
+    "order": 0,
+    "name": {
+     "en": "Signal Box",
+     "tr": "Sinyal Kulübesi",
+     "de": "Stellwerk"
+    },
+    "role": "spare",
+    "file": "train-station/signal_box.json",
+    "image": "train-station/signal_box.png",
+    "image_b": "train-station/signal_box_b.png",
+    "width": 494,
+    "height": 506,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "autumn-market",
+   "name": {
+    "en": "Autumn Market",
+    "tr": "Sonbahar Pazarı",
+    "de": "Herbstmarkt"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "pumpkin_stall",
+     "order": 1,
+     "name": {
+      "en": "Pumpkin Stall",
+      "tr": "Balkabağı Tezgahı",
+      "de": "Kürbisstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/pumpkin_stall.json",
+     "image": "autumn-market/pumpkin_stall.png",
+     "image_b": "autumn-market/pumpkin_stall_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "apple_cart",
+     "order": 2,
+     "name": {
+      "en": "Apple Cart",
+      "tr": "Elma Arabası",
+      "de": "Apfelkarren"
+     },
+     "role": "picture",
+     "file": "autumn-market/apple_cart.json",
+     "image": "autumn-market/apple_cart.png",
+     "image_b": "autumn-market/apple_cart_b.png",
+     "width": 503,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "bakery_stall",
+     "order": 3,
+     "name": {
+      "en": "Bakery Stall",
+      "tr": "Fırın Tezgahı",
+      "de": "Bäckerstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/bakery_stall.json",
+     "image": "autumn-market/bakery_stall.png",
+     "image_b": "autumn-market/bakery_stall_b.png",
+     "width": 501,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_stall",
+     "order": 4,
+     "name": {
+      "en": "Flower Stall",
+      "tr": "Çiçek Tezgahı",
+      "de": "Blumenstand"
+     },
+     "role": "picture",
+     "file": "autumn-market/flower_stall.json",
+     "image": "autumn-market/flower_stall.png",
+     "image_b": "autumn-market/flower_stall_b.png",
+     "width": 502,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "knitted_goods",
+     "order": 5,
+     "name": {
+      "en": "Knitted Goods",
+      "tr": "Örgü Tezgahı",
+      "de": "Strickwaren"
+     },
+     "role": "picture",
+     "file": "autumn-market/knitted_goods.json",
+     "image": "autumn-market/knitted_goods.png",
+     "image_b": "autumn-market/knitted_goods_b.png",
+     "width": 503,
+     "height": 505,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_autumn_market",
+     "order": 6,
+     "name": {
+      "en": "Autumn Market",
+      "tr": "Sonbahar Pazarı",
+      "de": "Herbstmarkt"
+     },
+     "role": "masterpiece",
+     "file": "autumn-market/masterpiece_autumn_market.json",
+     "image": "autumn-market/masterpiece_autumn_market.png",
+     "image_b": "autumn-market/masterpiece_autumn_market_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "chestnut_cart",
+    "order": 0,
+    "name": {
+     "en": "Chestnut Cart",
+     "tr": "Kestane Arabası",
+     "de": "Maronenwagen"
+    },
+    "role": "spare",
+    "file": "autumn-market/chestnut_cart.json",
+    "image": "autumn-market/chestnut_cart.png",
+    "image_b": "autumn-market/chestnut_cart_b.png",
+    "width": 501,
+    "height": 505,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "florist",
+   "name": {
+    "en": "Flower Shop",
+    "tr": "Çiçekçi Dükkanı",
+    "de": "Blumenladen"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "shop_front",
+     "order": 1,
+     "name": {
+      "en": "Shop Front",
+      "tr": "Dükkan Önü",
+      "de": "Ladenfront"
+     },
+     "role": "picture",
+     "file": "florist/shop_front.json",
+     "image": "florist/shop_front.png",
+     "image_b": "florist/shop_front_b.png",
+     "width": 500,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "bouquet_table",
+     "order": 2,
+     "name": {
+      "en": "Bouquet Table",
+      "tr": "Buket Masası",
+      "de": "Straußtisch"
+     },
+     "role": "picture",
+     "file": "florist/bouquet_table.json",
+     "image": "florist/bouquet_table.png",
+     "image_b": "florist/bouquet_table_b.png",
+     "width": 503,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "plant_shelves",
+     "order": 3,
+     "name": {
+      "en": "Plant Shelves",
+      "tr": "Bitki Rafları",
+      "de": "Pflanzenregale"
+     },
+     "role": "picture",
+     "file": "florist/plant_shelves.json",
+     "image": "florist/plant_shelves.png",
+     "image_b": "florist/plant_shelves_b.png",
+     "width": 501,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_cooler",
+     "order": 4,
+     "name": {
+      "en": "Flower Cooler",
+      "tr": "Çiçek Dolabı",
+      "de": "Blumenkühlschrank"
+     },
+     "role": "picture",
+     "file": "florist/flower_cooler.json",
+     "image": "florist/flower_cooler.png",
+     "image_b": "florist/flower_cooler_b.png",
+     "width": 500,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "sunflower_bicycle",
+     "order": 5,
+     "name": {
+      "en": "Sunflower Bicycle",
+      "tr": "Ayçiçekli Bisiklet",
+      "de": "Sonnenblumenrad"
+     },
+     "role": "picture",
+     "file": "florist/sunflower_bicycle.json",
+     "image": "florist/sunflower_bicycle.png",
+     "image_b": "florist/sunflower_bicycle_b.png",
+     "width": 503,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_paris_florist",
+     "order": 6,
+     "name": {
+      "en": "Paris Florist",
+      "tr": "Paris Çiçekçisi",
+      "de": "Pariser Blumenladen"
+     },
+     "role": "masterpiece",
+     "file": "florist/masterpiece_paris_florist.json",
+     "image": "florist/masterpiece_paris_florist.png",
+     "image_b": "florist/masterpiece_paris_florist_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "orchid_greenhouse",
+    "order": 0,
+    "name": {
+     "en": "Orchid Greenhouse",
+     "tr": "Orkide Serası",
+     "de": "Orchideenhaus"
+    },
+    "role": "spare",
+    "file": "florist/orchid_greenhouse.json",
+    "image": "florist/orchid_greenhouse.png",
+    "image_b": "florist/orchid_greenhouse_b.png",
+    "width": 501,
+    "height": 502,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "pirate-cove",
+   "name": {
+    "en": "Pirate Cove",
+    "tr": "Korsan Koyu",
+    "de": "Piratenbucht"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "pirate_galleon",
+     "order": 1,
+     "name": {
+      "en": "Pirate Galleon",
+      "tr": "Korsan Gemisi",
+      "de": "Piratengaleone"
+     },
+     "role": "picture",
+     "file": "pirate-cove/pirate_galleon.json",
+     "image": "pirate-cove/pirate_galleon.png",
+     "image_b": "pirate-cove/pirate_galleon_b.png",
+     "width": 501,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "treasure_chest",
+     "order": 2,
+     "name": {
+      "en": "Treasure Chest",
+      "tr": "Hazine Sandığı",
+      "de": "Schatztruhe"
+     },
+     "role": "picture",
+     "file": "pirate-cove/treasure_chest.json",
+     "image": "pirate-cove/treasure_chest.png",
+     "image_b": "pirate-cove/treasure_chest_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "captains_cabin",
+     "order": 3,
+     "name": {
+      "en": "Captain's Cabin",
+      "tr": "Kaptan Kamarası",
+      "de": "Kapitänskajüte"
+     },
+     "role": "picture",
+     "file": "pirate-cove/captains_cabin.json",
+     "image": "pirate-cove/captains_cabin.png",
+     "image_b": "pirate-cove/captains_cabin_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "pirate_dock",
+     "order": 4,
+     "name": {
+      "en": "Pirate Dock",
+      "tr": "Korsan İskelesi",
+      "de": "Piratensteg"
+     },
+     "role": "picture",
+     "file": "pirate-cove/pirate_dock.json",
+     "image": "pirate-cove/pirate_dock.png",
+     "image_b": "pirate-cove/pirate_dock_b.png",
+     "width": 501,
+     "height": 504,
+     "status": "ready"
+    },
+    {
+     "id": "skull_cave",
+     "order": 5,
+     "name": {
+      "en": "Skull Cave",
+      "tr": "Kafatası Mağarası",
+      "de": "Totenkopfhöhle"
+     },
+     "role": "picture",
+     "file": "pirate-cove/skull_cave.json",
+     "image": "pirate-cove/skull_cave.png",
+     "image_b": "pirate-cove/skull_cave_b.png",
+     "width": 502,
+     "height": 504,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_pirate_cove",
+     "order": 6,
+     "name": {
+      "en": "Pirate Cove",
+      "tr": "Korsan Koyu",
+      "de": "Piratenbucht"
+     },
+     "role": "masterpiece",
+     "file": "pirate-cove/masterpiece_pirate_cove.json",
+     "image": "pirate-cove/masterpiece_pirate_cove.png",
+     "image_b": "pirate-cove/masterpiece_pirate_cove_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "treasure_beach",
+    "order": 0,
+    "name": {
+     "en": "Treasure Beach",
+     "tr": "Hazine Plajı",
+     "de": "Schatzstrand"
+    },
+    "role": "spare",
+    "file": "pirate-cove/treasure_beach.json",
+    "image": "pirate-cove/treasure_beach.png",
+    "image_b": "pirate-cove/treasure_beach_b.png",
+    "width": 502,
+    "height": 504,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "wizard-room",
+   "name": {
+    "en": "Wizard's Room",
+    "tr": "Büyücünün Odası",
+    "de": "Zauberzimmer"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "bubbling_cauldron",
+     "order": 1,
+     "name": {
+      "en": "Cauldron",
+      "tr": "Kazan",
+      "de": "Kessel"
+     },
+     "role": "picture",
+     "file": "wizard-room/bubbling_cauldron.json",
+     "image": "wizard-room/bubbling_cauldron.png",
+     "image_b": "wizard-room/bubbling_cauldron_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "potion_shelf",
+     "order": 2,
+     "name": {
+      "en": "Potion Shelf",
+      "tr": "İksir Rafı",
+      "de": "Trankregal"
+     },
+     "role": "picture",
+     "file": "wizard-room/potion_shelf.json",
+     "image": "wizard-room/potion_shelf.png",
+     "image_b": "wizard-room/potion_shelf_b.png",
+     "width": 502,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "spellbook_desk",
+     "order": 3,
+     "name": {
+      "en": "Spellbook Desk",
+      "tr": "Büyü Kitabı Masası",
+      "de": "Zauberbuchtisch"
+     },
+     "role": "picture",
+     "file": "wizard-room/spellbook_desk.json",
+     "image": "wizard-room/spellbook_desk.png",
+     "image_b": "wizard-room/spellbook_desk_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "owl_window",
+     "order": 4,
+     "name": {
+      "en": "Owl Window",
+      "tr": "Baykuşlu Pencere",
+      "de": "Eulenfenster"
+     },
+     "role": "picture",
+     "file": "wizard-room/owl_window.json",
+     "image": "wizard-room/owl_window.png",
+     "image_b": "wizard-room/owl_window_b.png",
+     "width": 501,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "orrery_hat",
+     "order": 5,
+     "name": {
+      "en": "Orrery & Hat",
+      "tr": "Gezegen Modeli ve Şapka",
+      "de": "Planetarium & Hut"
+     },
+     "role": "picture",
+     "file": "wizard-room/orrery_hat.json",
+     "image": "wizard-room/orrery_hat.png",
+     "image_b": "wizard-room/orrery_hat_b.png",
+     "width": 502,
+     "height": 502,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_wizard_tower",
+     "order": 6,
+     "name": {
+      "en": "Wizard's Tower",
+      "tr": "Büyücü Kulesi",
+      "de": "Zauberturm"
+     },
+     "role": "masterpiece",
+     "file": "wizard-room/masterpiece_wizard_tower.json",
+     "image": "wizard-room/masterpiece_wizard_tower.png",
+     "image_b": "wizard-room/masterpiece_wizard_tower_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "magic_circle",
+    "order": 0,
+    "name": {
+     "en": "Magic Circle",
+     "tr": "Büyü Çemberi",
+     "de": "Zauberkreis"
+    },
+    "role": "spare",
+    "file": "wizard-room/magic_circle.json",
+    "image": "wizard-room/magic_circle.png",
+    "image_b": "wizard-room/magic_circle_b.png",
+    "width": 501,
+    "height": 502,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "venice-canals",
+   "name": {
+    "en": "Venice Canals",
+    "tr": "Venedik Kanalları",
+    "de": "Kanäle von Venedig"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "gondola",
+     "order": 1,
+     "name": {
+      "en": "Gondola",
+      "tr": "Gondol",
+      "de": "Gondel"
+     },
+     "role": "picture",
+     "file": "venice-canals/gondola.json",
+     "image": "venice-canals/gondola.png",
+     "image_b": "venice-canals/gondola_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "flower_bridge",
+     "order": 2,
+     "name": {
+      "en": "Flower Bridge",
+      "tr": "Çiçekli Köprü",
+      "de": "Blumenbrücke"
+     },
+     "role": "picture",
+     "file": "venice-canals/flower_bridge.json",
+     "image": "venice-canals/flower_bridge.png",
+     "image_b": "venice-canals/flower_bridge_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "basilica_lagoon",
+     "order": 3,
+     "name": {
+      "en": "Basilica",
+      "tr": "Bazilika",
+      "de": "Basilika"
+     },
+     "role": "picture",
+     "file": "venice-canals/basilica_lagoon.json",
+     "image": "venice-canals/basilica_lagoon.png",
+     "image_b": "venice-canals/basilica_lagoon_b.png",
+     "width": 499,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "canal_cafe",
+     "order": 4,
+     "name": {
+      "en": "Canal Cafe",
+      "tr": "Kanal Kafesi",
+      "de": "Kanalcafé"
+     },
+     "role": "picture",
+     "file": "venice-canals/canal_cafe.json",
+     "image": "venice-canals/canal_cafe.png",
+     "image_b": "venice-canals/canal_cafe_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "mask_balcony",
+     "order": 5,
+     "name": {
+      "en": "Mask Balcony",
+      "tr": "Maskeli Balkon",
+      "de": "Maskenbalkon"
+     },
+     "role": "picture",
+     "file": "venice-canals/mask_balcony.json",
+     "image": "venice-canals/mask_balcony.png",
+     "image_b": "venice-canals/mask_balcony_b.png",
+     "width": 502,
+     "height": 503,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_venice_canal",
+     "order": 6,
+     "name": {
+      "en": "Venice Canal",
+      "tr": "Venedik Kanalı",
+      "de": "Kanal in Venedig"
+     },
+     "role": "masterpiece",
+     "file": "venice-canals/masterpiece_venice_canal.json",
+     "image": "venice-canals/masterpiece_venice_canal.png",
+     "image_b": "venice-canals/masterpiece_venice_canal_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "murano_glass",
+    "order": 0,
+    "name": {
+     "en": "Murano Glass",
+     "tr": "Murano Camı",
+     "de": "Muranoglas"
+    },
+    "role": "spare",
+    "file": "venice-canals/murano_glass.json",
+    "image": "venice-canals/murano_glass.png",
+    "image_b": "venice-canals/murano_glass_b.png",
+    "width": 499,
+    "height": 503,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "antique-shop",
+   "name": {
+    "en": "Antique Shop",
+    "tr": "Antika Dükkanı",
+    "de": "Antiquitätenladen"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "mirror_wall",
+     "order": 1,
+     "name": {
+      "en": "Mirror Wall",
+      "tr": "Ayna Duvarı",
+      "de": "Spiegelwand"
+     },
+     "role": "picture",
+     "file": "antique-shop/mirror_wall.json",
+     "image": "antique-shop/mirror_wall.png",
+     "image_b": "antique-shop/mirror_wall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "watch_case",
+     "order": 2,
+     "name": {
+      "en": "Watch Case",
+      "tr": "Saat Vitrini",
+      "de": "Uhrenvitrine"
+     },
+     "role": "picture",
+     "file": "antique-shop/watch_case.json",
+     "image": "antique-shop/watch_case.png",
+     "image_b": "antique-shop/watch_case_b.png",
+     "width": 499,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "gramophone_corner",
+     "order": 3,
+     "name": {
+      "en": "Gramophone",
+      "tr": "Gramofon",
+      "de": "Grammophon"
+     },
+     "role": "picture",
+     "file": "antique-shop/gramophone_corner.json",
+     "image": "antique-shop/gramophone_corner.png",
+     "image_b": "antique-shop/gramophone_corner_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "porcelain_shelf",
+     "order": 4,
+     "name": {
+      "en": "Porcelain Shelf",
+      "tr": "Porselen Rafı",
+      "de": "Porzellanregal"
+     },
+     "role": "picture",
+     "file": "antique-shop/porcelain_shelf.json",
+     "image": "antique-shop/porcelain_shelf.png",
+     "image_b": "antique-shop/porcelain_shelf_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "globe_desk",
+     "order": 5,
+     "name": {
+      "en": "Globe Desk",
+      "tr": "Küreli Masa",
+      "de": "Globustisch"
+     },
+     "role": "picture",
+     "file": "antique-shop/globe_desk.json",
+     "image": "antique-shop/globe_desk.png",
+     "image_b": "antique-shop/globe_desk_b.png",
+     "width": 499,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_antique_shop",
+     "order": 6,
+     "name": {
+      "en": "Antique Shop",
+      "tr": "Antika Dükkanı",
+      "de": "Antiquitätenladen"
+     },
+     "role": "masterpiece",
+     "file": "antique-shop/masterpiece_antique_shop.json",
+     "image": "antique-shop/masterpiece_antique_shop.png",
+     "image_b": "antique-shop/masterpiece_antique_shop_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "rocking_chair",
+    "order": 0,
+    "name": {
+     "en": "Rocking Chair",
+     "tr": "Sallanan Sandalye",
+     "de": "Schaukelstuhl"
+    },
+    "role": "spare",
+    "file": "antique-shop/rocking_chair.json",
+    "image": "antique-shop/rocking_chair.png",
+    "image_b": "antique-shop/rocking_chair_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "tropical-island",
+   "name": {
+    "en": "Tropical Island",
+    "tr": "Tropik Ada",
+    "de": "Tropeninsel"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "stilt_hut",
+     "order": 1,
+     "name": {
+      "en": "Stilt Hut",
+      "tr": "Su Üstü Kulübe",
+      "de": "Pfahlhütte"
+     },
+     "role": "picture",
+     "file": "tropical-island/stilt_hut.json",
+     "image": "tropical-island/stilt_hut.png",
+     "image_b": "tropical-island/stilt_hut_b.png",
+     "width": 500,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "jungle_waterfall",
+     "order": 2,
+     "name": {
+      "en": "Jungle Waterfall",
+      "tr": "Orman Şelalesi",
+      "de": "Dschungelwasserfall"
+     },
+     "role": "picture",
+     "file": "tropical-island/jungle_waterfall.json",
+     "image": "tropical-island/jungle_waterfall.png",
+     "image_b": "tropical-island/jungle_waterfall_b.png",
+     "width": 502,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "coral_shallows",
+     "order": 3,
+     "name": {
+      "en": "Coral Shallows",
+      "tr": "Mercan Sığlığı",
+      "de": "Korallenriff"
+     },
+     "role": "picture",
+     "file": "tropical-island/coral_shallows.json",
+     "image": "tropical-island/coral_shallows.png",
+     "image_b": "tropical-island/coral_shallows_b.png",
+     "width": 501,
+     "height": 501,
+     "status": "ready"
+    },
+    {
+     "id": "fruit_stand",
+     "order": 4,
+     "name": {
+      "en": "Fruit Stand",
+      "tr": "Meyve Tezgahı",
+      "de": "Obststand"
+     },
+     "role": "picture",
+     "file": "tropical-island/fruit_stand.json",
+     "image": "tropical-island/fruit_stand.png",
+     "image_b": "tropical-island/fruit_stand_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "outrigger_canoe",
+     "order": 5,
+     "name": {
+      "en": "Outrigger Canoe",
+      "tr": "Kano",
+      "de": "Auslegerkanu"
+     },
+     "role": "picture",
+     "file": "tropical-island/outrigger_canoe.json",
+     "image": "tropical-island/outrigger_canoe.png",
+     "image_b": "tropical-island/outrigger_canoe_b.png",
+     "width": 502,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_tropical_island",
+     "order": 6,
+     "name": {
+      "en": "Tropical Island",
+      "tr": "Tropik Ada",
+      "de": "Tropeninsel"
+     },
+     "role": "masterpiece",
+     "file": "tropical-island/masterpiece_tropical_island.json",
+     "image": "tropical-island/masterpiece_tropical_island.png",
+     "image_b": "tropical-island/masterpiece_tropical_island_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "volcano_bridge",
+    "order": 0,
+    "name": {
+     "en": "Volcano Bridge",
+     "tr": "Yanardağ Köprüsü",
+     "de": "Vulkanbrücke"
+    },
+    "role": "spare",
+    "file": "tropical-island/volcano_bridge.json",
+    "image": "tropical-island/volcano_bridge.png",
+    "image_b": "tropical-island/volcano_bridge_b.png",
+    "width": 501,
+    "height": 500,
+    "status": "ready"
+   }
+  }
+ ],
+ "diffs": {
+  "picnic/blanket": {
+   "iw": 491,
+   "ih": 491,
+   "gw": 89,
+   "gh": 92,
+   "d": [
+    [
+     69,
+     67,
+     2
+    ],
+    [
+     36,
+     88,
+     2
+    ],
+    [
+     74,
+     9,
+     2
+    ],
+    [
+     52,
+     6,
+     2
+    ],
+    [
+     32,
+     72,
+     2
+    ]
+   ]
+  },
+  "picnic/swing_tree": {
+   "iw": 491,
+   "ih": 491,
+   "gw": 94,
+   "gh": 93,
+   "d": [
+    [
+     13,
+     34,
+     2
+    ],
+    [
+     42,
+     62,
+     2
+    ],
+    [
+     62,
+     39,
+     2
+    ],
+    [
+     34,
+     38,
+     2
+    ],
+    [
+     25,
+     63,
+     2
+    ]
+   ]
+  },
+  "picnic/duck_pond": {
+   "iw": 491,
+   "ih": 491,
+   "gw": 89,
+   "gh": 93,
+   "d": [
+    [
+     65,
+     11,
+     2
+    ],
+    [
+     55,
+     3,
+     2
+    ],
+    [
+     6,
+     78,
+     2
+    ],
+    [
+     62,
+     80,
+     2
+    ],
+    [
+     62,
+     49,
+     2
+    ]
+   ]
+  },
+  "picnic/bicycle": {
+   "iw": 491,
+   "ih": 488,
+   "gw": 92,
+   "gh": 91,
+   "d": [
+    [
+     52,
+     42,
+     2
+    ],
+    [
+     75,
+     9,
+     2
+    ],
+    [
+     89,
+     34,
+     2
+    ],
+    [
+     28,
+     56,
+     2
+    ],
+    [
+     28,
+     15,
+     2
+    ]
+   ]
+  },
+  "picnic/kites": {
+   "iw": 491,
+   "ih": 488,
+   "gw": 90,
+   "gh": 89,
+   "d": [
+    [
+     53,
+     5,
+     2
+    ],
+    [
+     35,
+     19,
+     2
+    ],
+    [
+     15,
+     9,
+     2
+    ],
+    [
+     28,
+     52,
+     2
+    ],
+    [
+     59,
+     26,
+     2
+    ]
+   ]
+  },
+  "picnic/masterpiece_picnic_meadow": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 209,
+   "gh": 209,
+   "d": [
+    [
+     106,
+     63,
+     2
+    ],
+    [
+     5,
+     98,
+     2
+    ],
+    [
+     191,
+     8,
+     2
+    ],
+    [
+     38,
+     80,
+     2
+    ],
+    [
+     139,
+     40,
+     2
+    ]
+   ]
+  },
+  "picnic/picnic_table": {
+   "iw": 491,
+   "ih": 488,
+   "gw": 90,
+   "gh": 91,
+   "d": [
+    [
+     43,
+     19,
+     2
+    ],
+    [
+     50,
+     35,
+     2
+    ],
+    [
+     59,
+     62,
+     2
+    ],
+    [
+     14,
+     46,
+     2
+    ],
+    [
+     24,
+     22,
+     2
+    ]
+   ]
+  },
+  "toy-shop/toy_shelf": {
+   "iw": 490,
+   "ih": 492,
+   "gw": 89,
+   "gh": 92,
+   "d": [
+    [
+     66,
+     77,
+     2
+    ],
+    [
+     76,
+     87,
+     2
+    ],
+    [
+     19,
+     83,
+     2
+    ],
+    [
+     53,
+     56,
+     2
+    ],
+    [
+     19,
+     63,
+     2
+    ]
+   ]
+  },
+  "toy-shop/toy_train": {
+   "iw": 492,
+   "ih": 492,
+   "gw": 88,
+   "gh": 87,
+   "d": [
+    [
+     67,
+     67,
+     2
+    ],
+    [
+     84,
+     29,
+     2
+    ],
+    [
+     31,
+     9,
+     2
+    ],
+    [
+     51,
+     35,
+     2
+    ],
+    [
+     10,
+     74,
+     2
+    ]
+   ]
+  },
+  "toy-shop/rocking_horse": {
+   "iw": 491,
+   "ih": 492,
+   "gw": 90,
+   "gh": 91,
+   "d": [
+    [
+     77,
+     50,
+     2
+    ],
+    [
+     49,
+     6,
+     2
+    ],
+    [
+     46,
+     56,
+     2
+    ],
+    [
+     31,
+     38,
+     2
+    ],
+    [
+     15,
+     8,
+     2
+    ]
+   ]
+  },
+  "toy-shop/cash_register": {
+   "iw": 490,
+   "ih": 491,
+   "gw": 86,
+   "gh": 88,
+   "d": [
+    [
+     48,
+     62,
+     2
+    ],
+    [
+     7,
+     11,
+     2
+    ],
+    [
+     20,
+     50,
+     2
+    ],
+    [
+     46,
+     5,
+     2
+    ],
+    [
+     39,
+     80,
+     2
+    ]
+   ]
+  },
+  "toy-shop/sailboat_drum": {
+   "iw": 492,
+   "ih": 491,
+   "gw": 86,
+   "gh": 89,
+   "d": [
+    [
+     29,
+     69,
+     2
+    ],
+    [
+     32,
+     10,
+     2
+    ],
+    [
+     66,
+     57,
+     2
+    ],
+    [
+     14,
+     31,
+     2
+    ],
+    [
+     34,
+     29,
+     2
+    ]
+   ]
+  },
+  "toy-shop/masterpiece_toy_shop": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 205,
+   "gh": 213,
+   "d": [
+    [
+     37,
+     53,
+     2
+    ],
+    [
+     177,
+     140,
+     2
+    ],
+    [
+     83,
+     71,
+     2
+    ],
+    [
+     114,
+     137,
+     2
+    ],
+    [
+     40,
+     198,
+     2
+    ]
+   ]
+  },
+  "toy-shop/dollhouse": {
+   "iw": 491,
+   "ih": 491,
+   "gw": 91,
+   "gh": 89,
+   "d": [
+    [
+     26,
+     73,
+     2
+    ],
+    [
+     7,
+     60,
+     2
+    ],
+    [
+     74,
+     44,
+     2
+    ],
+    [
+     26,
+     7,
+     2
+    ],
+    [
+     67,
+     13,
+     2
+    ]
+   ]
+  },
+  "farm/red_barn": {
+   "iw": 492,
+   "ih": 493,
+   "gw": 88,
+   "gh": 97,
+   "d": [
+    [
+     46,
+     8,
+     2
+    ],
+    [
+     78,
+     11,
+     2
+    ],
+    [
+     20,
+     37,
+     2
+    ],
+    [
+     85,
+     48,
+     2
+    ],
+    [
+     56,
+     42,
+     2
+    ]
+   ]
+  },
+  "farm/chicken_coop": {
+   "iw": 490,
+   "ih": 493,
+   "gw": 92,
+   "gh": 96,
+   "d": [
+    [
+     67,
+     15,
+     2
+    ],
+    [
+     17,
+     26,
+     2
+    ],
+    [
+     54,
+     27,
+     2
+    ],
+    [
+     25,
+     87,
+     2
+    ],
+    [
+     89,
+     46,
+     2
+    ]
+   ]
+  },
+  "farm/goose_pond": {
+   "iw": 491,
+   "ih": 493,
+   "gw": 88,
+   "gh": 99,
+   "d": [
+    [
+     62,
+     9,
+     2
+    ],
+    [
+     3,
+     7,
+     2
+    ],
+    [
+     82,
+     77,
+     2
+    ],
+    [
+     64,
+     84,
+     2
+    ],
+    [
+     78,
+     49,
+     2
+    ]
+   ]
+  },
+  "farm/vegetable_garden": {
+   "iw": 492,
+   "ih": 495,
+   "gw": 87,
+   "gh": 102,
+   "d": [
+    [
+     23,
+     81,
+     2
+    ],
+    [
+     47,
+     4,
+     2
+    ],
+    [
+     76,
+     86,
+     2
+    ],
+    [
+     35,
+     12,
+     2
+    ],
+    [
+     6,
+     41,
+     2
+    ]
+   ]
+  },
+  "farm/horse_stable": {
+   "iw": 490,
+   "ih": 495,
+   "gw": 91,
+   "gh": 93,
+   "d": [
+    [
+     13,
+     13,
+     2
+    ],
+    [
+     26,
+     31,
+     2
+    ],
+    [
+     56,
+     13,
+     2
+    ],
+    [
+     30,
+     71,
+     2
+    ],
+    [
+     2,
+     84,
+     2
+    ]
+   ]
+  },
+  "farm/masterpiece_farm": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 210,
+   "d": [
+    [
+     163,
+     114,
+     2
+    ],
+    [
+     128,
+     8,
+     2
+    ],
+    [
+     141,
+     52,
+     2
+    ],
+    [
+     151,
+     179,
+     2
+    ],
+    [
+     198,
+     15,
+     2
+    ]
+   ]
+  },
+  "farm/cow_windmill": {
+   "iw": 491,
+   "ih": 495,
+   "gw": 95,
+   "gh": 104,
+   "d": [
+    [
+     33,
+     44,
+     2
+    ],
+    [
+     26,
+     21,
+     2
+    ],
+    [
+     49,
+     86,
+     2
+    ],
+    [
+     86,
+     28,
+     2
+    ],
+    [
+     8,
+     32,
+     2
+    ]
+   ]
+  },
+  "beach-day/beach_umbrella": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 86,
+   "gh": 101,
+   "d": [
+    [
+     44,
+     84,
+     2
+    ],
+    [
+     32,
+     23,
+     2
+    ],
+    [
+     68,
+     59,
+     2
+    ],
+    [
+     34,
+     45,
+     2
+    ],
+    [
+     65,
+     9,
+     2
+    ]
+   ]
+  },
+  "beach-day/sandcastle": {
+   "iw": 492,
+   "ih": 492,
+   "gw": 90,
+   "gh": 103,
+   "d": [
+    [
+     12,
+     71,
+     2
+    ],
+    [
+     87,
+     5,
+     2
+    ],
+    [
+     38,
+     24,
+     2
+    ],
+    [
+     34,
+     8,
+     2
+    ],
+    [
+     23,
+     46,
+     2
+    ]
+   ]
+  },
+  "beach-day/lifeguard_hut": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 88,
+   "gh": 102,
+   "d": [
+    [
+     35,
+     98,
+     2
+    ],
+    [
+     45,
+     34,
+     2
+    ],
+    [
+     34,
+     20,
+     2
+    ],
+    [
+     69,
+     97,
+     2
+    ],
+    [
+     11,
+     53,
+     2
+    ]
+   ]
+  },
+  "beach-day/fishing_boat": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 91,
+   "gh": 104,
+   "d": [
+    [
+     86,
+     23,
+     2
+    ],
+    [
+     71,
+     12,
+     2
+    ],
+    [
+     42,
+     76,
+     2
+    ],
+    [
+     46,
+     29,
+     2
+    ],
+    [
+     28,
+     65,
+     2
+    ]
+   ]
+  },
+  "beach-day/ice_cream_cart": {
+   "iw": 492,
+   "ih": 492,
+   "gw": 84,
+   "gh": 96,
+   "d": [
+    [
+     27,
+     59,
+     2
+    ],
+    [
+     24,
+     17,
+     2
+    ],
+    [
+     37,
+     31,
+     2
+    ],
+    [
+     48,
+     84,
+     2
+    ],
+    [
+     13,
+     32,
+     2
+    ]
+   ]
+  },
+  "beach-day/masterpiece_beach": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 206,
+   "gh": 209,
+   "d": [
+    [
+     189,
+     134,
+     2
+    ],
+    [
+     171,
+     21,
+     2
+    ],
+    [
+     198,
+     95,
+     2
+    ],
+    [
+     103,
+     199,
+     2
+    ],
+    [
+     39,
+     104,
+     2
+    ]
+   ]
+  },
+  "beach-day/lighthouse_rocks": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 97,
+   "gh": 102,
+   "d": [
+    [
+     94,
+     6,
+     2
+    ],
+    [
+     69,
+     6,
+     2
+    ],
+    [
+     8,
+     90,
+     2
+    ],
+    [
+     78,
+     17,
+     2
+    ],
+    [
+     5,
+     17,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/jam_shelf": {
+   "iw": 489,
+   "ih": 493,
+   "gw": 89,
+   "gh": 85,
+   "d": [
+    [
+     71,
+     12,
+     2
+    ],
+    [
+     49,
+     36,
+     2
+    ],
+    [
+     32,
+     40,
+     2
+    ],
+    [
+     8,
+     46,
+     2
+    ],
+    [
+     17,
+     66,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/iron_stove": {
+   "iw": 489,
+   "ih": 493,
+   "gw": 87,
+   "gh": 86,
+   "d": [
+    [
+     67,
+     82,
+     2
+    ],
+    [
+     50,
+     69,
+     2
+    ],
+    [
+     56,
+     50,
+     2
+    ],
+    [
+     13,
+     83,
+     2
+    ],
+    [
+     82,
+     48,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/cat_window": {
+   "iw": 490,
+   "ih": 493,
+   "gw": 88,
+   "gh": 85,
+   "d": [
+    [
+     8,
+     73,
+     2
+    ],
+    [
+     42,
+     9,
+     2
+    ],
+    [
+     81,
+     45,
+     2
+    ],
+    [
+     9,
+     57,
+     2
+    ],
+    [
+     55,
+     31,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/bread_table": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 88,
+   "gh": 86,
+   "d": [
+    [
+     21,
+     24,
+     2
+    ],
+    [
+     33,
+     76,
+     2
+    ],
+    [
+     5,
+     75,
+     2
+    ],
+    [
+     73,
+     64,
+     2
+    ],
+    [
+     50,
+     70,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/baking_corner": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 88,
+   "gh": 86,
+   "d": [
+    [
+     35,
+     78,
+     2
+    ],
+    [
+     24,
+     4,
+     2
+    ],
+    [
+     40,
+     22,
+     2
+    ],
+    [
+     67,
+     23,
+     2
+    ],
+    [
+     56,
+     5,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/masterpiece_country_kitchen": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 212,
+   "gh": 214,
+   "d": [
+    [
+     70,
+     5,
+     2
+    ],
+    [
+     68,
+     182,
+     2
+    ],
+    [
+     70,
+     91,
+     2
+    ],
+    [
+     120,
+     89,
+     2
+    ],
+    [
+     39,
+     209,
+     2
+    ]
+   ]
+  },
+  "kitchen-shelf/china_cupboard": {
+   "iw": 490,
+   "ih": 492,
+   "gw": 86,
+   "gh": 89,
+   "d": [
+    [
+     51,
+     62,
+     2
+    ],
+    [
+     66,
+     18,
+     2
+    ],
+    [
+     25,
+     19,
+     2
+    ],
+    [
+     59,
+     41,
+     2
+    ],
+    [
+     15,
+     52,
+     2
+    ]
+   ]
+  },
+  "camp-night/glowing_tent": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 86,
+   "gh": 88,
+   "d": [
+    [
+     12,
+     71,
+     2
+    ],
+    [
+     72,
+     27,
+     2
+    ],
+    [
+     76,
+     77,
+     2
+    ],
+    [
+     15,
+     34,
+     2
+    ],
+    [
+     46,
+     37,
+     2
+    ]
+   ]
+  },
+  "camp-night/campfire": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 86,
+   "gh": 87,
+   "d": [
+    [
+     69,
+     58,
+     2
+    ],
+    [
+     64,
+     46,
+     2
+    ],
+    [
+     52,
+     3,
+     2
+    ],
+    [
+     31,
+     78,
+     2
+    ],
+    [
+     66,
+     16,
+     2
+    ]
+   ]
+  },
+  "camp-night/moonlit_canoe": {
+   "iw": 491,
+   "ih": 492,
+   "gw": 88,
+   "gh": 86,
+   "d": [
+    [
+     51,
+     62,
+     2
+    ],
+    [
+     44,
+     2,
+     2
+    ],
+    [
+     60,
+     14,
+     2
+    ],
+    [
+     81,
+     17,
+     2
+    ],
+    [
+     46,
+     48,
+     2
+    ]
+   ]
+  },
+  "camp-night/camp_table": {
+   "iw": 489,
+   "ih": 491,
+   "gw": 87,
+   "gh": 86,
+   "d": [
+    [
+     57,
+     36,
+     2
+    ],
+    [
+     72,
+     61,
+     2
+    ],
+    [
+     4,
+     63,
+     2
+    ],
+    [
+     16,
+     14,
+     2
+    ],
+    [
+     7,
+     32,
+     2
+    ]
+   ]
+  },
+  "camp-night/hammock_owl": {
+   "iw": 489,
+   "ih": 491,
+   "gw": 86,
+   "gh": 84,
+   "d": [
+    [
+     16,
+     55,
+     2
+    ],
+    [
+     44,
+     4,
+     2
+    ],
+    [
+     66,
+     77,
+     2
+    ],
+    [
+     62,
+     57,
+     2
+    ],
+    [
+     47,
+     24,
+     2
+    ]
+   ]
+  },
+  "camp-night/masterpiece_campsite": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 215,
+   "gh": 209,
+   "d": [
+    [
+     21,
+     203,
+     2
+    ],
+    [
+     130,
+     156,
+     2
+    ],
+    [
+     154,
+     14,
+     2
+    ],
+    [
+     16,
+     140,
+     2
+    ],
+    [
+     67,
+     62,
+     2
+    ]
+   ]
+  },
+  "camp-night/telescope_rock": {
+   "iw": 491,
+   "ih": 491,
+   "gw": 87,
+   "gh": 86,
+   "d": [
+    [
+     41,
+     2,
+     2
+    ],
+    [
+     53,
+     40,
+     2
+    ],
+    [
+     7,
+     41,
+     2
+    ],
+    [
+     39,
+     43,
+     2
+    ],
+    [
+     67,
+     16,
+     2
+    ]
+   ]
+  },
+  "library/bookshelf_ladder": {
+   "iw": 489,
+   "ih": 493,
+   "gw": 87,
+   "gh": 86,
+   "d": [
+    [
+     7,
+     32,
+     2
+    ],
+    [
+     31,
+     24,
+     2
+    ],
+    [
+     30,
+     40,
+     2
+    ],
+    [
+     20,
+     70,
+     2
+    ],
+    [
+     57,
+     13,
+     2
+    ]
+   ]
+  },
+  "library/reading_chair": {
+   "iw": 490,
+   "ih": 493,
+   "gw": 86,
+   "gh": 87,
+   "d": [
+    [
+     66,
+     66,
+     2
+    ],
+    [
+     42,
+     12,
+     2
+    ],
+    [
+     70,
+     38,
+     2
+    ],
+    [
+     61,
+     15,
+     2
+    ],
+    [
+     58,
+     51,
+     2
+    ]
+   ]
+  },
+  "library/window_seat_cat": {
+   "iw": 492,
+   "ih": 493,
+   "gw": 85,
+   "gh": 88,
+   "d": [
+    [
+     16,
+     53,
+     2
+    ],
+    [
+     51,
+     82,
+     2
+    ],
+    [
+     54,
+     36,
+     2
+    ],
+    [
+     12,
+     71,
+     2
+    ],
+    [
+     80,
+     57,
+     2
+    ]
+   ]
+  },
+  "library/map_desk": {
+   "iw": 489,
+   "ih": 492,
+   "gw": 89,
+   "gh": 88,
+   "d": [
+    [
+     37,
+     46,
+     2
+    ],
+    [
+     13,
+     57,
+     2
+    ],
+    [
+     54,
+     20,
+     2
+    ],
+    [
+     54,
+     66,
+     2
+    ],
+    [
+     64,
+     42,
+     2
+    ]
+   ]
+  },
+  "library/spiral_stairs": {
+   "iw": 490,
+   "ih": 492,
+   "gw": 87,
+   "gh": 83,
+   "d": [
+    [
+     74,
+     33,
+     2
+    ],
+    [
+     71,
+     80,
+     2
+    ],
+    [
+     42,
+     24,
+     2
+    ],
+    [
+     4,
+     11,
+     2
+    ],
+    [
+     57,
+     28,
+     2
+    ]
+   ]
+  },
+  "library/masterpiece_grand_library": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 201,
+   "d": [
+    [
+     45,
+     112,
+     2
+    ],
+    [
+     132,
+     50,
+     2
+    ],
+    [
+     195,
+     196,
+     2
+    ],
+    [
+     203,
+     138,
+     2
+    ],
+    [
+     101,
+     122,
+     2
+    ]
+   ]
+  },
+  "library/fireplace_globe": {
+   "iw": 492,
+   "ih": 492,
+   "gw": 85,
+   "gh": 86,
+   "d": [
+    [
+     41,
+     13,
+     2
+    ],
+    [
+     29,
+     26,
+     2
+    ],
+    [
+     69,
+     25,
+     2
+    ],
+    [
+     44,
+     63,
+     2
+    ],
+    [
+     52,
+     50,
+     2
+    ]
+   ]
+  },
+  "train-station/steam_train": {
+   "iw": 513,
+   "ih": 505,
+   "gw": 89,
+   "gh": 86,
+   "d": [
+    [
+     57,
+     15,
+     2
+    ],
+    [
+     76,
+     62,
+     2
+    ],
+    [
+     53,
+     77,
+     2
+    ],
+    [
+     6,
+     67,
+     2
+    ],
+    [
+     12,
+     32,
+     2
+    ]
+   ]
+  },
+  "train-station/station_clock": {
+   "iw": 501,
+   "ih": 505,
+   "gw": 86,
+   "gh": 90,
+   "d": [
+    [
+     63,
+     22,
+     2
+    ],
+    [
+     71,
+     68,
+     2
+    ],
+    [
+     57,
+     80,
+     2
+    ],
+    [
+     6,
+     21,
+     2
+    ],
+    [
+     15,
+     71,
+     2
+    ]
+   ]
+  },
+  "train-station/luggage_trolley": {
+   "iw": 494,
+   "ih": 505,
+   "gw": 83,
+   "gh": 86,
+   "d": [
+    [
+     64,
+     60,
+     2
+    ],
+    [
+     33,
+     73,
+     2
+    ],
+    [
+     9,
+     27,
+     2
+    ],
+    [
+     9,
+     79,
+     2
+    ],
+    [
+     5,
+     44,
+     2
+    ]
+   ]
+  },
+  "train-station/ticket_window": {
+   "iw": 513,
+   "ih": 506,
+   "gw": 87,
+   "gh": 87,
+   "d": [
+    [
+     3,
+     71,
+     2
+    ],
+    [
+     62,
+     6,
+     2
+    ],
+    [
+     72,
+     80,
+     2
+    ],
+    [
+     73,
+     52,
+     2
+    ],
+    [
+     21,
+     29,
+     2
+    ]
+   ]
+  },
+  "train-station/station_cafe": {
+   "iw": 501,
+   "ih": 506,
+   "gw": 87,
+   "gh": 91,
+   "d": [
+    [
+     28,
+     70,
+     2
+    ],
+    [
+     17,
+     9,
+     2
+    ],
+    [
+     30,
+     51,
+     2
+    ],
+    [
+     54,
+     81,
+     2
+    ],
+    [
+     50,
+     56,
+     2
+    ]
+   ]
+  },
+  "train-station/masterpiece_autumn_station": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 206,
+   "gh": 199,
+   "d": [
+    [
+     28,
+     155,
+     2
+    ],
+    [
+     91,
+     189,
+     2
+    ],
+    [
+     145,
+     183,
+     2
+    ],
+    [
+     53,
+     98,
+     2
+    ],
+    [
+     128,
+     129,
+     2
+    ]
+   ]
+  },
+  "train-station/signal_box": {
+   "iw": 494,
+   "ih": 506,
+   "gw": 85,
+   "gh": 88,
+   "d": [
+    [
+     70,
+     28,
+     2
+    ],
+    [
+     71,
+     44,
+     2
+    ],
+    [
+     24,
+     59,
+     2
+    ],
+    [
+     40,
+     6,
+     2
+    ],
+    [
+     69,
+     80,
+     2
+    ]
+   ]
+  },
+  "autumn-market/pumpkin_stall": {
+   "iw": 502,
+   "ih": 503,
+   "gw": 87,
+   "gh": 93,
+   "d": [
+    [
+     66,
+     74,
+     2
+    ],
+    [
+     61,
+     25,
+     2
+    ],
+    [
+     54,
+     41,
+     2
+    ],
+    [
+     45,
+     13,
+     2
+    ],
+    [
+     21,
+     76,
+     2
+    ]
+   ]
+  },
+  "autumn-market/apple_cart": {
+   "iw": 503,
+   "ih": 503,
+   "gw": 93,
+   "gh": 93,
+   "d": [
+    [
+     32,
+     64,
+     2
+    ],
+    [
+     64,
+     62,
+     2
+    ],
+    [
+     51,
+     70,
+     2
+    ],
+    [
+     66,
+     82,
+     2
+    ],
+    [
+     59,
+     26,
+     2
+    ]
+   ]
+  },
+  "autumn-market/bakery_stall": {
+   "iw": 501,
+   "ih": 503,
+   "gw": 92,
+   "gh": 87,
+   "d": [
+    [
+     10,
+     66,
+     2
+    ],
+    [
+     7,
+     31,
+     2
+    ],
+    [
+     79,
+     62,
+     2
+    ],
+    [
+     72,
+     42,
+     2
+    ],
+    [
+     28,
+     49,
+     2
+    ]
+   ]
+  },
+  "autumn-market/flower_stall": {
+   "iw": 502,
+   "ih": 505,
+   "gw": 92,
+   "gh": 89,
+   "d": [
+    [
+     20,
+     14,
+     2
+    ],
+    [
+     71,
+     4,
+     2
+    ],
+    [
+     8,
+     75,
+     2
+    ],
+    [
+     2,
+     13,
+     2
+    ],
+    [
+     70,
+     66,
+     2
+    ]
+   ]
+  },
+  "autumn-market/knitted_goods": {
+   "iw": 503,
+   "ih": 505,
+   "gw": 88,
+   "gh": 93,
+   "d": [
+    [
+     69,
+     37,
+     2
+    ],
+    [
+     42,
+     2,
+     2
+    ],
+    [
+     84,
+     80,
+     2
+    ],
+    [
+     20,
+     48,
+     2
+    ],
+    [
+     36,
+     88,
+     2
+    ]
+   ]
+  },
+  "autumn-market/masterpiece_autumn_market": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 212,
+   "gh": 210,
+   "d": [
+    [
+     21,
+     146,
+     2
+    ],
+    [
+     176,
+     80,
+     2
+    ],
+    [
+     77,
+     165,
+     2
+    ],
+    [
+     57,
+     5,
+     2
+    ],
+    [
+     23,
+     103,
+     2
+    ]
+   ]
+  },
+  "autumn-market/chestnut_cart": {
+   "iw": 501,
+   "ih": 505,
+   "gw": 89,
+   "gh": 91,
+   "d": [
+    [
+     26,
+     9,
+     2
+    ],
+    [
+     58,
+     22,
+     2
+    ],
+    [
+     52,
+     69,
+     2
+    ],
+    [
+     4,
+     28,
+     2
+    ],
+    [
+     60,
+     52,
+     2
+    ]
+   ]
+  },
+  "florist/shop_front": {
+   "iw": 500,
+   "ih": 503,
+   "gw": 86,
+   "gh": 92,
+   "d": [
+    [
+     55,
+     81,
+     2
+    ],
+    [
+     70,
+     28,
+     2
+    ],
+    [
+     24,
+     59,
+     2
+    ],
+    [
+     35,
+     24,
+     2
+    ],
+    [
+     18,
+     84,
+     2
+    ]
+   ]
+  },
+  "florist/bouquet_table": {
+   "iw": 503,
+   "ih": 503,
+   "gw": 89,
+   "gh": 87,
+   "d": [
+    [
+     54,
+     34,
+     2
+    ],
+    [
+     75,
+     68,
+     2
+    ],
+    [
+     25,
+     21,
+     2
+    ],
+    [
+     31,
+     82,
+     2
+    ],
+    [
+     15,
+     59,
+     2
+    ]
+   ]
+  },
+  "florist/plant_shelves": {
+   "iw": 501,
+   "ih": 503,
+   "gw": 91,
+   "gh": 90,
+   "d": [
+    [
+     66,
+     42,
+     2
+    ],
+    [
+     23,
+     48,
+     2
+    ],
+    [
+     62,
+     78,
+     2
+    ],
+    [
+     59,
+     17,
+     2
+    ],
+    [
+     23,
+     82,
+     2
+    ]
+   ]
+  },
+  "florist/flower_cooler": {
+   "iw": 500,
+   "ih": 502,
+   "gw": 90,
+   "gh": 87,
+   "d": [
+    [
+     24,
+     61,
+     2
+    ],
+    [
+     17,
+     50,
+     2
+    ],
+    [
+     73,
+     13,
+     2
+    ],
+    [
+     9,
+     36,
+     2
+    ],
+    [
+     74,
+     71,
+     2
+    ]
+   ]
+  },
+  "florist/sunflower_bicycle": {
+   "iw": 503,
+   "ih": 502,
+   "gw": 87,
+   "gh": 89,
+   "d": [
+    [
+     14,
+     44,
+     2
+    ],
+    [
+     22,
+     75,
+     2
+    ],
+    [
+     45,
+     69,
+     2
+    ],
+    [
+     66,
+     23,
+     2
+    ],
+    [
+     20,
+     7,
+     2
+    ]
+   ]
+  },
+  "florist/masterpiece_paris_florist": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 215,
+   "gh": 237,
+   "d": [
+    [
+     199,
+     79,
+     2
+    ],
+    [
+     122,
+     82,
+     2
+    ],
+    [
+     76,
+     87,
+     2
+    ],
+    [
+     204,
+     20,
+     2
+    ],
+    [
+     176,
+     191,
+     2
+    ]
+   ]
+  },
+  "florist/orchid_greenhouse": {
+   "iw": 501,
+   "ih": 502,
+   "gw": 89,
+   "gh": 88,
+   "d": [
+    [
+     7,
+     46,
+     2
+    ],
+    [
+     62,
+     82,
+     2
+    ],
+    [
+     11,
+     59,
+     2
+    ],
+    [
+     40,
+     50,
+     2
+    ],
+    [
+     65,
+     64,
+     2
+    ]
+   ]
+  },
+  "pirate-cove/pirate_galleon": {
+   "iw": 501,
+   "ih": 502,
+   "gw": 93,
+   "gh": 105,
+   "d": [
+    [
+     64,
+     60,
+     1
+    ],
+    [
+     68,
+     36,
+     1
+    ],
+    [
+     12,
+     26,
+     1
+    ],
+    [
+     48,
+     17,
+     1
+    ],
+    [
+     69,
+     101,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/treasure_chest": {
+   "iw": 502,
+   "ih": 502,
+   "gw": 92,
+   "gh": 101,
+   "d": [
+    [
+     28,
+     18,
+     1
+    ],
+    [
+     43,
+     73,
+     1
+    ],
+    [
+     81,
+     71,
+     1
+    ],
+    [
+     83,
+     32,
+     1
+    ],
+    [
+     17,
+     40,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/captains_cabin": {
+   "iw": 502,
+   "ih": 502,
+   "gw": 88,
+   "gh": 95,
+   "d": [
+    [
+     75,
+     72,
+     1
+    ],
+    [
+     26,
+     89,
+     1
+    ],
+    [
+     64,
+     47,
+     1
+    ],
+    [
+     32,
+     62,
+     1
+    ],
+    [
+     54,
+     7,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/pirate_dock": {
+   "iw": 501,
+   "ih": 504,
+   "gw": 92,
+   "gh": 102,
+   "d": [
+    [
+     4,
+     57,
+     1
+    ],
+    [
+     72,
+     10,
+     1
+    ],
+    [
+     76,
+     41,
+     1
+    ],
+    [
+     32,
+     84,
+     1
+    ],
+    [
+     17,
+     14,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/skull_cave": {
+   "iw": 502,
+   "ih": 504,
+   "gw": 95,
+   "gh": 110,
+   "d": [
+    [
+     25,
+     35,
+     1
+    ],
+    [
+     47,
+     65,
+     1
+    ],
+    [
+     8,
+     99,
+     1
+    ],
+    [
+     85,
+     95,
+     1
+    ],
+    [
+     48,
+     103,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/masterpiece_pirate_cove": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 204,
+   "gh": 211,
+   "d": [
+    [
+     152,
+     47,
+     1
+    ],
+    [
+     70,
+     103,
+     1
+    ],
+    [
+     10,
+     122,
+     1
+    ],
+    [
+     124,
+     175,
+     1
+    ],
+    [
+     43,
+     200,
+     1
+    ]
+   ]
+  },
+  "pirate-cove/treasure_beach": {
+   "iw": 502,
+   "ih": 504,
+   "gw": 94,
+   "gh": 106,
+   "d": [
+    [
+     45,
+     102,
+     1
+    ],
+    [
+     30,
+     57,
+     1
+    ],
+    [
+     77,
+     47,
+     1
+    ],
+    [
+     44,
+     13,
+     1
+    ],
+    [
+     67,
+     76,
+     1
+    ]
+   ]
+  },
+  "wizard-room/bubbling_cauldron": {
+   "iw": 501,
+   "ih": 501,
+   "gw": 85,
+   "gh": 88,
+   "d": [
+    [
+     5,
+     37,
+     1
+    ],
+    [
+     41,
+     7,
+     1
+    ],
+    [
+     44,
+     77,
+     1
+    ],
+    [
+     79,
+     15,
+     1
+    ],
+    [
+     24,
+     62,
+     1
+    ]
+   ]
+  },
+  "wizard-room/potion_shelf": {
+   "iw": 502,
+   "ih": 501,
+   "gw": 87,
+   "gh": 88,
+   "d": [
+    [
+     66,
+     37,
+     1
+    ],
+    [
+     83,
+     6,
+     1
+    ],
+    [
+     24,
+     85,
+     1
+    ],
+    [
+     21,
+     28,
+     1
+    ],
+    [
+     25,
+     53,
+     1
+    ]
+   ]
+  },
+  "wizard-room/spellbook_desk": {
+   "iw": 501,
+   "ih": 501,
+   "gw": 87,
+   "gh": 87,
+   "d": [
+    [
+     26,
+     23,
+     1
+    ],
+    [
+     59,
+     50,
+     1
+    ],
+    [
+     82,
+     19,
+     1
+    ],
+    [
+     79,
+     44,
+     1
+    ],
+    [
+     43,
+     40,
+     1
+    ]
+   ]
+  },
+  "wizard-room/owl_window": {
+   "iw": 501,
+   "ih": 502,
+   "gw": 86,
+   "gh": 90,
+   "d": [
+    [
+     51,
+     48,
+     1
+    ],
+    [
+     51,
+     76,
+     1
+    ],
+    [
+     37,
+     32,
+     1
+    ],
+    [
+     66,
+     27,
+     1
+    ],
+    [
+     23,
+     39,
+     1
+    ]
+   ]
+  },
+  "wizard-room/orrery_hat": {
+   "iw": 502,
+   "ih": 502,
+   "gw": 92,
+   "gh": 86,
+   "d": [
+    [
+     75,
+     4,
+     1
+    ],
+    [
+     17,
+     44,
+     1
+    ],
+    [
+     40,
+     58,
+     1
+    ],
+    [
+     29,
+     29,
+     1
+    ],
+    [
+     46,
+     34,
+     1
+    ]
+   ]
+  },
+  "wizard-room/masterpiece_wizard_tower": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 204,
+   "gh": 202,
+   "d": [
+    [
+     26,
+     43,
+     1
+    ],
+    [
+     16,
+     117,
+     1
+    ],
+    [
+     165,
+     82,
+     1
+    ],
+    [
+     6,
+     11,
+     1
+    ],
+    [
+     181,
+     130,
+     1
+    ]
+   ]
+  },
+  "wizard-room/magic_circle": {
+   "iw": 501,
+   "ih": 502,
+   "gw": 85,
+   "gh": 86,
+   "d": [
+    [
+     50,
+     26,
+     1
+    ],
+    [
+     6,
+     80,
+     1
+    ],
+    [
+     26,
+     56,
+     1
+    ],
+    [
+     58,
+     41,
+     1
+    ],
+    [
+     37,
+     40,
+     1
+    ]
+   ]
+  },
+  "venice-canals/gondola": {
+   "iw": 502,
+   "ih": 503,
+   "gw": 86,
+   "gh": 87,
+   "d": [
+    [
+     20,
+     25,
+     1
+    ],
+    [
+     34,
+     4,
+     1
+    ],
+    [
+     38,
+     66,
+     1
+    ],
+    [
+     67,
+     16,
+     1
+    ],
+    [
+     46,
+     48,
+     1
+    ]
+   ]
+  },
+  "venice-canals/flower_bridge": {
+   "iw": 502,
+   "ih": 503,
+   "gw": 86,
+   "gh": 91,
+   "d": [
+    [
+     2,
+     12,
+     1
+    ],
+    [
+     29,
+     50,
+     1
+    ],
+    [
+     37,
+     83,
+     1
+    ],
+    [
+     81,
+     85,
+     1
+    ],
+    [
+     73,
+     12,
+     1
+    ]
+   ]
+  },
+  "venice-canals/basilica_lagoon": {
+   "iw": 499,
+   "ih": 503,
+   "gw": 85,
+   "gh": 88,
+   "d": [
+    [
+     75,
+     4,
+     1
+    ],
+    [
+     21,
+     20,
+     1
+    ],
+    [
+     74,
+     48,
+     1
+    ],
+    [
+     32,
+     40,
+     1
+    ],
+    [
+     54,
+     54,
+     1
+    ]
+   ]
+  },
+  "venice-canals/canal_cafe": {
+   "iw": 502,
+   "ih": 503,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     25,
+     69,
+     1
+    ],
+    [
+     60,
+     10,
+     1
+    ],
+    [
+     84,
+     39,
+     1
+    ],
+    [
+     55,
+     79,
+     1
+    ],
+    [
+     63,
+     66,
+     1
+    ]
+   ]
+  },
+  "venice-canals/mask_balcony": {
+   "iw": 502,
+   "ih": 503,
+   "gw": 84,
+   "gh": 90,
+   "d": [
+    [
+     20,
+     7,
+     1
+    ],
+    [
+     55,
+     48,
+     1
+    ],
+    [
+     19,
+     69,
+     1
+    ],
+    [
+     19,
+     32,
+     1
+    ],
+    [
+     71,
+     17,
+     1
+    ]
+   ]
+  },
+  "venice-canals/masterpiece_venice_canal": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 203,
+   "gh": 207,
+   "d": [
+    [
+     137,
+     105,
+     1
+    ],
+    [
+     75,
+     75,
+     1
+    ],
+    [
+     180,
+     14,
+     1
+    ],
+    [
+     33,
+     59,
+     1
+    ],
+    [
+     152,
+     150,
+     1
+    ]
+   ]
+  },
+  "venice-canals/murano_glass": {
+   "iw": 499,
+   "ih": 503,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     17,
+     34,
+     1
+    ],
+    [
+     83,
+     57,
+     1
+    ],
+    [
+     78,
+     42,
+     1
+    ],
+    [
+     80,
+     20,
+     1
+    ],
+    [
+     10,
+     19,
+     1
+    ]
+   ]
+  },
+  "antique-shop/mirror_wall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 89,
+   "gh": 90,
+   "d": [
+    [
+     36,
+     19,
+     1
+    ],
+    [
+     57,
+     86,
+     1
+    ],
+    [
+     67,
+     75,
+     1
+    ],
+    [
+     38,
+     45,
+     1
+    ],
+    [
+     12,
+     73,
+     1
+    ]
+   ]
+  },
+  "antique-shop/watch_case": {
+   "iw": 499,
+   "ih": 500,
+   "gw": 83,
+   "gh": 86,
+   "d": [
+    [
+     76,
+     72,
+     1
+    ],
+    [
+     37,
+     48,
+     1
+    ],
+    [
+     28,
+     40,
+     1
+    ],
+    [
+     12,
+     45,
+     1
+    ],
+    [
+     10,
+     73,
+     1
+    ]
+   ]
+  },
+  "antique-shop/gramophone_corner": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 87,
+   "gh": 84,
+   "d": [
+    [
+     55,
+     30,
+     1
+    ],
+    [
+     73,
+     81,
+     1
+    ],
+    [
+     41,
+     69,
+     1
+    ],
+    [
+     4,
+     30,
+     1
+    ],
+    [
+     71,
+     11,
+     1
+    ]
+   ]
+  },
+  "antique-shop/porcelain_shelf": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 89,
+   "gh": 86,
+   "d": [
+    [
+     81,
+     76,
+     1
+    ],
+    [
+     10,
+     59,
+     1
+    ],
+    [
+     76,
+     53,
+     1
+    ],
+    [
+     41,
+     53,
+     1
+    ],
+    [
+     16,
+     44,
+     1
+    ]
+   ]
+  },
+  "antique-shop/globe_desk": {
+   "iw": 499,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     29,
+     12,
+     1
+    ],
+    [
+     43,
+     39,
+     1
+    ],
+    [
+     82,
+     53,
+     1
+    ],
+    [
+     48,
+     55,
+     1
+    ],
+    [
+     67,
+     85,
+     1
+    ]
+   ]
+  },
+  "antique-shop/masterpiece_antique_shop": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 206,
+   "gh": 210,
+   "d": [
+    [
+     150,
+     113,
+     1
+    ],
+    [
+     169,
+     170,
+     1
+    ],
+    [
+     106,
+     111,
+     1
+    ],
+    [
+     51,
+     58,
+     1
+    ],
+    [
+     43,
+     202,
+     1
+    ]
+   ]
+  },
+  "antique-shop/rocking_chair": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 86,
+   "gh": 84,
+   "d": [
+    [
+     27,
+     16,
+     1
+    ],
+    [
+     53,
+     41,
+     1
+    ],
+    [
+     76,
+     74,
+     1
+    ],
+    [
+     3,
+     45,
+     1
+    ],
+    [
+     61,
+     60,
+     1
+    ]
+   ]
+  },
+  "tropical-island/stilt_hut": {
+   "iw": 500,
+   "ih": 501,
+   "gw": 89,
+   "gh": 95,
+   "d": [
+    [
+     57,
+     81,
+     1
+    ],
+    [
+     50,
+     68,
+     1
+    ],
+    [
+     28,
+     2,
+     1
+    ],
+    [
+     38,
+     84,
+     1
+    ],
+    [
+     79,
+     69,
+     1
+    ]
+   ]
+  },
+  "tropical-island/jungle_waterfall": {
+   "iw": 502,
+   "ih": 501,
+   "gw": 93,
+   "gh": 104,
+   "d": [
+    [
+     43,
+     99,
+     1
+    ],
+    [
+     90,
+     73,
+     1
+    ],
+    [
+     31,
+     49,
+     1
+    ],
+    [
+     74,
+     28,
+     1
+    ],
+    [
+     55,
+     45,
+     1
+    ]
+   ]
+  },
+  "tropical-island/coral_shallows": {
+   "iw": 501,
+   "ih": 501,
+   "gw": 89,
+   "gh": 98,
+   "d": [
+    [
+     63,
+     53,
+     1
+    ],
+    [
+     58,
+     88,
+     1
+    ],
+    [
+     42,
+     22,
+     1
+    ],
+    [
+     64,
+     7,
+     1
+    ],
+    [
+     6,
+     60,
+     1
+    ]
+   ]
+  },
+  "tropical-island/fruit_stand": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 87,
+   "gh": 94,
+   "d": [
+    [
+     49,
+     80,
+     1
+    ],
+    [
+     74,
+     21,
+     1
+    ],
+    [
+     33,
+     51,
+     1
+    ],
+    [
+     12,
+     29,
+     1
+    ],
+    [
+     10,
+     6,
+     1
+    ]
+   ]
+  },
+  "tropical-island/outrigger_canoe": {
+   "iw": 502,
+   "ih": 500,
+   "gw": 91,
+   "gh": 98,
+   "d": [
+    [
+     52,
+     54,
+     1
+    ],
+    [
+     87,
+     80,
+     1
+    ],
+    [
+     48,
+     19,
+     1
+    ],
+    [
+     6,
+     44,
+     1
+    ],
+    [
+     24,
+     70,
+     1
+    ]
+   ]
+  },
+  "tropical-island/masterpiece_tropical_island": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 225,
+   "gh": 239,
+   "d": [
+    [
+     115,
+     119,
+     1
+    ],
+    [
+     127,
+     49,
+     1
+    ],
+    [
+     185,
+     217,
+     1
+    ],
+    [
+     40,
+     48,
+     1
+    ],
+    [
+     64,
+     196,
+     1
+    ]
+   ]
+  },
+  "tropical-island/volcano_bridge": {
+   "iw": 501,
+   "ih": 500,
+   "gw": 96,
+   "gh": 101,
+   "d": [
+    [
+     44,
+     32,
+     1
+    ],
+    [
+     19,
+     95,
+     1
+    ],
+    [
+     58,
+     41,
+     1
+    ],
+    [
+     45,
+     96,
+     1
+    ],
+    [
+     59,
+     78,
+     1
+    ]
+   ]
+  }
+ },
+ "files": {
+  "picnic/blanket.png": {
+   "size": 129651,
+   "sha": "9a0ba561d04b325f920eced66a034e094aad68755735bef9de364ffd2e231bc0"
+  },
+  "picnic/blanket_b.png": {
+   "size": 129568,
+   "sha": "3ac18129a2f2db2e26f82f710de576975db877adc23b1108dd053c0530620432"
+  },
+  "picnic/swing_tree.png": {
+   "size": 138464,
+   "sha": "218ebab8c17f97cc8e9e3b9b73e6d7906bc74ca41eab74912773b7b36125cde5"
+  },
+  "picnic/swing_tree_b.png": {
+   "size": 138417,
+   "sha": "1527b8a103c9a0f092a37dc72286963ed87c759596e2cfffbf0fafdfe50abdb3"
+  },
+  "picnic/duck_pond.png": {
+   "size": 139806,
+   "sha": "168a41e9bacc2ecb61c1aa3c5155586df05b049666f5c58b04ab7b8c3be7b153"
+  },
+  "picnic/duck_pond_b.png": {
+   "size": 139737,
+   "sha": "1242b64ade4802057efc29d7cbc0629ceb681c822b7614eb42a9edea351a791a"
+  },
+  "picnic/bicycle.png": {
+   "size": 138816,
+   "sha": "8b39f9c633bf0950f7bbf9f798edccaae0a56b881c59134f1c1ca2e0394d3a1e"
+  },
+  "picnic/bicycle_b.png": {
+   "size": 138672,
+   "sha": "6aae393f2a0d4527f0f5d3c5ad88d24a614a1cb838e4a5ae91edee089b1545de"
+  },
+  "picnic/kites.png": {
+   "size": 100840,
+   "sha": "065ccffda698ac8e277f3f3b0ea3e12509f333288c1592c07ce1794dcfdfc421"
+  },
+  "picnic/kites_b.png": {
+   "size": 100829,
+   "sha": "ef12437a56da9a554087be781245279421ac8c957ad068f129969cd95b0c774e"
+  },
+  "picnic/masterpiece_picnic_meadow.png": {
+   "size": 775653,
+   "sha": "f8c684b070da77f3847899c0c410c0a5866e10f34e3d799bd880d8de76410cb4"
+  },
+  "picnic/masterpiece_picnic_meadow_b.png": {
+   "size": 775612,
+   "sha": "8418862eba75181c4a66449684683939b27e220eb37b3b683b6a6a6f5c7defb4"
+  },
+  "picnic/picnic_table.png": {
+   "size": 134452,
+   "sha": "810266c64a6311a5255bd45807c4dea15a6830f58756a222baaaa6207f612d09"
+  },
+  "picnic/picnic_table_b.png": {
+   "size": 134397,
+   "sha": "c6f4e05acffb1d0d26289ca9118b4943c1f6ec7365d76bf3088cafa7b8cdcecd"
+  },
+  "toy-shop/toy_shelf.png": {
+   "size": 155535,
+   "sha": "dc3151c95d7bd2c8d3125ba24441a8aa73694da30e55ca59592f654e39d9d81e"
+  },
+  "toy-shop/toy_shelf_b.png": {
+   "size": 155359,
+   "sha": "8d9aa0124da1c5f3d691c08c3264ecfabf1bca71318ac0c67a282c2c34c3bd02"
+  },
+  "toy-shop/toy_train.png": {
+   "size": 151238,
+   "sha": "ee1c7258c3b81a1ea155172c51beb079e75359b3b2edaf54dd73deae4300a16f"
+  },
+  "toy-shop/toy_train_b.png": {
+   "size": 151117,
+   "sha": "6c3ec8edc314fd4c52dc319703c8eee880268d64d18bdc79eb50aa85adc822d6"
+  },
+  "toy-shop/rocking_horse.png": {
+   "size": 139164,
+   "sha": "4486abf38e7d9376bc2fbb4efb8af81bbeb2b04dcaec8e0de5b80221e08c1770"
+  },
+  "toy-shop/rocking_horse_b.png": {
+   "size": 139088,
+   "sha": "e1584a9cd9f551d4dc55286728fdec072161814261ff69bab727d72e9f5e1750"
+  },
+  "toy-shop/cash_register.png": {
+   "size": 157888,
+   "sha": "dc95b22eb675ed10c8eb8f131136a205cbe9a96f727b5229dd1158f21a018edb"
+  },
+  "toy-shop/cash_register_b.png": {
+   "size": 157655,
+   "sha": "cbef74e37b7487a5dfd9254ffbe623649c34d61de400c2e975b9763e1215f52f"
+  },
+  "toy-shop/sailboat_drum.png": {
+   "size": 142731,
+   "sha": "2d8e54e83a8ba98a9fc5553e5f01bcd28f468912a0c6378592725a3c81ff519f"
+  },
+  "toy-shop/sailboat_drum_b.png": {
+   "size": 142639,
+   "sha": "94311562872450bf21081013bd5dc3703a343e7faa2324e26caff234fbbf9ceb"
+  },
+  "toy-shop/masterpiece_toy_shop.png": {
+   "size": 898840,
+   "sha": "93f911ea321798ffdbd080125bb234d8e4c0650b4c993ca9a02250748e6ba7e8"
+  },
+  "toy-shop/masterpiece_toy_shop_b.png": {
+   "size": 898688,
+   "sha": "e1aad28f3dc6ebfa6357a3ccf1f39d7ec0cabf40fee242e5fd663065966ee117"
+  },
+  "toy-shop/dollhouse.png": {
+   "size": 152716,
+   "sha": "312356e723b1dab9f315299751e978e495d84eb96b8e0d53585e72c3639f06cb"
+  },
+  "toy-shop/dollhouse_b.png": {
+   "size": 152613,
+   "sha": "3fcb80c8ed8ea81f44e7a8f4606d5d6bc6c0f6797d7da35f24cc8f542f9819c4"
+  },
+  "farm/red_barn.png": {
+   "size": 143009,
+   "sha": "79e2724c506f28693e8c6cf40379e6fd6035ac494d2cbe35bfb55be27f6093b4"
+  },
+  "farm/red_barn_b.png": {
+   "size": 142955,
+   "sha": "04a43fe264fc27c9b7e95c00b7918caac11b563c26254a759fef87597577d3c6"
+  },
+  "farm/chicken_coop.png": {
+   "size": 152726,
+   "sha": "5eae875c2a878e33eeedcf495d51c47cdf4e57dc92f1f318e54e30d21fedc33b"
+  },
+  "farm/chicken_coop_b.png": {
+   "size": 152582,
+   "sha": "fb9c3112dcf6291c41a385746876e58b90e53e4e5781726adbad83956d995add"
+  },
+  "farm/goose_pond.png": {
+   "size": 150023,
+   "sha": "d80c2ca09b4f9f9efdb176f767895bdfc0e08865e5f7f782657ad54cc9e0fddd"
+  },
+  "farm/goose_pond_b.png": {
+   "size": 149935,
+   "sha": "8e61d275551a692ba97966879988cfdcd8eb69545b7843d41dada8559867bd95"
+  },
+  "farm/vegetable_garden.png": {
+   "size": 160809,
+   "sha": "2e4ae06120d3c7ba769cfc96964ba77dc5fafa7593b4d314c039835e8a49de17"
+  },
+  "farm/vegetable_garden_b.png": {
+   "size": 160704,
+   "sha": "f49ab8d32c0fca51817665d8cf3aa29ff6cc52c0f4d4b82d865a1c3be2d252a7"
+  },
+  "farm/horse_stable.png": {
+   "size": 159209,
+   "sha": "0058709ddebefdce1119032e841343dd42feaf456508cc75a415ffccafd1168b"
+  },
+  "farm/horse_stable_b.png": {
+   "size": 159011,
+   "sha": "51a2f4da781b8c998e23e4fdcef192aaae15c91d4effc17e4f41db3cce8c3ceb"
+  },
+  "farm/masterpiece_farm.png": {
+   "size": 912785,
+   "sha": "f298cef209435b40f82f30810898215cd0aa7209e09710b0c53351bf708c54e4"
+  },
+  "farm/masterpiece_farm_b.png": {
+   "size": 912670,
+   "sha": "5e6564b5b36a6548b9591368b8f63b29491455faae321530c3a331bb70c48cd6"
+  },
+  "farm/cow_windmill.png": {
+   "size": 152433,
+   "sha": "4f08bf682f22c305e84df1fb96150a2c1325969deaf85fb90a9dea6e509c4710"
+  },
+  "farm/cow_windmill_b.png": {
+   "size": 152266,
+   "sha": "aac9677ecae9b4ee521677dd4d06624e7586bc4978630a51f9b561297687aa0a"
+  },
+  "beach-day/beach_umbrella.png": {
+   "size": 143059,
+   "sha": "b9839ed86a2546ab25afe288e69843fde17831bf0a523ea7d9dbe12a1789ee8d"
+  },
+  "beach-day/beach_umbrella_b.png": {
+   "size": 142945,
+   "sha": "fa0d2146374291b4515991be3cea313c8ca04b726ae4f9afad6b5eaa0dcf4f6d"
+  },
+  "beach-day/sandcastle.png": {
+   "size": 130842,
+   "sha": "c9c34d17383c563eda7c9a727285315e63e4f37946804477ed86add5d9f71f0d"
+  },
+  "beach-day/sandcastle_b.png": {
+   "size": 130796,
+   "sha": "2ee36981645ea9e68073682a27eb3918856328759414253b4ad12596a935b125"
+  },
+  "beach-day/lifeguard_hut.png": {
+   "size": 121734,
+   "sha": "8b1016d6268d5d67f1c33ec7952c7e14d311e26a736e1a4493ea8446a3fed128"
+  },
+  "beach-day/lifeguard_hut_b.png": {
+   "size": 121611,
+   "sha": "ff0776c3df4d1bc4134bd5c4f9a3756b9e1abbd527219260d58b81a5c0b0e3ba"
+  },
+  "beach-day/fishing_boat.png": {
+   "size": 142578,
+   "sha": "0006e5891aeead4c57a9c749333257cd789d3fbc1b3cac98222812b72a5a914e"
+  },
+  "beach-day/fishing_boat_b.png": {
+   "size": 142477,
+   "sha": "4f11cd93747dc2bcf8ba5688d7ae96c8b8fd0b82d2c1c2bd651ec12a61ef4cbe"
+  },
+  "beach-day/ice_cream_cart.png": {
+   "size": 132147,
+   "sha": "43ff29e62753efa67a538a89d6f273d60f16364a11b75153436521941d95d1b2"
+  },
+  "beach-day/ice_cream_cart_b.png": {
+   "size": 132096,
+   "sha": "c7e532307a18a26fabcee34286792a1d286852503451f6077097190e84e5c0ff"
+  },
+  "beach-day/masterpiece_beach.png": {
+   "size": 909363,
+   "sha": "074a8a97cd477ff3d6e050179aebb2f9f2012cf95e7fb28cc5ed39423972d76c"
+  },
+  "beach-day/masterpiece_beach_b.png": {
+   "size": 909232,
+   "sha": "20d64332c1b86c649108df5c664b885bdcd9209c9b6ae374c9aab526c908c75b"
+  },
+  "beach-day/lighthouse_rocks.png": {
+   "size": 127396,
+   "sha": "82967a4d7c1cc682ad275a37491db6d387418c61113b3e9710542bcc7e54f72c"
+  },
+  "beach-day/lighthouse_rocks_b.png": {
+   "size": 127354,
+   "sha": "cb75ec3b3699db5daff84d5fa85b4eb997398114b729bcdd1088d66c659f4405"
+  },
+  "kitchen-shelf/jam_shelf.png": {
+   "size": 166094,
+   "sha": "1b580393a269ae82c2056ee6725eba1d29f5ae5533b3ba1a6ce311ec8e1134c3"
+  },
+  "kitchen-shelf/jam_shelf_b.png": {
+   "size": 165823,
+   "sha": "55e41cf596e3ea7e5f0be4c6020d2cf6a18c48ee4e6cd304df6986c6aa93c321"
+  },
+  "kitchen-shelf/iron_stove.png": {
+   "size": 150399,
+   "sha": "4caeca58a18b1e5756168e1fba1b94588fe0d0442c95fa53444cd9218b82e9bd"
+  },
+  "kitchen-shelf/iron_stove_b.png": {
+   "size": 150228,
+   "sha": "8b39551c5e3d30a6220a2a032602d63f43d2fedda4971e881ff3f8fc7b9d90e7"
+  },
+  "kitchen-shelf/cat_window.png": {
+   "size": 161796,
+   "sha": "57e5b706e7719311d176fc62d13ec156243224b85bd029b628c950ef56a5b56a"
+  },
+  "kitchen-shelf/cat_window_b.png": {
+   "size": 161653,
+   "sha": "798934860fa53bbaf1c7e34e5c2992328639d3bcfcfbd0c85a10cf3473731d4e"
+  },
+  "kitchen-shelf/bread_table.png": {
+   "size": 157398,
+   "sha": "c7d313961ee0f3a87cfe90bd70a4ad48a46a39a06e768c087231a64bd09b258c"
+  },
+  "kitchen-shelf/bread_table_b.png": {
+   "size": 157142,
+   "sha": "63ef9968acb7a5bb45e53ba89ccdc9cd3c94ea107c482662cc9ec83bbcda564c"
+  },
+  "kitchen-shelf/baking_corner.png": {
+   "size": 156967,
+   "sha": "5c45bc3d9a86b5f1de042739062b0c5b2ca9a8f242ea6f4ba80eb3c05b3577f9"
+  },
+  "kitchen-shelf/baking_corner_b.png": {
+   "size": 156806,
+   "sha": "f6d79dc38bb870764d1ff8295df222780467449d16873df8194cf717faf6a907"
+  },
+  "kitchen-shelf/masterpiece_country_kitchen.png": {
+   "size": 1007678,
+   "sha": "4645644c9eaadb8be1d4be939ee9e63590b35c4bf2a665ac470a6f87b088b08a"
+  },
+  "kitchen-shelf/masterpiece_country_kitchen_b.png": {
+   "size": 1007596,
+   "sha": "7c76142e49e2e9cda16a39ac696ea57145713abf5fdc2b8ba5f9de925fee0f60"
+  },
+  "kitchen-shelf/china_cupboard.png": {
+   "size": 158466,
+   "sha": "e42a1b8c600f2495bf7c4970976a0aae262c77d43fb1280df1b69e69ce5f8bff"
+  },
+  "kitchen-shelf/china_cupboard_b.png": {
+   "size": 158303,
+   "sha": "1aaf1523aa07e7ad85d8d9e593dfa26c1537e6bd5c661caefdc671451291ce94"
+  },
+  "camp-night/glowing_tent.png": {
+   "size": 169365,
+   "sha": "12f0b98743c52980c21ca6525fa03b0a070db39b2b5fefdc75b5060a6db71d85"
+  },
+  "camp-night/glowing_tent_b.png": {
+   "size": 169114,
+   "sha": "4af43a4898977a34d44c536000a14c87ac40cc071daa77c82d943885d284b26f"
+  },
+  "camp-night/campfire.png": {
+   "size": 179246,
+   "sha": "d8d7f1db061da256aef38bb1d72a92dfa7a6cc453fb3681b7c7cd575d2db8d8d"
+  },
+  "camp-night/campfire_b.png": {
+   "size": 178926,
+   "sha": "8b91b61bb247c0d48972bd06f0b4b3c123b32dfd7894f7b91e27b030dae402df"
+  },
+  "camp-night/moonlit_canoe.png": {
+   "size": 163919,
+   "sha": "3b87ae29c84638efcc78c9ab6e381c586eebeb65133e1f6e64421b2f0c46780f"
+  },
+  "camp-night/moonlit_canoe_b.png": {
+   "size": 163757,
+   "sha": "1a6d3352cd14c096da99d71f0dff480d5aa130a6e57709cc1909f75d19b5bdaf"
+  },
+  "camp-night/camp_table.png": {
+   "size": 159099,
+   "sha": "e5fb04a94658c88f4371eeab7aa23b2f18076e21237eebc3b48ff361cfd56a77"
+  },
+  "camp-night/camp_table_b.png": {
+   "size": 158876,
+   "sha": "4b5b5c7ccc643aab83a8f53bfea7e5422f8730c610e151df13d0a8fc8b214579"
+  },
+  "camp-night/hammock_owl.png": {
+   "size": 177672,
+   "sha": "5d2bf9b11f2c1da00a2c159280b15049cb5c69898b8be637d4e2bf882504434c"
+  },
+  "camp-night/hammock_owl_b.png": {
+   "size": 177382,
+   "sha": "d82744ea7dc6c63422279a7982a9b374c63a4191671d68bdcd9685ef4bd2d2de"
+  },
+  "camp-night/masterpiece_campsite.png": {
+   "size": 1001664,
+   "sha": "56391cce0d1500ed6ff030937989e6b27ffc3fca9164db4e2698ea8fef847007"
+  },
+  "camp-night/masterpiece_campsite_b.png": {
+   "size": 1001526,
+   "sha": "5da1a2a850320f03931eed2d5726cc98bb9ed62b0cc4680e1888db132a26ff42"
+  },
+  "camp-night/telescope_rock.png": {
+   "size": 162511,
+   "sha": "2f52e61823ce0bf61c77c31de8b4db2a531ab6cded6883cc6b2751efa7805be9"
+  },
+  "camp-night/telescope_rock_b.png": {
+   "size": 162259,
+   "sha": "435b00628e1ad9f62549b67df3db8c4f19c3992045b4c76166737e9bb963abbd"
+  },
+  "library/bookshelf_ladder.png": {
+   "size": 185985,
+   "sha": "636212620b37607950f0b6bfb7868dc009e0af1bfa58358289f9ef1c219d1031"
+  },
+  "library/bookshelf_ladder_b.png": {
+   "size": 185704,
+   "sha": "c3381a9461b8c5f6865f3e7fcbfbc1274ca692caa9ca84a96ca5ee5859483cd2"
+  },
+  "library/reading_chair.png": {
+   "size": 176542,
+   "sha": "0c3c3d061b49afd321b31c0cc673ebe3ce3cb0cf48c80811db87a09be0b4eddf"
+  },
+  "library/reading_chair_b.png": {
+   "size": 176295,
+   "sha": "d62f911bcaeb738667308b66d55e7bc5b1c8fbdc6d0e40499c104dfe2dce535f"
+  },
+  "library/window_seat_cat.png": {
+   "size": 169468,
+   "sha": "ae5b077f26e4e2d3c89d53658a3a329e770173d7602abc04d349063570c8abb3"
+  },
+  "library/window_seat_cat_b.png": {
+   "size": 169264,
+   "sha": "8c9d727ceb86209ba6611813547d1138c0599ed8e4250118a2ad85f3b73cab3d"
+  },
+  "library/map_desk.png": {
+   "size": 179702,
+   "sha": "c2e00739a3cfa63ee87dfb3c77d070ae29d7260fc80fabe08bc27831058c8c9a"
+  },
+  "library/map_desk_b.png": {
+   "size": 179402,
+   "sha": "a017657ce2e02b7a16e096063e67331e123d5fd9eea083e512f902acba213991"
+  },
+  "library/spiral_stairs.png": {
+   "size": 189758,
+   "sha": "d75ed4554fa7e428202f8033c383972503d3ef59d55c2c338a90ca588c910b99"
+  },
+  "library/spiral_stairs_b.png": {
+   "size": 189429,
+   "sha": "6c70c0b4a13eca7b716e55d8ee058f1352b41f40235fd83733f9142f1c6676e2"
+  },
+  "library/masterpiece_grand_library.png": {
+   "size": 1064765,
+   "sha": "e6e87fe86867259d39970583454b58212afa92a713728e20a90b0abc4a2d0655"
+  },
+  "library/masterpiece_grand_library_b.png": {
+   "size": 1064554,
+   "sha": "73ed0ef7bab28405bdfd58e04748656457d52944ba517563c517e6d677551db7"
+  },
+  "library/fireplace_globe.png": {
+   "size": 177880,
+   "sha": "380cd9bc6d77ee77ea17be6ba351966bff2d8d7e3ccfd0d0987622cfcecb7735"
+  },
+  "library/fireplace_globe_b.png": {
+   "size": 177599,
+   "sha": "19f25a097e3936b0cf1455de49368a06d0979fb75b7eb690b98b2eef5886725a"
+  },
+  "train-station/steam_train.png": {
+   "size": 186610,
+   "sha": "7d88ac195fdf29964f2f73d433252e4baae7242369f0410ae9320e70240781cd"
+  },
+  "train-station/steam_train_b.png": {
+   "size": 186293,
+   "sha": "25085431740dd356df2d62fdb31449b6a88bf0d5418a8bd461c0f546d882f0a1"
+  },
+  "train-station/station_clock.png": {
+   "size": 191431,
+   "sha": "6cdb2d7538ac2fbf95efbe92106ece3e7c9b565ae1ef2757e7a857c80a5b8a6d"
+  },
+  "train-station/station_clock_b.png": {
+   "size": 191260,
+   "sha": "4808070f97cc33a56c3e57eb926c1abe56d705bc0e833aed69f960b611191447"
+  },
+  "train-station/luggage_trolley.png": {
+   "size": 174694,
+   "sha": "4e4b929435edaaa0b05af2d8dd4077ba3a68ccac5c4841003f20791f03dac52c"
+  },
+  "train-station/luggage_trolley_b.png": {
+   "size": 174498,
+   "sha": "7ffcc630ef652b11b2f53b9b599657c0b77e9fb6400c6f8629430c2529617ae9"
+  },
+  "train-station/ticket_window.png": {
+   "size": 181745,
+   "sha": "941a5f8b990f37907024261c3552f7d61151cb491cd91a66953f758862dfab26"
+  },
+  "train-station/ticket_window_b.png": {
+   "size": 181545,
+   "sha": "b31fb791146710ca1e67ad90473a2118fc0936a7ca2ff06b748626d7a3ad595f"
+  },
+  "train-station/station_cafe.png": {
+   "size": 184102,
+   "sha": "7c1b8bd65898b2570fcc6645b0bb0548f6fbfddc50a58db46428e2a3c9120f20"
+  },
+  "train-station/station_cafe_b.png": {
+   "size": 183869,
+   "sha": "5bfba5fe01bd2389af38cdd58e695ac571d424912f61b735719ee1208172ebb1"
+  },
+  "train-station/masterpiece_autumn_station.png": {
+   "size": 1095808,
+   "sha": "48d42272a813ca61afea30e52be91d2ac459dacda406271a82d2da7c4e26ebaa"
+  },
+  "train-station/masterpiece_autumn_station_b.png": {
+   "size": 1095613,
+   "sha": "bf02d79e919d8594cecf2624d9ae9c8a48ff37122bb6493e2cee918b1725aeb5"
+  },
+  "train-station/signal_box.png": {
+   "size": 188673,
+   "sha": "286a23e46dfc83e07d3504468b8b2c9c79fb66bcaf157ccb7cd40628bcec1110"
+  },
+  "train-station/signal_box_b.png": {
+   "size": 188498,
+   "sha": "de910009d065fc8fafb7248631b3f553b80471a7b6234b63bdc93b2801d71640"
+  },
+  "autumn-market/pumpkin_stall.png": {
+   "size": 185528,
+   "sha": "3531c64afde7239922481a3f6ac3398464c063d88a4024515d110fe7e17edebe"
+  },
+  "autumn-market/pumpkin_stall_b.png": {
+   "size": 185350,
+   "sha": "cc7f3a0e37ceb6305633eda974426d525431d0d0d021ef1d709f288f302364b6"
+  },
+  "autumn-market/apple_cart.png": {
+   "size": 184492,
+   "sha": "01d075ed86f3a39ec6c9292be2eb788afb9ce50928056a2b30ddbba51c4b116d"
+  },
+  "autumn-market/apple_cart_b.png": {
+   "size": 184241,
+   "sha": "73889f59a2aff864fd0a6427e603ab3bb625c43ce4c741a760966807b39d5956"
+  },
+  "autumn-market/bakery_stall.png": {
+   "size": 187379,
+   "sha": "b7d367a03d1b9705cc5a2e94b55181d2e7b8be898670fc44dc3025c4f7ef1239"
+  },
+  "autumn-market/bakery_stall_b.png": {
+   "size": 187048,
+   "sha": "25326ac975d36f190d69b8dc7307505a1a10c0a3060f036a9e291962d3ca7189"
+  },
+  "autumn-market/flower_stall.png": {
+   "size": 192300,
+   "sha": "86d503b8029b86683f4d56f5113e22a2b170c1302102245829fe5593d5e4d9e1"
+  },
+  "autumn-market/flower_stall_b.png": {
+   "size": 192049,
+   "sha": "084ce97c0a12fb3ccc9a3b3cb90b0726015ceadeee300ea3c2065b5b8c78a4c0"
+  },
+  "autumn-market/knitted_goods.png": {
+   "size": 191004,
+   "sha": "309fa4afed0019747470aed66eaa31f446924f7d8bfc0d73fbd572b1234db06e"
+  },
+  "autumn-market/knitted_goods_b.png": {
+   "size": 190706,
+   "sha": "f9b937d9728df10c6059a9cae5f67c32d60195da4480b9aeb7577da1f3e71f6f"
+  },
+  "autumn-market/masterpiece_autumn_market.png": {
+   "size": 1176639,
+   "sha": "ffc2fe6affa5cc578fd653e822f675accaadf676c9bcd98c221c0dbc3bd28331"
+  },
+  "autumn-market/masterpiece_autumn_market_b.png": {
+   "size": 1176360,
+   "sha": "c30e4a3d520fd9a96cb92752967ffad82855de34494ced5a16747cf0448040fa"
+  },
+  "autumn-market/chestnut_cart.png": {
+   "size": 192669,
+   "sha": "9a0638f1fe402248bc70769dee7d9b958524bdf593ea9ef64c31494350b33e92"
+  },
+  "autumn-market/chestnut_cart_b.png": {
+   "size": 192371,
+   "sha": "99dd4893b213ef1d9b6867b34e0bb59c7fc92429f28b2da5542c4d0905530014"
+  },
+  "florist/shop_front.png": {
+   "size": 179892,
+   "sha": "216cfe1ae6b8a797cac1c14cd012476dc1a147217d1336be3d5d027f93b98337"
+  },
+  "florist/shop_front_b.png": {
+   "size": 179605,
+   "sha": "b5401b66b47065030f7d127af331382abbc9fa9cd71d295a7075a05615e9d9f5"
+  },
+  "florist/bouquet_table.png": {
+   "size": 174255,
+   "sha": "13230657f9238842b2234f3d1dba6c01c4b856e7264d14c877023af6f9ac3eec"
+  },
+  "florist/bouquet_table_b.png": {
+   "size": 174064,
+   "sha": "49724826e34bba2ab887e82a7a0cb6933d46a06bb7b7df223f4b58fef1343439"
+  },
+  "florist/plant_shelves.png": {
+   "size": 187316,
+   "sha": "2f7627266bd524f9c5488d132ec35003a8366269257565baccbeeda5dce3115f"
+  },
+  "florist/plant_shelves_b.png": {
+   "size": 187098,
+   "sha": "decb77d26726bc29a24b3e9c14dc779575b557e6e080f46b0e49e5f7a685e445"
+  },
+  "florist/flower_cooler.png": {
+   "size": 173445,
+   "sha": "acf169367f657ddd25188580ddad56b7bd38bf305f61c5d689f0c2d2f9f79c57"
+  },
+  "florist/flower_cooler_b.png": {
+   "size": 173249,
+   "sha": "457ebb8142d96ddeb3451fe998a84a69bef24d1f06a72b165ba10a296c3bbcb9"
+  },
+  "florist/sunflower_bicycle.png": {
+   "size": 181353,
+   "sha": "a4ba303c1db6cf963481411918171522af3029cb9af9193e953a732c9f9a0b26"
+  },
+  "florist/sunflower_bicycle_b.png": {
+   "size": 181176,
+   "sha": "8122b3dae65dfb28007d6930943c6d87ab60034997dfb8672c6cfd6969f2be4e"
+  },
+  "florist/masterpiece_paris_florist.png": {
+   "size": 990529,
+   "sha": "150972b5c387c52cfc6779556694949fe07cd629cc529123ec4f801ec16cd8fa"
+  },
+  "florist/masterpiece_paris_florist_b.png": {
+   "size": 990296,
+   "sha": "83148309e940a538609c4b9f7e4d1af6276e2ee530a4388426cc7416de9ea68d"
+  },
+  "florist/orchid_greenhouse.png": {
+   "size": 181933,
+   "sha": "eff24c7dadcea213723c69eb9b9e35b2617909b8f812ebb9b9d9fe708df4b167"
+  },
+  "florist/orchid_greenhouse_b.png": {
+   "size": 181683,
+   "sha": "fd76b7622c2764d643bdabf2fe14692eaae11a1e7074e16cf871f138486c5c62"
+  },
+  "pirate-cove/pirate_galleon.png": {
+   "size": 172754,
+   "sha": "aa43a4dd3212459f5120949f5ebfd72a2f76ac56b5ba0eb3b3be6b7989719925"
+  },
+  "pirate-cove/pirate_galleon_b.png": {
+   "size": 172719,
+   "sha": "918121cc59f461426221bb8bf15089178d141f03ed40d119f76ea7aa69682c03"
+  },
+  "pirate-cove/treasure_chest.png": {
+   "size": 185390,
+   "sha": "fc422626e30e755de50395a7c0bdf2e5c28d5b017b7d686b24d108888e28cf0a"
+  },
+  "pirate-cove/treasure_chest_b.png": {
+   "size": 185386,
+   "sha": "23c37f99ab3cef27cbacacd2668e1bf655c11fdbda7efdbea6acf395adfdee21"
+  },
+  "pirate-cove/captains_cabin.png": {
+   "size": 195178,
+   "sha": "c8285d0572aeef7031621f46cdf46a724fcfb7ee7ba417dedcc461eeebf2f20b"
+  },
+  "pirate-cove/captains_cabin_b.png": {
+   "size": 195131,
+   "sha": "cbb36aad0b0cecd16fee3b8456f1e0baa1d5450fe49a744e7ee1d0c75127d532"
+  },
+  "pirate-cove/pirate_dock.png": {
+   "size": 186131,
+   "sha": "dea8937fd12011d68ad8ec5aa1c0ca3846e2885e971187683761d0178bee50c8"
+  },
+  "pirate-cove/pirate_dock_b.png": {
+   "size": 186094,
+   "sha": "e6d7d1a08b6ee47cf2684ff434791cd60a45a3c28c0344f7b5d9cc43d7475a71"
+  },
+  "pirate-cove/skull_cave.png": {
+   "size": 200947,
+   "sha": "8ea3ca059937431ab4add1f5c0f76e032ed75b2c331285ec3fedf39562a1f7a5"
+  },
+  "pirate-cove/skull_cave_b.png": {
+   "size": 200934,
+   "sha": "0bd1224da01915cd974fd16603fa923bdd228db02efc1e522b205630a634f6cf"
+  },
+  "pirate-cove/masterpiece_pirate_cove.png": {
+   "size": 1030354,
+   "sha": "1ed4a8907a25db063d6aeec603494d23552896e81cfc8013fc869fa4d084f6a9"
+  },
+  "pirate-cove/masterpiece_pirate_cove_b.png": {
+   "size": 1030340,
+   "sha": "607881677b3264043ca8dd6352b5e2ea5735525b2385268841a5f102fa38fe4e"
+  },
+  "pirate-cove/treasure_beach.png": {
+   "size": 176049,
+   "sha": "086708e1f3afb54eb358c45190b4b746c340dfa13175b58480bee8adcd415922"
+  },
+  "pirate-cove/treasure_beach_b.png": {
+   "size": 176031,
+   "sha": "eb62dfd2c42070d568a81adf6f6b6ea2fa6b4398d937d6e88da1d2f7877149cb"
+  },
+  "wizard-room/bubbling_cauldron.png": {
+   "size": 187921,
+   "sha": "d2a4bba134731db8deb2f9adc1a9a22195dca78352cb00e4a3744433216c54bc"
+  },
+  "wizard-room/bubbling_cauldron_b.png": {
+   "size": 187889,
+   "sha": "6f4d990c658af5da9874ed23b50adb2d3060f5c13129507f1e1931710a867a90"
+  },
+  "wizard-room/potion_shelf.png": {
+   "size": 181474,
+   "sha": "87f689ca4b8453e2769070fcc5203823e8abaed9f8c0f0041ec2d91ca7bb702e"
+  },
+  "wizard-room/potion_shelf_b.png": {
+   "size": 181450,
+   "sha": "b2d256d6ce0497717cc906e531a23b45a5f3689f52fba59bf022a3f7a94d945a"
+  },
+  "wizard-room/spellbook_desk.png": {
+   "size": 182538,
+   "sha": "8f6f39e8955bbe2ba8712a6555f5e93c9eb054b8f4bad29bc34409c7037d76ff"
+  },
+  "wizard-room/spellbook_desk_b.png": {
+   "size": 182489,
+   "sha": "098d3123fee782e2fa82568b8ef1f657cc69214c7e9733dbf51d1b7bcce410e0"
+  },
+  "wizard-room/owl_window.png": {
+   "size": 178088,
+   "sha": "6de11efc59fa19c4fdfae3af9ab8b197cea2bcc69815ed436181bab39de5ad3b"
+  },
+  "wizard-room/owl_window_b.png": {
+   "size": 178066,
+   "sha": "ed21d8bf4c899c300d505ce44fcea1f47ba2661b5fee37c095cd02e08d039509"
+  },
+  "wizard-room/orrery_hat.png": {
+   "size": 186711,
+   "sha": "56af53d695b8aa61e550d8b762a2975b3cd073efa1592df9c87efcbd64e8bfcc"
+  },
+  "wizard-room/orrery_hat_b.png": {
+   "size": 186684,
+   "sha": "4b785f42fd2fa491e88b5bfe6a782765779b5b421db6a4ce36009112bc972250"
+  },
+  "wizard-room/masterpiece_wizard_tower.png": {
+   "size": 1099181,
+   "sha": "8d5fc018aa5deb7c686cf9ba491f3aa0657f954726e2c0a643680d6af7fd5f5c"
+  },
+  "wizard-room/masterpiece_wizard_tower_b.png": {
+   "size": 1099205,
+   "sha": "4bf2fa7381f0ac5d5d34fe8983905923999b102365702774bdced01054561746"
+  },
+  "wizard-room/magic_circle.png": {
+   "size": 178259,
+   "sha": "65a5ce97e3809600d687cc2f29a02c443fb50ffe8f1428cb546263a053cb056d"
+  },
+  "wizard-room/magic_circle_b.png": {
+   "size": 178235,
+   "sha": "0894494a5740d956bb62ffa72965faf09c40f89a4078e744610fa8047cc8c876"
+  },
+  "venice-canals/gondola.png": {
+   "size": 184386,
+   "sha": "1a91fe2a19072a478ff49de10f5bf9f951efc42462cc281f40859d64da52ce20"
+  },
+  "venice-canals/gondola_b.png": {
+   "size": 184347,
+   "sha": "07d4e5f02965d3ff7003295ee04833a3e8bc9acc3754fb1c6f60ce3a89b2c845"
+  },
+  "venice-canals/flower_bridge.png": {
+   "size": 195153,
+   "sha": "0ba9c78ec97e995fce3b942862c8206104bc62c2061697cf430a0e20996dd40c"
+  },
+  "venice-canals/flower_bridge_b.png": {
+   "size": 195126,
+   "sha": "1f61a4c18bd8278f53d5e0b953c58c482a96e248ef5e9923c89665a9f4b74a44"
+  },
+  "venice-canals/basilica_lagoon.png": {
+   "size": 157844,
+   "sha": "e45d6090b2278bb9ec82e50056d2b37a7d136914a294c8891b3ef5c838f94b2b"
+  },
+  "venice-canals/basilica_lagoon_b.png": {
+   "size": 157831,
+   "sha": "8e18e6b3ea81be8304fe6656b26b26af3a8168931be6e8dfb42b85bc9570b588"
+  },
+  "venice-canals/canal_cafe.png": {
+   "size": 190642,
+   "sha": "cad4bf51caf10f639ff9767ae5d8853721677e1df047cd18cb8d8bd55e902016"
+  },
+  "venice-canals/canal_cafe_b.png": {
+   "size": 190622,
+   "sha": "2bd6abe1f4b08e310e4b0c7f5fec04579f3129dbe43bb0363fc0bf3473f7666c"
+  },
+  "venice-canals/mask_balcony.png": {
+   "size": 198644,
+   "sha": "5ae8049712c29d3ffb1dfef4cf1e63125b6e0a409f13c7983196122b5be0d01d"
+  },
+  "venice-canals/mask_balcony_b.png": {
+   "size": 198608,
+   "sha": "776ad5d8e30c955fc0cb4eed5e3518ae1febd5ae0438b2144d2ee8b6ba8aab79"
+  },
+  "venice-canals/masterpiece_venice_canal.png": {
+   "size": 1106119,
+   "sha": "ddf3133cfe1ff3062a97d723ad611f3b6d0aeb320aca448fd47932d24974674b"
+  },
+  "venice-canals/masterpiece_venice_canal_b.png": {
+   "size": 1106132,
+   "sha": "b55e8dab3e7da535c33a5252ddf1ef9b4c15fe9219c6879d7c3932669055137c"
+  },
+  "venice-canals/murano_glass.png": {
+   "size": 194863,
+   "sha": "8d7f8047e0902dd9c396c2eeba8614f47726b18611999b1f30e196732ac22009"
+  },
+  "venice-canals/murano_glass_b.png": {
+   "size": 194826,
+   "sha": "8a1a4d7f8834c35b6e7f28fe184a0ada80ece6576a4fd75ac17be9233c0b38a9"
+  },
+  "antique-shop/mirror_wall.png": {
+   "size": 203024,
+   "sha": "b0265fe2a085f6717d3856a0e94eb192826cb89302b8c064708c36d28fc03dea"
+  },
+  "antique-shop/mirror_wall_b.png": {
+   "size": 202996,
+   "sha": "742de796d89292b7ca431637586c60ea60690ca1b328b21f369c8300d46041d9"
+  },
+  "antique-shop/watch_case.png": {
+   "size": 186344,
+   "sha": "98c90a296f3b289a9533ccbae07dbe98f0a9ce4444049942b995e8c3c24406e0"
+  },
+  "antique-shop/watch_case_b.png": {
+   "size": 186317,
+   "sha": "74455ecf246a4807bc614bb6f5911816687ffbcdd373b3c445a6b3153ca419b3"
+  },
+  "antique-shop/gramophone_corner.png": {
+   "size": 191567,
+   "sha": "8ca61cbe63f415ac2f6774f8923657005bf315a794b2fb1fe056fd670186e853"
+  },
+  "antique-shop/gramophone_corner_b.png": {
+   "size": 191521,
+   "sha": "284f9d5cedcd22691c51b1841090022c2f88c427d76cd5b68bf0af01804e5981"
+  },
+  "antique-shop/porcelain_shelf.png": {
+   "size": 191961,
+   "sha": "d3652128b3a0c8bdbb243418b55fafe33fe6d3d00f3d37648c9690cca4b50e35"
+  },
+  "antique-shop/porcelain_shelf_b.png": {
+   "size": 191924,
+   "sha": "98f529809b8d729a90a30ad09867ee215c430932c6931247319570e78e1eae8e"
+  },
+  "antique-shop/globe_desk.png": {
+   "size": 192352,
+   "sha": "08db77ac98d8fe8fa6d2540957bd822510da4f63d349ad3f628dbcff79d981ae"
+  },
+  "antique-shop/globe_desk_b.png": {
+   "size": 192319,
+   "sha": "33e04dbaa493fe2e6ceea11760918172d8d97bfd53df725792b596c7acf30153"
+  },
+  "antique-shop/masterpiece_antique_shop.png": {
+   "size": 1031191,
+   "sha": "e8a98f5a9dc56364435cc37f539bafb42921410d38db820b825762cd61cb25e1"
+  },
+  "antique-shop/masterpiece_antique_shop_b.png": {
+   "size": 1031198,
+   "sha": "6ee9fd686b041d4b2d74fc1e760f78446787607cb6fd550ce8574925f821bd11"
+  },
+  "antique-shop/rocking_chair.png": {
+   "size": 198838,
+   "sha": "c41a5cb412eb9001351f45fdfa85fb94ee1911ac48cf5686fc83819c9c88c8d6"
+  },
+  "antique-shop/rocking_chair_b.png": {
+   "size": 198793,
+   "sha": "2ce5e4e2355915bc8cdd7172aeedde0de62dee4bf4ece1639e78379cb0a4d589"
+  },
+  "tropical-island/stilt_hut.png": {
+   "size": 170824,
+   "sha": "b9701bd00e3e3bb8ea650c1fc0dc30ae26005185c11c8a14a8f8416779a126de"
+  },
+  "tropical-island/stilt_hut_b.png": {
+   "size": 170800,
+   "sha": "059377cedeaa3ec04772d0de16f3174f3ba4904b824d867490575f974d509f95"
+  },
+  "tropical-island/jungle_waterfall.png": {
+   "size": 188014,
+   "sha": "2fa53fa67953d390931d79b14d1ecb128cc3c6c00342d2157fa21cebe816f212"
+  },
+  "tropical-island/jungle_waterfall_b.png": {
+   "size": 187978,
+   "sha": "694c2231b1bd225856602f4663aa35922ab7d8f7ba706ebcadfdd1cfff72f267"
+  },
+  "tropical-island/coral_shallows.png": {
+   "size": 171846,
+   "sha": "9248f92ef063b9ac9bd9e73f042df067595e5bd8105bf6775e5fbd5c3cd1c809"
+  },
+  "tropical-island/coral_shallows_b.png": {
+   "size": 171846,
+   "sha": "07f1fdb694ee741f76a8761b4b40088f4aa80c18faf419758f46b4fa2c707a0d"
+  },
+  "tropical-island/fruit_stand.png": {
+   "size": 197485,
+   "sha": "54bb95a8f7e15d2090e06aa0d0bfd7147fb38afed1c2ab61c4ac97770db34c7f"
+  },
+  "tropical-island/fruit_stand_b.png": {
+   "size": 197449,
+   "sha": "caa69955bd04b290b02427711105b23248e9b86060afa61e51ee15d401535a63"
+  },
+  "tropical-island/outrigger_canoe.png": {
+   "size": 149643,
+   "sha": "c81e07b1822f1484efe50152e6da7b9a29ce132ee5cfdb9889429102453ab66c"
+  },
+  "tropical-island/outrigger_canoe_b.png": {
+   "size": 149624,
+   "sha": "1547e23001f33a963c402d1682567a2efb96a587f08200a7c1b63de2e439e42c"
+  },
+  "tropical-island/masterpiece_tropical_island.png": {
+   "size": 939043,
+   "sha": "60232a9e938c6d776783cc05900d0f348d12ca68f863bada971b14af9d3977fb"
+  },
+  "tropical-island/masterpiece_tropical_island_b.png": {
+   "size": 939066,
+   "sha": "24fd4f011f7ed6653438d03d09ce737ed84113f985d875a1465ceaa9e7fb8685"
+  },
+  "tropical-island/volcano_bridge.png": {
+   "size": 186048,
+   "sha": "fac44b31ff12b694595c38af7c5145f1abb4333f701fc604b4d0d2489a744d96"
+  },
+  "tropical-island/volcano_bridge_b.png": {
+   "size": 186042,
+   "sha": "b00e8f98c42739f32fd4447ea23f70da9cb3c0ae8f5847cb903433b856189da2"
+  }
+ }
+}

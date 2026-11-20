@@ -1,0 +1,2194 @@
+{
+ "version": 1,
+ "stories": [
+  {
+   "id": "lighthouse",
+   "access": "free",
+   "title": {
+    "en": "Lighthouse",
+    "tr": "Deniz Feneri",
+    "de": "Leuchtturm"
+   },
+   "cardSub": {
+    "en": "The last light at sunset",
+    "tr": "Gün batımında son ışık",
+    "de": "Das letzte Licht bei Sonnenuntergang"
+   },
+   "intro": {
+    "en": "The sun is setting. The old lighthouse is about to shine one last time.",
+    "tr": "Güneş batıyor. Yaşlı fener son kez yanmak üzere.",
+    "de": "Die Sonne geht unter. Der alte Leuchtturm leuchtet ein letztes Mal."
+   },
+   "scene": "art/stories/lighthouse/final.png",
+   "chapters": [
+    {
+     "n": 1,
+     "game": "dots",
+     "line": {
+      "en": "Draw the lighthouse with the dots.",
+      "tr": "Fenerin silüetini noktalarla çiz.",
+      "de": "Zeichne den Leuchtturm mit den Punkten."
+     },
+     "content": "stories/lighthouse#dots"
+    },
+    {
+     "n": 2,
+     "game": "spot",
+     "line": {
+      "en": "What changed on the shore tonight? Find it.",
+      "tr": "Akşam kıyıda ne değişti? Bul.",
+      "de": "Was hat sich heute Abend am Ufer verändert?"
+     },
+     "content": "stories/lighthouse#spot"
+    },
+    {
+     "n": 3,
+     "game": "jigsaw",
+     "line": {
+      "en": "Put the scattered postcard back together.",
+      "tr": "Dağılan kartpostalı topla.",
+      "de": "Setze die verstreute Postkarte zusammen."
+     },
+     "content": "stories/lighthouse#jigsaw"
+    },
+    {
+     "n": 4,
+     "game": "hidden",
+     "line": {
+      "en": "Reveal the boat in the mist.",
+      "tr": "Sisteki kayığı ortaya çıkar.",
+      "de": "Enthülle das Boot im Nebel."
+     },
+     "file": "art/stories/lighthouse/hidden.json"
+    },
+    {
+     "n": 5,
+     "game": "paint",
+     "line": {
+      "en": "Paint the sunset and light the lighthouse again.",
+      "tr": "Gün batımını boya, fener yeniden yansın.",
+      "de": "Male den Sonnenuntergang, lass den Leuchtturm wieder leuchten."
+     },
+     "file": "art/stories/lighthouse/final.json"
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "winter-village",
+   "access": "premium",
+   "title": {
+    "en": "Winter Village",
+    "tr": "Kış Köyü",
+    "de": "Winterdorf"
+   },
+   "cardSub": {
+    "en": "A snowy night",
+    "tr": "Karla kaplı bir gece",
+    "de": "Eine verschneite Nacht"
+   },
+   "intro": {
+    "en": "Snow is falling. The whole village is waiting for the chapel bell.",
+    "tr": "Kar yağıyor. Köyde herkes şapelin çanını bekliyor.",
+    "de": "Es schneit. Das ganze Dorf wartet auf die Kapellenglocke."
+   },
+   "scene": "art/stories/winter-village/final.png",
+   "chapters": [
+    {
+     "n": 1,
+     "game": "dots",
+     "line": {
+      "en": "Draw the chapel with the dots.",
+      "tr": "Şapeli noktalarla çiz.",
+      "de": "Zeichne die Kapelle mit den Punkten."
+     },
+     "content": "stories/winter-village#dots"
+    },
+    {
+     "n": 2,
+     "game": "spot",
+     "line": {
+      "en": "What changed beyond the bridge? Find it.",
+      "tr": "Köprünün ötesinde ne değişti? Bul.",
+      "de": "Was hat sich hinter der Brücke verändert?"
+     },
+     "content": "stories/winter-village#spot"
+    },
+    {
+     "n": 3,
+     "game": "jigsaw",
+     "line": {
+      "en": "Put the cabin's postcard back together.",
+      "tr": "Kulübenin kartpostalını topla.",
+      "de": "Setze die Postkarte der Hütte zusammen."
+     },
+     "content": "stories/winter-village#jigsaw"
+    },
+    {
+     "n": 4,
+     "game": "hidden",
+     "line": {
+      "en": "Reveal the sled under the snow.",
+      "tr": "Karın altındaki kızağı ortaya çıkar.",
+      "de": "Enthülle den Schlitten unter dem Schnee."
+     },
+     "file": "art/stories/winter-village/hidden.json"
+    },
+    {
+     "n": 5,
+     "game": "paint",
+     "line": {
+      "en": "Paint the winter night and light up the village.",
+      "tr": "Kış gecesini boya, köyün ışıkları yansın.",
+      "de": "Male die Winternacht und lass das Dorf leuchten."
+     },
+     "file": "art/stories/winter-village/final.json"
+    }
+   ],
+   "status": "ready"
+  },
+  {
+   "id": "japanese-garden",
+   "access": "premium",
+   "title": {
+    "en": "Japanese Garden",
+    "tr": "Japon Bahçesi",
+    "de": "Japanischer Garten"
+   },
+   "cardSub": {
+    "en": "A day under the sakura",
+    "tr": "Sakura altında bir gün",
+    "de": "Ein Tag unter der Sakura"
+   },
+   "intro": {
+    "en": "The sakura is in bloom. The garden is waiting for tea time.",
+    "tr": "Sakura açtı. Bahçe çay saatini bekliyor.",
+    "de": "Die Sakura blüht. Der Garten wartet auf die Teestunde."
+   },
+   "scene": "art/stories/japanese-garden/final.png",
+   "chapters": [
+    {
+     "n": 1,
+     "game": "dots",
+     "line": {
+      "en": "Draw the stone lantern with the dots.",
+      "tr": "Taş feneri noktalarla çiz.",
+      "de": "Zeichne die Steinlaterne mit den Punkten."
+     },
+     "content": "stories/japanese-garden#dots"
+    },
+    {
+     "n": 2,
+     "game": "spot",
+     "line": {
+      "en": "What changed by the tea house? Find it.",
+      "tr": "Çay evinin önünde ne değişti? Bul.",
+      "de": "Was hat sich am Teehaus verändert?"
+     },
+     "content": "stories/japanese-garden#spot"
+    },
+    {
+     "n": 3,
+     "game": "jigsaw",
+     "line": {
+      "en": "Put the bridge postcard back together.",
+      "tr": "Köprünün kartpostalını topla.",
+      "de": "Setze die Brücken-Postkarte zusammen."
+     },
+     "content": "stories/japanese-garden#jigsaw"
+    },
+    {
+     "n": 4,
+     "game": "hidden",
+     "line": {
+      "en": "Reveal the koi in the pond.",
+      "tr": "Göldeki koi balığını ortaya çıkar.",
+      "de": "Enthülle den Koi im Teich."
+     },
+     "file": "art/stories/japanese-garden/hidden.json"
+    },
+    {
+     "n": 5,
+     "game": "paint",
+     "line": {
+      "en": "Paint the garden and let the sakura bloom again.",
+      "tr": "Bahçeyi boya, sakura yeniden açsın.",
+      "de": "Male den Garten und lass die Sakura wieder blühen."
+     },
+     "file": "art/stories/japanese-garden/final.json"
+    }
+   ],
+   "status": "ready"
+  }
+ ],
+ "content": {
+  "commit": "b8cf237f27d67cbac281f8ddf8eb49471c24493e",
+  "stories": [
+   {
+    "id": "lighthouse",
+    "dots": {
+     "id": "lighthouse",
+     "image": "stories/lighthouse/lighthouse.png",
+     "bgImage": "stories/lighthouse/dots_bg.jpg",
+     "bg": "#143852",
+     "twinkles": [
+      [
+       0.0552,
+       0.1179,
+       1.4
+      ],
+      [
+       0.9571,
+       0.1365,
+       1.38
+      ],
+      [
+       0.9443,
+       0.2871,
+       1.38
+      ],
+      [
+       0.6493,
+       0.0228,
+       1.29
+      ],
+      [
+       0.0497,
+       0.313,
+       1.27
+      ],
+      [
+       0.1694,
+       0.0553,
+       1.26
+      ],
+      [
+       0.0391,
+       0.2155,
+       1.19
+      ],
+      [
+       0.3121,
+       0.0271,
+       1.07
+      ],
+      [
+       0.8735,
+       0.1034,
+       1.01
+      ],
+      [
+       0.8717,
+       0.0441,
+       0.9
+      ]
+     ],
+     "shape": {
+      "aspect": 0.7103,
+      "parts": [
+       [
+        [
+         0.6428,
+         0.0004
+        ],
+        [
+         0.6609,
+         0.0446
+        ],
+        [
+         0.6566,
+         0.071
+        ],
+        [
+         0.7295,
+         0.1107
+        ],
+        [
+         0.7674,
+         0.1492
+        ],
+        [
+         0.7439,
+         0.2096
+        ],
+        [
+         0.8087,
+         0.2286
+        ],
+        [
+         0.8056,
+         0.2554
+        ],
+        [
+         0.7884,
+         0.2956
+        ],
+        [
+         0.7753,
+         0.3384
+        ],
+        [
+         0.7831,
+         0.3871
+        ],
+        [
+         0.7899,
+         0.4358
+        ],
+        [
+         0.7966,
+         0.4836
+        ],
+        [
+         0.8,
+         0.5331
+        ],
+        [
+         0.8079,
+         0.581
+        ],
+        [
+         0.8141,
+         0.6297
+        ],
+        [
+         0.8202,
+         0.6784
+        ],
+        [
+         0.8281,
+         0.7263
+        ],
+        [
+         0.8528,
+         0.767
+        ],
+        [
+         0.8647,
+         0.814
+        ],
+        [
+         0.9094,
+         0.8173
+        ],
+        [
+         0.9403,
+         0.8427
+        ],
+        [
+         0.9801,
+         0.871
+        ],
+        [
+         0.9989,
+         0.9162
+        ],
+        [
+         0.9556,
+         0.948
+        ],
+        [
+         0.892,
+         0.9592
+        ],
+        [
+         0.827,
+         0.9689
+        ],
+        [
+         0.7697,
+         0.9824
+        ],
+        [
+         0.7022,
+         0.9865
+        ],
+        [
+         0.636,
+         0.9944
+        ],
+        [
+         0.567,
+         0.9919
+        ],
+        [
+         0.503,
+         0.9976
+        ],
+        [
+         0.4337,
+         0.9979
+        ],
+        [
+         0.3652,
+         0.9991
+        ],
+        [
+         0.3,
+         0.9865
+        ],
+        [
+         0.2326,
+         0.9895
+        ],
+        [
+         0.1709,
+         0.9742
+        ],
+        [
+         0.11,
+         0.9596
+        ],
+        [
+         0.0476,
+         0.9456
+        ],
+        [
+         0.0032,
+         0.9144
+        ],
+        [
+         0.0194,
+         0.8703
+        ],
+        [
+         0.0416,
+         0.8411
+        ],
+        [
+         0.0713,
+         0.8057
+        ],
+        [
+         0.0708,
+         0.7566
+        ],
+        [
+         0.0689,
+         0.6989
+        ],
+        [
+         0.0433,
+         0.6933
+        ],
+        [
+         0.0906,
+         0.6356
+        ],
+        [
+         0.1282,
+         0.5954
+        ],
+        [
+         0.173,
+         0.5658
+        ],
+        [
+         0.2288,
+         0.5705
+        ],
+        [
+         0.2383,
+         0.5057
+        ],
+        [
+         0.3077,
+         0.5055
+        ],
+        [
+         0.3022,
+         0.5267
+        ],
+        [
+         0.3189,
+         0.5733
+        ],
+        [
+         0.3798,
+         0.5786
+        ],
+        [
+         0.4483,
+         0.5826
+        ],
+        [
+         0.4858,
+         0.598
+        ],
+        [
+         0.4944,
+         0.5355
+        ],
+        [
+         0.499,
+         0.4869
+        ],
+        [
+         0.5056,
+         0.4381
+        ],
+        [
+         0.5112,
+         0.3895
+        ],
+        [
+         0.5169,
+         0.3408
+        ],
+        [
+         0.5024,
+         0.2973
+        ],
+        [
+         0.4843,
+         0.2562
+        ],
+        [
+         0.5082,
+         0.2193
+        ],
+        [
+         0.5449,
+         0.211
+        ],
+        [
+         0.5225,
+         0.1492
+        ],
+        [
+         0.5593,
+         0.1101
+        ],
+        [
+         0.6328,
+         0.0716
+        ],
+        [
+         0.6262,
+         0.0446
+        ]
+       ],
+       [
+        [
+         0.5239,
+         0.15
+        ],
+        [
+         0.5849,
+         0.15
+        ],
+        [
+         0.6458,
+         0.15
+        ],
+        [
+         0.7067,
+         0.15
+        ],
+        [
+         0.7676,
+         0.15
+        ]
+       ],
+       [
+        [
+         0.5042,
+         0.295
+        ],
+        [
+         0.5739,
+         0.295
+        ],
+        [
+         0.6437,
+         0.295
+        ],
+        [
+         0.7134,
+         0.295
+        ],
+        [
+         0.7831,
+         0.295
+        ]
+       ],
+       [
+        [
+         0.5099,
+         0.388
+        ],
+        [
+         0.5782,
+         0.388
+        ],
+        [
+         0.6465,
+         0.388
+        ],
+        [
+         0.7148,
+         0.388
+        ],
+        [
+         0.7831,
+         0.388
+        ]
+       ],
+       [
+        [
+         0.5014,
+         0.455
+        ],
+        [
+         0.5589,
+         0.455
+        ],
+        [
+         0.6163,
+         0.455
+        ],
+        [
+         0.6738,
+         0.455
+        ],
+        [
+         0.7313,
+         0.455
+        ],
+        [
+         0.7887,
+         0.455
+        ]
+       ],
+       [
+        [
+         0.493,
+         0.6
+        ],
+        [
+         0.5572,
+         0.6
+        ],
+        [
+         0.6214,
+         0.6
+        ],
+        [
+         0.6856,
+         0.6
+        ],
+        [
+         0.7499,
+         0.6
+        ],
+        [
+         0.8141,
+         0.6
+        ]
+       ],
+       [
+        [
+         0.631,
+         0.735
+        ],
+        [
+         0.6977,
+         0.735
+        ],
+        [
+         0.7643,
+         0.735
+        ],
+        [
+         0.831,
+         0.735
+        ]
+       ],
+       [
+        [
+         0.3268,
+         0.722
+        ],
+        [
+         0.3958,
+         0.722
+        ],
+        [
+         0.4648,
+         0.722
+        ],
+        [
+         0.4648,
+         0.788
+        ],
+        [
+         0.3958,
+         0.788
+        ],
+        [
+         0.3268,
+         0.788
+        ]
+       ],
+       [
+        [
+         0.5324,
+         0.742
+        ],
+        [
+         0.5915,
+         0.742
+        ],
+        [
+         0.5915,
+         0.789
+        ],
+        [
+         0.5915,
+         0.836
+        ],
+        [
+         0.5324,
+         0.836
+        ],
+        [
+         0.5324,
+         0.789
+        ]
+       ],
+       [
+        [
+         0.1718,
+         0.567
+        ],
+        [
+         0.1197,
+         0.622
+        ],
+        [
+         0.0704,
+         0.672
+        ],
+        [
+         0.1408,
+         0.6757
+        ],
+        [
+         0.2113,
+         0.6793
+        ],
+        [
+         0.2817,
+         0.683
+        ],
+        [
+         0.3545,
+         0.6867
+        ],
+        [
+         0.4272,
+         0.6903
+        ],
+        [
+         0.5,
+         0.694
+        ],
+        [
+         0.569,
+         0.708
+        ],
+        [
+         0.638,
+         0.722
+        ]
+       ]
+      ],
+      "closed": [
+       true,
+       false,
+       false,
+       false,
+       false,
+       false,
+       false,
+       true,
+       true,
+       false
+      ]
+     }
+    },
+    "spot": {
+     "id": "lighthouse_shore",
+     "image": "stories/lighthouse/lighthouse_shore.png",
+     "imageB": "stories/lighthouse/lighthouse_shore_b.png",
+     "width": 860,
+     "height": 860,
+     "diffs": {
+      "iw": 860,
+      "ih": 860,
+      "gw": 90,
+      "gh": 89,
+      "d": [
+       [
+        81,
+        9,
+        2
+       ],
+       [
+        55,
+        64,
+        2
+       ],
+       [
+        80,
+        51,
+        2
+       ],
+       [
+        28,
+        14,
+        2
+       ],
+       [
+        65,
+        74,
+        2
+       ]
+      ]
+     }
+    },
+    "jigsaw": {
+     "image": "stories/lighthouse/jigsaw.png",
+     "width": 528,
+     "height": 528,
+     "tier": "easy"
+    }
+   },
+   {
+    "id": "winter-village",
+    "dots": {
+     "id": "chapel",
+     "image": "stories/winter-village/chapel.png",
+     "bgImage": "stories/winter-village/dots_bg.jpg",
+     "bg": "#182F61",
+     "twinkles": [
+      [
+       0.1429,
+       0.0851,
+       1.26
+      ],
+      [
+       0.0921,
+       0.1241,
+       1.05
+      ],
+      [
+       0.8538,
+       0.109,
+       1.01
+      ],
+      [
+       0.0466,
+       0.2972,
+       0.9
+      ],
+      [
+       0.2885,
+       0.0381,
+       0.89
+      ],
+      [
+       0.2113,
+       0.043,
+       0.84
+      ],
+      [
+       0.9204,
+       0.2452,
+       0.81
+      ],
+      [
+       0.8214,
+       0.0569,
+       0.67
+      ],
+      [
+       0.0866,
+       0.2129,
+       0.6
+      ],
+      [
+       0.875,
+       0.1592,
+       0.6
+      ]
+     ],
+     "shape": {
+      "aspect": 0.7809,
+      "parts": [
+       [
+        [
+         0.4851,
+         0.0014
+        ],
+        [
+         0.5145,
+         0.0285
+        ],
+        [
+         0.5168,
+         0.057
+        ],
+        [
+         0.5143,
+         0.0871
+        ],
+        [
+         0.5518,
+         0.1214
+        ],
+        [
+         0.6007,
+         0.1488
+        ],
+        [
+         0.6504,
+         0.1718
+        ],
+        [
+         0.6854,
+         0.2066
+        ],
+        [
+         0.6652,
+         0.2473
+        ],
+        [
+         0.6644,
+         0.2946
+        ],
+        [
+         0.6656,
+         0.3419
+        ],
+        [
+         0.6808,
+         0.3842
+        ],
+        [
+         0.6833,
+         0.4315
+        ],
+        [
+         0.7211,
+         0.4586
+        ],
+        [
+         0.7679,
+         0.4863
+        ],
+        [
+         0.8112,
+         0.5202
+        ],
+        [
+         0.8559,
+         0.5513
+        ],
+        [
+         0.8969,
+         0.5851
+        ],
+        [
+         0.9352,
+         0.6216
+        ],
+        [
+         0.9061,
+         0.6509
+        ],
+        [
+         0.9041,
+         0.7016
+        ],
+        [
+         0.9054,
+         0.7494
+        ],
+        [
+         0.9066,
+         0.8053
+        ],
+        [
+         0.9503,
+         0.8196
+        ],
+        [
+         0.9522,
+         0.8672
+        ],
+        [
+         0.9777,
+         0.9029
+        ],
+        [
+         0.9981,
+         0.9236
+        ],
+        [
+         0.9192,
+         0.9452
+        ],
+        [
+         0.8655,
+         0.9632
+        ],
+        [
+         0.8101,
+         0.9765
+        ],
+        [
+         0.7545,
+         0.9942
+        ],
+        [
+         0.695,
+         0.9992
+        ],
+        [
+         0.6334,
+         0.9992
+        ],
+        [
+         0.5728,
+         0.9992
+        ],
+        [
+         0.5112,
+         0.9968
+        ],
+        [
+         0.4506,
+         0.9992
+        ],
+        [
+         0.3911,
+         0.9942
+        ],
+        [
+         0.3316,
+         0.9892
+        ],
+        [
+         0.2699,
+         0.9892
+        ],
+        [
+         0.2094,
+         0.9851
+        ],
+        [
+         0.152,
+         0.975
+        ],
+        [
+         0.0935,
+         0.9699
+        ],
+        [
+         0.0372,
+         0.9553
+        ],
+        [
+         0.0001,
+         0.9435
+        ],
+        [
+         0.0648,
+         0.9107
+        ],
+        [
+         0.0648,
+         0.868
+        ],
+        [
+         0.092,
+         0.8321
+        ],
+        [
+         0.1452,
+         0.8323
+        ],
+        [
+         0.1488,
+         0.7809
+        ],
+        [
+         0.1488,
+         0.7336
+        ],
+        [
+         0.1477,
+         0.6871
+        ],
+        [
+         0.1403,
+         0.644
+        ],
+        [
+         0.1136,
+         0.636
+        ],
+        [
+         0.1308,
+         0.5826
+        ],
+        [
+         0.1743,
+         0.5531
+        ],
+        [
+         0.2143,
+         0.5184
+        ],
+        [
+         0.2567,
+         0.4857
+        ],
+        [
+         0.2992,
+         0.4545
+        ],
+        [
+         0.3131,
+         0.4116
+        ],
+        [
+         0.3283,
+         0.3715
+        ],
+        [
+         0.3373,
+         0.3261
+        ],
+        [
+         0.3369,
+         0.278
+        ],
+        [
+         0.3345,
+         0.2312
+        ],
+        [
+         0.3139,
+         0.1923
+        ],
+        [
+         0.3549,
+         0.1618
+        ],
+        [
+         0.4049,
+         0.1401
+        ],
+        [
+         0.449,
+         0.1112
+        ],
+        [
+         0.4813,
+         0.0578
+        ],
+        [
+         0.4487,
+         0.0559
+        ],
+        [
+         0.48,
+         0.0306
+        ]
+       ],
+       [
+        [
+         0.3172,
+         0.1956
+        ],
+        [
+         0.3784,
+         0.1956
+        ],
+        [
+         0.4395,
+         0.1956
+        ],
+        [
+         0.5007,
+         0.1956
+        ],
+        [
+         0.5619,
+         0.1956
+        ],
+        [
+         0.623,
+         0.1956
+        ],
+        [
+         0.6842,
+         0.1956
+        ]
+       ],
+       [
+        [
+         0.3172,
+         0.3778
+        ],
+        [
+         0.3784,
+         0.3778
+        ],
+        [
+         0.4395,
+         0.3778
+        ],
+        [
+         0.5007,
+         0.3778
+        ],
+        [
+         0.5619,
+         0.3778
+        ],
+        [
+         0.623,
+         0.3778
+        ],
+        [
+         0.6842,
+         0.3778
+        ]
+       ],
+       [
+        [
+         0.4168,
+         0.3644
+        ],
+        [
+         0.4168,
+         0.3122
+        ],
+        [
+         0.4168,
+         0.26
+        ],
+        [
+         0.4922,
+         0.2211
+        ],
+        [
+         0.5676,
+         0.26
+        ],
+        [
+         0.5676,
+         0.3122
+        ],
+        [
+         0.5676,
+         0.3644
+        ],
+        [
+         0.4922,
+         0.3644
+        ]
+       ],
+       [
+        [
+         0.3841,
+         0.6444
+        ],
+        [
+         0.3841,
+         0.5989
+        ],
+        [
+         0.3841,
+         0.5533
+        ],
+        [
+         0.4282,
+         0.5189
+        ],
+        [
+         0.4751,
+         0.5533
+        ],
+        [
+         0.4751,
+         0.5989
+        ],
+        [
+         0.4751,
+         0.6444
+        ],
+        [
+         0.4296,
+         0.6444
+        ]
+       ],
+       [
+        [
+         0.3755,
+         0.8856
+        ],
+        [
+         0.3755,
+         0.84
+        ],
+        [
+         0.3755,
+         0.7944
+        ],
+        [
+         0.3755,
+         0.7489
+        ],
+        [
+         0.4424,
+         0.71
+        ],
+        [
+         0.5092,
+         0.7489
+        ],
+        [
+         0.5092,
+         0.7944
+        ],
+        [
+         0.5092,
+         0.84
+        ],
+        [
+         0.5092,
+         0.8856
+        ],
+        [
+         0.4424,
+         0.8856
+        ]
+       ],
+       [
+        [
+         0.0839,
+         0.8333
+        ],
+        [
+         0.156,
+         0.8333
+        ],
+        [
+         0.2281,
+         0.8333
+        ],
+        [
+         0.3001,
+         0.8333
+        ]
+       ],
+       [
+        [
+         0.5249,
+         0.8211
+        ],
+        [
+         0.61,
+         0.8184
+        ],
+        [
+         0.695,
+         0.8158
+        ],
+        [
+         0.7801,
+         0.8131
+        ],
+        [
+         0.8651,
+         0.8104
+        ],
+        [
+         0.9502,
+         0.8078
+        ]
+       ],
+       [
+        [
+         0.3001,
+         0.8989
+        ],
+        [
+         0.3698,
+         0.8989
+        ],
+        [
+         0.4395,
+         0.8989
+        ],
+        [
+         0.5092,
+         0.8989
+        ]
+       ]
+      ],
+      "closed": [
+       true,
+       false,
+       false,
+       true,
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    "spot": {
+     "id": "winter_village",
+     "image": "stories/winter-village/winter_village.png",
+     "imageB": "stories/winter-village/winter_village_b.png",
+     "width": 714,
+     "height": 714,
+     "diffs": {
+      "iw": 714,
+      "ih": 714,
+      "gw": 107,
+      "gh": 109,
+      "d": [
+       [
+        42,
+        36,
+        2
+       ],
+       [
+        79,
+        12,
+        2
+       ],
+       [
+        40,
+        9,
+        2
+       ],
+       [
+        17,
+        19,
+        2
+       ],
+       [
+        60,
+        8,
+        2
+       ]
+      ]
+     }
+    },
+    "jigsaw": {
+     "image": "stories/winter-village/jigsaw.png",
+     "width": 496,
+     "height": 496,
+     "tier": "easy"
+    }
+   },
+   {
+    "id": "japanese-garden",
+    "dots": {
+     "id": "stone-lantern",
+     "image": "stories/japanese-garden/stone-lantern.png",
+     "bgImage": "stories/japanese-garden/dots_bg.jpg",
+     "bg": "#4B1E33",
+     "twinkles": [
+      [
+       0.7552,
+       0.0683,
+       1.4
+      ],
+      [
+       0.3293,
+       0.0133,
+       1.4
+      ],
+      [
+       0.1025,
+       0.0702,
+       1.4
+      ],
+      [
+       0.0491,
+       0.218,
+       1.4
+      ],
+      [
+       0.8972,
+       0.0163,
+       1.4
+      ],
+      [
+       0.2117,
+       0.086,
+       1.4
+      ],
+      [
+       0.0846,
+       0.1148,
+       1.4
+      ],
+      [
+       0.932,
+       0.2505,
+       1.38
+      ],
+      [
+       0.1977,
+       0.0064,
+       1.35
+      ],
+      [
+       0.8352,
+       0.1192,
+       1.24
+      ]
+     ],
+     "shape": {
+      "aspect": 0.6006,
+      "parts": [
+       [
+        [
+         0.533,
+         0
+        ],
+        [
+         0.5988,
+         0.0317
+        ],
+        [
+         0.6429,
+         0.0738
+        ],
+        [
+         0.6028,
+         0.1127
+        ],
+        [
+         0.6611,
+         0.1527
+        ],
+        [
+         0.74,
+         0.1747
+        ],
+        [
+         0.8137,
+         0.2035
+        ],
+        [
+         0.8991,
+         0.2191
+        ],
+        [
+         0.9547,
+         0.2463
+        ],
+        [
+         0.9073,
+         0.2867
+        ],
+        [
+         0.8236,
+         0.3031
+        ],
+        [
+         0.7414,
+         0.3165
+        ],
+        [
+         0.74,
+         0.3753
+        ],
+        [
+         0.7414,
+         0.4362
+        ],
+        [
+         0.8202,
+         0.4491
+        ],
+        [
+         0.8409,
+         0.4965
+        ],
+        [
+         0.7798,
+         0.5265
+        ],
+        [
+         0.7089,
+         0.555
+        ],
+        [
+         0.7522,
+         0.5998
+        ],
+        [
+         0.7863,
+         0.6488
+        ],
+        [
+         0.8137,
+         0.6985
+        ],
+        [
+         0.8318,
+         0.7514
+        ],
+        [
+         0.8892,
+         0.7757
+        ],
+        [
+         0.9661,
+         0.8122
+        ],
+        [
+         0.9885,
+         0.8406
+        ],
+        [
+         0.9485,
+         0.8471
+        ],
+        [
+         0.9372,
+         0.8704
+        ],
+        [
+         0.9987,
+         0.9371
+        ],
+        [
+         0.9217,
+         0.9606
+        ],
+        [
+         0.8311,
+         0.9652
+        ],
+        [
+         0.752,
+         0.9858
+        ],
+        [
+         0.6624,
+         0.9946
+        ],
+        [
+         0.5705,
+         0.9992
+        ],
+        [
+         0.4774,
+         0.9992
+        ],
+        [
+         0.3897,
+         0.9864
+        ],
+        [
+         0.2975,
+         0.9852
+        ],
+        [
+         0.2083,
+         0.9775
+        ],
+        [
+         0.1164,
+         0.9728
+        ],
+        [
+         0.044,
+         0.9456
+        ],
+        [
+         0.0033,
+         0.9086
+        ],
+        [
+         0.0522,
+         0.863
+        ],
+        [
+         0.1177,
+         0.8283
+        ],
+        [
+         0.1358,
+         0.7747
+        ],
+        [
+         0.1554,
+         0.7218
+        ],
+        [
+         0.1772,
+         0.6707
+        ],
+        [
+         0.2083,
+         0.6193
+        ],
+        [
+         0.2632,
+         0.5752
+        ],
+        [
+         0.2978,
+         0.5571
+        ],
+        [
+         0.184,
+         0.5209
+        ],
+        [
+         0.1604,
+         0.4732
+        ],
+        [
+         0.2238,
+         0.4444
+        ],
+        [
+         0.2807,
+         0.4157
+        ],
+        [
+         0.2807,
+         0.3598
+        ],
+        [
+         0.2786,
+         0.3155
+        ],
+        [
+         0.1708,
+         0.3023
+        ],
+        [
+         0.0888,
+         0.2823
+        ],
+        [
+         0.0696,
+         0.2248
+        ],
+        [
+         0.1488,
+         0.2155
+        ],
+        [
+         0.2301,
+         0.1922
+        ],
+        [
+         0.3079,
+         0.1665
+        ],
+        [
+         0.375,
+         0.1518
+        ],
+        [
+         0.4269,
+         0.1127
+        ],
+        [
+         0.3918,
+         0.0583
+        ],
+        [
+         0.4618,
+         0.0245
+        ]
+       ],
+       [
+        [
+         0.3457,
+         0.32
+        ],
+        [
+         0.4091,
+         0.32
+        ],
+        [
+         0.4726,
+         0.32
+        ],
+        [
+         0.536,
+         0.32
+        ],
+        [
+         0.536,
+         0.37
+        ],
+        [
+         0.536,
+         0.42
+        ],
+        [
+         0.4726,
+         0.42
+        ],
+        [
+         0.4091,
+         0.42
+        ],
+        [
+         0.3457,
+         0.42
+        ],
+        [
+         0.3457,
+         0.37
+        ]
+       ],
+       [
+        [
+         0.6192,
+         0.3222
+        ],
+        [
+         0.6932,
+         0.3222
+        ],
+        [
+         0.6932,
+         0.3694
+        ],
+        [
+         0.6932,
+         0.4167
+        ],
+        [
+         0.6192,
+         0.4167
+        ],
+        [
+         0.6192,
+         0.3694
+        ]
+       ],
+       [
+        [
+         0.1701,
+         0.4722
+        ],
+        [
+         0.2619,
+         0.4687
+        ],
+        [
+         0.3538,
+         0.4652
+        ],
+        [
+         0.4457,
+         0.4617
+        ],
+        [
+         0.5376,
+         0.4583
+        ],
+        [
+         0.6295,
+         0.4548
+        ],
+        [
+         0.7214,
+         0.4513
+        ],
+        [
+         0.8133,
+         0.4478
+        ]
+       ],
+       [
+        [
+         0.3142,
+         0.8167
+        ],
+        [
+         0.3142,
+         0.7639
+        ],
+        [
+         0.3142,
+         0.7111
+        ],
+        [
+         0.3512,
+         0.6778
+        ],
+        [
+         0.4251,
+         0.6722
+        ],
+        [
+         0.4898,
+         0.7
+        ],
+        [
+         0.4929,
+         0.7389
+        ],
+        [
+         0.496,
+         0.7778
+        ],
+        [
+         0.4991,
+         0.8167
+        ],
+        [
+         0.4067,
+         0.8167
+        ]
+       ],
+       [
+        [
+         0.6839,
+         0.7667
+        ],
+        [
+         0.6839,
+         0.7333
+        ],
+        [
+         0.6839,
+         0.7
+        ],
+        [
+         0.7209,
+         0.6722
+        ],
+        [
+         0.7579,
+         0.7
+        ],
+        [
+         0.7625,
+         0.7333
+        ],
+        [
+         0.7671,
+         0.7667
+        ]
+       ]
+      ],
+      "closed": [
+       true,
+       true,
+       true,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    "spot": {
+     "id": "japanese_garden",
+     "image": "stories/japanese-garden/japanese_garden.png",
+     "imageB": "stories/japanese-garden/japanese_garden_b.png",
+     "width": 754,
+     "height": 754,
+     "diffs": {
+      "iw": 754,
+      "ih": 754,
+      "gw": 115,
+      "gh": 119,
+      "d": [
+       [
+        6,
+        41,
+        2
+       ],
+       [
+        13,
+        104,
+        2
+       ],
+       [
+        39,
+        53,
+        2
+       ],
+       [
+        92,
+        23,
+        2
+       ],
+       [
+        59,
+        24,
+        2
+       ]
+      ]
+     }
+    },
+    "jigsaw": {
+     "image": "stories/japanese-garden/jigsaw.png",
+     "width": 512,
+     "height": 512,
+     "tier": "easy"
+    }
+   }
+  ]
+ },
+ "meta": {
+  "story-lighthouse-hidden": {
+   "width": 103,
+   "height": 77,
+   "paintable": 4516,
+   "file": "art/stories/lighthouse/hidden.json"
+  },
+  "story-lighthouse-final": {
+   "width": 160,
+   "height": 160,
+   "paintable": 25600,
+   "file": "art/stories/lighthouse/final.json"
+  },
+  "story-winter-village-hidden": {
+   "width": 97,
+   "height": 99,
+   "paintable": 5720,
+   "file": "art/stories/winter-village/hidden.json"
+  },
+  "story-winter-village-final": {
+   "width": 160,
+   "height": 160,
+   "paintable": 25600,
+   "file": "art/stories/winter-village/final.json"
+  },
+  "story-japanese-garden-hidden": {
+   "width": 94,
+   "height": 93,
+   "paintable": 6950,
+   "file": "art/stories/japanese-garden/hidden.json"
+  },
+  "story-japanese-garden-final": {
+   "width": 160,
+   "height": 160,
+   "paintable": 25600,
+   "file": "art/stories/japanese-garden/final.json"
+  }
+ },
+ "files": {
+  "stories/lighthouse/lighthouse.png": {
+   "size": 638726,
+   "sha": "aacfae70a88ca4afff3cab58013c671c008c4fa24de5ae80ad5e5452b4b22c90"
+  },
+  "stories/lighthouse/dots_bg.jpg": {
+   "size": 72933,
+   "sha": "d9898b20bcdb121d36440bbf7c1b4820121a6ac2542129d2c5546bb294a4b75d"
+  },
+  "stories/lighthouse/lighthouse_shore.png": {
+   "size": 1013592,
+   "sha": "6b8df60aea8a95513fd5eecdfaf4463b7c79436b43e81446423c66236d9e4a61"
+  },
+  "stories/lighthouse/lighthouse_shore_b.png": {
+   "size": 1012182,
+   "sha": "5d53777b8848acf774ef37e44e29b261ba14f87bedff36f70ba04d97cd5dd5b5"
+  },
+  "stories/lighthouse/jigsaw.png": {
+   "size": 22669,
+   "sha": "ba367b6d1fec6678b343c90feb23e8b2f5a8dc6e2247b15f9f23d4fe7b185925"
+  },
+  "art/stories/lighthouse/hidden.json": {
+   "size": 8487,
+   "sha": "412bda18af82c46eecd83ce55d80f519f52007498d1d1d261b4b81754e8a3b1b"
+  },
+  "art/stories/lighthouse/final.json": {
+   "size": 26736,
+   "sha": "2c3fb472111b5b2f6616f8d5c8cd5b4bab8791c794cd27435200a54d8e108ecc"
+  },
+  "art/stories/lighthouse/final.png": {
+   "size": 20937,
+   "sha": "618f956693848ba6c35f9e16d504cc49cdca4f376b9992f3585bff89fc019c41"
+  },
+  "stories/winter-village/chapel.png": {
+   "size": 722201,
+   "sha": "bf61a93f456f8998502c90788e2adf410e8c13454ca93c5f957d9e67aa12fcdf"
+  },
+  "stories/winter-village/dots_bg.jpg": {
+   "size": 96301,
+   "sha": "0256c8b2a70eacd0835488c4bbfc69fe149b391f23a19c8f18cef4a8a7fea380"
+  },
+  "stories/winter-village/winter_village.png": {
+   "size": 922988,
+   "sha": "94d6a96017face84d1f79e9ddef549e54b9b7b592ccd747b8d2ea847722dea7f"
+  },
+  "stories/winter-village/winter_village_b.png": {
+   "size": 922057,
+   "sha": "fce624889228e95700659b4d04330f1d5813301194d54404c8ce52aa5ac88d0c"
+  },
+  "stories/winter-village/jigsaw.png": {
+   "size": 31871,
+   "sha": "aded5749221160f028e5bc40a5801ebeabdcf872ff9ed9b6bc08ea2ed22b16e1"
+  },
+  "art/stories/winter-village/hidden.json": {
+   "size": 10245,
+   "sha": "f1cdc2f132ffcea974642f23cf39886f2ef9b029936a95922f4fcd9b7755a483"
+  },
+  "art/stories/winter-village/final.json": {
+   "size": 26736,
+   "sha": "cb7b2bf0946b03b2e51521e9b1c8c1118566b147494afd933b7db91dade79031"
+  },
+  "art/stories/winter-village/final.png": {
+   "size": 31745,
+   "sha": "e1e4bf3094c30976ec6488aba604051a881f9d7b94f6c96e2649376a7674120a"
+  },
+  "stories/japanese-garden/stone-lantern.png": {
+   "size": 523078,
+   "sha": "49a4172154049b2ad9612c8fe77dccc10a434bc5a1d0236b24f6a6899889beb4"
+  },
+  "stories/japanese-garden/dots_bg.jpg": {
+   "size": 90741,
+   "sha": "8146614ab039c6efdff35b307c71fea684c3f2292b4fdf9e05f71884a20889ae"
+  },
+  "stories/japanese-garden/japanese_garden.png": {
+   "size": 933332,
+   "sha": "22fd713df59993915ac6243afa8dc51cc050f36a645f7331a6cae33486a6bb27"
+  },
+  "stories/japanese-garden/japanese_garden_b.png": {
+   "size": 932662,
+   "sha": "9237847d1a14075b114a0f332860b36e79dc990b3394640861c442385216af91"
+  },
+  "stories/japanese-garden/jigsaw.png": {
+   "size": 28214,
+   "sha": "6961e5739e9409ab016a930027e44de3b3f85fa3ff7e40589e3ed4c2c0508c08"
+  },
+  "art/stories/japanese-garden/hidden.json": {
+   "size": 9371,
+   "sha": "0f7c117051dece3480d2a270ff012aa608a6b9db78f38a66336aa5d6335bda38"
+  },
+  "art/stories/japanese-garden/final.json": {
+   "size": 26735,
+   "sha": "4fc708b525e83d2164aca08c2d3b0d7e7e14498fda149b93f933d2f5854ac8d3"
+  },
+  "art/stories/japanese-garden/final.png": {
+   "size": 27931,
+   "sha": "66d4b8c8b119e5633e2f64ee165179e25b830884270a5e21c1cd2352d22bf0ad"
+  }
+ }
+}
