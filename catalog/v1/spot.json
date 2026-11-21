@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "mode": "spot_the_pixel",
  "note": "Picture A = <id>.png, picture B = <id>_b.png (5 differences already applied). diffs are grid cells (x, y, size) on a grid_width x grid_height grid laid over the image; cell px = image px / grid.",
  "categories": [
@@ -1234,6 +1234,375 @@
    }
   },
   {
+   "id": "christmas-market",
+   "name": {
+    "en": "Christmas Market",
+    "tr": "Noel Pazarı",
+    "de": "Weihnachtsmarkt"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "gingerbread_stall",
+     "order": 1,
+     "name": {
+      "en": "Gingerbread Stall",
+      "tr": "Zencefilli Kurabiye Tezgâhı",
+      "de": "Lebkuchenstand"
+     },
+     "role": "picture",
+     "file": "christmas-market/gingerbread_stall.json",
+     "image": "christmas-market/gingerbread_stall.png",
+     "image_b": "christmas-market/gingerbread_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "ornament_stall",
+     "order": 2,
+     "name": {
+      "en": "Ornament Stall",
+      "tr": "Süs Tezgâhı",
+      "de": "Christbaumschmuck-Stand"
+     },
+     "role": "picture",
+     "file": "christmas-market/ornament_stall.json",
+     "image": "christmas-market/ornament_stall.png",
+     "image_b": "christmas-market/ornament_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "hot_chocolate_stand",
+     "order": 3,
+     "name": {
+      "en": "Hot Chocolate Stand",
+      "tr": "Sıcak Çikolata Standı",
+      "de": "Heiße-Schokolade-Stand"
+     },
+     "role": "picture",
+     "file": "christmas-market/hot_chocolate_stand.json",
+     "image": "christmas-market/hot_chocolate_stand.png",
+     "image_b": "christmas-market/hot_chocolate_stand_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "wooden_toys_stall",
+     "order": 4,
+     "name": {
+      "en": "Wooden Toys Stall",
+      "tr": "Ahşap Oyuncak Tezgâhı",
+      "de": "Holzspielzeugstand"
+     },
+     "role": "picture",
+     "file": "christmas-market/wooden_toys_stall.json",
+     "image": "christmas-market/wooden_toys_stall.png",
+     "image_b": "christmas-market/wooden_toys_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "candles_lanterns_stall",
+     "order": 5,
+     "name": {
+      "en": "Candles & Lanterns",
+      "tr": "Mumlar ve Fenerler",
+      "de": "Kerzen & Laternen"
+     },
+     "role": "picture",
+     "file": "christmas-market/candles_lanterns_stall.json",
+     "image": "christmas-market/candles_lanterns_stall.png",
+     "image_b": "christmas-market/candles_lanterns_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_christmas_market",
+     "order": 6,
+     "name": {
+      "en": "Christmas Market",
+      "tr": "Noel Pazarı",
+      "de": "Weihnachtsmarkt"
+     },
+     "role": "masterpiece",
+     "file": "christmas-market/masterpiece_christmas_market.json",
+     "image": "christmas-market/masterpiece_christmas_market.png",
+     "image_b": "christmas-market/masterpiece_christmas_market_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "christmas_tree_seller",
+    "order": 0,
+    "name": {
+     "en": "Christmas Tree Seller",
+     "tr": "Çam Ağacı Satıcısı",
+     "de": "Christbaumverkauf"
+    },
+    "role": "spare",
+    "file": "christmas-market/christmas_tree_seller.json",
+    "image": "christmas-market/christmas_tree_seller.png",
+    "image_b": "christmas-market/christmas_tree_seller_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "ottoman-bazaar",
+   "name": {
+    "en": "Ottoman Bazaar",
+    "tr": "Osmanlı Çarşısı",
+    "de": "Osmanischer Basar"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "spice_stall",
+     "order": 1,
+     "name": {
+      "en": "Spice Stall",
+      "tr": "Baharat Tezgâhı",
+      "de": "Gewürzstand"
+     },
+     "role": "picture",
+     "file": "ottoman-bazaar/spice_stall.json",
+     "image": "ottoman-bazaar/spice_stall.png",
+     "image_b": "ottoman-bazaar/spice_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "carpet_shop",
+     "order": 2,
+     "name": {
+      "en": "Carpet Shop",
+      "tr": "Halı Dükkânı",
+      "de": "Teppichladen"
+     },
+     "role": "picture",
+     "file": "ottoman-bazaar/carpet_shop.json",
+     "image": "ottoman-bazaar/carpet_shop.png",
+     "image_b": "ottoman-bazaar/carpet_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "coppersmith_shop",
+     "order": 3,
+     "name": {
+      "en": "Coppersmith",
+      "tr": "Bakırcı Dükkânı",
+      "de": "Kupferschmied"
+     },
+     "role": "picture",
+     "file": "ottoman-bazaar/coppersmith_shop.json",
+     "image": "ottoman-bazaar/coppersmith_shop.png",
+     "image_b": "ottoman-bazaar/coppersmith_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "mosaic_lamp_shop",
+     "order": 4,
+     "name": {
+      "en": "Mosaic Lamps",
+      "tr": "Mozaik Lambalar",
+      "de": "Mosaiklampen"
+     },
+     "role": "picture",
+     "file": "ottoman-bazaar/mosaic_lamp_shop.json",
+     "image": "ottoman-bazaar/mosaic_lamp_shop.png",
+     "image_b": "ottoman-bazaar/mosaic_lamp_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "delight_tea_stall",
+     "order": 5,
+     "name": {
+      "en": "Turkish Delight & Tea",
+      "tr": "Lokum ve Çay",
+      "de": "Lokum & Tee"
+     },
+     "role": "picture",
+     "file": "ottoman-bazaar/delight_tea_stall.json",
+     "image": "ottoman-bazaar/delight_tea_stall.png",
+     "image_b": "ottoman-bazaar/delight_tea_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_ottoman_bazaar",
+     "order": 6,
+     "name": {
+      "en": "Grand Bazaar",
+      "tr": "Kapalıçarşı",
+      "de": "Großer Basar"
+     },
+     "role": "masterpiece",
+     "file": "ottoman-bazaar/masterpiece_ottoman_bazaar.json",
+     "image": "ottoman-bazaar/masterpiece_ottoman_bazaar.png",
+     "image_b": "ottoman-bazaar/masterpiece_ottoman_bazaar_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "iznik_ceramics_stall",
+    "order": 0,
+    "name": {
+     "en": "Iznik Ceramics",
+     "tr": "İznik Çinileri",
+     "de": "Iznik-Keramik"
+    },
+    "role": "spare",
+    "file": "ottoman-bazaar/iznik_ceramics_stall.json",
+    "image": "ottoman-bazaar/iznik_ceramics_stall.png",
+    "image_b": "ottoman-bazaar/iznik_ceramics_stall_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "roman-forum",
+   "name": {
+    "en": "Roman Forum",
+    "tr": "Roma Forumu",
+    "de": "Römisches Forum"
+   },
+   "tier": "medium",
+   "pictures": [
+    {
+     "id": "thermopolium",
+     "order": 1,
+     "name": {
+      "en": "Street Food Counter",
+      "tr": "Sokak Yemekçisi",
+      "de": "Garküche"
+     },
+     "role": "picture",
+     "file": "roman-forum/thermopolium.json",
+     "image": "roman-forum/thermopolium.png",
+     "image_b": "roman-forum/thermopolium_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "oil_wine_shop",
+     "order": 2,
+     "name": {
+      "en": "Oil & Wine Shop",
+      "tr": "Zeytinyağı ve Şarap Dükkânı",
+      "de": "Öl- & Weinladen"
+     },
+     "role": "picture",
+     "file": "roman-forum/oil_wine_shop.json",
+     "image": "roman-forum/oil_wine_shop.png",
+     "image_b": "roman-forum/oil_wine_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "bakery",
+     "order": 3,
+     "name": {
+      "en": "Roman Bakery",
+      "tr": "Roma Fırını",
+      "de": "Römische Bäckerei"
+     },
+     "role": "picture",
+     "file": "roman-forum/bakery.json",
+     "image": "roman-forum/bakery.png",
+     "image_b": "roman-forum/bakery_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "lion_fountain",
+     "order": 4,
+     "name": {
+      "en": "Lion Fountain",
+      "tr": "Aslanlı Çeşme",
+      "de": "Löwenbrunnen"
+     },
+     "role": "picture",
+     "file": "roman-forum/lion_fountain.json",
+     "image": "roman-forum/lion_fountain.png",
+     "image_b": "roman-forum/lion_fountain_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "mosaic_workshop",
+     "order": 5,
+     "name": {
+      "en": "Mosaic Workshop",
+      "tr": "Mozaik Atölyesi",
+      "de": "Mosaikwerkstatt"
+     },
+     "role": "picture",
+     "file": "roman-forum/mosaic_workshop.json",
+     "image": "roman-forum/mosaic_workshop.png",
+     "image_b": "roman-forum/mosaic_workshop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_roman_forum",
+     "order": 6,
+     "name": {
+      "en": "Roman Forum",
+      "tr": "Roma Forumu",
+      "de": "Römisches Forum"
+     },
+     "role": "masterpiece",
+     "file": "roman-forum/masterpiece_roman_forum.json",
+     "image": "roman-forum/masterpiece_roman_forum.png",
+     "image_b": "roman-forum/masterpiece_roman_forum_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "chariot_stable",
+    "order": 0,
+    "name": {
+     "en": "Chariot Stable",
+     "tr": "Savaş Arabası Ahırı",
+     "de": "Wagenstall"
+    },
+    "role": "spare",
+    "file": "roman-forum/chariot_stable.json",
+    "image": "roman-forum/chariot_stable.png",
+    "image_b": "roman-forum/chariot_stable_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
    "id": "pirate-cove",
    "name": {
     "en": "Pirate Cove",
@@ -1844,6 +2213,375 @@
     "image": "tropical-island/volcano_bridge.png",
     "image_b": "tropical-island/volcano_bridge_b.png",
     "width": 501,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "ancient-egypt",
+   "name": {
+    "en": "Ancient Egypt",
+    "tr": "Antik Mısır",
+    "de": "Altes Ägypten"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "nile_market_stall",
+     "order": 1,
+     "name": {
+      "en": "Nile Market",
+      "tr": "Nil Pazarı",
+      "de": "Nilmarkt"
+     },
+     "role": "picture",
+     "file": "ancient-egypt/nile_market_stall.json",
+     "image": "ancient-egypt/nile_market_stall.png",
+     "image_b": "ancient-egypt/nile_market_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "pottery_perfume_stall",
+     "order": 2,
+     "name": {
+      "en": "Pottery & Perfume",
+      "tr": "Çömlek ve Parfüm",
+      "de": "Töpferei & Parfüm"
+     },
+     "role": "picture",
+     "file": "ancient-egypt/pottery_perfume_stall.json",
+     "image": "ancient-egypt/pottery_perfume_stall.png",
+     "image_b": "ancient-egypt/pottery_perfume_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "jewelry_stall",
+     "order": 3,
+     "name": {
+      "en": "Jewelry Stall",
+      "tr": "Mücevher Tezgâhı",
+      "de": "Schmuckstand"
+     },
+     "role": "picture",
+     "file": "ancient-egypt/jewelry_stall.json",
+     "image": "ancient-egypt/jewelry_stall.png",
+     "image_b": "ancient-egypt/jewelry_stall_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "papyrus_workshop",
+     "order": 4,
+     "name": {
+      "en": "Papyrus Workshop",
+      "tr": "Papirüs Atölyesi",
+      "de": "Papyruswerkstatt"
+     },
+     "role": "picture",
+     "file": "ancient-egypt/papyrus_workshop.json",
+     "image": "ancient-egypt/papyrus_workshop.png",
+     "image_b": "ancient-egypt/papyrus_workshop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "treasure_room",
+     "order": 5,
+     "name": {
+      "en": "Treasure Room",
+      "tr": "Hazine Odası",
+      "de": "Schatzkammer"
+     },
+     "role": "picture",
+     "file": "ancient-egypt/treasure_room.json",
+     "image": "ancient-egypt/treasure_room.png",
+     "image_b": "ancient-egypt/treasure_room_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_ancient_egypt",
+     "order": 6,
+     "name": {
+      "en": "Ancient Egypt",
+      "tr": "Antik Mısır",
+      "de": "Altes Ägypten"
+     },
+     "role": "masterpiece",
+     "file": "ancient-egypt/masterpiece_ancient_egypt.json",
+     "image": "ancient-egypt/masterpiece_ancient_egypt.png",
+     "image_b": "ancient-egypt/masterpiece_ancient_egypt_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "nile_felucca",
+    "order": 0,
+    "name": {
+     "en": "Nile Felucca",
+     "tr": "Nil Feluka",
+     "de": "Feluke auf dem Nil"
+    },
+    "role": "spare",
+    "file": "ancient-egypt/nile_felucca.json",
+    "image": "ancient-egypt/nile_felucca.png",
+    "image_b": "ancient-egypt/nile_felucca_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "famous-paintings",
+   "name": {
+    "en": "Famous Paintings",
+    "tr": "Ünlü Tablolar",
+    "de": "Berühmte Gemälde"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "great_wave",
+     "order": 1,
+     "name": {
+      "en": "The Great Wave",
+      "tr": "Büyük Dalga",
+      "de": "Die große Welle"
+     },
+     "role": "picture",
+     "file": "famous-paintings/great_wave.json",
+     "image": "famous-paintings/great_wave.png",
+     "image_b": "famous-paintings/great_wave_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "sunflowers",
+     "order": 2,
+     "name": {
+      "en": "Sunflowers",
+      "tr": "Ayçiçekleri",
+      "de": "Sonnenblumen"
+     },
+     "role": "picture",
+     "file": "famous-paintings/sunflowers.json",
+     "image": "famous-paintings/sunflowers.png",
+     "image_b": "famous-paintings/sunflowers_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "bedroom_arles",
+     "order": 3,
+     "name": {
+      "en": "Bedroom in Arles",
+      "tr": "Arles'daki Yatak Odası",
+      "de": "Das Schlafzimmer in Arles"
+     },
+     "role": "picture",
+     "file": "famous-paintings/bedroom_arles.json",
+     "image": "famous-paintings/bedroom_arles.png",
+     "image_b": "famous-paintings/bedroom_arles_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "cafe_terrace",
+     "order": 4,
+     "name": {
+      "en": "Café Terrace at Night",
+      "tr": "Gece Kafe Terası",
+      "de": "Caféterrasse am Abend"
+     },
+     "role": "picture",
+     "file": "famous-paintings/cafe_terrace.json",
+     "image": "famous-paintings/cafe_terrace.png",
+     "image_b": "famous-paintings/cafe_terrace_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "japanese_bridge",
+     "order": 5,
+     "name": {
+      "en": "The Japanese Bridge",
+      "tr": "Japon Köprüsü",
+      "de": "Die japanische Brücke"
+     },
+     "role": "picture",
+     "file": "famous-paintings/japanese_bridge.json",
+     "image": "famous-paintings/japanese_bridge.png",
+     "image_b": "famous-paintings/japanese_bridge_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_starry_night",
+     "order": 6,
+     "name": {
+      "en": "The Starry Night",
+      "tr": "Yıldızlı Gece",
+      "de": "Sternennacht"
+     },
+     "role": "masterpiece",
+     "file": "famous-paintings/masterpiece_starry_night.json",
+     "image": "famous-paintings/masterpiece_starry_night.png",
+     "image_b": "famous-paintings/masterpiece_starry_night_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "red_fuji",
+    "order": 0,
+    "name": {
+     "en": "Red Fuji",
+     "tr": "Kızıl Fuji",
+     "de": "Roter Fuji"
+    },
+    "role": "spare",
+    "file": "famous-paintings/red_fuji.json",
+    "image": "famous-paintings/red_fuji.png",
+    "image_b": "famous-paintings/red_fuji_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "medieval-castle",
+   "name": {
+    "en": "Medieval Castle",
+    "tr": "Orta Çağ Şatosu",
+    "de": "Mittelalterliche Burg"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "blacksmith_forge",
+     "order": 1,
+     "name": {
+      "en": "Blacksmith Forge",
+      "tr": "Demirci Ocağı",
+      "de": "Schmiede"
+     },
+     "role": "picture",
+     "file": "medieval-castle/blacksmith_forge.json",
+     "image": "medieval-castle/blacksmith_forge.png",
+     "image_b": "medieval-castle/blacksmith_forge_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "armory",
+     "order": 2,
+     "name": {
+      "en": "Armory",
+      "tr": "Silah Deposu",
+      "de": "Waffenkammer"
+     },
+     "role": "picture",
+     "file": "medieval-castle/armory.json",
+     "image": "medieval-castle/armory.png",
+     "image_b": "medieval-castle/armory_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "castle_kitchen",
+     "order": 3,
+     "name": {
+      "en": "Castle Kitchen",
+      "tr": "Şato Mutfağı",
+      "de": "Burgküche"
+     },
+     "role": "picture",
+     "file": "medieval-castle/castle_kitchen.json",
+     "image": "medieval-castle/castle_kitchen.png",
+     "image_b": "medieval-castle/castle_kitchen_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "feast_table",
+     "order": 4,
+     "name": {
+      "en": "Feast Table",
+      "tr": "Ziyafet Sofrası",
+      "de": "Festtafel"
+     },
+     "role": "picture",
+     "file": "medieval-castle/feast_table.json",
+     "image": "medieval-castle/feast_table.png",
+     "image_b": "medieval-castle/feast_table_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "alchemist_tower",
+     "order": 5,
+     "name": {
+      "en": "Alchemist's Tower",
+      "tr": "Simyacı Kulesi",
+      "de": "Alchemistenturm"
+     },
+     "role": "picture",
+     "file": "medieval-castle/alchemist_tower.json",
+     "image": "medieval-castle/alchemist_tower.png",
+     "image_b": "medieval-castle/alchemist_tower_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_medieval_castle",
+     "order": 6,
+     "name": {
+      "en": "Medieval Castle",
+      "tr": "Orta Çağ Şatosu",
+      "de": "Mittelalterliche Burg"
+     },
+     "role": "masterpiece",
+     "file": "medieval-castle/masterpiece_medieval_castle.json",
+     "image": "medieval-castle/masterpiece_medieval_castle.png",
+     "image_b": "medieval-castle/masterpiece_medieval_castle_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "stable_well_garden",
+    "order": 0,
+    "name": {
+     "en": "Stable & Well",
+     "tr": "Ahır ve Kuyu",
+     "de": "Stall & Brunnen"
+    },
+    "role": "spare",
+    "file": "medieval-castle/stable_well_garden.json",
+    "image": "medieval-castle/stable_well_garden.png",
+    "image_b": "medieval-castle/stable_well_garden_b.png",
+    "width": 500,
     "height": 500,
     "status": "ready"
    }
@@ -4160,6 +4898,699 @@
     ]
    ]
   },
+  "christmas-market/gingerbread_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     28,
+     20,
+     2
+    ],
+    [
+     52,
+     43,
+     2
+    ],
+    [
+     61,
+     8,
+     2
+    ],
+    [
+     40,
+     59,
+     2
+    ],
+    [
+     28,
+     57,
+     2
+    ]
+   ]
+  },
+  "christmas-market/ornament_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     43,
+     25,
+     2
+    ],
+    [
+     7,
+     61,
+     2
+    ],
+    [
+     34,
+     60,
+     2
+    ],
+    [
+     20,
+     64,
+     2
+    ],
+    [
+     23,
+     33,
+     2
+    ]
+   ]
+  },
+  "christmas-market/hot_chocolate_stand": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     11,
+     54,
+     2
+    ],
+    [
+     70,
+     41,
+     2
+    ],
+    [
+     48,
+     74,
+     2
+    ],
+    [
+     71,
+     66,
+     2
+    ],
+    [
+     64,
+     23,
+     2
+    ]
+   ]
+  },
+  "christmas-market/wooden_toys_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     43,
+     16,
+     2
+    ],
+    [
+     65,
+     28,
+     2
+    ],
+    [
+     12,
+     8,
+     2
+    ],
+    [
+     72,
+     52,
+     2
+    ],
+    [
+     53,
+     55,
+     2
+    ]
+   ]
+  },
+  "christmas-market/candles_lanterns_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     55,
+     58,
+     2
+    ],
+    [
+     35,
+     14,
+     2
+    ],
+    [
+     29,
+     38,
+     2
+    ],
+    [
+     17,
+     67,
+     2
+    ],
+    [
+     46,
+     78,
+     2
+    ]
+   ]
+  },
+  "christmas-market/masterpiece_christmas_market": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 211,
+   "gh": 210,
+   "d": [
+    [
+     167,
+     163,
+     2
+    ],
+    [
+     5,
+     17,
+     2
+    ],
+    [
+     61,
+     154,
+     2
+    ],
+    [
+     194,
+     106,
+     2
+    ],
+    [
+     46,
+     77,
+     2
+    ]
+   ]
+  },
+  "christmas-market/christmas_tree_seller": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     49,
+     64,
+     2
+    ],
+    [
+     76,
+     68,
+     2
+    ],
+    [
+     14,
+     65,
+     2
+    ],
+    [
+     41,
+     53,
+     2
+    ],
+    [
+     34,
+     25,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/spice_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     36,
+     32,
+     2
+    ],
+    [
+     46,
+     31,
+     2
+    ],
+    [
+     62,
+     75,
+     2
+    ],
+    [
+     10,
+     21,
+     2
+    ],
+    [
+     23,
+     37,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/carpet_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     54,
+     59,
+     2
+    ],
+    [
+     74,
+     36,
+     2
+    ],
+    [
+     75,
+     25,
+     2
+    ],
+    [
+     61,
+     29,
+     2
+    ],
+    [
+     79,
+     46,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/coppersmith_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     32,
+     67,
+     2
+    ],
+    [
+     10,
+     62,
+     2
+    ],
+    [
+     61,
+     25,
+     2
+    ],
+    [
+     19,
+     26,
+     2
+    ],
+    [
+     31,
+     78,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/mosaic_lamp_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     73,
+     67,
+     2
+    ],
+    [
+     73,
+     11,
+     2
+    ],
+    [
+     9,
+     46,
+     2
+    ],
+    [
+     77,
+     77,
+     2
+    ],
+    [
+     29,
+     40,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/delight_tea_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     50,
+     63,
+     2
+    ],
+    [
+     72,
+     72,
+     2
+    ],
+    [
+     6,
+     35,
+     2
+    ],
+    [
+     57,
+     53,
+     2
+    ],
+    [
+     65,
+     33,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/masterpiece_ottoman_bazaar": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 211,
+   "gh": 210,
+   "d": [
+    [
+     65,
+     124,
+     2
+    ],
+    [
+     97,
+     143,
+     2
+    ],
+    [
+     65,
+     49,
+     2
+    ],
+    [
+     43,
+     71,
+     2
+    ],
+    [
+     117,
+     133,
+     2
+    ]
+   ]
+  },
+  "ottoman-bazaar/iznik_ceramics_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     40,
+     78,
+     2
+    ],
+    [
+     19,
+     29,
+     2
+    ],
+    [
+     78,
+     15,
+     2
+    ],
+    [
+     57,
+     76,
+     2
+    ],
+    [
+     7,
+     55,
+     2
+    ]
+   ]
+  },
+  "roman-forum/thermopolium": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     13,
+     58,
+     2
+    ],
+    [
+     50,
+     73,
+     2
+    ],
+    [
+     40,
+     21,
+     2
+    ],
+    [
+     62,
+     37,
+     2
+    ],
+    [
+     57,
+     19,
+     2
+    ]
+   ]
+  },
+  "roman-forum/oil_wine_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     36,
+     40,
+     2
+    ],
+    [
+     70,
+     73,
+     2
+    ],
+    [
+     58,
+     43,
+     2
+    ],
+    [
+     17,
+     21,
+     2
+    ],
+    [
+     45,
+     57,
+     2
+    ]
+   ]
+  },
+  "roman-forum/bakery": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     19,
+     63,
+     2
+    ],
+    [
+     43,
+     57,
+     2
+    ],
+    [
+     70,
+     52,
+     2
+    ],
+    [
+     39,
+     40,
+     2
+    ],
+    [
+     56,
+     12,
+     2
+    ]
+   ]
+  },
+  "roman-forum/lion_fountain": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     32,
+     78,
+     2
+    ],
+    [
+     83,
+     32,
+     2
+    ],
+    [
+     44,
+     53,
+     2
+    ],
+    [
+     38,
+     35,
+     2
+    ],
+    [
+     71,
+     67,
+     2
+    ]
+   ]
+  },
+  "roman-forum/mosaic_workshop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     31,
+     26,
+     2
+    ],
+    [
+     7,
+     38,
+     2
+    ],
+    [
+     53,
+     34,
+     2
+    ],
+    [
+     60,
+     55,
+     2
+    ],
+    [
+     51,
+     71,
+     2
+    ]
+   ]
+  },
+  "roman-forum/masterpiece_roman_forum": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 211,
+   "gh": 210,
+   "d": [
+    [
+     163,
+     124,
+     2
+    ],
+    [
+     191,
+     143,
+     2
+    ],
+    [
+     12,
+     166,
+     2
+    ],
+    [
+     161,
+     29,
+     2
+    ],
+    [
+     84,
+     59,
+     2
+    ]
+   ]
+  },
+  "roman-forum/chariot_stable": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 88,
+   "d": [
+    [
+     9,
+     38,
+     2
+    ],
+    [
+     32,
+     14,
+     2
+    ],
+    [
+     10,
+     56,
+     2
+    ],
+    [
+     74,
+     70,
+     2
+    ],
+    [
+     26,
+     67,
+     2
+    ]
+   ]
+  },
   "pirate-cove/pirate_galleon": {
    "iw": 501,
    "ih": 502,
@@ -5314,6 +6745,699 @@
      1
     ]
    ]
+  },
+  "ancient-egypt/nile_market_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     78,
+     37,
+     1
+    ],
+    [
+     6,
+     78,
+     1
+    ],
+    [
+     61,
+     56,
+     1
+    ],
+    [
+     10,
+     28,
+     1
+    ],
+    [
+     74,
+     77,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/pottery_perfume_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     60,
+     36,
+     1
+    ],
+    [
+     85,
+     29,
+     1
+    ],
+    [
+     73,
+     19,
+     1
+    ],
+    [
+     81,
+     59,
+     1
+    ],
+    [
+     85,
+     14,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/jewelry_stall": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     28,
+     11,
+     1
+    ],
+    [
+     77,
+     81,
+     1
+    ],
+    [
+     73,
+     40,
+     1
+    ],
+    [
+     40,
+     52,
+     1
+    ],
+    [
+     75,
+     24,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/papyrus_workshop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     84,
+     23,
+     1
+    ],
+    [
+     24,
+     83,
+     1
+    ],
+    [
+     30,
+     17,
+     1
+    ],
+    [
+     9,
+     47,
+     1
+    ],
+    [
+     50,
+     39,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/treasure_room": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     55,
+     21,
+     1
+    ],
+    [
+     22,
+     39,
+     1
+    ],
+    [
+     22,
+     55,
+     1
+    ],
+    [
+     82,
+     44,
+     1
+    ],
+    [
+     34,
+     58,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/masterpiece_ancient_egypt": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 213,
+   "d": [
+    [
+     182,
+     133,
+     1
+    ],
+    [
+     118,
+     120,
+     1
+    ],
+    [
+     153,
+     163,
+     1
+    ],
+    [
+     95,
+     118,
+     1
+    ],
+    [
+     40,
+     186,
+     1
+    ]
+   ]
+  },
+  "ancient-egypt/nile_felucca": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     7,
+     34,
+     1
+    ],
+    [
+     2,
+     47,
+     1
+    ],
+    [
+     22,
+     60,
+     1
+    ],
+    [
+     28,
+     73,
+     1
+    ],
+    [
+     63,
+     23,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/great_wave": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     21,
+     11,
+     1
+    ],
+    [
+     61,
+     68,
+     1
+    ],
+    [
+     50,
+     29,
+     1
+    ],
+    [
+     72,
+     50,
+     1
+    ],
+    [
+     30,
+     67,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/sunflowers": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     53,
+     43,
+     1
+    ],
+    [
+     29,
+     38,
+     1
+    ],
+    [
+     75,
+     21,
+     1
+    ],
+    [
+     25,
+     13,
+     1
+    ],
+    [
+     15,
+     52,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/bedroom_arles": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     3,
+     8,
+     1
+    ],
+    [
+     34,
+     56,
+     1
+    ],
+    [
+     41,
+     77,
+     1
+    ],
+    [
+     66,
+     20,
+     1
+    ],
+    [
+     80,
+     77,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/cafe_terrace": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     42,
+     75,
+     1
+    ],
+    [
+     54,
+     34,
+     1
+    ],
+    [
+     47,
+     16,
+     1
+    ],
+    [
+     13,
+     65,
+     1
+    ],
+    [
+     29,
+     30,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/japanese_bridge": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     43,
+     26,
+     1
+    ],
+    [
+     32,
+     83,
+     1
+    ],
+    [
+     65,
+     71,
+     1
+    ],
+    [
+     2,
+     14,
+     1
+    ],
+    [
+     53,
+     71,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/masterpiece_starry_night": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 213,
+   "d": [
+    [
+     62,
+     193,
+     1
+    ],
+    [
+     197,
+     69,
+     1
+    ],
+    [
+     147,
+     134,
+     1
+    ],
+    [
+     191,
+     28,
+     1
+    ],
+    [
+     89,
+     143,
+     1
+    ]
+   ]
+  },
+  "famous-paintings/red_fuji": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     64,
+     79,
+     1
+    ],
+    [
+     5,
+     77,
+     1
+    ],
+    [
+     46,
+     78,
+     1
+    ],
+    [
+     72,
+     42,
+     1
+    ],
+    [
+     76,
+     24,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/blacksmith_forge": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     49,
+     28,
+     1
+    ],
+    [
+     41,
+     52,
+     1
+    ],
+    [
+     70,
+     71,
+     1
+    ],
+    [
+     11,
+     79,
+     1
+    ],
+    [
+     22,
+     75,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/armory": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     53,
+     53,
+     1
+    ],
+    [
+     80,
+     34,
+     1
+    ],
+    [
+     36,
+     52,
+     1
+    ],
+    [
+     80,
+     70,
+     1
+    ],
+    [
+     20,
+     75,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/castle_kitchen": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     44,
+     25,
+     1
+    ],
+    [
+     68,
+     73,
+     1
+    ],
+    [
+     2,
+     59,
+     1
+    ],
+    [
+     10,
+     31,
+     1
+    ],
+    [
+     72,
+     9,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/feast_table": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     46,
+     61,
+     1
+    ],
+    [
+     69,
+     31,
+     1
+    ],
+    [
+     17,
+     68,
+     1
+    ],
+    [
+     46,
+     11,
+     1
+    ],
+    [
+     74,
+     12,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/alchemist_tower": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     2,
+     68,
+     1
+    ],
+    [
+     74,
+     53,
+     1
+    ],
+    [
+     54,
+     38,
+     1
+    ],
+    [
+     10,
+     52,
+     1
+    ],
+    [
+     28,
+     63,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/masterpiece_medieval_castle": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 213,
+   "d": [
+    [
+     20,
+     146,
+     1
+    ],
+    [
+     163,
+     109,
+     1
+    ],
+    [
+     85,
+     96,
+     1
+    ],
+    [
+     119,
+     125,
+     1
+    ],
+    [
+     24,
+     69,
+     1
+    ]
+   ]
+  },
+  "medieval-castle/stable_well_garden": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     41,
+     45,
+     1
+    ],
+    [
+     54,
+     80,
+     1
+    ],
+    [
+     47,
+     10,
+     1
+    ],
+    [
+     5,
+     64,
+     1
+    ],
+    [
+     47,
+     70,
+     1
+    ]
+   ]
   }
  },
  "files": {
@@ -5877,6 +8001,174 @@
    "size": 181683,
    "sha": "fd76b7622c2764d643bdabf2fe14692eaae11a1e7074e16cf871f138486c5c62"
   },
+  "christmas-market/gingerbread_stall.png": {
+   "size": 206701,
+   "sha": "dc3c70adf594be0e390400d09ceaec2b10367240f21da5cb8377fd8e64fb7efb"
+  },
+  "christmas-market/gingerbread_stall_b.png": {
+   "size": 206355,
+   "sha": "f86438c269b7c76d193b9f727ed563667785e300ed6906388adb1135005fa90e"
+  },
+  "christmas-market/ornament_stall.png": {
+   "size": 213413,
+   "sha": "4e8c26914591d21526c2d7374abc5bd9c1a53a7c2dde56492796dfd750f16494"
+  },
+  "christmas-market/ornament_stall_b.png": {
+   "size": 212949,
+   "sha": "369708d69b3ce58eab21082d91dcaca0e60b8cc6faece6e7528199082b85f21b"
+  },
+  "christmas-market/hot_chocolate_stand.png": {
+   "size": 206066,
+   "sha": "063d55bd4159f1171a86d228f4c8db50992561a94bf5e8b44281e8a9f1885544"
+  },
+  "christmas-market/hot_chocolate_stand_b.png": {
+   "size": 205666,
+   "sha": "ffcad6ea3367228339d17a8dff2c01480a4e4ddc2a6e7f914fd9e31a55f6265a"
+  },
+  "christmas-market/wooden_toys_stall.png": {
+   "size": 213977,
+   "sha": "bd2e3b4b73324eb5907ba6de7821430e3f08fdb4c0097104c1e6255cfc4aea92"
+  },
+  "christmas-market/wooden_toys_stall_b.png": {
+   "size": 213585,
+   "sha": "5c0a5ba49cf89a48e1ef5cf51df4e8f98d659891604d6a11425eb2c2ad328bc3"
+  },
+  "christmas-market/candles_lanterns_stall.png": {
+   "size": 214602,
+   "sha": "ef7e1569e11d1740d5f7f48a1f517669e0058fbd5885c93ac6cc288f343ecdb0"
+  },
+  "christmas-market/candles_lanterns_stall_b.png": {
+   "size": 214315,
+   "sha": "b3a4003d3319801bb787ca2a43f8ea4c2df71d81612d9f80e5a281db15af6c0c"
+  },
+  "christmas-market/masterpiece_christmas_market.png": {
+   "size": 1227279,
+   "sha": "393a646a485edd1fec4a20c6785c7af07f6e7db4c06ba6d8661d3468c295ed80"
+  },
+  "christmas-market/masterpiece_christmas_market_b.png": {
+   "size": 1226875,
+   "sha": "ab2743a284f196399d2f9bd6e5b4ddd607b549a235d03f1455716c9f1978d531"
+  },
+  "christmas-market/christmas_tree_seller.png": {
+   "size": 216297,
+   "sha": "92ce56b4e21731c2f3f23cd7ff46dcf12edb214797f76e2cc0863a8930d175ea"
+  },
+  "christmas-market/christmas_tree_seller_b.png": {
+   "size": 215901,
+   "sha": "fa83bafcb5483c2d81681f04f50bdd985a2f04076e7d6cbbc4db0afffb773556"
+  },
+  "ottoman-bazaar/spice_stall.png": {
+   "size": 222340,
+   "sha": "e397830be6080d51430f99ae3f419f02eec8f3cb47700fb838c45034a10c77f4"
+  },
+  "ottoman-bazaar/spice_stall_b.png": {
+   "size": 221895,
+   "sha": "32f08b3f37173b5c2fc0bb8bf494816fa54d375b21e6a72e954c01e1c5e6d0af"
+  },
+  "ottoman-bazaar/carpet_shop.png": {
+   "size": 228166,
+   "sha": "61073e86f586929c9bbd3804a8b59ce16c4f779b0622f32c6b8d1f807d089287"
+  },
+  "ottoman-bazaar/carpet_shop_b.png": {
+   "size": 227721,
+   "sha": "34d32e3c12572afd8a326d284f6c17448f72d562b03753edda0237d6bf15e17c"
+  },
+  "ottoman-bazaar/coppersmith_shop.png": {
+   "size": 223943,
+   "sha": "e0195708361a5d71aebb385351f3f5933ea048827897c94562f2594788154f07"
+  },
+  "ottoman-bazaar/coppersmith_shop_b.png": {
+   "size": 223482,
+   "sha": "e3a0b25e70031080688157457db08cfe06f2b04b026c643204974dbf192e62c6"
+  },
+  "ottoman-bazaar/mosaic_lamp_shop.png": {
+   "size": 227123,
+   "sha": "f8ef22fef8280856b27ce9465dc847d6566038f78ae9d27026f55407489ee62d"
+  },
+  "ottoman-bazaar/mosaic_lamp_shop_b.png": {
+   "size": 226674,
+   "sha": "3b4f6c876d459e7a7fdea43936b670dcc0fee0eadc5f6e06647365d4245d5f68"
+  },
+  "ottoman-bazaar/delight_tea_stall.png": {
+   "size": 224617,
+   "sha": "e63a1422a9d8297ccb0c3cc97131b5164c15f3283a2b3c2ab3a784b3f45710bc"
+  },
+  "ottoman-bazaar/delight_tea_stall_b.png": {
+   "size": 224231,
+   "sha": "f9894bd511e440ae8cb401b783a8b06fa5cd6e8b5dd9061932e53144b0b4d3ae"
+  },
+  "ottoman-bazaar/masterpiece_ottoman_bazaar.png": {
+   "size": 1277256,
+   "sha": "7b743dde9bccfa3442e708854e0de8ff0633a605147b7975501016c77cdc753e"
+  },
+  "ottoman-bazaar/masterpiece_ottoman_bazaar_b.png": {
+   "size": 1276764,
+   "sha": "920f7ba836a83dc2825b50279e3565019e32f7aff85c7e8990ac737646bcbf87"
+  },
+  "ottoman-bazaar/iznik_ceramics_stall.png": {
+   "size": 224841,
+   "sha": "a9ac5866ab96a62e34f5b30c5c531614e424239451301f5f879a092d38a44863"
+  },
+  "ottoman-bazaar/iznik_ceramics_stall_b.png": {
+   "size": 224437,
+   "sha": "26e8a69a196464c729196cad822b1e3753d46b65d16b6719b2a39c628908921d"
+  },
+  "roman-forum/thermopolium.png": {
+   "size": 226156,
+   "sha": "b71b123734ddfcb0650402a917aa9e674539436f8bf7d5409886f2cb8ee9808e"
+  },
+  "roman-forum/thermopolium_b.png": {
+   "size": 225782,
+   "sha": "ce786cff0c8d4df80a25e4b279455ee8588860b7e5ee5638ce7fdb4b14e74f79"
+  },
+  "roman-forum/oil_wine_shop.png": {
+   "size": 232837,
+   "sha": "ab1de5f21785876b299feb475f8b35901fe2f00e7881a8c8fdc9de57fced68dd"
+  },
+  "roman-forum/oil_wine_shop_b.png": {
+   "size": 232411,
+   "sha": "5b5894ca611ea916de69233d030432f57c4cbc16432ca500cf2ff30fbdf2be83"
+  },
+  "roman-forum/bakery.png": {
+   "size": 235336,
+   "sha": "1ccef6b69846d424198cb340147644185c78f9ffcb0210767f993652f8186cf7"
+  },
+  "roman-forum/bakery_b.png": {
+   "size": 234912,
+   "sha": "e4c5e4a1989c2f0c77cce0ee931bde0dbc1b46055ea3322bbef26d780f2d500a"
+  },
+  "roman-forum/lion_fountain.png": {
+   "size": 229428,
+   "sha": "2e379eaf948f1cc40de4cd8ae8f653ae3edb62fd35fa20aca4346de86f13486f"
+  },
+  "roman-forum/lion_fountain_b.png": {
+   "size": 229010,
+   "sha": "d3c2c32410909e07c7929467b64f4d3e0184a3784ad489d4afa4bf392ad3970f"
+  },
+  "roman-forum/mosaic_workshop.png": {
+   "size": 229903,
+   "sha": "fedb90c2a67acb00abc84e1b49c63c31a7cfc56a58aa0b637eae1452864e57de"
+  },
+  "roman-forum/mosaic_workshop_b.png": {
+   "size": 229493,
+   "sha": "ca33f183e578b44ad851149196054210264558722c5a889780bafa7510dfd000"
+  },
+  "roman-forum/masterpiece_roman_forum.png": {
+   "size": 1318561,
+   "sha": "cdec6683513ca099c2fe0fb4d9552940c23c7abf0ea7e4c82da51fbec06692d4"
+  },
+  "roman-forum/masterpiece_roman_forum_b.png": {
+   "size": 1318117,
+   "sha": "2c92070e7dd1d0606681083d0d57bb23ee6e69e469512fc47824e40b63795a66"
+  },
+  "roman-forum/chariot_stable.png": {
+   "size": 228991,
+   "sha": "80d54166c2a1fa34149445e1cbd316654e584ce7d7839d0456a755623c6ede5c"
+  },
+  "roman-forum/chariot_stable_b.png": {
+   "size": 228571,
+   "sha": "957d3549169aa8a2053e2a824461ce7f92f4b3f0b7092a20609143473d2ebcae"
+  },
   "pirate-cove/pirate_galleon.png": {
    "size": 172754,
    "sha": "aa43a4dd3212459f5120949f5ebfd72a2f76ac56b5ba0eb3b3be6b7989719925"
@@ -6156,6 +8448,174 @@
   "tropical-island/volcano_bridge_b.png": {
    "size": 186042,
    "sha": "b00e8f98c42739f32fd4447ea23f70da9cb3c0ae8f5847cb903433b856189da2"
+  },
+  "ancient-egypt/nile_market_stall.png": {
+   "size": 220887,
+   "sha": "5e8b8854bc49dc5008852b0cc8accf9974851cb3dcfe21d4e0e7ef8e55adadcf"
+  },
+  "ancient-egypt/nile_market_stall_b.png": {
+   "size": 220836,
+   "sha": "d1098a8001eb823baad50a2175adb8854175a3cba156f506c636db61d58b36f3"
+  },
+  "ancient-egypt/pottery_perfume_stall.png": {
+   "size": 224998,
+   "sha": "8b6c77d0829b10c9b5fc520ed0ff8f3e33cae1248e95982998d037889b70ccd1"
+  },
+  "ancient-egypt/pottery_perfume_stall_b.png": {
+   "size": 224956,
+   "sha": "f082ecb37a3a4613ada7cdb91054e93f804c418107bae939f9fd8e09912fbaae"
+  },
+  "ancient-egypt/jewelry_stall.png": {
+   "size": 229087,
+   "sha": "b3d5e83a4295e4b650e2d10e67f62687fa26cb404a84d5839638b955e0c88e8c"
+  },
+  "ancient-egypt/jewelry_stall_b.png": {
+   "size": 228999,
+   "sha": "3b899d01c6edbe81e24db6094e7734b668076da480d37c8040af6e566559c86c"
+  },
+  "ancient-egypt/papyrus_workshop.png": {
+   "size": 222858,
+   "sha": "4573348fac1558992b88fa75edb0b785e612a792f14bef25d90aa9dca6019e00"
+  },
+  "ancient-egypt/papyrus_workshop_b.png": {
+   "size": 222791,
+   "sha": "4e2e6e0f28ec3088669a1cad6ec1ff885d0e75e56220ea23140a2a17e31996d5"
+  },
+  "ancient-egypt/treasure_room.png": {
+   "size": 223260,
+   "sha": "9ac4e516e776d0f29a4c08a8a09534d550ab2b392785d0a80e43854e6ff54b3c"
+  },
+  "ancient-egypt/treasure_room_b.png": {
+   "size": 223164,
+   "sha": "d1536f49fad3315aee42f792d7aed327f5f1d10b021f1fbe4d40ddf94972af13"
+  },
+  "ancient-egypt/masterpiece_ancient_egypt.png": {
+   "size": 1237244,
+   "sha": "417e38f119970caa0d56d05cda20dcb7daa868d9c5d52997337d4b9ecaadf564"
+  },
+  "ancient-egypt/masterpiece_ancient_egypt_b.png": {
+   "size": 1237138,
+   "sha": "12155ea39c7bfd17bf1f4d60879492dc33ce1d9568cde6ffc8881c689d6f941d"
+  },
+  "ancient-egypt/nile_felucca.png": {
+   "size": 216007,
+   "sha": "1cc84637c0f0e7ccf2b462cbdd40e794e5843f64f02869621a4d6ec8f687c762"
+  },
+  "ancient-egypt/nile_felucca_b.png": {
+   "size": 215933,
+   "sha": "527cfb3bbf1b899f7ba4d92083c6f0c7e062726d2b3de7dfb071d34ff6be6b56"
+  },
+  "famous-paintings/great_wave.png": {
+   "size": 226415,
+   "sha": "b31f8a0391747a6a9fb480d91e57ea76800f34c75c3f69315418637d23ff5364"
+  },
+  "famous-paintings/great_wave_b.png": {
+   "size": 226352,
+   "sha": "4d9df34cd92f26677de90275374a6f8abba136d291f70243d7b7743ffba292cd"
+  },
+  "famous-paintings/sunflowers.png": {
+   "size": 238041,
+   "sha": "6f88e6d96ff69b728657775b51f5a8b11a102d6e399b94a46635632aa63b68e3"
+  },
+  "famous-paintings/sunflowers_b.png": {
+   "size": 237965,
+   "sha": "41f18740741fdbc32d383799226ab9a711ed6752ffc4c863a3276a8f7fa6c4dd"
+  },
+  "famous-paintings/bedroom_arles.png": {
+   "size": 217466,
+   "sha": "d9417b31e2aa9fa2b8563cec1454bef46fdb657bac08543b9833f716ef57a8e8"
+  },
+  "famous-paintings/bedroom_arles_b.png": {
+   "size": 217394,
+   "sha": "021f9b2da4c1a5a04798818e5fa8c08129d6f3919349e24928442a9a8cc9e873"
+  },
+  "famous-paintings/cafe_terrace.png": {
+   "size": 229860,
+   "sha": "f98af32458d7b56d0f54177025b506a7526af0f441b332fd559d2fa6efed1f1d"
+  },
+  "famous-paintings/cafe_terrace_b.png": {
+   "size": 229802,
+   "sha": "8d49e64a7715deff55915ca2351bfb8e35eaa5124c352b3f75c5f5f95b81326e"
+  },
+  "famous-paintings/japanese_bridge.png": {
+   "size": 241969,
+   "sha": "dc1a2d7c1f9f2e895ca3451a91ba462da73da4f58ff72dd5c17129aa0383a6a4"
+  },
+  "famous-paintings/japanese_bridge_b.png": {
+   "size": 241877,
+   "sha": "afbd8cc3bc54adb60bed9035261d03d9c74a8b2077c2673e2161425dae3a5052"
+  },
+  "famous-paintings/masterpiece_starry_night.png": {
+   "size": 1272191,
+   "sha": "68903f0da2a0d295d180551ada59a1464e80f3b58c46a8d1a5f83ee54a75ea11"
+  },
+  "famous-paintings/masterpiece_starry_night_b.png": {
+   "size": 1272116,
+   "sha": "0c593afcdd2167b6e7ce38ce2126315f1f2e282d4d66769c4e10fd5b7584adb7"
+  },
+  "famous-paintings/red_fuji.png": {
+   "size": 197803,
+   "sha": "e1564638cf8c0212020a157030d17b921c3d6c2ddb3cdc2987d4dac728522718"
+  },
+  "famous-paintings/red_fuji_b.png": {
+   "size": 197747,
+   "sha": "71b56ea96fc9df29704bf93098405f9fd5155dafdcc42c84cab92295a7c74765"
+  },
+  "medieval-castle/blacksmith_forge.png": {
+   "size": 233438,
+   "sha": "21cdd9d19f9afc1f9dfb559b1ab2dee6049afb8dffdd6e6750376cb8cc376686"
+  },
+  "medieval-castle/blacksmith_forge_b.png": {
+   "size": 233358,
+   "sha": "56d8e71b9ed88755a56611a1807d0a8d22687d9b8bb429ca55ea935292c97e68"
+  },
+  "medieval-castle/armory.png": {
+   "size": 230133,
+   "sha": "ba002fd00f1fc8a7e3b4e7b27e825c8d541e9b800079d1262aad1474fd5eb21d"
+  },
+  "medieval-castle/armory_b.png": {
+   "size": 230081,
+   "sha": "17f3f2c730fdda41837e2c981d4d31a8af3b3cc15738edc68bd75db247d3805f"
+  },
+  "medieval-castle/castle_kitchen.png": {
+   "size": 235464,
+   "sha": "784d4d5525d73c954c117578bec61599d0f6e1e669e8c259f87edd832789b7a5"
+  },
+  "medieval-castle/castle_kitchen_b.png": {
+   "size": 235379,
+   "sha": "db206c8e57fb87e63f7f13964a6cbb654da7fdff4a132da230742a85cad5120e"
+  },
+  "medieval-castle/feast_table.png": {
+   "size": 231157,
+   "sha": "38a1917014ff981ed2f691a7fb63c00dfddc3e4582f593517190e66836c5a14e"
+  },
+  "medieval-castle/feast_table_b.png": {
+   "size": 231091,
+   "sha": "c040bdf8334e0b098a385238f8b08ab0be9f2ac24304af13d25a43639197e2aa"
+  },
+  "medieval-castle/alchemist_tower.png": {
+   "size": 228789,
+   "sha": "dafb9a60ac93b78695afe88a6527903638d3c8b4d4b257d9aaf90a40062f6754"
+  },
+  "medieval-castle/alchemist_tower_b.png": {
+   "size": 228713,
+   "sha": "d3bc2bd20223b7aa1cf3f9d36083878c5d3b632c7a52b8a72b9df16a63be42f1"
+  },
+  "medieval-castle/masterpiece_medieval_castle.png": {
+   "size": 1349575,
+   "sha": "30159ec0cb9449f91efa06c40b32ce7a7649fca81a84dbcc07785d0cee1ffcfe"
+  },
+  "medieval-castle/masterpiece_medieval_castle_b.png": {
+   "size": 1349529,
+   "sha": "6d83af511adfb0c2310d1c22bd02f081e3f7455a01413a31a3d927fe3a80826e"
+  },
+  "medieval-castle/stable_well_garden.png": {
+   "size": 232316,
+   "sha": "13d3327440bfb530f9ef01ff93701e97482b413fc399eb78982f960a700767ad"
+  },
+  "medieval-castle/stable_well_garden_b.png": {
+   "size": 232242,
+   "sha": "8d80b5ca5d680c4616422dd2a4e60b12931e33276b2f9457f68829daf0ea0487"
   }
  }
 }

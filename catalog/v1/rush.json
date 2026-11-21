@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "tiers": {
   "easy": [
    [
@@ -5180,6 +5180,2078 @@
      "y": 8,
      "size": 2,
      "color": "#943D10"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/bakery",
+     "x": 19,
+     "y": 38,
+     "size": 2,
+     "color": "#F9B537"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 47,
+     "y": 19,
+     "size": 2,
+     "color": "#FEEDBE"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 31,
+     "y": 48,
+     "size": 2,
+     "color": "#210905"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 35,
+     "y": 22,
+     "size": 2,
+     "color": "#F4AC85"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 81,
+     "y": 60,
+     "size": 2,
+     "color": "#A68DC5"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 18,
+     "y": 63,
+     "size": 2,
+     "color": "#FEFEE4"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 56,
+     "y": 82,
+     "size": 2,
+     "color": "#FB551B"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 16,
+     "y": 57,
+     "size": 2,
+     "color": "#44242B"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 19,
+     "y": 77,
+     "size": 2,
+     "color": "#8F6F85"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 20,
+     "y": 30,
+     "size": 2,
+     "color": "#F3600A"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 65,
+     "y": 9,
+     "size": 2,
+     "color": "#906816"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 17,
+     "y": 75,
+     "size": 2,
+     "color": "#362016"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 53,
+     "y": 38,
+     "size": 2,
+     "color": "#FCDEA4"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 65,
+     "y": 15,
+     "size": 2,
+     "color": "#E01F17"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 44,
+     "y": 43,
+     "size": 2,
+     "color": "#C90112"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 203,
+     "y": 160,
+     "size": 4,
+     "color": "#662D17"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 57,
+     "y": 9,
+     "size": 2,
+     "color": "#21738F"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 149,
+     "y": 182,
+     "size": 4,
+     "color": "#FCE8C7"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 134,
+     "y": 60,
+     "size": 4,
+     "color": "#FEF772"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 41,
+     "y": 21,
+     "size": 2,
+     "color": "#FAF1E3"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 25,
+     "y": 59,
+     "size": 2,
+     "color": "#058BE1"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 20,
+     "y": 26,
+     "size": 2,
+     "color": "#4E1B04"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 69,
+     "y": 82,
+     "size": 2,
+     "color": "#FEC241"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 61,
+     "y": 11,
+     "size": 2,
+     "color": "#FEF617"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 57,
+     "y": 70,
+     "size": 2,
+     "color": "#FDCCA1"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 38,
+     "y": 146,
+     "size": 4,
+     "color": "#02046A"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 35,
+     "y": 72,
+     "size": 2,
+     "color": "#261C29"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 59,
+     "y": 42,
+     "size": 2,
+     "color": "#FEFEF8"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 43,
+     "y": 29,
+     "size": 2,
+     "color": "#FB9917"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 65,
+     "y": 75,
+     "size": 2,
+     "color": "#FDDB8E"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 19,
+     "y": 89,
+     "size": 4,
+     "color": "#915B38"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 2,
+     "y": 63,
+     "size": 2,
+     "color": "#250D0D"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 21,
+     "y": 70,
+     "size": 2,
+     "color": "#FDCB65"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 65,
+     "y": 78,
+     "size": 2,
+     "color": "#FEB001"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 52,
+     "y": 20,
+     "size": 2,
+     "color": "#C7A519"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 37,
+     "y": 25,
+     "size": 2,
+     "color": "#0428C7"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 157,
+     "y": 17,
+     "size": 4,
+     "color": "#DDC4F5"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 76,
+     "y": 40,
+     "size": 2,
+     "color": "#FDDEAF"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 10,
+     "y": 28,
+     "size": 2,
+     "color": "#F98309"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 49,
+     "y": 26,
+     "size": 2,
+     "color": "#935A4E"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 72,
+     "y": 28,
+     "size": 2,
+     "color": "#FDCB2C"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 48,
+     "y": 75,
+     "size": 2,
+     "color": "#0A0305"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 3,
+     "y": 27,
+     "size": 2,
+     "color": "#3A130A"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 28,
+     "y": 55,
+     "size": 2,
+     "color": "#011973"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 25,
+     "y": 25,
+     "size": 2,
+     "color": "#60331C"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 82,
+     "y": 40,
+     "size": 2,
+     "color": "#A57549"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 57,
+     "y": 50,
+     "size": 2,
+     "color": "#C94924"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 44,
+     "y": 24,
+     "size": 2,
+     "color": "#ED560A"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 31,
+     "y": 36,
+     "size": 2,
+     "color": "#2F140B"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 8,
+     "y": 36,
+     "size": 2,
+     "color": "#301126"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 34,
+     "y": 58,
+     "size": 2,
+     "color": "#481B15"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 29,
+     "y": 12,
+     "size": 2,
+     "color": "#FEFC15"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 43,
+     "y": 77,
+     "size": 2,
+     "color": "#FDC759"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 74,
+     "y": 21,
+     "size": 2,
+     "color": "#4253B0"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 84,
+     "y": 57,
+     "size": 2,
+     "color": "#031E3B"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 19,
+     "y": 64,
+     "size": 2,
+     "color": "#010001"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 43,
+     "y": 61,
+     "size": 2,
+     "color": "#FDE359"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 13,
+     "y": 50,
+     "size": 2,
+     "color": "#E5CF16"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 46,
+     "y": 42,
+     "size": 2,
+     "color": "#F16607"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 83,
+     "y": 191,
+     "size": 4,
+     "color": "#14306F"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 114,
+     "y": 127,
+     "size": 4,
+     "color": "#0C2617"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 37,
+     "y": 19,
+     "size": 2,
+     "color": "#543E1D"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 63,
+     "y": 164,
+     "size": 4,
+     "color": "#F01211"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 41,
+     "y": 80,
+     "size": 2,
+     "color": "#DE9357"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 17,
+     "y": 67,
+     "size": 2,
+     "color": "#1E0E0A"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 27,
+     "y": 60,
+     "size": 2,
+     "color": "#010101"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 35,
+     "y": 44,
+     "size": 2,
+     "color": "#0473B0"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 50,
+     "y": 31,
+     "size": 2,
+     "color": "#FEFFFF"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 65,
+     "y": 49,
+     "size": 2,
+     "color": "#301704"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 26,
+     "y": 166,
+     "size": 4,
+     "color": "#FADC47"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 82,
+     "y": 19,
+     "size": 2,
+     "color": "#D74F02"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 84,
+     "y": 43,
+     "size": 2,
+     "color": "#05049E"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 51,
+     "y": 29,
+     "size": 2,
+     "color": "#E04E02"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 31,
+     "y": 87,
+     "size": 4,
+     "color": "#EFCB2A"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 75,
+     "y": 39,
+     "size": 2,
+     "color": "#9C9BF1"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 67,
+     "y": 66,
+     "size": 2,
+     "color": "#8F4318"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 192,
+     "y": 18,
+     "size": 4,
+     "color": "#CAC7D2"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 36,
+     "y": 32,
+     "size": 2,
+     "color": "#F478A2"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 65,
+     "y": 75,
+     "size": 2,
+     "color": "#362827"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 51,
+     "y": 60,
+     "size": 2,
+     "color": "#F1C928"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 49,
+     "y": 47,
+     "size": 2,
+     "color": "#E78130"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 58,
+     "y": 29,
+     "size": 2,
+     "color": "#401D13"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 28,
+     "y": 64,
+     "size": 2,
+     "color": "#5F4753"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 22,
+     "y": 42,
+     "size": 2,
+     "color": "#5F130E"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 57,
+     "y": 9,
+     "size": 2,
+     "color": "#C4A6F0"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 75,
+     "y": 11,
+     "size": 2,
+     "color": "#4565C1"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 61,
+     "y": 51,
+     "size": 2,
+     "color": "#4A1F15"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 23,
+     "y": 41,
+     "size": 2,
+     "color": "#230E0D"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 51,
+     "y": 9,
+     "size": 2,
+     "color": "#8E9DAF"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 41,
+     "y": 69,
+     "size": 2,
+     "color": "#FBB64A"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 17,
+     "y": 48,
+     "size": 2,
+     "color": "#3F1109"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 16,
+     "y": 40,
+     "size": 2,
+     "color": "#B49784"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 17,
+     "y": 43,
+     "size": 2,
+     "color": "#120B02"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 68,
+     "y": 16,
+     "size": 2,
+     "color": "#453971"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 57,
+     "y": 62,
+     "size": 2,
+     "color": "#035E6B"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 22,
+     "y": 42,
+     "size": 2,
+     "color": "#F8E9F4"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 79,
+     "y": 10,
+     "size": 2,
+     "color": "#F3E42E"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 39,
+     "y": 12,
+     "size": 2,
+     "color": "#FBD09B"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 2,
+     "y": 63,
+     "size": 2,
+     "color": "#352327"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 80,
+     "y": 35,
+     "size": 2,
+     "color": "#FEFCDE"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 142,
+     "y": 124,
+     "size": 4,
+     "color": "#FABF09"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 10,
+     "y": 76,
+     "size": 2,
+     "color": "#DBBAF1"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 91,
+     "y": 185,
+     "size": 4,
+     "color": "#95450C"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 114,
+     "y": 147,
+     "size": 4,
+     "color": "#FDE3A8"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 48,
+     "y": 76,
+     "size": 2,
+     "color": "#D5A21E"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 21,
+     "y": 34,
+     "size": 2,
+     "color": "#A782A2"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 34,
+     "y": 42,
+     "size": 2,
+     "color": "#1D0602"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 16,
+     "y": 46,
+     "size": 2,
+     "color": "#D77942"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 68,
+     "y": 52,
+     "size": 2,
+     "color": "#FDE1C4"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 75,
+     "y": 66,
+     "size": 2,
+     "color": "#C55904"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 84,
+     "y": 159,
+     "size": 4,
+     "color": "#EFCB2A"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 54,
+     "y": 46,
+     "size": 2,
+     "color": "#973D19"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 84,
+     "y": 34,
+     "size": 2,
+     "color": "#FEF192"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 68,
+     "y": 34,
+     "size": 2,
+     "color": "#E15D10"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 35,
+     "y": 119,
+     "size": 4,
+     "color": "#5A8759"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 17,
+     "y": 57,
+     "size": 2,
+     "color": "#134DB3"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 25,
+     "y": 69,
+     "size": 2,
+     "color": "#0E0A2E"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 67,
+     "y": 57,
+     "size": 2,
+     "color": "#1B0D05"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 84,
+     "y": 48,
+     "size": 2,
+     "color": "#986588"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 167,
+     "y": 141,
+     "size": 4,
+     "color": "#F6DCF0"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 79,
+     "y": 48,
+     "size": 2,
+     "color": "#362033"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 2,
+     "y": 18,
+     "size": 2,
+     "color": "#01031B"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 38,
+     "y": 72,
+     "size": 2,
+     "color": "#E50915"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 15,
+     "y": 45,
+     "size": 2,
+     "color": "#D35405"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 61,
+     "y": 49,
+     "size": 2,
+     "color": "#D26D2D"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 47,
+     "y": 49,
+     "size": 2,
+     "color": "#001F8B"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 32,
+     "y": 29,
+     "size": 2,
+     "color": "#0C0101"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 46,
+     "y": 12,
+     "size": 2,
+     "color": "#E34E03"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 46,
+     "y": 15,
+     "size": 2,
+     "color": "#FEFEFD"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 14,
+     "y": 22,
+     "size": 2,
+     "color": "#E32027"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 26,
+     "y": 53,
+     "size": 2,
+     "color": "#FEF8B6"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 37,
+     "y": 13,
+     "size": 2,
+     "color": "#DC4D04"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 37,
+     "y": 74,
+     "size": 2,
+     "color": "#FDAE13"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 25,
+     "y": 69,
+     "size": 2,
+     "color": "#413A4D"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 51,
+     "y": 67,
+     "size": 2,
+     "color": "#05494A"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 82,
+     "y": 16,
+     "size": 2,
+     "color": "#F08646"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 74,
+     "y": 21,
+     "size": 2,
+     "color": "#C6AE08"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 45,
+     "y": 39,
+     "size": 2,
+     "color": "#170404"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 60,
+     "y": 45,
+     "size": 2,
+     "color": "#FCCF61"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 44,
+     "y": 12,
+     "size": 2,
+     "color": "#BF6110"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 35,
+     "y": 45,
+     "size": 2,
+     "color": "#FEFAF8"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 86,
+     "y": 18,
+     "size": 4,
+     "color": "#F2E9ED"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 15,
+     "y": 19,
+     "size": 2,
+     "color": "#F4488E"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 143,
+     "y": 138,
+     "size": 4,
+     "color": "#FEFBE4"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 82,
+     "y": 80,
+     "size": 4,
+     "color": "#CF4C08"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 83,
+     "y": 27,
+     "size": 2,
+     "color": "#FEEDAF"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 40,
+     "y": 49,
+     "size": 2,
+     "color": "#161F07"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 79,
+     "y": 59,
+     "size": 2,
+     "color": "#FEEDCC"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 75,
+     "y": 25,
+     "size": 2,
+     "color": "#0B2D84"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 10,
+     "y": 52,
+     "size": 2,
+     "color": "#F4D178"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 24,
+     "y": 27,
+     "size": 2,
+     "color": "#FEFCD9"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 41,
+     "y": 63,
+     "size": 2,
+     "color": "#FED37C"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 33,
+     "y": 76,
+     "size": 2,
+     "color": "#FC9115"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 17,
+     "y": 37,
+     "size": 4,
+     "color": "#FDFCC0"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 46,
+     "y": 35,
+     "size": 2,
+     "color": "#C33E07"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 61,
+     "y": 21,
+     "size": 2,
+     "color": "#955D08"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 157,
+     "y": 146,
+     "size": 4,
+     "color": "#181626"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 28,
+     "y": 30,
+     "size": 2,
+     "color": "#72332B"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 84,
+     "y": 51,
+     "size": 2,
+     "color": "#FDE3B6"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 58,
+     "y": 78,
+     "size": 2,
+     "color": "#090F1F"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 34,
+     "y": 39,
+     "size": 2,
+     "color": "#290B05"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 146,
+     "y": 152,
+     "size": 4,
+     "color": "#DEBAF2"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 84,
+     "y": 53,
+     "size": 2,
+     "color": "#FEFCC6"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 69,
+     "y": 51,
+     "size": 2,
+     "color": "#A477A7"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 84,
+     "y": 59,
+     "size": 2,
+     "color": "#5F4753"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 51,
+     "y": 38,
+     "size": 2,
+     "color": "#FECE72"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 11,
+     "y": 49,
+     "size": 2,
+     "color": "#D19D38"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 47,
+     "y": 27,
+     "size": 2,
+     "color": "#FCAB4C"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 28,
+     "y": 20,
+     "size": 2,
+     "color": "#FEFC22"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 51,
+     "y": 81,
+     "size": 2,
+     "color": "#F97405"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 54,
+     "y": 34,
+     "size": 2,
+     "color": "#FEA915"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 71,
+     "y": 58,
+     "size": 2,
+     "color": "#3A2409"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 47,
+     "y": 24,
+     "size": 2,
+     "color": "#812C03"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 59,
+     "y": 28,
+     "size": 2,
+     "color": "#23447F"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 7,
+     "y": 53,
+     "size": 2,
+     "color": "#322908"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 56,
+     "y": 49,
+     "size": 2,
+     "color": "#A57549"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 5,
+     "y": 70,
+     "size": 2,
+     "color": "#FEE6D8"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 81,
+     "y": 34,
+     "size": 2,
+     "color": "#5A425C"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 25,
+     "y": 74,
+     "size": 2,
+     "color": "#3F1109"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 80,
+     "y": 11,
+     "size": 2,
+     "color": "#8AD0C0"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 67,
+     "y": 46,
+     "size": 2,
+     "color": "#428321"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 62,
+     "y": 11,
+     "size": 2,
+     "color": "#FCEEBC"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 92,
+     "y": 136,
+     "size": 4,
+     "color": "#246E0D"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 7,
+     "y": 43,
+     "size": 2,
+     "color": "#2B3994"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 46,
+     "y": 18,
+     "size": 2,
+     "color": "#E27446"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 81,
+     "y": 67,
+     "size": 4,
+     "color": "#FCC766"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 67,
+     "y": 13,
+     "size": 2,
+     "color": "#FCE6F4"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 67,
+     "y": 43,
+     "size": 2,
+     "color": "#681003"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 55,
+     "y": 50,
+     "size": 2,
+     "color": "#FAA40B"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 94,
+     "y": 77,
+     "size": 4,
+     "color": "#430D03"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 52,
+     "y": 34,
+     "size": 2,
+     "color": "#88698E"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 79,
+     "y": 28,
+     "size": 2,
+     "color": "#D3540C"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 22,
+     "y": 34,
+     "size": 2,
+     "color": "#0B420C"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 173,
+     "y": 39,
+     "size": 4,
+     "color": "#02097F"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 18,
+     "y": 11,
+     "size": 2,
+     "color": "#EBAC20"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 75,
+     "y": 20,
+     "size": 2,
+     "color": "#C8070B"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 141,
+     "y": 22,
+     "size": 4,
+     "color": "#6E5B38"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 5,
+     "y": 28,
+     "size": 2,
+     "color": "#1B0A09"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 68,
+     "y": 41,
+     "size": 2,
+     "color": "#D9CFDE"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 66,
+     "y": 52,
+     "size": 2,
+     "color": "#A66116"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 27,
+     "y": 8,
+     "size": 2,
+     "color": "#BD7728"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 84,
+     "y": 25,
+     "size": 2,
+     "color": "#6D2C27"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 80,
+     "y": 19,
+     "size": 2,
+     "color": "#D07B1C"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 52,
+     "y": 33,
+     "size": 2,
+     "color": "#74597D"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 51,
+     "y": 70,
+     "size": 2,
+     "color": "#742806"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 67,
+     "y": 12,
+     "size": 2,
+     "color": "#86ACD2"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 32,
+     "y": 33,
+     "size": 2,
+     "color": "#6478D3"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 51,
+     "y": 45,
+     "size": 2,
+     "color": "#1F0C03"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 101,
+     "y": 123,
+     "size": 4,
+     "color": "#1F1713"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 12,
+     "y": 40,
+     "size": 2,
+     "color": "#263143"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/bakery",
+     "x": 18,
+     "y": 44,
+     "size": 2,
+     "color": "#FB8408"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 63,
+     "y": 11,
+     "size": 2,
+     "color": "#FBC86D"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 38,
+     "y": 48,
+     "size": 2,
+     "color": "#742403"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 66,
+     "y": 48,
+     "size": 2,
+     "color": "#180A0B"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 56,
+     "y": 16,
+     "size": 2,
+     "color": "#F97605"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 80,
+     "y": 16,
+     "size": 2,
+     "color": "#78B1F4"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 12,
+     "y": 36,
+     "size": 2,
+     "color": "#731109"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 3,
+     "y": 22,
+     "size": 2,
+     "color": "#FDEF98"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 23,
+     "y": 65,
+     "size": 2,
+     "color": "#FDEDDD"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 63,
+     "y": 22,
+     "size": 2,
+     "color": "#1A3F1E"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 49,
+     "y": 32,
+     "size": 2,
+     "color": "#DF816F"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 38,
+     "y": 37,
+     "size": 2,
+     "color": "#E8BD9A"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 32,
+     "y": 16,
+     "size": 2,
+     "color": "#076348"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 7,
+     "y": 45,
+     "size": 2,
+     "color": "#FDEDD3"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 81,
+     "y": 18,
+     "size": 2,
+     "color": "#49273F"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 31,
+     "y": 76,
+     "size": 2,
+     "color": "#010001"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 76,
+     "y": 60,
+     "size": 2,
+     "color": "#EFE5E0"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 25,
+     "y": 79,
+     "size": 2,
+     "color": "#FEB201"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 61,
+     "y": 53,
+     "size": 2,
+     "color": "#F1175D"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 130,
+     "y": 120,
+     "size": 4,
+     "color": "#F99026"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 78,
+     "y": 24,
+     "size": 2,
+     "color": "#FEFCC9"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 34,
+     "y": 13,
+     "size": 2,
+     "color": "#6E2613"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 109,
+     "y": 183,
+     "size": 4,
+     "color": "#0E050A"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 48,
+     "y": 28,
+     "size": 4,
+     "color": "#FCBB5A"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 45,
+     "y": 162,
+     "size": 4,
+     "color": "#1D8396"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 51,
+     "y": 45,
+     "size": 2,
+     "color": "#FEDD1F"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 56,
+     "y": 75,
+     "size": 2,
+     "color": "#95567E"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 53,
+     "y": 71,
+     "size": 2,
+     "color": "#620811"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 34,
+     "y": 55,
+     "size": 2,
+     "color": "#F9AF60"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 29,
+     "y": 71,
+     "size": 2,
+     "color": "#D98C19"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 144,
+     "y": 35,
+     "size": 4,
+     "color": "#D37C42"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 19,
+     "y": 11,
+     "size": 2,
+     "color": "#90C982"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 22,
+     "y": 11,
+     "size": 2,
+     "color": "#A79216"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 37,
+     "y": 33,
+     "size": 2,
+     "color": "#01031B"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 53,
+     "y": 46,
+     "size": 2,
+     "color": "#FAF7E1"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 143,
+     "y": 105,
+     "size": 4,
+     "color": "#E91A20"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 8,
+     "y": 44,
+     "size": 2,
+     "color": "#FDF83F"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 57,
+     "y": 48,
+     "size": 2,
+     "color": "#FEFFFF"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 70,
+     "y": 45,
+     "size": 2,
+     "color": "#60290F"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 75,
+     "y": 59,
+     "size": 2,
+     "color": "#3C1C04"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 60,
+     "y": 70,
+     "size": 2,
+     "color": "#300C08"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 62,
+     "y": 26,
+     "size": 2,
+     "color": "#ED6310"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 49,
+     "y": 54,
+     "size": 2,
+     "color": "#884552"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 8,
+     "y": 32,
+     "size": 2,
+     "color": "#734641"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 74,
+     "y": 54,
+     "size": 2,
+     "color": "#770B15"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 81,
+     "y": 27,
+     "size": 2,
+     "color": "#D7CE17"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 65,
+     "y": 57,
+     "size": 2,
+     "color": "#062B32"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 64,
+     "y": 10,
+     "size": 2,
+     "color": "#031E3B"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 125,
+     "y": 152,
+     "size": 4,
+     "color": "#6F0207"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 79,
+     "y": 81,
+     "size": 2,
+     "color": "#FCF8EE"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 48,
+     "y": 25,
+     "size": 2,
+     "color": "#D3540C"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 80,
+     "y": 74,
+     "size": 2,
+     "color": "#9F7FDB"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 33,
+     "y": 15,
+     "size": 2,
+     "color": "#140405"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 39,
+     "y": 76,
+     "size": 2,
+     "color": "#FED101"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 143,
+     "y": 39,
+     "size": 4,
+     "color": "#320803"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 84,
+     "y": 77,
+     "size": 2,
+     "color": "#230A0B"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 130,
+     "y": 84,
+     "size": 4,
+     "color": "#8F4852"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 25,
+     "y": 153,
+     "size": 4,
+     "color": "#0353EC"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 23,
+     "y": 27,
+     "size": 2,
+     "color": "#F5B2AE"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 2,
+     "y": 47,
+     "size": 2,
+     "color": "#EF1B2F"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 60,
+     "y": 34,
+     "size": 2,
+     "color": "#0D0502"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 18,
+     "y": 40,
+     "size": 2,
+     "color": "#617C76"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 78,
+     "y": 49,
+     "size": 2,
+     "color": "#F8BE47"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 84,
+     "y": 13,
+     "size": 2,
+     "color": "#B50417"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 67,
+     "y": 59,
+     "size": 2,
+     "color": "#501806"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 65,
+     "y": 41,
+     "size": 2,
+     "color": "#AFB3F6"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 86,
+     "y": 20,
+     "size": 4,
+     "color": "#D8513A"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 83,
+     "y": 147,
+     "size": 4,
+     "color": "#EFCB2A"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 44,
+     "y": 33,
+     "size": 2,
+     "color": "#FDC37C"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 81,
+     "y": 28,
+     "size": 2,
+     "color": "#514721"
     }
    ]
   ],
@@ -10363,6 +12435,2078 @@
      "size": 2,
      "color": "#F9E777"
     }
+   ],
+   [
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 52,
+     "y": 69,
+     "size": 2,
+     "color": "#DE4420"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 80,
+     "y": 47,
+     "size": 2,
+     "color": "#DD6304"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 71,
+     "y": 61,
+     "size": 4,
+     "color": "#D24C17"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 36,
+     "y": 72,
+     "size": 2,
+     "color": "#FAB86C"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 69,
+     "y": 23,
+     "size": 2,
+     "color": "#B13C0A"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 34,
+     "y": 41,
+     "size": 2,
+     "color": "#D97409"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 77,
+     "y": 64,
+     "size": 2,
+     "color": "#E79A7A"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 84,
+     "y": 48,
+     "size": 2,
+     "color": "#7C5D58"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 14,
+     "y": 166,
+     "size": 4,
+     "color": "#0B0B17"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 15,
+     "y": 34,
+     "size": 2,
+     "color": "#970E03"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 67,
+     "y": 50,
+     "size": 2,
+     "color": "#D9733B"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 172,
+     "y": 130,
+     "size": 4,
+     "color": "#693E33"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 50,
+     "y": 14,
+     "size": 2,
+     "color": "#FEE6D8"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 17,
+     "y": 38,
+     "size": 2,
+     "color": "#FEFEFD"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 8,
+     "y": 79,
+     "size": 2,
+     "color": "#FD970E"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 67,
+     "y": 36,
+     "size": 4,
+     "color": "#E97F39"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 16,
+     "y": 31,
+     "size": 2,
+     "color": "#FAFAFB"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 39,
+     "y": 73,
+     "size": 2,
+     "color": "#DA8533"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 81,
+     "y": 10,
+     "size": 2,
+     "color": "#B14607"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 29,
+     "y": 65,
+     "size": 2,
+     "color": "#FDA516"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 19,
+     "y": 65,
+     "size": 2,
+     "color": "#F9B46E"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 22,
+     "y": 18,
+     "size": 2,
+     "color": "#F97C02"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 60,
+     "y": 70,
+     "size": 2,
+     "color": "#8F3F2B"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 83,
+     "y": 57,
+     "size": 2,
+     "color": "#FCC37B"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 28,
+     "y": 17,
+     "size": 2,
+     "color": "#341607"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 77,
+     "y": 30,
+     "size": 2,
+     "color": "#FDC37C"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 69,
+     "y": 19,
+     "size": 2,
+     "color": "#FCCA73"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 56,
+     "y": 28,
+     "size": 2,
+     "color": "#A5141A"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 173,
+     "y": 146,
+     "size": 4,
+     "color": "#620602"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 74,
+     "y": 74,
+     "size": 2,
+     "color": "#6B571E"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 29,
+     "y": 42,
+     "size": 2,
+     "color": "#F9E4E5"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 35,
+     "y": 22,
+     "size": 2,
+     "color": "#CA655D"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 107,
+     "y": 169,
+     "size": 4,
+     "color": "#FCD8D4"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 75,
+     "y": 81,
+     "size": 2,
+     "color": "#E9B86C"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 41,
+     "y": 68,
+     "size": 2,
+     "color": "#EF5C4F"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 67,
+     "y": 46,
+     "size": 2,
+     "color": "#C3521C"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 23,
+     "y": 42,
+     "size": 2,
+     "color": "#F97418"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 62,
+     "y": 28,
+     "size": 2,
+     "color": "#EFE181"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 83,
+     "y": 20,
+     "size": 2,
+     "color": "#FEFAC8"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 10,
+     "y": 57,
+     "size": 2,
+     "color": "#764731"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 65,
+     "y": 65,
+     "size": 2,
+     "color": "#E6AF8A"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 7,
+     "y": 19,
+     "size": 2,
+     "color": "#FCCF76"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 2,
+     "y": 77,
+     "size": 2,
+     "color": "#9A7D28"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 66,
+     "y": 31,
+     "size": 2,
+     "color": "#6B2A1D"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 36,
+     "y": 116,
+     "size": 4,
+     "color": "#C67B35"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 55,
+     "y": 17,
+     "size": 2,
+     "color": "#BD6B25"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 83,
+     "y": 13,
+     "size": 2,
+     "color": "#FCD493"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 47,
+     "y": 67,
+     "size": 2,
+     "color": "#A23B0B"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 36,
+     "y": 45,
+     "size": 2,
+     "color": "#191D04"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 74,
+     "y": 39,
+     "size": 2,
+     "color": "#052317"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 125,
+     "y": 167,
+     "size": 4,
+     "color": "#FBE1BF"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 72,
+     "y": 12,
+     "size": 2,
+     "color": "#AF5046"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 19,
+     "y": 14,
+     "size": 2,
+     "color": "#DB6F4A"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 73,
+     "y": 42,
+     "size": 2,
+     "color": "#520801"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 185,
+     "y": 44,
+     "size": 4,
+     "color": "#C8CA56"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 74,
+     "y": 16,
+     "size": 2,
+     "color": "#854740"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 166,
+     "y": 41,
+     "size": 4,
+     "color": "#FDEB71"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 50,
+     "y": 51,
+     "size": 2,
+     "color": "#F4F3F4"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 46,
+     "y": 62,
+     "size": 2,
+     "color": "#E38C78"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 20,
+     "y": 74,
+     "size": 2,
+     "color": "#0D3836"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 65,
+     "y": 67,
+     "size": 2,
+     "color": "#F67005"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 40,
+     "y": 38,
+     "size": 2,
+     "color": "#590108"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 15,
+     "y": 17,
+     "size": 2,
+     "color": "#D05B11"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 66,
+     "y": 35,
+     "size": 2,
+     "color": "#C8E6E6"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 70,
+     "y": 29,
+     "size": 2,
+     "color": "#967A1E"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 22,
+     "y": 78,
+     "size": 2,
+     "color": "#F98402"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 37,
+     "y": 66,
+     "size": 2,
+     "color": "#E9702E"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 53,
+     "y": 35,
+     "size": 4,
+     "color": "#F8C08C"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 46,
+     "y": 61,
+     "size": 2,
+     "color": "#D36237"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 29,
+     "y": 62,
+     "size": 2,
+     "color": "#97300C"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 43,
+     "y": 35,
+     "size": 2,
+     "color": "#E07048"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 63,
+     "y": 60,
+     "size": 2,
+     "color": "#FDF795"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 106,
+     "y": 111,
+     "size": 4,
+     "color": "#F67010"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 52,
+     "y": 53,
+     "size": 2,
+     "color": "#FC752E"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 72,
+     "y": 66,
+     "size": 2,
+     "color": "#CE8533"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 59,
+     "y": 25,
+     "size": 2,
+     "color": "#E9690E"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 34,
+     "y": 47,
+     "size": 2,
+     "color": "#F9D095"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 51,
+     "y": 77,
+     "size": 2,
+     "color": "#F8A201"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 47,
+     "y": 72,
+     "size": 2,
+     "color": "#E24D12"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 6,
+     "y": 61,
+     "size": 2,
+     "color": "#6F500B"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 83,
+     "y": 34,
+     "size": 2,
+     "color": "#F5A89A"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 43,
+     "y": 55,
+     "size": 2,
+     "color": "#19383B"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 22,
+     "y": 13,
+     "size": 2,
+     "color": "#080105"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 199,
+     "y": 175,
+     "size": 4,
+     "color": "#76352F"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 50,
+     "y": 44,
+     "size": 2,
+     "color": "#CB6515"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/bakery",
+     "x": 80,
+     "y": 54,
+     "size": 2,
+     "color": "#FCCF76"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 57,
+     "y": 30,
+     "size": 2,
+     "color": "#753D3C"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 72,
+     "y": 100,
+     "size": 4,
+     "color": "#986726"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 61,
+     "y": 23,
+     "size": 2,
+     "color": "#401C09"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 76,
+     "y": 34,
+     "size": 2,
+     "color": "#B25D60"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 79,
+     "y": 60,
+     "size": 2,
+     "color": "#EC9456"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 53,
+     "y": 61,
+     "size": 2,
+     "color": "#AC7F75"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 48,
+     "y": 46,
+     "size": 2,
+     "color": "#F88139"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 68,
+     "y": 12,
+     "size": 2,
+     "color": "#FCE9C4"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 55,
+     "y": 10,
+     "size": 2,
+     "color": "#51351F"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 37,
+     "y": 12,
+     "size": 2,
+     "color": "#EC6841"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 42,
+     "y": 48,
+     "size": 2,
+     "color": "#D7801B"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 63,
+     "y": 76,
+     "size": 2,
+     "color": "#825D85"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 143,
+     "y": 92,
+     "size": 4,
+     "color": "#F2EBDE"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 32,
+     "y": 51,
+     "size": 2,
+     "color": "#FEF1B2"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 79,
+     "y": 75,
+     "size": 2,
+     "color": "#A64E4C"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 74,
+     "y": 58,
+     "size": 2,
+     "color": "#C64F0E"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 37,
+     "y": 37,
+     "size": 2,
+     "color": "#FDBC15"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 76,
+     "y": 19,
+     "size": 2,
+     "color": "#FEFFFE"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 82,
+     "y": 178,
+     "size": 4,
+     "color": "#FDE395"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 54,
+     "y": 8,
+     "size": 2,
+     "color": "#0228E0"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 83,
+     "y": 70,
+     "size": 2,
+     "color": "#2C130B"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 18,
+     "y": 74,
+     "size": 2,
+     "color": "#B32F0F"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 27,
+     "y": 66,
+     "size": 2,
+     "color": "#662807"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 50,
+     "y": 67,
+     "size": 2,
+     "color": "#973514"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 46,
+     "y": 17,
+     "size": 2,
+     "color": "#090601"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 7,
+     "y": 15,
+     "size": 2,
+     "color": "#8F5644"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 91,
+     "y": 32,
+     "size": 4,
+     "color": "#B2110D"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 123,
+     "y": 72,
+     "size": 4,
+     "color": "#FAD390"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 57,
+     "y": 13,
+     "size": 2,
+     "color": "#4B170A"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 64,
+     "y": 69,
+     "size": 2,
+     "color": "#782E19"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 76,
+     "y": 17,
+     "size": 2,
+     "color": "#E9C198"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 31,
+     "y": 11,
+     "size": 2,
+     "color": "#681E03"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 72,
+     "y": 57,
+     "size": 2,
+     "color": "#FDE509"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 34,
+     "y": 30,
+     "size": 2,
+     "color": "#F26503"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 26,
+     "y": 75,
+     "size": 2,
+     "color": "#F98B0B"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 43,
+     "y": 23,
+     "size": 2,
+     "color": "#EB9B59"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 59,
+     "y": 78,
+     "size": 2,
+     "color": "#FDE5B6"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 8,
+     "y": 73,
+     "size": 2,
+     "color": "#FEA501"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 39,
+     "y": 13,
+     "size": 2,
+     "color": "#EB8874"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 29,
+     "y": 39,
+     "size": 2,
+     "color": "#97B08E"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 54,
+     "y": 14,
+     "size": 2,
+     "color": "#DB6A4A"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 134,
+     "y": 31,
+     "size": 4,
+     "color": "#4D2622"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 69,
+     "y": 31,
+     "size": 2,
+     "color": "#F3D7AF"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 62,
+     "y": 45,
+     "size": 2,
+     "color": "#A79538"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 38,
+     "y": 44,
+     "size": 2,
+     "color": "#B69767"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 21,
+     "y": 48,
+     "size": 2,
+     "color": "#E39755"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 70,
+     "y": 26,
+     "size": 2,
+     "color": "#993615"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 35,
+     "y": 9,
+     "size": 2,
+     "color": "#FCC877"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 47,
+     "y": 60,
+     "size": 2,
+     "color": "#FC8825"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 34,
+     "y": 68,
+     "size": 2,
+     "color": "#D19A34"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 38,
+     "y": 8,
+     "size": 2,
+     "color": "#212B1B"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 38,
+     "y": 181,
+     "size": 4,
+     "color": "#2A2860"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 79,
+     "y": 26,
+     "size": 2,
+     "color": "#D98048"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 95,
+     "y": 146,
+     "size": 4,
+     "color": "#F4B073"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 34,
+     "y": 68,
+     "size": 2,
+     "color": "#E9513C"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 29,
+     "y": 8,
+     "size": 2,
+     "color": "#892C09"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 67,
+     "y": 74,
+     "size": 2,
+     "color": "#6C2701"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 15,
+     "y": 46,
+     "size": 2,
+     "color": "#542A1F"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 66,
+     "y": 8,
+     "size": 2,
+     "color": "#001146"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 77,
+     "y": 16,
+     "size": 2,
+     "color": "#805A70"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 5,
+     "y": 65,
+     "size": 2,
+     "color": "#A8DAE9"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 57,
+     "y": 60,
+     "size": 2,
+     "color": "#944408"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 66,
+     "y": 48,
+     "size": 4,
+     "color": "#FDE395"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 53,
+     "y": 70,
+     "size": 2,
+     "color": "#FAD8E1"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 77,
+     "y": 80,
+     "size": 2,
+     "color": "#5B2B0F"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 50,
+     "y": 184,
+     "size": 4,
+     "color": "#F5FAF9"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 16,
+     "y": 13,
+     "size": 2,
+     "color": "#FDF321"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 2,
+     "y": 63,
+     "size": 2,
+     "color": "#C0680A"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 187,
+     "y": 36,
+     "size": 4,
+     "color": "#750313"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 56,
+     "y": 20,
+     "size": 2,
+     "color": "#F0870C"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 4,
+     "y": 77,
+     "size": 2,
+     "color": "#FED7A9"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 30,
+     "y": 62,
+     "size": 2,
+     "color": "#873C0D"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 80,
+     "y": 50,
+     "size": 2,
+     "color": "#FDD701"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 73,
+     "y": 30,
+     "size": 2,
+     "color": "#E1B1C7"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 61,
+     "y": 72,
+     "size": 2,
+     "color": "#FBA805"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 3,
+     "y": 62,
+     "size": 2,
+     "color": "#992A02"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 16,
+     "y": 66,
+     "size": 2,
+     "color": "#802706"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 44,
+     "y": 74,
+     "size": 2,
+     "color": "#3D1B09"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 47,
+     "y": 74,
+     "size": 2,
+     "color": "#F44039"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 63,
+     "y": 29,
+     "size": 2,
+     "color": "#FDE381"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 49,
+     "y": 48,
+     "size": 2,
+     "color": "#3D1003"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 43,
+     "y": 62,
+     "size": 2,
+     "color": "#3B8BA7"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 35,
+     "y": 62,
+     "size": 2,
+     "color": "#6E60A4"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 7,
+     "y": 34,
+     "size": 2,
+     "color": "#FB7E08"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 146,
+     "y": 122,
+     "size": 4,
+     "color": "#C66913"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 77,
+     "y": 18,
+     "size": 2,
+     "color": "#FCD493"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 18,
+     "y": 54,
+     "size": 2,
+     "color": "#79430B"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 18,
+     "y": 73,
+     "size": 2,
+     "color": "#F28C27"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 38,
+     "y": 26,
+     "size": 2,
+     "color": "#FEFEFD"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 73,
+     "y": 71,
+     "size": 2,
+     "color": "#8B2C08"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 8,
+     "y": 35,
+     "size": 2,
+     "color": "#BE4007"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 200,
+     "y": 108,
+     "size": 4,
+     "color": "#033BAD"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 131,
+     "y": 190,
+     "size": 4,
+     "color": "#48879E"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 42,
+     "y": 36,
+     "size": 2,
+     "color": "#0B0404"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 7,
+     "y": 63,
+     "size": 2,
+     "color": "#803E29"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 23,
+     "y": 44,
+     "size": 2,
+     "color": "#72400F"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 74,
+     "y": 73,
+     "size": 2,
+     "color": "#AE1613"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 31,
+     "y": 41,
+     "size": 2,
+     "color": "#901417"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 24,
+     "y": 70,
+     "size": 2,
+     "color": "#9A5B1F"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 116,
+     "y": 45,
+     "size": 4,
+     "color": "#F09F60"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 71,
+     "y": 76,
+     "size": 2,
+     "color": "#FEDF83"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 41,
+     "y": 56,
+     "size": 2,
+     "color": "#9D6066"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 10,
+     "y": 13,
+     "size": 2,
+     "color": "#FCF0EC"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 3,
+     "y": 73,
+     "size": 2,
+     "color": "#625215"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 100,
+     "y": 66,
+     "size": 4,
+     "color": "#DA9A7B"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 31,
+     "y": 38,
+     "size": 2,
+     "color": "#FDF86B"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 58,
+     "y": 81,
+     "size": 2,
+     "color": "#C75306"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 25,
+     "y": 26,
+     "size": 2,
+     "color": "#DB713A"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 68,
+     "y": 23,
+     "size": 2,
+     "color": "#C04803"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 27,
+     "y": 81,
+     "size": 2,
+     "color": "#FDF1C2"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 27,
+     "y": 75,
+     "size": 2,
+     "color": "#F2A872"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 16,
+     "y": 8,
+     "size": 2,
+     "color": "#3C0B2A"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 22,
+     "y": 82,
+     "size": 2,
+     "color": "#C47F79"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 81,
+     "y": 34,
+     "size": 2,
+     "color": "#F6A37F"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/armory",
+     "x": 37,
+     "y": 43,
+     "size": 2,
+     "color": "#C38C8D"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 171,
+     "y": 43,
+     "size": 4,
+     "color": "#FB9857"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 70,
+     "y": 30,
+     "size": 2,
+     "color": "#FCE1B7"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 44,
+     "y": 62,
+     "size": 2,
+     "color": "#FACC96"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 32,
+     "y": 54,
+     "size": 2,
+     "color": "#ED6202"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 65,
+     "y": 73,
+     "size": 2,
+     "color": "#F3600A"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 40,
+     "y": 29,
+     "size": 2,
+     "color": "#C16B54"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 62,
+     "y": 36,
+     "size": 2,
+     "color": "#923B11"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 44,
+     "y": 37,
+     "size": 2,
+     "color": "#A0656C"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 60,
+     "y": 68,
+     "size": 2,
+     "color": "#501003"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 54,
+     "y": 44,
+     "size": 2,
+     "color": "#EF8025"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 144,
+     "y": 17,
+     "size": 4,
+     "color": "#C5ABAC"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 2,
+     "y": 72,
+     "size": 2,
+     "color": "#C22114"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 32,
+     "y": 10,
+     "size": 2,
+     "color": "#657926"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 61,
+     "y": 57,
+     "size": 2,
+     "color": "#C26311"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 44,
+     "y": 8,
+     "size": 2,
+     "color": "#D6B7C5"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 43,
+     "y": 78,
+     "size": 2,
+     "color": "#D44626"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 81,
+     "y": 30,
+     "size": 2,
+     "color": "#DE665B"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 63,
+     "y": 45,
+     "size": 2,
+     "color": "#3E1A0F"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 31,
+     "y": 132,
+     "size": 4,
+     "color": "#0B1316"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 61,
+     "y": 57,
+     "size": 2,
+     "color": "#5A1C05"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 78,
+     "y": 10,
+     "size": 2,
+     "color": "#FEFFFF"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 35,
+     "y": 50,
+     "size": 2,
+     "color": "#950B0D"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 77,
+     "y": 173,
+     "size": 4,
+     "color": "#D78A45"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 40,
+     "y": 78,
+     "size": 2,
+     "color": "#782D17"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 80,
+     "y": 72,
+     "size": 2,
+     "color": "#590108"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 84,
+     "y": 32,
+     "size": 2,
+     "color": "#B5AEB2"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 70,
+     "y": 76,
+     "size": 2,
+     "color": "#F9CC97"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 127,
+     "y": 185,
+     "size": 4,
+     "color": "#786F58"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 25,
+     "y": 38,
+     "size": 2,
+     "color": "#46260D"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 48,
+     "y": 70,
+     "size": 2,
+     "color": "#800415"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 9,
+     "y": 43,
+     "size": 2,
+     "color": "#2B0A04"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 48,
+     "y": 52,
+     "size": 2,
+     "color": "#FDA50F"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 58,
+     "y": 21,
+     "size": 2,
+     "color": "#4A54D2"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 30,
+     "y": 51,
+     "size": 2,
+     "color": "#732303"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 69,
+     "y": 51,
+     "size": 2,
+     "color": "#FEF7EC"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 117,
+     "y": 96,
+     "size": 4,
+     "color": "#897540"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 26,
+     "y": 29,
+     "size": 2,
+     "color": "#EE6E89"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 55,
+     "y": 11,
+     "size": 2,
+     "color": "#8F5C5C"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 30,
+     "y": 73,
+     "size": 2,
+     "color": "#FA682E"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 15,
+     "y": 115,
+     "size": 4,
+     "color": "#EF3F2F"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 6,
+     "y": 44,
+     "size": 2,
+     "color": "#F8A201"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 36,
+     "y": 61,
+     "size": 2,
+     "color": "#805A5E"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 77,
+     "y": 82,
+     "size": 2,
+     "color": "#FB8915"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 34,
+     "y": 10,
+     "size": 2,
+     "color": "#CB9381"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 83,
+     "y": 34,
+     "size": 2,
+     "color": "#3E3137"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 78,
+     "y": 8,
+     "size": 2,
+     "color": "#C05A4A"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 34,
+     "y": 74,
+     "size": 2,
+     "color": "#9E4724"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 76,
+     "y": 30,
+     "size": 2,
+     "color": "#CD821F"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 63,
+     "y": 76,
+     "size": 2,
+     "color": "#C38C8D"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 53,
+     "y": 29,
+     "size": 2,
+     "color": "#ED9F64"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 78,
+     "y": 130,
+     "size": 4,
+     "color": "#5F4D15"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 60,
+     "y": 61,
+     "size": 2,
+     "color": "#7B3418"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 71,
+     "y": 26,
+     "size": 2,
+     "color": "#F2B685"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 18,
+     "y": 72,
+     "size": 2,
+     "color": "#FBB746"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 83,
+     "y": 61,
+     "size": 2,
+     "color": "#EC7008"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 54,
+     "y": 54,
+     "size": 2,
+     "color": "#BF2D0A"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 63,
+     "y": 81,
+     "size": 2,
+     "color": "#D37F13"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 6,
+     "y": 75,
+     "size": 2,
+     "color": "#43140D"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 78,
+     "y": 57,
+     "size": 2,
+     "color": "#34AB90"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 82,
+     "y": 17,
+     "size": 2,
+     "color": "#CA8867"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 73,
+     "y": 50,
+     "size": 2,
+     "color": "#775212"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 116,
+     "y": 159,
+     "size": 4,
+     "color": "#E8493D"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 31,
+     "y": 82,
+     "size": 4,
+     "color": "#136140"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 3,
+     "y": 24,
+     "size": 2,
+     "color": "#8F3213"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 83,
+     "y": 47,
+     "size": 2,
+     "color": "#FEFEEE"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 117,
+     "y": 29,
+     "size": 4,
+     "color": "#CF5810"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 131,
+     "y": 34,
+     "size": 4,
+     "color": "#FDF3B1"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 41,
+     "y": 20,
+     "size": 2,
+     "color": "#EB2D16"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 49,
+     "y": 24,
+     "size": 2,
+     "color": "#25232C"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 44,
+     "y": 30,
+     "size": 2,
+     "color": "#FDF9A7"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 4,
+     "y": 76,
+     "size": 2,
+     "color": "#2A2933"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 63,
+     "y": 36,
+     "size": 2,
+     "color": "#FC810A"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 40,
+     "y": 67,
+     "size": 2,
+     "color": "#050101"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 159,
+     "y": 65,
+     "size": 4,
+     "color": "#832A03"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 61,
+     "y": 46,
+     "size": 2,
+     "color": "#1D0E05"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 47,
+     "y": 15,
+     "size": 2,
+     "color": "#3B2829"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 48,
+     "y": 71,
+     "size": 2,
+     "color": "#FDEB9A"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 70,
+     "y": 62,
+     "size": 2,
+     "color": "#F3BA5F"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 23,
+     "y": 61,
+     "size": 2,
+     "color": "#E3C397"
+    }
    ]
   ],
   "hard": [
@@ -15544,6 +19688,2078 @@
      "y": 40,
      "size": 2,
      "color": "#C31522"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 69,
+     "y": 21,
+     "size": 2,
+     "color": "#906F33"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 22,
+     "y": 70,
+     "size": 2,
+     "color": "#230E0D"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 23,
+     "y": 36,
+     "size": 2,
+     "color": "#DB791B"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 25,
+     "y": 47,
+     "size": 2,
+     "color": "#7D6E24"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 39,
+     "y": 73,
+     "size": 2,
+     "color": "#DA6D15"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 201,
+     "y": 127,
+     "size": 4,
+     "color": "#872C09"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 55,
+     "y": 57,
+     "size": 2,
+     "color": "#C94D08"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 12,
+     "y": 59,
+     "size": 2,
+     "color": "#86ACD2"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 62,
+     "y": 65,
+     "size": 2,
+     "color": "#DE5E2A"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 3,
+     "y": 22,
+     "size": 2,
+     "color": "#CB6515"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 81,
+     "y": 25,
+     "size": 2,
+     "color": "#AC5B22"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 8,
+     "y": 47,
+     "size": 2,
+     "color": "#441304"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 16,
+     "y": 17,
+     "size": 2,
+     "color": "#FEDD96"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 30,
+     "y": 11,
+     "size": 2,
+     "color": "#4C312B"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 10,
+     "y": 19,
+     "size": 2,
+     "color": "#FBC86D"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 51,
+     "y": 28,
+     "size": 2,
+     "color": "#E0D7F3"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 28,
+     "y": 21,
+     "size": 4,
+     "color": "#827CB8"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 37,
+     "y": 37,
+     "size": 2,
+     "color": "#5D425B"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 21,
+     "y": 19,
+     "size": 2,
+     "color": "#0D0607"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 8,
+     "y": 31,
+     "size": 2,
+     "color": "#900510"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 70,
+     "y": 50,
+     "size": 2,
+     "color": "#FDD93A"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 6,
+     "y": 28,
+     "size": 2,
+     "color": "#AD5F1C"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 16,
+     "y": 158,
+     "size": 4,
+     "color": "#8F4852"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 28,
+     "y": 49,
+     "size": 2,
+     "color": "#B36F36"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 20,
+     "y": 55,
+     "size": 2,
+     "color": "#722303"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 48,
+     "y": 14,
+     "size": 2,
+     "color": "#A25D2C"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 24,
+     "y": 42,
+     "size": 2,
+     "color": "#BC715C"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 72,
+     "y": 39,
+     "size": 2,
+     "color": "#973514"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 10,
+     "y": 80,
+     "size": 2,
+     "color": "#FA8221"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 52,
+     "y": 16,
+     "size": 2,
+     "color": "#D25124"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 5,
+     "y": 16,
+     "size": 2,
+     "color": "#ACAC10"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 26,
+     "y": 39,
+     "size": 2,
+     "color": "#C4713F"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 47,
+     "y": 53,
+     "size": 4,
+     "color": "#96E0F5"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 34,
+     "y": 28,
+     "size": 2,
+     "color": "#D79B85"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 65,
+     "y": 53,
+     "size": 2,
+     "color": "#BE663F"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 21,
+     "y": 28,
+     "size": 2,
+     "color": "#C25103"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 27,
+     "y": 39,
+     "size": 2,
+     "color": "#D4AB94"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 38,
+     "y": 68,
+     "size": 2,
+     "color": "#CF4B07"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 128,
+     "y": 47,
+     "size": 4,
+     "color": "#6C3317"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 53,
+     "y": 23,
+     "size": 2,
+     "color": "#012987"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 8,
+     "y": 54,
+     "size": 2,
+     "color": "#CF9FD5"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 62,
+     "y": 15,
+     "size": 2,
+     "color": "#933B0C"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 61,
+     "y": 18,
+     "size": 2,
+     "color": "#123E2D"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 41,
+     "y": 68,
+     "size": 2,
+     "color": "#5DAB72"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 78,
+     "y": 44,
+     "size": 2,
+     "color": "#F0D9F5"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 6,
+     "y": 52,
+     "size": 4,
+     "color": "#FCF4DF"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 59,
+     "y": 50,
+     "size": 2,
+     "color": "#C6977B"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 160,
+     "y": 91,
+     "size": 4,
+     "color": "#54190B"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 56,
+     "y": 54,
+     "size": 2,
+     "color": "#4772B3"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 48,
+     "y": 48,
+     "size": 2,
+     "color": "#755344"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 66,
+     "y": 46,
+     "size": 2,
+     "color": "#ECBAC0"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 28,
+     "y": 82,
+     "size": 2,
+     "color": "#F8BE47"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 35,
+     "y": 69,
+     "size": 2,
+     "color": "#996125"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 80,
+     "y": 27,
+     "size": 2,
+     "color": "#C37D6C"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 59,
+     "y": 37,
+     "size": 2,
+     "color": "#5C3F57"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 11,
+     "y": 46,
+     "size": 2,
+     "color": "#C25E7E"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 64,
+     "y": 34,
+     "size": 2,
+     "color": "#F88D3D"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 25,
+     "y": 51,
+     "size": 2,
+     "color": "#3E2008"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 48,
+     "y": 60,
+     "size": 2,
+     "color": "#4A374F"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 76,
+     "y": 60,
+     "size": 2,
+     "color": "#B4380B"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 78,
+     "y": 37,
+     "size": 2,
+     "color": "#E18591"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 4,
+     "y": 37,
+     "size": 4,
+     "color": "#F49FBE"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 50,
+     "y": 76,
+     "size": 2,
+     "color": "#D9710E"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 180,
+     "y": 167,
+     "size": 4,
+     "color": "#F8D0B0"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 32,
+     "y": 43,
+     "size": 2,
+     "color": "#D58228"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 61,
+     "y": 36,
+     "size": 2,
+     "color": "#FDE146"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 38,
+     "y": 9,
+     "size": 2,
+     "color": "#FBC49E"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 43,
+     "y": 67,
+     "size": 2,
+     "color": "#422846"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 14,
+     "y": 51,
+     "size": 2,
+     "color": "#A65D68"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 58,
+     "y": 64,
+     "size": 2,
+     "color": "#FB9122"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 20,
+     "y": 20,
+     "size": 2,
+     "color": "#764444"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 74,
+     "y": 42,
+     "size": 2,
+     "color": "#853930"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 36,
+     "y": 38,
+     "size": 4,
+     "color": "#555F4F"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 44,
+     "y": 64,
+     "size": 2,
+     "color": "#7F3313"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 79,
+     "y": 72,
+     "size": 2,
+     "color": "#BE663F"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 36,
+     "y": 18,
+     "size": 2,
+     "color": "#EDD8E3"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 2,
+     "y": 75,
+     "size": 2,
+     "color": "#272847"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 34,
+     "y": 45,
+     "size": 2,
+     "color": "#F2896F"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 14,
+     "y": 9,
+     "size": 2,
+     "color": "#B97E14"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 4,
+     "y": 19,
+     "size": 2,
+     "color": "#A5C3F2"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 49,
+     "y": 37,
+     "size": 2,
+     "color": "#C84602"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 115,
+     "y": 104,
+     "size": 4,
+     "color": "#3F090B"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 183,
+     "y": 41,
+     "size": 4,
+     "color": "#50427A"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 82,
+     "y": 47,
+     "size": 2,
+     "color": "#FCB88E"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 28,
+     "y": 51,
+     "size": 2,
+     "color": "#055C73"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 2,
+     "y": 52,
+     "size": 2,
+     "color": "#197F20"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 15,
+     "y": 35,
+     "size": 2,
+     "color": "#140405"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 44,
+     "y": 44,
+     "size": 2,
+     "color": "#481202"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 36,
+     "y": 153,
+     "size": 4,
+     "color": "#930208"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 38,
+     "y": 76,
+     "size": 2,
+     "color": "#3C250F"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 84,
+     "y": 74,
+     "size": 2,
+     "color": "#FCEBB7"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 16,
+     "y": 76,
+     "size": 2,
+     "color": "#FCCB73"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 28,
+     "y": 80,
+     "size": 2,
+     "color": "#B3B8CF"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 9,
+     "y": 26,
+     "size": 2,
+     "color": "#5B1F0D"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 82,
+     "y": 68,
+     "size": 2,
+     "color": "#FCC070"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 26,
+     "y": 51,
+     "size": 2,
+     "color": "#FC9C04"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 66,
+     "y": 42,
+     "size": 2,
+     "color": "#5F2309"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 2,
+     "y": 47,
+     "size": 2,
+     "color": "#FBBB36"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 28,
+     "y": 67,
+     "size": 2,
+     "color": "#520209"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 64,
+     "y": 29,
+     "size": 2,
+     "color": "#D48291"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 30,
+     "y": 25,
+     "size": 2,
+     "color": "#840115"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 84,
+     "y": 63,
+     "size": 2,
+     "color": "#FEF6F6"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 175,
+     "y": 86,
+     "size": 4,
+     "color": "#912A0B"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 26,
+     "y": 22,
+     "size": 2,
+     "color": "#703A0E"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 184,
+     "y": 92,
+     "size": 4,
+     "color": "#EE7D6F"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 54,
+     "y": 45,
+     "size": 2,
+     "color": "#CA8867"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 25,
+     "y": 78,
+     "size": 2,
+     "color": "#FDBD7D"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 60,
+     "y": 66,
+     "size": 2,
+     "color": "#FCD9A7"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 47,
+     "y": 57,
+     "size": 2,
+     "color": "#533E05"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 16,
+     "y": 43,
+     "size": 2,
+     "color": "#FC8808"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 12,
+     "y": 37,
+     "size": 2,
+     "color": "#E88F70"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 46,
+     "y": 23,
+     "size": 2,
+     "color": "#7A2C07"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 59,
+     "y": 47,
+     "size": 2,
+     "color": "#B44D0D"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 3,
+     "y": 49,
+     "size": 2,
+     "color": "#7D5116"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 77,
+     "y": 42,
+     "size": 2,
+     "color": "#F06809"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 16,
+     "y": 59,
+     "size": 2,
+     "color": "#D8BDA3"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 40,
+     "y": 46,
+     "size": 2,
+     "color": "#230E1E"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 33,
+     "y": 49,
+     "size": 2,
+     "color": "#2A2933"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 47,
+     "y": 73,
+     "size": 2,
+     "color": "#C78142"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 107,
+     "y": 143,
+     "size": 4,
+     "color": "#1777CE"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 82,
+     "y": 47,
+     "size": 2,
+     "color": "#4F0314"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 98,
+     "y": 42,
+     "size": 4,
+     "color": "#7B4347"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 42,
+     "y": 59,
+     "size": 2,
+     "color": "#AA050D"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 60,
+     "y": 9,
+     "size": 2,
+     "color": "#FDCB20"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 9,
+     "y": 47,
+     "size": 2,
+     "color": "#73A4EA"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 9,
+     "y": 50,
+     "size": 2,
+     "color": "#FCE8D8"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 60,
+     "y": 52,
+     "size": 2,
+     "color": "#8D030D"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 178,
+     "y": 84,
+     "size": 4,
+     "color": "#4D2D15"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 45,
+     "y": 77,
+     "size": 2,
+     "color": "#FDF3DC"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 73,
+     "y": 13,
+     "size": 2,
+     "color": "#148983"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 71,
+     "y": 58,
+     "size": 2,
+     "color": "#4F1702"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 195,
+     "y": 150,
+     "size": 4,
+     "color": "#C09A8C"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 46,
+     "y": 22,
+     "size": 2,
+     "color": "#755344"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 39,
+     "y": 17,
+     "size": 2,
+     "color": "#FCBFD8"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 2,
+     "y": 20,
+     "size": 2,
+     "color": "#E2EAEE"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 9,
+     "y": 54,
+     "size": 2,
+     "color": "#D87079"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 5,
+     "y": 21,
+     "size": 2,
+     "color": "#FBDB9B"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 21,
+     "y": 58,
+     "size": 2,
+     "color": "#C58355"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 78,
+     "y": 41,
+     "size": 2,
+     "color": "#FDB416"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 2,
+     "y": 44,
+     "size": 2,
+     "color": "#604B0F"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 20,
+     "y": 65,
+     "size": 4,
+     "color": "#FCCD93"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 6,
+     "y": 62,
+     "size": 2,
+     "color": "#88370F"
+    },
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 184,
+     "y": 100,
+     "size": 4,
+     "color": "#E67B4A"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 39,
+     "y": 15,
+     "size": 2,
+     "color": "#C0570F"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 4,
+     "y": 20,
+     "size": 2,
+     "color": "#9D480C"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 31,
+     "y": 74,
+     "size": 2,
+     "color": "#AF781C"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 33,
+     "y": 76,
+     "size": 2,
+     "color": "#C25323"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 36,
+     "y": 30,
+     "size": 2,
+     "color": "#A49DA3"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 73,
+     "y": 27,
+     "size": 2,
+     "color": "#785B72"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 3,
+     "y": 38,
+     "size": 2,
+     "color": "#F9A24A"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 5,
+     "y": 21,
+     "size": 2,
+     "color": "#E86C01"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 83,
+     "y": 19,
+     "size": 2,
+     "color": "#50424F"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 30,
+     "y": 19,
+     "size": 2,
+     "color": "#ED7627"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 81,
+     "y": 51,
+     "size": 2,
+     "color": "#BC715C"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 16,
+     "y": 52,
+     "size": 2,
+     "color": "#AB5D0B"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 60,
+     "y": 8,
+     "size": 2,
+     "color": "#FDCE9C"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 18,
+     "y": 66,
+     "size": 2,
+     "color": "#72400F"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 107,
+     "y": 176,
+     "size": 4,
+     "color": "#554726"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 52,
+     "y": 30,
+     "size": 2,
+     "color": "#E57867"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 30,
+     "y": 31,
+     "size": 2,
+     "color": "#3A7DE9"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 45,
+     "y": 37,
+     "size": 2,
+     "color": "#F2896F"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 77,
+     "y": 38,
+     "size": 2,
+     "color": "#937493"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 15,
+     "y": 26,
+     "size": 2,
+     "color": "#D47E0C"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 82,
+     "y": 9,
+     "size": 2,
+     "color": "#0155C7"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 77,
+     "y": 96,
+     "size": 4,
+     "color": "#FAC8B4"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 67,
+     "y": 25,
+     "size": 2,
+     "color": "#FCD4BF"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 18,
+     "y": 50,
+     "size": 2,
+     "color": "#F1872C"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 40,
+     "y": 159,
+     "size": 4,
+     "color": "#DA8A63"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 28,
+     "y": 48,
+     "size": 2,
+     "color": "#9C8A84"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 12,
+     "y": 32,
+     "size": 2,
+     "color": "#FED330"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 50,
+     "y": 30,
+     "size": 2,
+     "color": "#8D2701"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 7,
+     "y": 75,
+     "size": 2,
+     "color": "#5F9F6E"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 49,
+     "y": 74,
+     "size": 2,
+     "color": "#60578F"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 4,
+     "y": 49,
+     "size": 2,
+     "color": "#996F87"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 3,
+     "y": 57,
+     "size": 2,
+     "color": "#FAE6F7"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 116,
+     "y": 65,
+     "size": 4,
+     "color": "#D89B9F"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 27,
+     "y": 31,
+     "size": 2,
+     "color": "#643512"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 13,
+     "y": 71,
+     "size": 2,
+     "color": "#81C1ED"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 29,
+     "y": 57,
+     "size": 2,
+     "color": "#686721"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 83,
+     "y": 61,
+     "size": 2,
+     "color": "#97792B"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 72,
+     "y": 73,
+     "size": 2,
+     "color": "#F93943"
+    },
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 77,
+     "y": 75,
+     "size": 2,
+     "color": "#C25323"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 59,
+     "y": 52,
+     "size": 2,
+     "color": "#705F88"
+    },
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 43,
+     "y": 35,
+     "size": 2,
+     "color": "#FDFCEC"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 75,
+     "y": 74,
+     "size": 2,
+     "color": "#3543A0"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 119,
+     "y": 84,
+     "size": 4,
+     "color": "#F9CC8F"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 62,
+     "y": 42,
+     "size": 2,
+     "color": "#DAA195"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 45,
+     "y": 11,
+     "size": 2,
+     "color": "#383531"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 83,
+     "y": 61,
+     "size": 2,
+     "color": "#FA8006"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 44,
+     "y": 140,
+     "size": 4,
+     "color": "#F69316"
+    }
+   ],
+   [
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 79,
+     "y": 8,
+     "size": 2,
+     "color": "#FECD01"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 7,
+     "y": 31,
+     "size": 2,
+     "color": "#FAB06E"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 29,
+     "y": 9,
+     "size": 2,
+     "color": "#B3480B"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 31,
+     "y": 16,
+     "size": 2,
+     "color": "#806741"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 60,
+     "y": 72,
+     "size": 2,
+     "color": "#FDC894"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 17,
+     "y": 45,
+     "size": 2,
+     "color": "#E0630F"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 49,
+     "y": 41,
+     "size": 2,
+     "color": "#A4822C"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 123,
+     "y": 74,
+     "size": 4,
+     "color": "#2763BD"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 78,
+     "y": 66,
+     "size": 2,
+     "color": "#F0B778"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 35,
+     "y": 62,
+     "size": 2,
+     "color": "#8E2905"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 47,
+     "y": 25,
+     "size": 2,
+     "color": "#CB5010"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 74,
+     "y": 60,
+     "size": 2,
+     "color": "#6E2613"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 18,
+     "y": 13,
+     "size": 2,
+     "color": "#557DBC"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 24,
+     "y": 29,
+     "size": 2,
+     "color": "#B6B48A"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 20,
+     "y": 34,
+     "size": 2,
+     "color": "#FCB566"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 190,
+     "y": 67,
+     "size": 4,
+     "color": "#5F4D15"
+    },
+    {
+     "key": "ottoman-bazaar/coppersmith_shop",
+     "x": 75,
+     "y": 15,
+     "size": 2,
+     "color": "#321106"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 50,
+     "y": 40,
+     "size": 2,
+     "color": "#646627"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 8,
+     "y": 44,
+     "size": 2,
+     "color": "#FEB641"
+    },
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 50,
+     "y": 45,
+     "size": 2,
+     "color": "#FCB857"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 31,
+     "y": 35,
+     "size": 2,
+     "color": "#2E160E"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 6,
+     "y": 63,
+     "size": 2,
+     "color": "#E3B0A9"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 26,
+     "y": 45,
+     "size": 2,
+     "color": "#330801"
+    },
+    {
+     "key": "ottoman-bazaar/masterpiece_ottoman_bazaar",
+     "x": 199,
+     "y": 48,
+     "size": 4,
+     "color": "#EE7033"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 145,
+     "y": 173,
+     "size": 4,
+     "color": "#9385A8"
+    }
+   ],
+   [
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 17,
+     "y": 11,
+     "size": 2,
+     "color": "#FCB477"
+    },
+    {
+     "key": "roman-forum/bakery",
+     "x": 27,
+     "y": 60,
+     "size": 2,
+     "color": "#AE707B"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 25,
+     "y": 23,
+     "size": 2,
+     "color": "#00074B"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 61,
+     "y": 67,
+     "size": 2,
+     "color": "#642B0F"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 6,
+     "y": 39,
+     "size": 2,
+     "color": "#5D2715"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 19,
+     "y": 27,
+     "size": 2,
+     "color": "#FDF19A"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 2,
+     "y": 60,
+     "size": 2,
+     "color": "#983A54"
+    },
+    {
+     "key": "ancient-egypt/jewelry_stall",
+     "x": 44,
+     "y": 71,
+     "size": 2,
+     "color": "#D37F13"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 62,
+     "y": 56,
+     "size": 2,
+     "color": "#A088DD"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 12,
+     "y": 69,
+     "size": 2,
+     "color": "#FA8C0C"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/masterpiece_roman_forum",
+     "x": 33,
+     "y": 59,
+     "size": 4,
+     "color": "#FEFCAE"
+    },
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 50,
+     "y": 30,
+     "size": 2,
+     "color": "#2C1720"
+    },
+    {
+     "key": "famous-paintings/bedroom_arles",
+     "x": 33,
+     "y": 20,
+     "size": 2,
+     "color": "#096152"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 15,
+     "y": 34,
+     "size": 2,
+     "color": "#6D5D0F"
+    },
+    {
+     "key": "ancient-egypt/masterpiece_ancient_egypt",
+     "x": 177,
+     "y": 80,
+     "size": 4,
+     "color": "#F2D8BC"
+    }
+   ],
+   [
+    {
+     "key": "christmas-market/hot_chocolate_stand",
+     "x": 71,
+     "y": 31,
+     "size": 2,
+     "color": "#DE6215"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 41,
+     "y": 34,
+     "size": 2,
+     "color": "#D67501"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 22,
+     "y": 61,
+     "size": 2,
+     "color": "#FBC8C0"
+    },
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 28,
+     "y": 43,
+     "size": 2,
+     "color": "#B2671B"
+    },
+    {
+     "key": "medieval-castle/castle_kitchen",
+     "x": 32,
+     "y": 42,
+     "size": 2,
+     "color": "#ED7627"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 43,
+     "y": 16,
+     "size": 2,
+     "color": "#F5D3A7"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 44,
+     "y": 8,
+     "size": 2,
+     "color": "#DCB8A1"
+    },
+    {
+     "key": "medieval-castle/stable_well_garden",
+     "x": 67,
+     "y": 46,
+     "size": 2,
+     "color": "#9C84C1"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 7,
+     "y": 24,
+     "size": 2,
+     "color": "#B03823"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 34,
+     "y": 68,
+     "size": 2,
+     "color": "#6B1C07"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 25,
+     "y": 56,
+     "size": 2,
+     "color": "#FDD779"
+    },
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 26,
+     "y": 57,
+     "size": 2,
+     "color": "#B13E1E"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 36,
+     "y": 75,
+     "size": 2,
+     "color": "#7C0115"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 8,
+     "y": 22,
+     "size": 2,
+     "color": "#DB1524"
+    },
+    {
+     "key": "famous-paintings/masterpiece_starry_night",
+     "x": 177,
+     "y": 110,
+     "size": 4,
+     "color": "#4CBBE8"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/chariot_stable",
+     "x": 30,
+     "y": 47,
+     "size": 2,
+     "color": "#E47305"
+    },
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 34,
+     "y": 56,
+     "size": 2,
+     "color": "#4E1D16"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 11,
+     "y": 58,
+     "size": 2,
+     "color": "#F78D31"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 12,
+     "y": 51,
+     "size": 2,
+     "color": "#FD8D0D"
+    },
+    {
+     "key": "christmas-market/masterpiece_christmas_market",
+     "x": 200,
+     "y": 123,
+     "size": 4,
+     "color": "#974223"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 47,
+     "y": 12,
+     "size": 2,
+     "color": "#021113"
+    },
+    {
+     "key": "medieval-castle/masterpiece_medieval_castle",
+     "x": 133,
+     "y": 64,
+     "size": 4,
+     "color": "#E7B1B0"
+    },
+    {
+     "key": "ancient-egypt/pottery_perfume_stall",
+     "x": 10,
+     "y": 48,
+     "size": 2,
+     "color": "#6A2916"
+    },
+    {
+     "key": "famous-paintings/japanese_bridge",
+     "x": 42,
+     "y": 47,
+     "size": 2,
+     "color": "#365021"
+    },
+    {
+     "key": "christmas-market/ornament_stall",
+     "x": 21,
+     "y": 18,
+     "size": 2,
+     "color": "#9A1D1D"
+    }
+   ],
+   [
+    {
+     "key": "roman-forum/mosaic_workshop",
+     "x": 41,
+     "y": 49,
+     "size": 2,
+     "color": "#D28C6B"
+    },
+    {
+     "key": "medieval-castle/armory",
+     "x": 36,
+     "y": 77,
+     "size": 2,
+     "color": "#A03403"
+    },
+    {
+     "key": "ancient-egypt/nile_felucca",
+     "x": 40,
+     "y": 36,
+     "size": 2,
+     "color": "#C9873B"
+    },
+    {
+     "key": "christmas-market/gingerbread_stall",
+     "x": 80,
+     "y": 74,
+     "size": 2,
+     "color": "#593D17"
+    },
+    {
+     "key": "ottoman-bazaar/spice_stall",
+     "x": 54,
+     "y": 30,
+     "size": 2,
+     "color": "#4B1905"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/carpet_shop",
+     "x": 57,
+     "y": 20,
+     "size": 2,
+     "color": "#55371D"
+    },
+    {
+     "key": "medieval-castle/blacksmith_forge",
+     "x": 23,
+     "y": 46,
+     "size": 2,
+     "color": "#DFAA6B"
+    },
+    {
+     "key": "famous-paintings/great_wave",
+     "x": 32,
+     "y": 38,
+     "size": 2,
+     "color": "#5FADE8"
+    },
+    {
+     "key": "christmas-market/christmas_tree_seller",
+     "x": 54,
+     "y": 18,
+     "size": 2,
+     "color": "#3E2008"
+    },
+    {
+     "key": "ancient-egypt/papyrus_workshop",
+     "x": 18,
+     "y": 12,
+     "size": 2,
+     "color": "#531C05"
+    }
+   ],
+   [
+    {
+     "key": "medieval-castle/alchemist_tower",
+     "x": 78,
+     "y": 9,
+     "size": 2,
+     "color": "#607DB7"
+    },
+    {
+     "key": "ottoman-bazaar/delight_tea_stall",
+     "x": 51,
+     "y": 38,
+     "size": 2,
+     "color": "#8E4309"
+    },
+    {
+     "key": "roman-forum/thermopolium",
+     "x": 28,
+     "y": 26,
+     "size": 2,
+     "color": "#B53307"
+    },
+    {
+     "key": "famous-paintings/cafe_terrace",
+     "x": 81,
+     "y": 19,
+     "size": 2,
+     "color": "#3B3B40"
+    },
+    {
+     "key": "ancient-egypt/treasure_room",
+     "x": 50,
+     "y": 34,
+     "size": 2,
+     "color": "#FB8A09"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/mosaic_lamp_shop",
+     "x": 39,
+     "y": 44,
+     "size": 2,
+     "color": "#9C2B05"
+    },
+    {
+     "key": "medieval-castle/feast_table",
+     "x": 61,
+     "y": 17,
+     "size": 2,
+     "color": "#6F433F"
+    },
+    {
+     "key": "roman-forum/oil_wine_shop",
+     "x": 9,
+     "y": 47,
+     "size": 2,
+     "color": "#E97206"
+    },
+    {
+     "key": "christmas-market/candles_lanterns_stall",
+     "x": 77,
+     "y": 43,
+     "size": 2,
+     "color": "#A65D68"
+    },
+    {
+     "key": "famous-paintings/sunflowers",
+     "x": 20,
+     "y": 38,
+     "size": 2,
+     "color": "#E77609"
+    }
+   ],
+   [
+    {
+     "key": "ottoman-bazaar/iznik_ceramics_stall",
+     "x": 67,
+     "y": 13,
+     "size": 2,
+     "color": "#786B5F"
+    },
+    {
+     "key": "roman-forum/lion_fountain",
+     "x": 8,
+     "y": 51,
+     "size": 2,
+     "color": "#D1AEAA"
+    },
+    {
+     "key": "ancient-egypt/nile_market_stall",
+     "x": 22,
+     "y": 42,
+     "size": 2,
+     "color": "#2F1809"
+    },
+    {
+     "key": "famous-paintings/red_fuji",
+     "x": 15,
+     "y": 66,
+     "size": 2,
+     "color": "#075D4E"
+    },
+    {
+     "key": "christmas-market/wooden_toys_stall",
+     "x": 83,
+     "y": 38,
+     "size": 2,
+     "color": "#A96388"
     }
    ]
   ]
