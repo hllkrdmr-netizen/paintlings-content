@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "mode": "dots",
  "note": "Dot to dot v2. Each picture: <id>.png (finished colour picture, transparent background) and <id>.json. parts = list of lines, each a list of [x, y] in 0..1 of the PNG; closed = one flag per part (true = closed line, false = open stroke). Numbers run on across parts in this order. A closed part's line goes back to its first dot when its last dot is connected; an open part ends at its last dot. The first dot of every part (except the very first) gets a small gold ring. Parts are ordered so the next line usually starts far away. Each category has bg.jpg (780x1688, cover-fit), bg colour and twinkles = [x, y, size] in 0..1 of bg.jpg. Spares are not shown.",
  "categories": [
@@ -10,7 +10,23 @@
    "name": {
     "en": "Swan Lake",
     "tr": "Kuğu Gölü",
-    "de": "Schwanensee"
+    "de": "Schwanensee",
+    "id": "Danau Angsa",
+    "es": "Lago de los cisnes",
+    "fr": "Lac des cygnes",
+    "it": "Lago dei cigni",
+    "nl": "Zwanenmeer",
+    "pl": "Łabędzie jezioro",
+    "pt": "Lago dos cisnes",
+    "vi": "Hồ thiên nga",
+    "ru": "Лебединое озеро",
+    "uk": "Лебедине озеро",
+    "ar": "بحيرة البجع",
+    "hi": "हंसों की झील",
+    "th": "ทะเลสาบหงส์",
+    "ko": "백조의 호수",
+    "ja": "白鳥の湖",
+    "zh": "天鹅湖"
    },
    "bg": "#095C5C",
    "pictures": [
@@ -22,7 +38,23 @@
      "name": {
       "en": "Swan",
       "tr": "Kuğu",
-      "de": "Schwan"
+      "de": "Schwan",
+      "id": "Angsa",
+      "es": "Cisne",
+      "fr": "Cygne",
+      "it": "Cigno",
+      "nl": "Zwaan",
+      "pl": "Łabędź",
+      "pt": "Cisne",
+      "vi": "Thiên nga",
+      "ru": "Лебедь",
+      "uk": "Лебідь",
+      "ar": "بجعة",
+      "hi": "हंस",
+      "th": "หงส์",
+      "ko": "백조",
+      "ja": "白鳥",
+      "zh": "天鹅"
      }
     },
     {
@@ -33,7 +65,23 @@
      "name": {
       "en": "Duck",
       "tr": "Ördek",
-      "de": "Ente"
+      "de": "Ente",
+      "id": "Bebek",
+      "es": "Pato",
+      "fr": "Canard",
+      "it": "Anatra",
+      "nl": "Eend",
+      "pl": "Kaczka",
+      "pt": "Pato",
+      "vi": "Vịt",
+      "ru": "Утка",
+      "uk": "Качка",
+      "ar": "بطة",
+      "hi": "बत्तख",
+      "th": "เป็ด",
+      "ko": "오리",
+      "ja": "アヒル",
+      "zh": "鸭子"
      }
     },
     {
@@ -44,7 +92,23 @@
      "name": {
       "en": "Dragonfly",
       "tr": "Yusufçuk",
-      "de": "Libelle"
+      "de": "Libelle",
+      "id": "Capung",
+      "es": "Libélula",
+      "fr": "Libellule",
+      "it": "Libellula",
+      "nl": "Libel",
+      "pl": "Ważka",
+      "pt": "Libélula",
+      "vi": "Chuồn chuồn",
+      "ru": "Стрекоза",
+      "uk": "Бабка",
+      "ar": "يعسوب",
+      "hi": "ड्रैगनफ़्लाई",
+      "th": "แมลงปอ",
+      "ko": "잠자리",
+      "ja": "トンボ",
+      "zh": "蜻蜓"
      }
     },
     {
@@ -55,7 +119,23 @@
      "name": {
       "en": "Turtle",
       "tr": "Kaplumbağa",
-      "de": "Schildkröte"
+      "de": "Schildkröte",
+      "id": "Kura-kura",
+      "es": "Tortuga",
+      "fr": "Tortue",
+      "it": "Tartaruga",
+      "nl": "Schildpad",
+      "pl": "Żółw",
+      "pt": "Tartaruga",
+      "vi": "Rùa",
+      "ru": "Черепаха",
+      "uk": "Черепаха",
+      "ar": "سلحفاة",
+      "hi": "कछुआ",
+      "th": "เต่า",
+      "ko": "거북이",
+      "ja": "カメ",
+      "zh": "乌龟"
      }
     },
     {
@@ -66,7 +146,23 @@
      "name": {
       "en": "Frog",
       "tr": "Kurbağa",
-      "de": "Frosch"
+      "de": "Frosch",
+      "id": "Katak",
+      "es": "Rana",
+      "fr": "Grenouille",
+      "it": "Rana",
+      "nl": "Kikker",
+      "pl": "Żaba",
+      "pt": "Sapo",
+      "vi": "Ếch",
+      "ru": "Лягушка",
+      "uk": "Жабка",
+      "ar": "ضفدع",
+      "hi": "मेंढक",
+      "th": "กบ",
+      "ko": "개구리",
+      "ja": "カエル",
+      "zh": "青蛙"
      }
     },
     {
@@ -77,7 +173,23 @@
      "name": {
       "en": "Swan Hearts",
       "tr": "Kuğu Kalbi",
-      "de": "Schwanenherz"
+      "de": "Schwanenherz",
+      "id": "Hati Angsa",
+      "es": "Corazón de cisnes",
+      "fr": "Cœur de cygnes",
+      "it": "Cuore di cigni",
+      "nl": "Zwanenhart",
+      "pl": "Łabędzie serce",
+      "pt": "Coração de cisnes",
+      "vi": "Thiên nga trái tim",
+      "ru": "Лебединое сердце",
+      "uk": "Лебедине серце",
+      "ar": "قلب البجعتين",
+      "hi": "हंसों का दिल",
+      "th": "หงส์รูปหัวใจ",
+      "ko": "백조 하트",
+      "ja": "白鳥のハート",
+      "zh": "天鹅之心"
      }
     },
     {
@@ -88,7 +200,23 @@
      "name": {
       "en": "Water Lily",
       "tr": "Nilüfer",
-      "de": "Seerose"
+      "de": "Seerose",
+      "id": "Bunga Lili Air",
+      "es": "Nenúfar",
+      "fr": "Nénuphar",
+      "it": "Ninfea",
+      "nl": "Waterlelie",
+      "pl": "Lilia wodna",
+      "pt": "Vitória-régia",
+      "vi": "Hoa súng",
+      "ru": "Кувшинка",
+      "uk": "Латаття",
+      "ar": "زنبق الماء",
+      "hi": "कुमुदिनी",
+      "th": "บัวสาย",
+      "ko": "수련",
+      "ja": "スイレン",
+      "zh": "睡莲"
      }
     }
    ],
@@ -152,7 +280,23 @@
    "name": {
     "en": "Night Forest",
     "tr": "Gece Ormanı",
-    "de": "Nachtwald"
+    "de": "Nachtwald",
+    "id": "Hutan Malam",
+    "es": "Bosque nocturno",
+    "fr": "Forêt de nuit",
+    "it": "Bosco di notte",
+    "nl": "Nachtbos",
+    "pl": "Las nocą",
+    "pt": "Floresta à noite",
+    "vi": "Rừng đêm",
+    "ru": "Ночной лес",
+    "uk": "Нічний ліс",
+    "ar": "غابة الليل",
+    "hi": "रात का जंगल",
+    "th": "ป่ายามค่ำ",
+    "ko": "밤의 숲",
+    "ja": "夜の森",
+    "zh": "夜之森林"
    },
    "bg": "#133B23",
    "pictures": [
@@ -164,7 +308,23 @@
      "name": {
       "en": "Fox",
       "tr": "Tilki",
-      "de": "Fuchs"
+      "de": "Fuchs",
+      "id": "Rubah",
+      "es": "Zorro",
+      "fr": "Renard",
+      "it": "Volpe",
+      "nl": "Vos",
+      "pl": "Lis",
+      "pt": "Raposa",
+      "vi": "Cáo",
+      "ru": "Лиса",
+      "uk": "Лисиця",
+      "ar": "ثعلب",
+      "hi": "लोमड़ी",
+      "th": "สุนัขจิ้งจอก",
+      "ko": "여우",
+      "ja": "キツネ",
+      "zh": "狐狸"
      }
     },
     {
@@ -175,7 +335,23 @@
      "name": {
       "en": "Rabbit",
       "tr": "Tavşan",
-      "de": "Hase"
+      "de": "Hase",
+      "id": "Kelinci",
+      "es": "Conejo",
+      "fr": "Lapin",
+      "it": "Coniglio",
+      "nl": "Konijn",
+      "pl": "Królik",
+      "pt": "Coelho",
+      "vi": "Thỏ",
+      "ru": "Кролик",
+      "uk": "Кролик",
+      "ar": "أرنب",
+      "hi": "खरगोश",
+      "th": "กระต่าย",
+      "ko": "토끼",
+      "ja": "ウサギ",
+      "zh": "兔子"
      }
     },
     {
@@ -186,7 +362,23 @@
      "name": {
       "en": "Deer",
       "tr": "Geyik",
-      "de": "Hirsch"
+      "de": "Hirsch",
+      "id": "Rusa",
+      "es": "Ciervo",
+      "fr": "Cerf",
+      "it": "Cervo",
+      "nl": "Hert",
+      "pl": "Jeleń",
+      "pt": "Cervo",
+      "vi": "Hươu",
+      "ru": "Олень",
+      "uk": "Олень",
+      "ar": "غزال",
+      "hi": "हिरण",
+      "th": "กวาง",
+      "ko": "사슴",
+      "ja": "シカ",
+      "zh": "鹿"
      }
     },
     {
@@ -197,7 +389,23 @@
      "name": {
       "en": "Mushrooms",
       "tr": "Mantarlar",
-      "de": "Pilze"
+      "de": "Pilze",
+      "id": "Jamur-jamur",
+      "es": "Setas",
+      "fr": "Champignons",
+      "it": "Funghi",
+      "nl": "Paddenstoelen",
+      "pl": "Grzyby",
+      "pt": "Cogumelos",
+      "vi": "Nấm",
+      "ru": "Грибы",
+      "uk": "Гриби",
+      "ar": "فطر",
+      "hi": "मशरूम",
+      "th": "เห็ด",
+      "ko": "버섯들",
+      "ja": "きのこ",
+      "zh": "蘑菇"
      }
     },
     {
@@ -208,7 +416,23 @@
      "name": {
       "en": "Squirrel",
       "tr": "Sincap",
-      "de": "Eichhörnchen"
+      "de": "Eichhörnchen",
+      "id": "Tupai",
+      "es": "Ardilla",
+      "fr": "Écureuil",
+      "it": "Scoiattolo",
+      "nl": "Eekhoorn",
+      "pl": "Wiewiórka",
+      "pt": "Esquilo",
+      "vi": "Sóc",
+      "ru": "Белка",
+      "uk": "Білка",
+      "ar": "سنجاب",
+      "hi": "गिलहरी",
+      "th": "กระรอก",
+      "ko": "다람쥐",
+      "ja": "リス",
+      "zh": "松鼠"
      }
     },
     {
@@ -219,7 +443,23 @@
      "name": {
       "en": "Barn Owl",
       "tr": "Peçeli Baykuş",
-      "de": "Schleiereule"
+      "de": "Schleiereule",
+      "id": "Burung Hantu Serak",
+      "es": "Lechuza",
+      "fr": "Chouette effraie",
+      "it": "Barbagianni",
+      "nl": "Kerkuil",
+      "pl": "Płomykówka",
+      "pt": "Suindara",
+      "vi": "Cú lợn",
+      "ru": "Сипуха",
+      "uk": "Сипуха",
+      "ar": "بومة الحظيرة",
+      "hi": "खलिहान उल्लू",
+      "th": "นกแสก",
+      "ko": "원숭이올빼미",
+      "ja": "メンフクロウ",
+      "zh": "仓鸮"
      }
     },
     {
@@ -230,7 +470,23 @@
      "name": {
       "en": "Hedgehog",
       "tr": "Kirpi",
-      "de": "Igel"
+      "de": "Igel",
+      "id": "Landak Mini",
+      "es": "Erizo",
+      "fr": "Hérisson",
+      "it": "Riccio",
+      "nl": "Egel",
+      "pl": "Jeż",
+      "pt": "Ouriço",
+      "vi": "Nhím",
+      "ru": "Ёжик",
+      "uk": "Їжачок",
+      "ar": "قنفذ",
+      "hi": "साही",
+      "th": "เม่นแคระ",
+      "ko": "고슴도치",
+      "ja": "ハリネズミ",
+      "zh": "刺猬"
      }
     }
    ],
@@ -294,7 +550,23 @@
    "name": {
     "en": "Butterfly Garden",
     "tr": "Kelebek Bahçesi",
-    "de": "Schmetterlingsgarten"
+    "de": "Schmetterlingsgarten",
+    "id": "Taman Kupu-kupu",
+    "es": "Jardín de mariposas",
+    "fr": "Jardin aux papillons",
+    "it": "Giardino delle farfalle",
+    "nl": "Vlindertuin",
+    "pl": "Ogród motyli",
+    "pt": "Jardim das borboletas",
+    "vi": "Vườn bướm",
+    "ru": "Сад бабочек",
+    "uk": "Сад метеликів",
+    "ar": "حديقة الفراشات",
+    "hi": "तितली बगीचा",
+    "th": "สวนผีเสื้อ",
+    "ko": "나비 정원",
+    "ja": "ちょうの庭",
+    "zh": "蝴蝶花园"
    },
    "bg": "#4C1B3B",
    "pictures": [
@@ -306,7 +578,23 @@
      "name": {
       "en": "Butterfly",
       "tr": "Kelebek",
-      "de": "Schmetterling"
+      "de": "Schmetterling",
+      "id": "Kupu-kupu",
+      "es": "Mariposa",
+      "fr": "Papillon",
+      "it": "Farfalla",
+      "nl": "Vlinder",
+      "pl": "Motyl",
+      "pt": "Borboleta",
+      "vi": "Bươm bướm",
+      "ru": "Бабочка",
+      "uk": "Метелик",
+      "ar": "فراشة",
+      "hi": "तितली",
+      "th": "ผีเสื้อ",
+      "ko": "나비",
+      "ja": "ちょうちょ",
+      "zh": "蝴蝶"
      }
     },
     {
@@ -317,7 +605,23 @@
      "name": {
       "en": "Rose",
       "tr": "Gül",
-      "de": "Rose"
+      "de": "Rose",
+      "id": "Mawar",
+      "es": "Rosa",
+      "fr": "Rose",
+      "it": "Rosa",
+      "nl": "Roos",
+      "pl": "Róża",
+      "pt": "Rosa",
+      "vi": "Hoa hồng",
+      "ru": "Роза",
+      "uk": "Троянда",
+      "ar": "وردة",
+      "hi": "गुलाब",
+      "th": "กุหลาบ",
+      "ko": "장미",
+      "ja": "バラ",
+      "zh": "玫瑰"
      }
     },
     {
@@ -328,7 +632,23 @@
      "name": {
       "en": "Snail",
       "tr": "Salyangoz",
-      "de": "Schnecke"
+      "de": "Schnecke",
+      "id": "Siput",
+      "es": "Caracol",
+      "fr": "Escargot",
+      "it": "Lumaca",
+      "nl": "Slak",
+      "pl": "Ślimak",
+      "pt": "Caracol",
+      "vi": "Ốc sên",
+      "ru": "Улитка",
+      "uk": "Равлик",
+      "ar": "حلزون",
+      "hi": "घोंघा",
+      "th": "หอยทาก",
+      "ko": "달팽이",
+      "ja": "カタツムリ",
+      "zh": "蜗牛"
      }
     },
     {
@@ -339,7 +659,23 @@
      "name": {
       "en": "Tulip",
       "tr": "Lale",
-      "de": "Tulpe"
+      "de": "Tulpe",
+      "id": "Tulip",
+      "es": "Tulipán",
+      "fr": "Tulipe",
+      "it": "Tulipano",
+      "nl": "Tulp",
+      "pl": "Tulipan",
+      "pt": "Tulipa",
+      "vi": "Tulip",
+      "ru": "Тюльпан",
+      "uk": "Тюльпан",
+      "ar": "توليب",
+      "hi": "ट्यूलिप",
+      "th": "ทิวลิป",
+      "ko": "튤립",
+      "ja": "チューリップ",
+      "zh": "郁金香"
      }
     },
     {
@@ -350,7 +686,23 @@
      "name": {
       "en": "Bee",
       "tr": "Arı",
-      "de": "Biene"
+      "de": "Biene",
+      "id": "Lebah",
+      "es": "Abeja",
+      "fr": "Abeille",
+      "it": "Ape",
+      "nl": "Bij",
+      "pl": "Pszczoła",
+      "pt": "Abelha",
+      "vi": "Ong",
+      "ru": "Пчела",
+      "uk": "Бджола",
+      "ar": "نحلة",
+      "hi": "मधुमक्खी",
+      "th": "ผึ้ง",
+      "ko": "꿀벌",
+      "ja": "ミツバチ",
+      "zh": "蜜蜂"
      }
     },
     {
@@ -361,7 +713,23 @@
      "name": {
       "en": "Hummingbird & Rose",
       "tr": "Sinek Kuşu ve Gül",
-      "de": "Kolibri und Rose"
+      "de": "Kolibri und Rose",
+      "id": "Kolibri & Mawar",
+      "es": "Colibrí y rosa",
+      "fr": "Colibri et rose",
+      "it": "Colibrì e rosa",
+      "nl": "Kolibrie & roos",
+      "pl": "Koliber i róża",
+      "pt": "Beija-flor e rosa",
+      "vi": "Chim ruồi & Hoa hồng",
+      "ru": "Колибри и роза",
+      "uk": "Колібрі й троянда",
+      "ar": "طائر الطنان والوردة",
+      "hi": "हमिंगबर्ड और गुलाब",
+      "th": "นกฮัมมิ่งเบิร์ดกับกุหลาบ",
+      "ko": "벌새와 장미",
+      "ja": "ハチドリとバラ",
+      "zh": "蜂鸟与玫瑰"
      }
     },
     {
@@ -372,7 +740,23 @@
      "name": {
       "en": "Ladybug",
       "tr": "Uğur Böceği",
-      "de": "Marienkäfer"
+      "de": "Marienkäfer",
+      "id": "Kepik",
+      "es": "Mariquita",
+      "fr": "Coccinelle",
+      "it": "Coccinella",
+      "nl": "Lieveheersbeestje",
+      "pl": "Biedronka",
+      "pt": "Joaninha",
+      "vi": "Bọ rùa",
+      "ru": "Божья коровка",
+      "uk": "Сонечко",
+      "ar": "دعسوقة",
+      "hi": "लेडीबग",
+      "th": "เต่าทอง",
+      "ko": "무당벌레",
+      "ja": "テントウムシ",
+      "zh": "瓢虫"
      }
     }
    ],
@@ -436,7 +820,23 @@
    "name": {
     "en": "Coral Sea",
     "tr": "Mercan Denizi",
-    "de": "Korallenmeer"
+    "de": "Korallenmeer",
+    "id": "Laut Karang",
+    "es": "Mar de coral",
+    "fr": "Mer de corail",
+    "it": "Mare di corallo",
+    "nl": "Koraalzee",
+    "pl": "Morze koralowe",
+    "pt": "Mar de corais",
+    "vi": "Biển san hô",
+    "ru": "Коралловое море",
+    "uk": "Коралове море",
+    "ar": "بحر المرجان",
+    "hi": "मूंगा सागर",
+    "th": "ทะเลปะการัง",
+    "ko": "산호 바다",
+    "ja": "サンゴの海",
+    "zh": "珊瑚海"
    },
    "bg": "#01334C",
    "pictures": [
@@ -448,7 +848,23 @@
      "name": {
       "en": "Seahorse",
       "tr": "Deniz Atı",
-      "de": "Seepferdchen"
+      "de": "Seepferdchen",
+      "id": "Kuda Laut",
+      "es": "Caballito de mar",
+      "fr": "Hippocampe",
+      "it": "Cavalluccio marino",
+      "nl": "Zeepaardje",
+      "pl": "Konik morski",
+      "pt": "Cavalo-marinho",
+      "vi": "Cá ngựa",
+      "ru": "Морской конёк",
+      "uk": "Морський коник",
+      "ar": "حصان البحر",
+      "hi": "समुद्री घोड़ा",
+      "th": "ม้าน้ำ",
+      "ko": "해마",
+      "ja": "タツノオトシゴ",
+      "zh": "海马"
      }
     },
     {
@@ -459,7 +875,23 @@
      "name": {
       "en": "Whale",
       "tr": "Balina",
-      "de": "Wal"
+      "de": "Wal",
+      "id": "Paus",
+      "es": "Ballena",
+      "fr": "Baleine",
+      "it": "Balena",
+      "nl": "Walvis",
+      "pl": "Wieloryb",
+      "pt": "Baleia",
+      "vi": "Cá voi",
+      "ru": "Кит",
+      "uk": "Кит",
+      "ar": "حوت",
+      "hi": "व्हेल",
+      "th": "วาฬ",
+      "ko": "고래",
+      "ja": "クジラ",
+      "zh": "鲸鱼"
      }
     },
     {
@@ -470,7 +902,23 @@
      "name": {
       "en": "Starfish",
       "tr": "Deniz Yıldızı",
-      "de": "Seestern"
+      "de": "Seestern",
+      "id": "Bintang Laut",
+      "es": "Estrella de mar",
+      "fr": "Étoile de mer",
+      "it": "Stella marina",
+      "nl": "Zeester",
+      "pl": "Rozgwiazda",
+      "pt": "Estrela-do-mar",
+      "vi": "Sao biển",
+      "ru": "Морская звезда",
+      "uk": "Морська зірка",
+      "ar": "نجمة البحر",
+      "hi": "स्टारफ़िश",
+      "th": "ปลาดาว",
+      "ko": "불가사리",
+      "ja": "ヒトデ",
+      "zh": "海星"
      }
     },
     {
@@ -481,7 +929,23 @@
      "name": {
       "en": "Sea Turtle",
       "tr": "Deniz Kaplumbağası",
-      "de": "Meeresschildkröte"
+      "de": "Meeresschildkröte",
+      "id": "Penyu",
+      "es": "Tortuga marina",
+      "fr": "Tortue de mer",
+      "it": "Tartaruga marina",
+      "nl": "Zeeschildpad",
+      "pl": "Żółw morski",
+      "pt": "Tartaruga marinha",
+      "vi": "Rùa biển",
+      "ru": "Морская черепаха",
+      "uk": "Морська черепаха",
+      "ar": "سلحفاة بحرية",
+      "hi": "समुद्री कछुआ",
+      "th": "เต่าทะเล",
+      "ko": "바다거북",
+      "ja": "ウミガメ",
+      "zh": "海龟"
      }
     },
     {
@@ -492,7 +956,23 @@
      "name": {
       "en": "Angelfish",
       "tr": "Melek Balığı",
-      "de": "Skalar"
+      "de": "Skalar",
+      "id": "Ikan Manfish",
+      "es": "Pez ángel",
+      "fr": "Poisson-ange",
+      "it": "Pesce angelo",
+      "nl": "Maanvis",
+      "pl": "Skalar",
+      "pt": "Peixe-anjo",
+      "vi": "Cá thần tiên",
+      "ru": "Скалярия",
+      "uk": "Скалярія",
+      "ar": "سمكة الملاك",
+      "hi": "एंजेलफ़िश",
+      "th": "ปลาเทวดา",
+      "ko": "엔젤피시",
+      "ja": "エンゼルフィッシュ",
+      "zh": "神仙鱼"
      }
     },
     {
@@ -503,7 +983,23 @@
      "name": {
       "en": "Dolphin Ring",
       "tr": "Yunus Halkası",
-      "de": "Delfinring"
+      "de": "Delfinring",
+      "id": "Cincin Lumba-lumba",
+      "es": "Círculo de delfines",
+      "fr": "Cercle de dauphins",
+      "it": "Cerchio di delfini",
+      "nl": "Dolfijnenring",
+      "pl": "Krąg delfinów",
+      "pt": "Círculo de golfinhos",
+      "vi": "Cá heo và vòng",
+      "ru": "Кольцо дельфинов",
+      "uk": "Коло дельфінів",
+      "ar": "حلقة الدلافين",
+      "hi": "डॉल्फ़िन घेरा",
+      "th": "โลมากับห่วง",
+      "ko": "돌고래 고리",
+      "ja": "イルカの輪",
+      "zh": "海豚圈"
      }
     },
     {
@@ -514,7 +1010,23 @@
      "name": {
       "en": "Octopus",
       "tr": "Ahtapot",
-      "de": "Krake"
+      "de": "Krake",
+      "id": "Gurita",
+      "es": "Pulpo",
+      "fr": "Pieuvre",
+      "it": "Polpo",
+      "nl": "Octopus",
+      "pl": "Ośmiornica",
+      "pt": "Polvo",
+      "vi": "Bạch tuộc",
+      "ru": "Осьминог",
+      "uk": "Восьминіг",
+      "ar": "أخطبوط",
+      "hi": "ऑक्टोपस",
+      "th": "ปลาหมึกยักษ์",
+      "ko": "문어",
+      "ja": "タコ",
+      "zh": "章鱼"
      }
     }
    ],
@@ -578,7 +1090,23 @@
    "name": {
     "en": "Winter Tale",
     "tr": "Kış Masalı",
-    "de": "Wintermärchen"
+    "de": "Wintermärchen",
+    "id": "Kisah Musim Dingin",
+    "es": "Cuento de invierno",
+    "fr": "Conte d'hiver",
+    "it": "Fiaba d'inverno",
+    "nl": "Wintersprookje",
+    "pl": "Zimowa baśń",
+    "pt": "Conto de inverno",
+    "vi": "Chuyện mùa đông",
+    "ru": "Зимняя сказка",
+    "uk": "Зимова казка",
+    "ar": "حكاية شتوية",
+    "hi": "सर्दियों की कहानी",
+    "th": "นิทานฤดูหนาว",
+    "ko": "겨울 동화",
+    "ja": "冬のおとぎ話",
+    "zh": "冬日童话"
    },
    "bg": "#182F61",
    "pictures": [
@@ -590,7 +1118,23 @@
      "name": {
       "en": "Polar Bear",
       "tr": "Kutup Ayısı",
-      "de": "Eisbär"
+      "de": "Eisbär",
+      "id": "Beruang Kutub",
+      "es": "Oso polar",
+      "fr": "Ours polaire",
+      "it": "Orso polare",
+      "nl": "IJsbeer",
+      "pl": "Niedźwiedź polarny",
+      "pt": "Urso-polar",
+      "vi": "Gấu Bắc Cực",
+      "ru": "Белый медведь",
+      "uk": "Білий ведмідь",
+      "ar": "دب قطبي",
+      "hi": "ध्रुवीय भालू",
+      "th": "หมีขั้วโลก",
+      "ko": "북극곰",
+      "ja": "シロクマ",
+      "zh": "北极熊"
      }
     },
     {
@@ -601,7 +1145,23 @@
      "name": {
       "en": "Snowflake",
       "tr": "Kar Tanesi",
-      "de": "Schneeflocke"
+      "de": "Schneeflocke",
+      "id": "Kepingan Salju",
+      "es": "Copo de nieve",
+      "fr": "Flocon de neige",
+      "it": "Fiocco di neve",
+      "nl": "Sneeuwvlok",
+      "pl": "Płatek śniegu",
+      "pt": "Floco de neve",
+      "vi": "Bông tuyết",
+      "ru": "Снежинка",
+      "uk": "Сніжинка",
+      "ar": "ندفة ثلج",
+      "hi": "बर्फ़ का फाहा",
+      "th": "เกล็ดหิมะ",
+      "ko": "눈송이",
+      "ja": "雪の結晶",
+      "zh": "雪花"
      }
     },
     {
@@ -612,7 +1172,23 @@
      "name": {
       "en": "Reindeer",
       "tr": "Ren Geyiği",
-      "de": "Rentier"
+      "de": "Rentier",
+      "id": "Rusa Kutub",
+      "es": "Reno",
+      "fr": "Renne",
+      "it": "Renna",
+      "nl": "Rendier",
+      "pl": "Renifer",
+      "pt": "Rena",
+      "vi": "Tuần lộc",
+      "ru": "Северный олень",
+      "uk": "Північний олень",
+      "ar": "رنّة",
+      "hi": "रेनडियर",
+      "th": "กวางเรนเดียร์",
+      "ko": "순록",
+      "ja": "トナカイ",
+      "zh": "驯鹿"
      }
     },
     {
@@ -623,7 +1199,23 @@
      "name": {
       "en": "Penguin",
       "tr": "Penguen",
-      "de": "Pinguin"
+      "de": "Pinguin",
+      "id": "Penguin",
+      "es": "Pingüino",
+      "fr": "Manchot",
+      "it": "Pinguino",
+      "nl": "Pinguïn",
+      "pl": "Pingwin",
+      "pt": "Pinguim",
+      "vi": "Chim cánh cụt",
+      "ru": "Пингвин",
+      "uk": "Пінгвін",
+      "ar": "بطريق",
+      "hi": "पेंगुइन",
+      "th": "เพนกวิน",
+      "ko": "펭귄",
+      "ja": "ペンギン",
+      "zh": "企鹅"
      }
     },
     {
@@ -634,7 +1226,23 @@
      "name": {
       "en": "Winter Cottage",
       "tr": "Kış Kulübesi",
-      "de": "Winterhütte"
+      "de": "Winterhütte",
+      "id": "Rumah Musim Dingin",
+      "es": "Casita de invierno",
+      "fr": "Cottage d'hiver",
+      "it": "Casetta d'inverno",
+      "nl": "Winterhuisje",
+      "pl": "Zimowy domek",
+      "pt": "Chalé de inverno",
+      "vi": "Nhà nhỏ mùa đông",
+      "ru": "Зимний коттедж",
+      "uk": "Зимовий котедж",
+      "ar": "بيت ريفي شتوي",
+      "hi": "सर्दियों का कॉटेज",
+      "th": "บ้านน้อยฤดูหนาว",
+      "ko": "겨울 별장",
+      "ja": "冬のコテージ",
+      "zh": "冬日农舍"
      }
     },
     {
@@ -645,7 +1253,23 @@
      "name": {
       "en": "Winter Castle",
       "tr": "Kış Şatosu",
-      "de": "Winterschloss"
+      "de": "Winterschloss",
+      "id": "Kastel Musim Dingin",
+      "es": "Castillo de invierno",
+      "fr": "Château d'hiver",
+      "it": "Castello d'inverno",
+      "nl": "Winterkasteel",
+      "pl": "Zimowy zamek",
+      "pt": "Castelo de inverno",
+      "vi": "Lâu đài mùa đông",
+      "ru": "Зимний замок",
+      "uk": "Зимовий замок",
+      "ar": "قلعة الشتاء",
+      "hi": "सर्दियों का महल",
+      "th": "ปราสาทฤดูหนาว",
+      "ko": "겨울 성",
+      "ja": "冬のお城",
+      "zh": "冬日城堡"
      }
     },
     {
@@ -656,7 +1280,23 @@
      "name": {
       "en": "Snowman",
       "tr": "Kardan Adam",
-      "de": "Schneemann"
+      "de": "Schneemann",
+      "id": "Manusia Salju",
+      "es": "Muñeco de nieve",
+      "fr": "Bonhomme de neige",
+      "it": "Pupazzo di neve",
+      "nl": "Sneeuwpop",
+      "pl": "Bałwan",
+      "pt": "Boneco de neve",
+      "vi": "Người tuyết",
+      "ru": "Снеговик",
+      "uk": "Сніговик",
+      "ar": "رجل الثلج",
+      "hi": "स्नोमैन",
+      "th": "ตุ๊กตาหิมะ",
+      "ko": "눈사람",
+      "ja": "雪だるま",
+      "zh": "雪人"
      }
     }
    ],
@@ -720,7 +1360,23 @@
    "name": {
     "en": "Fairy Tale Land",
     "tr": "Masal Diyarı",
-    "de": "Märchenland"
+    "de": "Märchenland",
+    "id": "Negeri Dongeng",
+    "es": "País de cuento",
+    "fr": "Pays des contes",
+    "it": "Terra delle fiabe",
+    "nl": "Sprookjesland",
+    "pl": "Kraina baśni",
+    "pt": "Terra dos contos",
+    "vi": "Xứ cổ tích",
+    "ru": "Сказочная страна",
+    "uk": "Казкова країна",
+    "ar": "أرض الحكايات",
+    "hi": "परीकथा का देश",
+    "th": "ดินแดนเทพนิยาย",
+    "ko": "동화 나라",
+    "ja": "おとぎの国",
+    "zh": "童话王国"
    },
    "bg": "#391C64",
    "pictures": [
@@ -732,7 +1388,23 @@
      "name": {
       "en": "Crown",
       "tr": "Taç",
-      "de": "Krone"
+      "de": "Krone",
+      "id": "Mahkota",
+      "es": "Corona",
+      "fr": "Couronne",
+      "it": "Corona",
+      "nl": "Kroon",
+      "pl": "Korona",
+      "pt": "Coroa",
+      "vi": "Vương miện",
+      "ru": "Корона",
+      "uk": "Корона",
+      "ar": "تاج",
+      "hi": "ताज",
+      "th": "มงกุฎ",
+      "ko": "왕관",
+      "ja": "かんむり",
+      "zh": "王冠"
      }
     },
     {
@@ -743,7 +1415,23 @@
      "name": {
       "en": "Dragon",
       "tr": "Ejderha",
-      "de": "Drache"
+      "de": "Drache",
+      "id": "Naga",
+      "es": "Dragón",
+      "fr": "Dragon",
+      "it": "Drago",
+      "nl": "Draak",
+      "pl": "Smok",
+      "pt": "Dragão",
+      "vi": "Rồng",
+      "ru": "Дракон",
+      "uk": "Дракон",
+      "ar": "تنين",
+      "hi": "ड्रैगन",
+      "th": "มังกร",
+      "ko": "드래곤",
+      "ja": "ドラゴン",
+      "zh": "龙"
      }
     },
     {
@@ -754,7 +1442,23 @@
      "name": {
       "en": "Magic Lamp",
       "tr": "Sihirli Lamba",
-      "de": "Wunderlampe"
+      "de": "Wunderlampe",
+      "id": "Lampu Ajaib",
+      "es": "Lámpara mágica",
+      "fr": "Lampe magique",
+      "it": "Lampada magica",
+      "nl": "Wonderlamp",
+      "pl": "Magiczna lampa",
+      "pt": "Lâmpada mágica",
+      "vi": "Đèn thần",
+      "ru": "Волшебная лампа",
+      "uk": "Чарівна лампа",
+      "ar": "المصباح السحري",
+      "hi": "जादुई चिराग",
+      "th": "ตะเกียงวิเศษ",
+      "ko": "요술 램프",
+      "ja": "魔法のランプ",
+      "zh": "神灯"
      }
     },
     {
@@ -765,7 +1469,23 @@
      "name": {
       "en": "Unicorn",
       "tr": "Tek Boynuzlu At",
-      "de": "Einhorn"
+      "de": "Einhorn",
+      "id": "Unicorn",
+      "es": "Unicornio",
+      "fr": "Licorne",
+      "it": "Unicorno",
+      "nl": "Eenhoorn",
+      "pl": "Jednorożec",
+      "pt": "Unicórnio",
+      "vi": "Kỳ lân",
+      "ru": "Единорог",
+      "uk": "Єдиноріг",
+      "ar": "يونيكورن",
+      "hi": "यूनिकॉर्न",
+      "th": "ยูนิคอร์น",
+      "ko": "유니콘",
+      "ja": "ユニコーン",
+      "zh": "独角兽"
      }
     },
     {
@@ -776,7 +1496,23 @@
      "name": {
       "en": "Glass Slipper",
       "tr": "Cam Ayakkabı",
-      "de": "Gläserner Schuh"
+      "de": "Gläserner Schuh",
+      "id": "Sepatu Kaca",
+      "es": "Zapatito de cristal",
+      "fr": "Pantoufle de verre",
+      "it": "Scarpetta di cristallo",
+      "nl": "Glazen muiltje",
+      "pl": "Szklany pantofelek",
+      "pt": "Sapatinho de cristal",
+      "vi": "Giày thủy tinh",
+      "ru": "Хрустальная туфелька",
+      "uk": "Кришталевий черевичок",
+      "ar": "الحذاء الزجاجي",
+      "hi": "काँच की जूती",
+      "th": "รองเท้าแก้ว",
+      "ko": "유리 구두",
+      "ja": "ガラスの靴",
+      "zh": "水晶鞋"
      }
     },
     {
@@ -787,7 +1523,23 @@
      "name": {
       "en": "Pegasus",
       "tr": "Pegasus",
-      "de": "Pegasus"
+      "de": "Pegasus",
+      "id": "Pegasus",
+      "es": "Pegaso",
+      "fr": "Pégase",
+      "it": "Pegaso",
+      "nl": "Pegasus",
+      "pl": "Pegaz",
+      "pt": "Pégaso",
+      "vi": "Ngựa Pegasus",
+      "ru": "Пегас",
+      "uk": "Пегас",
+      "ar": "الحصان المجنّح",
+      "hi": "पंखों वाला घोड़ा",
+      "th": "ม้าเพกาซัส",
+      "ko": "페가수스",
+      "ja": "ペガサス",
+      "zh": "飞马"
      }
     },
     {
@@ -798,7 +1550,23 @@
      "name": {
       "en": "Fairy",
       "tr": "Peri",
-      "de": "Fee"
+      "de": "Fee",
+      "id": "Peri",
+      "es": "Hada",
+      "fr": "Fée",
+      "it": "Fata",
+      "nl": "Fee",
+      "pl": "Wróżka",
+      "pt": "Fada",
+      "vi": "Nàng tiên",
+      "ru": "Фея",
+      "uk": "Фея",
+      "ar": "جنية",
+      "hi": "परी",
+      "th": "นางฟ้า",
+      "ko": "요정",
+      "ja": "妖精",
+      "zh": "仙女"
      }
     }
    ],
@@ -862,7 +1630,23 @@
    "name": {
     "en": "Safari",
     "tr": "Safari",
-    "de": "Safari"
+    "de": "Safari",
+    "id": "Safari",
+    "es": "Safari",
+    "fr": "Safari",
+    "it": "Safari",
+    "nl": "Safari",
+    "pl": "Safari",
+    "pt": "Safári",
+    "vi": "Safari",
+    "ru": "Сафари",
+    "uk": "Сафарі",
+    "ar": "سفاري",
+    "hi": "सफ़ारी",
+    "th": "ซาฟารี",
+    "ko": "사파리",
+    "ja": "サファリ",
+    "zh": "草原探险"
    },
    "bg": "#562309",
    "pictures": [
@@ -874,7 +1658,23 @@
      "name": {
       "en": "Elephant",
       "tr": "Fil",
-      "de": "Elefant"
+      "de": "Elefant",
+      "id": "Gajah",
+      "es": "Elefante",
+      "fr": "Éléphant",
+      "it": "Elefante",
+      "nl": "Olifant",
+      "pl": "Słoń",
+      "pt": "Elefante",
+      "vi": "Voi",
+      "ru": "Слон",
+      "uk": "Слон",
+      "ar": "فيل",
+      "hi": "हाथी",
+      "th": "ช้าง",
+      "ko": "코끼리",
+      "ja": "ゾウ",
+      "zh": "大象"
      }
     },
     {
@@ -885,7 +1685,23 @@
      "name": {
       "en": "Rhino",
       "tr": "Gergedan",
-      "de": "Nashorn"
+      "de": "Nashorn",
+      "id": "Badak",
+      "es": "Rinoceronte",
+      "fr": "Rhinocéros",
+      "it": "Rinoceronte",
+      "nl": "Neushoorn",
+      "pl": "Nosorożec",
+      "pt": "Rinoceronte",
+      "vi": "Tê giác",
+      "ru": "Носорог",
+      "uk": "Носоріг",
+      "ar": "وحيد القرن",
+      "hi": "गैंडा",
+      "th": "แรด",
+      "ko": "코뿔소",
+      "ja": "サイ",
+      "zh": "犀牛"
      }
     },
     {
@@ -896,7 +1712,23 @@
      "name": {
       "en": "Kangaroo",
       "tr": "Kanguru",
-      "de": "Känguru"
+      "de": "Känguru",
+      "id": "Kanguru",
+      "es": "Canguro",
+      "fr": "Kangourou",
+      "it": "Canguro",
+      "nl": "Kangoeroe",
+      "pl": "Kangur",
+      "pt": "Canguru",
+      "vi": "Chuột túi",
+      "ru": "Кенгуру",
+      "uk": "Кенгуру",
+      "ar": "كنغر",
+      "hi": "कंगारू",
+      "th": "จิงโจ้",
+      "ko": "캥거루",
+      "ja": "カンガルー",
+      "zh": "袋鼠"
      }
     },
     {
@@ -907,7 +1739,23 @@
      "name": {
       "en": "Zebra",
       "tr": "Zebra",
-      "de": "Zebra"
+      "de": "Zebra",
+      "id": "Zebra",
+      "es": "Cebra",
+      "fr": "Zèbre",
+      "it": "Zebra",
+      "nl": "Zebra",
+      "pl": "Zebra",
+      "pt": "Zebra",
+      "vi": "Ngựa vằn",
+      "ru": "Зебра",
+      "uk": "Зебра",
+      "ar": "حمار وحشي",
+      "hi": "ज़ेब्रा",
+      "th": "ม้าลาย",
+      "ko": "얼룩말",
+      "ja": "シマウマ",
+      "zh": "斑马"
      }
     },
     {
@@ -918,7 +1766,23 @@
      "name": {
       "en": "Giraffe",
       "tr": "Zürafa",
-      "de": "Giraffe"
+      "de": "Giraffe",
+      "id": "Jerapah",
+      "es": "Jirafa",
+      "fr": "Girafe",
+      "it": "Giraffa",
+      "nl": "Giraf",
+      "pl": "Żyrafa",
+      "pt": "Girafa",
+      "vi": "Hươu cao cổ",
+      "ru": "Жираф",
+      "uk": "Жираф",
+      "ar": "زرافة",
+      "hi": "जिराफ़",
+      "th": "ยีราฟ",
+      "ko": "기린",
+      "ja": "キリン",
+      "zh": "长颈鹿"
      }
     },
     {
@@ -929,7 +1793,23 @@
      "name": {
       "en": "Mother & Baby Elephant",
       "tr": "Anne ve Yavru Fil",
-      "de": "Elefantenmutter und Kind"
+      "de": "Elefantenmutter und Kind",
+      "id": "Induk & Anak Gajah",
+      "es": "Elefanta y su cría",
+      "fr": "Éléphante et son petit",
+      "it": "Mamma elefante e cucciolo",
+      "nl": "Olifant met kalfje",
+      "pl": "Słonica ze słoniątkiem",
+      "pt": "Elefanta e filhote",
+      "vi": "Voi mẹ & Voi con",
+      "ru": "Слониха со слонёнком",
+      "uk": "Слониця зі слоненям",
+      "ar": "فيلة وصغيرها",
+      "hi": "हथिनी और बच्चा",
+      "th": "แม่ช้างกับลูก",
+      "ko": "엄마 코끼리와 아기 코끼리",
+      "ja": "ゾウの親子",
+      "zh": "大象妈妈和宝宝"
      }
     },
     {
@@ -940,7 +1820,23 @@
      "name": {
       "en": "Lion",
       "tr": "Aslan",
-      "de": "Löwe"
+      "de": "Löwe",
+      "id": "Singa",
+      "es": "León",
+      "fr": "Lion",
+      "it": "Leone",
+      "nl": "Leeuw",
+      "pl": "Lew",
+      "pt": "Leão",
+      "vi": "Sư tử",
+      "ru": "Лев",
+      "uk": "Лев",
+      "ar": "أسد",
+      "hi": "शेर",
+      "th": "สิงโต",
+      "ko": "사자",
+      "ja": "ライオン",
+      "zh": "狮子"
      }
     }
    ],
@@ -1004,7 +1900,23 @@
    "name": {
     "en": "World Wonders",
     "tr": "Dünya Harikaları",
-    "de": "Weltwunder"
+    "de": "Weltwunder",
+    "id": "Keajaiban Dunia",
+    "es": "Maravillas del mundo",
+    "fr": "Merveilles du monde",
+    "it": "Meraviglie del mondo",
+    "nl": "Wereldwonderen",
+    "pl": "Cuda świata",
+    "pt": "Maravilhas do mundo",
+    "vi": "Kỳ quan",
+    "ru": "Чудеса мира",
+    "uk": "Дива світу",
+    "ar": "عجائب العالم",
+    "hi": "दुनिया के अजूबे",
+    "th": "สิ่งมหัศจรรย์โลก",
+    "ko": "세계의 명소",
+    "ja": "世界の名所",
+    "zh": "世界奇迹"
    },
    "bg": "#502A51",
    "pictures": [
@@ -1016,7 +1928,23 @@
      "name": {
       "en": "Eiffel Tower",
       "tr": "Eyfel Kulesi",
-      "de": "Eiffelturm"
+      "de": "Eiffelturm",
+      "id": "Menara Eiffel",
+      "es": "Torre Eiffel",
+      "fr": "Tour Eiffel",
+      "it": "Torre Eiffel",
+      "nl": "Eiffeltoren",
+      "pl": "Wieża Eiffla",
+      "pt": "Torre Eiffel",
+      "vi": "Tháp Eiffel",
+      "ru": "Эйфелева башня",
+      "uk": "Ейфелева вежа",
+      "ar": "برج إيفل",
+      "hi": "एफ़िल टावर",
+      "th": "หอไอเฟล",
+      "ko": "에펠탑",
+      "ja": "エッフェル塔",
+      "zh": "埃菲尔铁塔"
      }
     },
     {
@@ -1027,7 +1955,23 @@
      "name": {
       "en": "Taj Mahal",
       "tr": "Tac Mahal",
-      "de": "Taj Mahal"
+      "de": "Taj Mahal",
+      "id": "Taj Mahal",
+      "es": "Taj Mahal",
+      "fr": "Taj Mahal",
+      "it": "Taj Mahal",
+      "nl": "Taj Mahal",
+      "pl": "Tadż Mahal",
+      "pt": "Taj Mahal",
+      "vi": "Taj Mahal",
+      "ru": "Тадж-Махал",
+      "uk": "Тадж-Махал",
+      "ar": "تاج محل",
+      "hi": "ताज महल",
+      "th": "ทัชมาฮาล",
+      "ko": "타지마할",
+      "ja": "タージ・マハル",
+      "zh": "泰姬陵"
      }
     },
     {
@@ -1038,7 +1982,23 @@
      "name": {
       "en": "Statue of Liberty",
       "tr": "Özgürlük Heykeli",
-      "de": "Freiheitsstatue"
+      "de": "Freiheitsstatue",
+      "id": "Patung Liberty",
+      "es": "Estatua de la Libertad",
+      "fr": "Statue de la Liberté",
+      "it": "Statua della Libertà",
+      "nl": "Vrijheidsbeeld",
+      "pl": "Statua Wolności",
+      "pt": "Estátua da Liberdade",
+      "vi": "Tượng Nữ thần Tự do",
+      "ru": "Статуя Свободы",
+      "uk": "Статуя Свободи",
+      "ar": "تمثال الحرية",
+      "hi": "स्टैच्यू ऑफ़ लिबर्टी",
+      "th": "เทพีเสรีภาพ",
+      "ko": "자유의 여신상",
+      "ja": "自由の女神",
+      "zh": "自由女神像"
      }
     },
     {
@@ -1049,7 +2009,23 @@
      "name": {
       "en": "Galata Tower",
       "tr": "Galata Kulesi",
-      "de": "Galataturm"
+      "de": "Galataturm",
+      "id": "Menara Galata",
+      "es": "Torre de Gálata",
+      "fr": "Tour de Galata",
+      "it": "Torre di Galata",
+      "nl": "Galatatoren",
+      "pl": "Wieża Galata",
+      "pt": "Torre de Gálata",
+      "vi": "Tháp Galata",
+      "ru": "Галатская башня",
+      "uk": "Галатська вежа",
+      "ar": "برج غلطة",
+      "hi": "गलाटा टावर",
+      "th": "หอคอยกาลาตา",
+      "ko": "갈라타 탑",
+      "ja": "ガラタ塔",
+      "zh": "加拉塔塔"
      }
     },
     {
@@ -1060,7 +2036,23 @@
      "name": {
       "en": "Sydney Opera House",
       "tr": "Sidney Opera Binası",
-      "de": "Opernhaus Sydney"
+      "de": "Opernhaus Sydney",
+      "id": "Gedung Opera Sydney",
+      "es": "Ópera de Sídney",
+      "fr": "Opéra de Sydney",
+      "it": "Opera House di Sydney",
+      "nl": "Opera van Sydney",
+      "pl": "Opera w Sydney",
+      "pt": "Ópera de Sydney",
+      "vi": "Nhà hát Opera Sydney",
+      "ru": "Сиднейская опера",
+      "uk": "Сіднейська опера",
+      "ar": "دار أوبرا سيدني",
+      "hi": "सिडनी ओपेरा हाउस",
+      "th": "โรงอุปรากรซิดนีย์",
+      "ko": "시드니 오페라 하우스",
+      "ja": "シドニー・オペラハウス",
+      "zh": "悉尼歌剧院"
      }
     },
     {
@@ -1071,7 +2063,23 @@
      "name": {
       "en": "Pyramids of Giza",
       "tr": "Gize Piramitleri",
-      "de": "Pyramiden von Gizeh"
+      "de": "Pyramiden von Gizeh",
+      "id": "Piramida Giza",
+      "es": "Pirámides de Guiza",
+      "fr": "Pyramides de Gizeh",
+      "it": "Piramidi di Giza",
+      "nl": "Piramides van Gizeh",
+      "pl": "Piramidy w Gizie",
+      "pt": "Pirâmides de Gizé",
+      "vi": "Kim tự tháp Giza",
+      "ru": "Пирамиды Гизы",
+      "uk": "Піраміди Гізи",
+      "ar": "أهرامات الجيزة",
+      "hi": "गीज़ा के पिरामिड",
+      "th": "พีระมิดแห่งกิซา",
+      "ko": "기자의 피라미드",
+      "ja": "ギザのピラミッド",
+      "zh": "吉萨金字塔"
      }
     },
     {
@@ -1082,7 +2090,23 @@
      "name": {
       "en": "Big Ben",
       "tr": "Big Ben",
-      "de": "Big Ben"
+      "de": "Big Ben",
+      "id": "Big Ben",
+      "es": "Big Ben",
+      "fr": "Big Ben",
+      "it": "Big Ben",
+      "nl": "Big Ben",
+      "pl": "Big Ben",
+      "pt": "Big Ben",
+      "vi": "Big Ben",
+      "ru": "Биг-Бен",
+      "uk": "Біг-Бен",
+      "ar": "بيغ بن",
+      "hi": "बिग बेन",
+      "th": "บิ๊กเบน",
+      "ko": "빅벤",
+      "ja": "ビッグ・ベン",
+      "zh": "大本钟"
      }
     }
    ],
@@ -1146,7 +2170,23 @@
    "name": {
     "en": "Birds of the Sky",
     "tr": "Gökyüzü Kuşları",
-    "de": "Vögel des Himmels"
+    "de": "Vögel des Himmels",
+    "id": "Burung di Langit",
+    "es": "Aves del cielo",
+    "fr": "Oiseaux du ciel",
+    "it": "Uccelli del cielo",
+    "nl": "Vogels van de lucht",
+    "pl": "Ptaki nieba",
+    "pt": "Pássaros do céu",
+    "vi": "Chim trời",
+    "ru": "Птицы в небе",
+    "uk": "Птахи в небі",
+    "ar": "طيور السماء",
+    "hi": "आसमान के पक्षी",
+    "th": "นกบนฟ้า",
+    "ko": "하늘의 새",
+    "ja": "空の鳥",
+    "zh": "天空之鸟"
    },
    "bg": "#475572",
    "pictures": [
@@ -1158,7 +2198,23 @@
      "name": {
       "en": "Swallow",
       "tr": "Kırlangıç",
-      "de": "Schwalbe"
+      "de": "Schwalbe",
+      "id": "Burung Walet",
+      "es": "Golondrina",
+      "fr": "Hirondelle",
+      "it": "Rondine",
+      "nl": "Zwaluw",
+      "pl": "Jaskółka",
+      "pt": "Andorinha",
+      "vi": "Chim én",
+      "ru": "Ласточка",
+      "uk": "Ластівка",
+      "ar": "سنونو",
+      "hi": "अबाबील",
+      "th": "นกนางแอ่น",
+      "ko": "제비",
+      "ja": "ツバメ",
+      "zh": "燕子"
      }
     },
     {
@@ -1169,7 +2225,23 @@
      "name": {
       "en": "Eagle",
       "tr": "Kartal",
-      "de": "Adler"
+      "de": "Adler",
+      "id": "Elang",
+      "es": "Águila",
+      "fr": "Aigle",
+      "it": "Aquila",
+      "nl": "Arend",
+      "pl": "Orzeł",
+      "pt": "Águia",
+      "vi": "Đại bàng",
+      "ru": "Орёл",
+      "uk": "Орел",
+      "ar": "نسر",
+      "hi": "चील",
+      "th": "นกอินทรี",
+      "ko": "독수리",
+      "ja": "ワシ",
+      "zh": "老鹰"
      }
     },
     {
@@ -1180,7 +2252,23 @@
      "name": {
       "en": "Stork",
       "tr": "Leylek",
-      "de": "Storch"
+      "de": "Storch",
+      "id": "Bangau Putih",
+      "es": "Cigüeña",
+      "fr": "Cigogne",
+      "it": "Cicogna",
+      "nl": "Ooievaar",
+      "pl": "Bocian",
+      "pt": "Cegonha",
+      "vi": "Cò",
+      "ru": "Аист",
+      "uk": "Лелека",
+      "ar": "لقلق",
+      "hi": "सारस",
+      "th": "นกกระสา",
+      "ko": "황새",
+      "ja": "コウノトリ",
+      "zh": "鹳"
      }
     },
     {
@@ -1191,7 +2279,23 @@
      "name": {
       "en": "Parrot",
       "tr": "Papağan",
-      "de": "Papagei"
+      "de": "Papagei",
+      "id": "Burung Beo",
+      "es": "Loro",
+      "fr": "Perroquet",
+      "it": "Pappagallo",
+      "nl": "Papegaai",
+      "pl": "Papuga",
+      "pt": "Papagaio",
+      "vi": "Vẹt",
+      "ru": "Попугай",
+      "uk": "Папуга",
+      "ar": "ببغاء",
+      "hi": "तोता",
+      "th": "นกแก้ว",
+      "ko": "앵무새",
+      "ja": "オウム",
+      "zh": "鹦鹉"
      }
     },
     {
@@ -1202,7 +2306,23 @@
      "name": {
       "en": "Peacock",
       "tr": "Tavus Kuşu",
-      "de": "Pfau"
+      "de": "Pfau",
+      "id": "Merak",
+      "es": "Pavo real",
+      "fr": "Paon",
+      "it": "Pavone",
+      "nl": "Pauw",
+      "pl": "Paw",
+      "pt": "Pavão",
+      "vi": "Chim công",
+      "ru": "Павлин",
+      "uk": "Павич",
+      "ar": "طاووس",
+      "hi": "मोर",
+      "th": "นกยูง",
+      "ko": "공작",
+      "ja": "クジャク",
+      "zh": "孔雀"
      }
     },
     {
@@ -1213,7 +2333,23 @@
      "name": {
       "en": "Phoenix",
       "tr": "Anka Kuşu",
-      "de": "Phönix"
+      "de": "Phönix",
+      "id": "Burung Phoenix",
+      "es": "Fénix",
+      "fr": "Phénix",
+      "it": "Fenice",
+      "nl": "Feniks",
+      "pl": "Feniks",
+      "pt": "Fênix",
+      "vi": "Phượng hoàng",
+      "ru": "Феникс",
+      "uk": "Фенікс",
+      "ar": "العنقاء",
+      "hi": "फ़ीनिक्स",
+      "th": "นกฟีนิกซ์",
+      "ko": "불사조",
+      "ja": "不死鳥",
+      "zh": "凤凰"
      }
     },
     {
@@ -1224,7 +2360,23 @@
      "name": {
       "en": "Flamingo",
       "tr": "Flamingo",
-      "de": "Flamingo"
+      "de": "Flamingo",
+      "id": "Flamingo",
+      "es": "Flamenco",
+      "fr": "Flamant rose",
+      "it": "Fenicottero",
+      "nl": "Flamingo",
+      "pl": "Flaming",
+      "pt": "Flamingo",
+      "vi": "Hồng hạc",
+      "ru": "Фламинго",
+      "uk": "Фламінго",
+      "ar": "فلامنغو",
+      "hi": "फ़्लेमिंगो",
+      "th": "นกฟลามิงโก",
+      "ko": "플라밍고",
+      "ja": "フラミンゴ",
+      "zh": "火烈鸟"
      }
     }
    ],
@@ -1288,7 +2440,23 @@
    "name": {
     "en": "Sweet Patisserie",
     "tr": "Tatlı Pastane",
-    "de": "Süße Konditorei"
+    "de": "Süße Konditorei",
+    "id": "Toko Kue Manis",
+    "es": "Dulce pastelería",
+    "fr": "Douce pâtisserie",
+    "it": "Dolce pasticceria",
+    "nl": "Zoete patisserie",
+    "pl": "Słodka cukiernia",
+    "pt": "Doce confeitaria",
+    "vi": "Tiệm bánh ngọt",
+    "ru": "Сладкая кондитерская",
+    "uk": "Солодка кондитерська",
+    "ar": "محل الحلويات",
+    "hi": "मीठी पेस्ट्री दुकान",
+    "th": "ร้านขนมหวาน",
+    "ko": "달콤한 제과점",
+    "ja": "あまいパティスリー",
+    "zh": "甜蜜甜点店"
    },
    "bg": "#622D39",
    "pictures": [
@@ -1300,7 +2468,23 @@
      "name": {
       "en": "Ice Cream",
       "tr": "Dondurma",
-      "de": "Eiscreme"
+      "de": "Eiscreme",
+      "id": "Es Krim",
+      "es": "Helado",
+      "fr": "Glace",
+      "it": "Gelato",
+      "nl": "IJsje",
+      "pl": "Lody",
+      "pt": "Sorvete",
+      "vi": "Kem",
+      "ru": "Мороженое",
+      "uk": "Морозиво",
+      "ar": "آيس كريم",
+      "hi": "आइसक्रीम",
+      "th": "ไอศกรีม",
+      "ko": "아이스크림",
+      "ja": "アイスクリーム",
+      "zh": "冰淇淋"
      }
     },
     {
@@ -1311,7 +2495,23 @@
      "name": {
       "en": "Layer Cake",
       "tr": "Kat Pastası",
-      "de": "Etagentorte"
+      "de": "Etagentorte",
+      "id": "Kue Lapis",
+      "es": "Tarta de pisos",
+      "fr": "Gâteau à étages",
+      "it": "Torta a strati",
+      "nl": "Etagetaart",
+      "pl": "Tort piętrowy",
+      "pt": "Bolo de camadas",
+      "vi": "Bánh nhiều tầng",
+      "ru": "Многоярусный торт",
+      "uk": "Багатоярусний торт",
+      "ar": "كعكة بطبقات",
+      "hi": "लेयर केक",
+      "th": "เค้กหลายชั้น",
+      "ko": "레이어 케이크",
+      "ja": "デコレーションケーキ",
+      "zh": "千层蛋糕"
      }
     },
     {
@@ -1322,7 +2522,23 @@
      "name": {
       "en": "Croissant",
       "tr": "Kruvasan",
-      "de": "Croissant"
+      "de": "Croissant",
+      "id": "Croissant",
+      "es": "Cruasán",
+      "fr": "Croissant",
+      "it": "Cornetto",
+      "nl": "Croissant",
+      "pl": "Rogalik",
+      "pt": "Croissant",
+      "vi": "Bánh sừng bò",
+      "ru": "Круассан",
+      "uk": "Круасан",
+      "ar": "كرواسون",
+      "hi": "क्रोसाँ",
+      "th": "ครัวซองต์",
+      "ko": "크루아상",
+      "ja": "クロワッサン",
+      "zh": "可颂"
      }
     },
     {
@@ -1333,7 +2549,23 @@
      "name": {
       "en": "Teacup",
       "tr": "Çay Fincanı",
-      "de": "Teetasse"
+      "de": "Teetasse",
+      "id": "Cangkir Teh",
+      "es": "Taza de té",
+      "fr": "Tasse de thé",
+      "it": "Tazza da tè",
+      "nl": "Theekopje",
+      "pl": "Filiżanka",
+      "pt": "Xícara de chá",
+      "vi": "Tách trà",
+      "ru": "Чашка чая",
+      "uk": "Чашка чаю",
+      "ar": "فنجان شاي",
+      "hi": "चाय का कप",
+      "th": "ถ้วยชา",
+      "ko": "찻잔",
+      "ja": "ティーカップ",
+      "zh": "茶杯"
      }
     },
     {
@@ -1344,7 +2576,23 @@
      "name": {
       "en": "Teapot",
       "tr": "Çaydanlık",
-      "de": "Teekanne"
+      "de": "Teekanne",
+      "id": "Teko",
+      "es": "Tetera",
+      "fr": "Théière",
+      "it": "Teiera",
+      "nl": "Theepot",
+      "pl": "Czajniczek",
+      "pt": "Bule",
+      "vi": "Ấm trà",
+      "ru": "Чайник",
+      "uk": "Чайник",
+      "ar": "إبريق شاي",
+      "hi": "चायदानी",
+      "th": "กาน้ำชา",
+      "ko": "찻주전자",
+      "ja": "ティーポット",
+      "zh": "茶壶"
      }
     },
     {
@@ -1355,7 +2603,23 @@
      "name": {
       "en": "Afternoon Tea",
       "tr": "İkindi Çayı",
-      "de": "Nachmittagstee"
+      "de": "Nachmittagstee",
+      "id": "Teh Sore",
+      "es": "Té de la tarde",
+      "fr": "Thé de l'après-midi",
+      "it": "Tè del pomeriggio",
+      "nl": "Afternoon tea",
+      "pl": "Popołudniowa herbata",
+      "pt": "Chá da tarde",
+      "vi": "Trà chiều",
+      "ru": "Послеобеденный чай",
+      "uk": "Післяобідній чай",
+      "ar": "شاي العصر",
+      "hi": "दोपहर की चाय",
+      "th": "น้ำชายามบ่าย",
+      "ko": "애프터눈 티",
+      "ja": "アフタヌーンティー",
+      "zh": "下午茶"
      }
     },
     {
@@ -1366,7 +2630,23 @@
      "name": {
       "en": "Cupcake",
       "tr": "Kupkek",
-      "de": "Cupcake"
+      "de": "Cupcake",
+      "id": "Cupcake",
+      "es": "Cupcake",
+      "fr": "Cupcake",
+      "it": "Cupcake",
+      "nl": "Cupcake",
+      "pl": "Babeczka",
+      "pt": "Cupcake",
+      "vi": "Bánh cupcake",
+      "ru": "Капкейк",
+      "uk": "Капкейк",
+      "ar": "كب كيك",
+      "hi": "कपकेक",
+      "th": "คัพเค้ก",
+      "ko": "컵케이크",
+      "ja": "カップケーキ",
+      "zh": "纸杯蛋糕"
      }
     }
    ],
@@ -1430,7 +2710,23 @@
    "name": {
     "en": "Japanese Garden",
     "tr": "Japon Bahçesi",
-    "de": "Japanischer Garten"
+    "de": "Japanischer Garten",
+    "id": "Taman Jepang",
+    "es": "Jardín japonés",
+    "fr": "Jardin japonais",
+    "it": "Giardino giapponese",
+    "nl": "Japanse tuin",
+    "pl": "Japoński ogród",
+    "pt": "Jardim japonês",
+    "vi": "Vườn Nhật Bản",
+    "ru": "Японский сад",
+    "uk": "Японський сад",
+    "ar": "الحديقة اليابانية",
+    "hi": "जापानी बगीचा",
+    "th": "สวนญี่ปุ่น",
+    "ko": "일본 정원",
+    "ja": "日本庭園",
+    "zh": "日式庭园"
    },
    "bg": "#4B1E33",
    "pictures": [
@@ -1442,7 +2738,23 @@
      "name": {
       "en": "Crane",
       "tr": "Turna",
-      "de": "Kranich"
+      "de": "Kranich",
+      "id": "Bangau",
+      "es": "Grulla",
+      "fr": "Grue",
+      "it": "Gru",
+      "nl": "Kraanvogel",
+      "pl": "Żuraw",
+      "pt": "Grou",
+      "vi": "Chim hạc",
+      "ru": "Журавль",
+      "uk": "Журавель",
+      "ar": "طائر الكركي",
+      "hi": "क्रेन पक्षी",
+      "th": "นกกระเรียน",
+      "ko": "학",
+      "ja": "ツル",
+      "zh": "仙鹤"
      }
     },
     {
@@ -1453,7 +2765,23 @@
      "name": {
       "en": "Bonsai",
       "tr": "Bonsai",
-      "de": "Bonsai"
+      "de": "Bonsai",
+      "id": "Bonsai",
+      "es": "Bonsái",
+      "fr": "Bonsaï",
+      "it": "Bonsai",
+      "nl": "Bonsai",
+      "pl": "Bonsai",
+      "pt": "Bonsai",
+      "vi": "Bonsai",
+      "ru": "Бонсай",
+      "uk": "Бонсай",
+      "ar": "بونساي",
+      "hi": "बोनसाई",
+      "th": "บอนไซ",
+      "ko": "분재",
+      "ja": "盆栽",
+      "zh": "盆景"
      }
     },
     {
@@ -1464,7 +2792,23 @@
      "name": {
       "en": "Hand Fan",
       "tr": "Yelpaze",
-      "de": "Fächer"
+      "de": "Fächer",
+      "id": "Kipas Tangan",
+      "es": "Abanico",
+      "fr": "Éventail",
+      "it": "Ventaglio",
+      "nl": "Waaier",
+      "pl": "Wachlarz",
+      "pt": "Leque",
+      "vi": "Quạt tay",
+      "ru": "Веер",
+      "uk": "Віяло",
+      "ar": "مروحة يد",
+      "hi": "हाथ का पंखा",
+      "th": "พัด",
+      "ko": "부채",
+      "ja": "扇子",
+      "zh": "折扇"
      }
     },
     {
@@ -1475,7 +2819,23 @@
      "name": {
       "en": "Paper Lantern",
       "tr": "Kâğıt Fener",
-      "de": "Papierlaterne"
+      "de": "Papierlaterne",
+      "id": "Lampion Kertas",
+      "es": "Farolillo de papel",
+      "fr": "Lanterne en papier",
+      "it": "Lanterna di carta",
+      "nl": "Papieren lampion",
+      "pl": "Papierowy lampion",
+      "pt": "Lanterna de papel",
+      "vi": "Đèn lồng giấy",
+      "ru": "Бумажный фонарик",
+      "uk": "Паперовий ліхтарик",
+      "ar": "فانوس ورقي",
+      "hi": "कागज़ की लालटेन",
+      "th": "โคมกระดาษ",
+      "ko": "종이 등불",
+      "ja": "ちょうちん",
+      "zh": "纸灯笼"
      }
     },
     {
@@ -1486,7 +2846,23 @@
      "name": {
       "en": "Arched Bridge",
       "tr": "Kemerli Köprü",
-      "de": "Bogenbrücke"
+      "de": "Bogenbrücke",
+      "id": "Jembatan Lengkung",
+      "es": "Puente en arco",
+      "fr": "Pont en arc",
+      "it": "Ponte ad arco",
+      "nl": "Boogbrug",
+      "pl": "Most łukowy",
+      "pt": "Ponte em arco",
+      "vi": "Cầu vòm",
+      "ru": "Арочный мост",
+      "uk": "Арковий міст",
+      "ar": "جسر مقوّس",
+      "hi": "मेहराबदार पुल",
+      "th": "สะพานโค้ง",
+      "ko": "아치형 다리",
+      "ja": "太鼓橋",
+      "zh": "拱桥"
      }
     },
     {
@@ -1497,7 +2873,23 @@
      "name": {
       "en": "Japanese Castle",
       "tr": "Japon Şatosu",
-      "de": "Japanische Burg"
+      "de": "Japanische Burg",
+      "id": "Kastel Jepang",
+      "es": "Castillo japonés",
+      "fr": "Château japonais",
+      "it": "Castello giapponese",
+      "nl": "Japans kasteel",
+      "pl": "Japoński zamek",
+      "pt": "Castelo japonês",
+      "vi": "Lâu đài Nhật Bản",
+      "ru": "Японский замок",
+      "uk": "Японський замок",
+      "ar": "قلعة يابانية",
+      "hi": "जापानी किला",
+      "th": "ปราสาทญี่ปุ่น",
+      "ko": "일본 성",
+      "ja": "日本の城",
+      "zh": "日本城堡"
      }
     },
     {
@@ -1508,7 +2900,23 @@
      "name": {
       "en": "Koi",
       "tr": "Koi Balığı",
-      "de": "Koi"
+      "de": "Koi",
+      "id": "Koi",
+      "es": "Carpa koi",
+      "fr": "Carpe koï",
+      "it": "Koi",
+      "nl": "Koi",
+      "pl": "Karp koi",
+      "pt": "Carpa koi",
+      "vi": "Cá koi",
+      "ru": "Карп кои",
+      "uk": "Короп кої",
+      "ar": "سمكة كوي",
+      "hi": "कोई मछली",
+      "th": "ปลาคาร์ป",
+      "ko": "잉어",
+      "ja": "鯉",
+      "zh": "锦鲤"
      }
     }
    ],
@@ -1572,7 +2980,23 @@
    "name": {
     "en": "Lighthouse Harbor",
     "tr": "Deniz Feneri Limanı",
-    "de": "Leuchtturmhafen"
+    "de": "Leuchtturmhafen",
+    "id": "Pelabuhan Mercusuar",
+    "es": "Puerto del faro",
+    "fr": "Port du phare",
+    "it": "Porto del faro",
+    "nl": "Vuurtorenhaven",
+    "pl": "Port z latarnią",
+    "pt": "Porto do farol",
+    "vi": "Cảng hải đăng",
+    "ru": "Гавань с маяком",
+    "uk": "Гавань із маяком",
+    "ar": "ميناء المنارة",
+    "hi": "लाइटहाउस बंदरगाह",
+    "th": "ท่าเรือประภาคาร",
+    "ko": "등대 항구",
+    "ja": "灯台のある港",
+    "zh": "灯塔港"
    },
    "bg": "#143852",
    "pictures": [
@@ -1584,7 +3008,23 @@
      "name": {
       "en": "Ship Wheel",
       "tr": "Dümen",
-      "de": "Steuerrad"
+      "de": "Steuerrad",
+      "id": "Kemudi Kapal",
+      "es": "Timón",
+      "fr": "Barre à roue",
+      "it": "Timone",
+      "nl": "Stuurwiel",
+      "pl": "Ster",
+      "pt": "Timão",
+      "vi": "Bánh lái tàu",
+      "ru": "Штурвал",
+      "uk": "Штурвал",
+      "ar": "دفة السفينة",
+      "hi": "जहाज़ का पहिया",
+      "th": "พวงมาลัยเรือ",
+      "ko": "조타륜",
+      "ja": "舵輪",
+      "zh": "船舵"
      }
     },
     {
@@ -1595,7 +3035,23 @@
      "name": {
       "en": "Anchor",
       "tr": "Çapa",
-      "de": "Anker"
+      "de": "Anker",
+      "id": "Jangkar",
+      "es": "Ancla",
+      "fr": "Ancre",
+      "it": "Ancora",
+      "nl": "Anker",
+      "pl": "Kotwica",
+      "pt": "Âncora",
+      "vi": "Mỏ neo",
+      "ru": "Якорь",
+      "uk": "Якір",
+      "ar": "مرساة",
+      "hi": "लंगर",
+      "th": "สมอเรือ",
+      "ko": "닻",
+      "ja": "いかり",
+      "zh": "船锚"
      }
     },
     {
@@ -1606,7 +3062,23 @@
      "name": {
       "en": "Steamboat",
       "tr": "Vapur",
-      "de": "Dampfer"
+      "de": "Dampfer",
+      "id": "Kapal Uap",
+      "es": "Barco de vapor",
+      "fr": "Bateau à vapeur",
+      "it": "Battello a vapore",
+      "nl": "Stoomboot",
+      "pl": "Parowiec",
+      "pt": "Barco a vapor",
+      "vi": "Tàu hơi nước",
+      "ru": "Пароход",
+      "uk": "Пароплав",
+      "ar": "باخرة",
+      "hi": "स्टीमर",
+      "th": "เรือกลไฟ",
+      "ko": "증기선",
+      "ja": "蒸気船",
+      "zh": "蒸汽船"
      }
     },
     {
@@ -1617,7 +3089,23 @@
      "name": {
       "en": "Lighthouse",
       "tr": "Deniz Feneri",
-      "de": "Leuchtturm"
+      "de": "Leuchtturm",
+      "id": "Mercusuar",
+      "es": "El faro",
+      "fr": "Le phare",
+      "it": "Faro",
+      "nl": "Vuurtoren",
+      "pl": "Latarnia morska",
+      "pt": "Farol",
+      "vi": "Ngọn hải đăng",
+      "ru": "Маяк",
+      "uk": "Маяк",
+      "ar": "المنارة",
+      "hi": "लाइटहाउस",
+      "th": "ประภาคาร",
+      "ko": "등대",
+      "ja": "灯台",
+      "zh": "灯塔"
      }
     },
     {
@@ -1628,7 +3116,23 @@
      "name": {
       "en": "Diving Helmet",
       "tr": "Dalgıç Kaskı",
-      "de": "Taucherhelm"
+      "de": "Taucherhelm",
+      "id": "Helm Selam",
+      "es": "Casco de buzo",
+      "fr": "Casque de scaphandrier",
+      "it": "Casco da palombaro",
+      "nl": "Duikhelm",
+      "pl": "Hełm nurka",
+      "pt": "Capacete de mergulho",
+      "vi": "Mũ lặn",
+      "ru": "Водолазный шлем",
+      "uk": "Водолазний шолом",
+      "ar": "خوذة الغوص",
+      "hi": "गोताखोर हेलमेट",
+      "th": "หมวกดำน้ำ",
+      "ko": "잠수 헬멧",
+      "ja": "潜水ヘルメット",
+      "zh": "潜水头盔"
      }
     },
     {
@@ -1639,7 +3143,23 @@
      "name": {
       "en": "Seaside Harbor",
       "tr": "Sahil Limanı",
-      "de": "Küstenhafen"
+      "de": "Küstenhafen",
+      "id": "Pelabuhan Tepi Laut",
+      "es": "Puerto costero",
+      "fr": "Port de mer",
+      "it": "Porto sul mare",
+      "nl": "Haven aan zee",
+      "pl": "Nadmorski port",
+      "pt": "Porto à beira-mar",
+      "vi": "Bến cảng ven biển",
+      "ru": "Морская гавань",
+      "uk": "Морська гавань",
+      "ar": "ميناء ساحلي",
+      "hi": "समुद्री बंदरगाह",
+      "th": "ท่าเรือริมทะเล",
+      "ko": "바닷가 항구",
+      "ja": "海辺の港",
+      "zh": "海滨港口"
      }
     },
     {
@@ -1650,7 +3170,23 @@
      "name": {
       "en": "Sailing Ship",
       "tr": "Yelkenli",
-      "de": "Segelschiff"
+      "de": "Segelschiff",
+      "id": "Kapal Layar",
+      "es": "Barco de vela",
+      "fr": "Voilier",
+      "it": "Veliero",
+      "nl": "Zeilschip",
+      "pl": "Żaglowiec",
+      "pt": "Veleiro",
+      "vi": "Tàu buồm",
+      "ru": "Парусник",
+      "uk": "Вітрильник",
+      "ar": "سفينة شراعية",
+      "hi": "पाल वाला जहाज़",
+      "th": "เรือใบ",
+      "ko": "범선",
+      "ja": "帆船",
+      "zh": "大帆船"
      }
     }
    ],
@@ -1714,7 +3250,23 @@
    "name": {
     "en": "Music Hall",
     "tr": "Müzik Salonu",
-    "de": "Konzertsaal"
+    "de": "Konzertsaal",
+    "id": "Gedung Musik",
+    "es": "Sala de conciertos",
+    "fr": "Salle de concert",
+    "it": "Sala da concerto",
+    "nl": "Concertzaal",
+    "pl": "Sala koncertowa",
+    "pt": "Sala de concertos",
+    "vi": "Nhà hát",
+    "ru": "Концертный зал",
+    "uk": "Концертна зала",
+    "ar": "قاعة الموسيقى",
+    "hi": "म्यूज़िक हॉल",
+    "th": "หอดนตรี",
+    "ko": "콘서트홀",
+    "ja": "コンサートホール",
+    "zh": "音乐厅"
    },
    "bg": "#411B10",
    "pictures": [
@@ -1726,7 +3278,23 @@
      "name": {
       "en": "Saxophone",
       "tr": "Saksafon",
-      "de": "Saxofon"
+      "de": "Saxofon",
+      "id": "Saksofon",
+      "es": "Saxofón",
+      "fr": "Saxophone",
+      "it": "Sassofono",
+      "nl": "Saxofoon",
+      "pl": "Saksofon",
+      "pt": "Saxofone",
+      "vi": "Kèn saxophone",
+      "ru": "Саксофон",
+      "uk": "Саксофон",
+      "ar": "ساكسفون",
+      "hi": "सैक्सोफ़ोन",
+      "th": "แซกโซโฟน",
+      "ko": "색소폰",
+      "ja": "サックス",
+      "zh": "萨克斯"
      }
     },
     {
@@ -1737,7 +3305,23 @@
      "name": {
       "en": "French Horn",
       "tr": "Korno",
-      "de": "Waldhorn"
+      "de": "Waldhorn",
+      "id": "Horn Prancis",
+      "es": "Trompa",
+      "fr": "Cor d'harmonie",
+      "it": "Corno francese",
+      "nl": "Hoorn",
+      "pl": "Waltornia",
+      "pt": "Trompa",
+      "vi": "Kèn cor",
+      "ru": "Валторна",
+      "uk": "Валторна",
+      "ar": "البوق الفرنسي",
+      "hi": "फ़्रेंच हॉर्न",
+      "th": "เฟรนช์ฮอร์น",
+      "ko": "호른",
+      "ja": "ホルン",
+      "zh": "圆号"
      }
     },
     {
@@ -1748,7 +3332,23 @@
      "name": {
       "en": "Gramophone",
       "tr": "Gramofon",
-      "de": "Grammofon"
+      "de": "Grammofon",
+      "id": "Gramofon",
+      "es": "Gramófono",
+      "fr": "Gramophone",
+      "it": "Grammofono",
+      "nl": "Grammofoon",
+      "pl": "Gramofon",
+      "pt": "Gramofone",
+      "vi": "Máy hát",
+      "ru": "Граммофон",
+      "uk": "Грамофон",
+      "ar": "غرامافون",
+      "hi": "ग्रामोफ़ोन",
+      "th": "เครื่องเล่นแผ่นเสียง",
+      "ko": "축음기",
+      "ja": "蓄音機",
+      "zh": "留声机"
      }
     },
     {
@@ -1759,7 +3359,23 @@
      "name": {
       "en": "Harp",
       "tr": "Arp",
-      "de": "Harfe"
+      "de": "Harfe",
+      "id": "Harpa",
+      "es": "Arpa",
+      "fr": "Harpe",
+      "it": "Arpa",
+      "nl": "Harp",
+      "pl": "Harfa",
+      "pt": "Harpa",
+      "vi": "Đàn hạc",
+      "ru": "Арфа",
+      "uk": "Арфа",
+      "ar": "قيثارة",
+      "hi": "हार्प",
+      "th": "พิณ",
+      "ko": "하프",
+      "ja": "ハープ",
+      "zh": "竖琴"
      }
     },
     {
@@ -1770,7 +3386,23 @@
      "name": {
       "en": "Violin",
       "tr": "Keman",
-      "de": "Geige"
+      "de": "Geige",
+      "id": "Biola",
+      "es": "Violín",
+      "fr": "Violon",
+      "it": "Violino",
+      "nl": "Viool",
+      "pl": "Skrzypce",
+      "pt": "Violino",
+      "vi": "Vĩ cầm",
+      "ru": "Скрипка",
+      "uk": "Скрипка",
+      "ar": "كمان",
+      "hi": "वायलिन",
+      "th": "ไวโอลิน",
+      "ko": "바이올린",
+      "ja": "バイオリン",
+      "zh": "小提琴"
      }
     },
     {
@@ -1781,7 +3413,23 @@
      "name": {
       "en": "Golden Harp",
       "tr": "Altın Arp",
-      "de": "Goldene Harfe"
+      "de": "Goldene Harfe",
+      "id": "Harpa Emas",
+      "es": "Arpa dorada",
+      "fr": "Harpe dorée",
+      "it": "Arpa d'oro",
+      "nl": "Gouden harp",
+      "pl": "Złota harfa",
+      "pt": "Harpa dourada",
+      "vi": "Đàn hạc vàng",
+      "ru": "Золотая арфа",
+      "uk": "Золота арфа",
+      "ar": "القيثارة الذهبية",
+      "hi": "सुनहरा हार्प",
+      "th": "พิณทองคำ",
+      "ko": "황금 하프",
+      "ja": "金のハープ",
+      "zh": "金色竖琴"
      }
     },
     {
@@ -1792,7 +3440,23 @@
      "name": {
       "en": "Grand Piano",
       "tr": "Kuyruklu Piyano",
-      "de": "Flügel"
+      "de": "Flügel",
+      "id": "Grand Piano",
+      "es": "Piano de cola",
+      "fr": "Piano à queue",
+      "it": "Pianoforte a coda",
+      "nl": "Vleugel",
+      "pl": "Fortepian",
+      "pt": "Piano de cauda",
+      "vi": "Đàn piano lớn",
+      "ru": "Рояль",
+      "uk": "Рояль",
+      "ar": "بيانو كبير",
+      "hi": "ग्रैंड पियानो",
+      "th": "แกรนด์เปียโน",
+      "ko": "그랜드 피아노",
+      "ja": "グランドピアノ",
+      "zh": "三角钢琴"
      }
     }
    ],
@@ -1856,7 +3520,23 @@
    "name": {
     "en": "Space Voyage",
     "tr": "Uzay Yolculuğu",
-    "de": "Weltraumreise"
+    "de": "Weltraumreise",
+    "id": "Perjalanan Antariksa",
+    "es": "Viaje espacial",
+    "fr": "Voyage spatial",
+    "it": "Viaggio nello spazio",
+    "nl": "Ruimtereis",
+    "pl": "Podróż kosmiczna",
+    "pt": "Viagem espacial",
+    "vi": "Du hành vũ trụ",
+    "ru": "Космическое путешествие",
+    "uk": "Космічна подорож",
+    "ar": "رحلة فضائية",
+    "hi": "अंतरिक्ष यात्रा",
+    "th": "ท่องอวกาศ",
+    "ko": "우주 여행",
+    "ja": "宇宙の旅",
+    "zh": "太空之旅"
    },
    "bg": "#191C57",
    "pictures": [
@@ -1868,7 +3548,23 @@
      "name": {
       "en": "Satellite",
       "tr": "Uydu",
-      "de": "Satellit"
+      "de": "Satellit",
+      "id": "Satelit",
+      "es": "Satélite",
+      "fr": "Satellite",
+      "it": "Satellite",
+      "nl": "Satelliet",
+      "pl": "Satelita",
+      "pt": "Satélite",
+      "vi": "Vệ tinh",
+      "ru": "Спутник",
+      "uk": "Супутник",
+      "ar": "قمر صناعي",
+      "hi": "उपग्रह",
+      "th": "ดาวเทียม",
+      "ko": "인공위성",
+      "ja": "人工衛星",
+      "zh": "卫星"
      }
     },
     {
@@ -1879,7 +3575,23 @@
      "name": {
       "en": "Rocket",
       "tr": "Roket",
-      "de": "Rakete"
+      "de": "Rakete",
+      "id": "Roket",
+      "es": "Cohete",
+      "fr": "Fusée",
+      "it": "Razzo",
+      "nl": "Raket",
+      "pl": "Rakieta",
+      "pt": "Foguete",
+      "vi": "Tên lửa",
+      "ru": "Ракета",
+      "uk": "Ракета",
+      "ar": "صاروخ",
+      "hi": "रॉकेट",
+      "th": "จรวด",
+      "ko": "로켓",
+      "ja": "ロケット",
+      "zh": "火箭"
      }
     },
     {
@@ -1890,7 +3602,23 @@
      "name": {
       "en": "Astronaut",
       "tr": "Astronot",
-      "de": "Astronaut"
+      "de": "Astronaut",
+      "id": "Astronaut",
+      "es": "Astronauta",
+      "fr": "Astronaute",
+      "it": "Astronauta",
+      "nl": "Astronaut",
+      "pl": "Astronauta",
+      "pt": "Astronauta",
+      "vi": "Phi hành gia",
+      "ru": "Астронавт",
+      "uk": "Астронавт",
+      "ar": "رائد فضاء",
+      "hi": "अंतरिक्ष यात्री",
+      "th": "นักบินอวกาศ",
+      "ko": "우주비행사",
+      "ja": "宇宙飛行士",
+      "zh": "宇航员"
      }
     },
     {
@@ -1901,7 +3629,23 @@
      "name": {
       "en": "Lunar Module",
       "tr": "Ay Modülü",
-      "de": "Mondfähre"
+      "de": "Mondfähre",
+      "id": "Modul Bulan",
+      "es": "Módulo lunar",
+      "fr": "Module lunaire",
+      "it": "Modulo lunare",
+      "nl": "Maanlander",
+      "pl": "Lądownik księżycowy",
+      "pt": "Módulo lunar",
+      "vi": "Tàu đổ bộ Mặt Trăng",
+      "ru": "Лунный модуль",
+      "uk": "Місячний модуль",
+      "ar": "مركبة القمر",
+      "hi": "चंद्र यान",
+      "th": "ยานลงดวงจันทร์",
+      "ko": "달 착륙선",
+      "ja": "月着陸船",
+      "zh": "登月舱"
      }
     },
     {
@@ -1912,7 +3656,23 @@
      "name": {
       "en": "Saturn",
       "tr": "Satürn",
-      "de": "Saturn"
+      "de": "Saturn",
+      "id": "Saturnus",
+      "es": "Saturno",
+      "fr": "Saturne",
+      "it": "Saturno",
+      "nl": "Saturnus",
+      "pl": "Saturn",
+      "pt": "Saturno",
+      "vi": "Sao Thổ",
+      "ru": "Сатурн",
+      "uk": "Сатурн",
+      "ar": "زحل",
+      "hi": "शनि ग्रह",
+      "th": "ดาวเสาร์",
+      "ko": "토성",
+      "ja": "土星",
+      "zh": "土星"
      }
     },
     {
@@ -1923,7 +3683,23 @@
      "name": {
       "en": "Space Station",
       "tr": "Uzay İstasyonu",
-      "de": "Raumstation"
+      "de": "Raumstation",
+      "id": "Stasiun Antariksa",
+      "es": "Estación espacial",
+      "fr": "Station spatiale",
+      "it": "Stazione spaziale",
+      "nl": "Ruimtestation",
+      "pl": "Stacja kosmiczna",
+      "pt": "Estação espacial",
+      "vi": "Trạm vũ trụ",
+      "ru": "Космическая станция",
+      "uk": "Космічна станція",
+      "ar": "محطة فضائية",
+      "hi": "अंतरिक्ष स्टेशन",
+      "th": "สถานีอวกาศ",
+      "ko": "우주 정거장",
+      "ja": "宇宙ステーション",
+      "zh": "空间站"
      }
     },
     {
@@ -1934,7 +3710,23 @@
      "name": {
       "en": "UFO",
       "tr": "UFO",
-      "de": "UFO"
+      "de": "UFO",
+      "id": "UFO",
+      "es": "OVNI",
+      "fr": "OVNI",
+      "it": "UFO",
+      "nl": "Ufo",
+      "pl": "UFO",
+      "pt": "Óvni",
+      "vi": "UFO",
+      "ru": "НЛО",
+      "uk": "НЛО",
+      "ar": "طبق طائر",
+      "hi": "यूएफ़ओ",
+      "th": "ยูเอฟโอ",
+      "ko": "UFO",
+      "ja": "UFO",
+      "zh": "飞碟"
      }
     }
    ],
@@ -1998,7 +3790,23 @@
    "name": {
     "en": "Nostalgic Journey",
     "tr": "Nostalji Yolculuğu",
-    "de": "Nostalgische Reise"
+    "de": "Nostalgische Reise",
+    "id": "Perjalanan Nostalgia",
+    "es": "Viaje nostálgico",
+    "fr": "Voyage nostalgique",
+    "it": "Viaggio nostalgico",
+    "nl": "Nostalgische reis",
+    "pl": "Nostalgiczna podróż",
+    "pt": "Viagem nostálgica",
+    "vi": "Hành trình hoài niệm",
+    "ru": "Ностальгическое путешествие",
+    "uk": "Ностальгійна подорож",
+    "ar": "رحلة إلى الماضي",
+    "hi": "यादों का सफ़र",
+    "th": "การเดินทางย้อนวัย",
+    "ko": "추억의 여행",
+    "ja": "なつかしの旅",
+    "zh": "怀旧之旅"
    },
    "bg": "#552E18",
    "pictures": [
@@ -2010,7 +3818,23 @@
      "name": {
       "en": "Steam Train",
       "tr": "Buharlı Tren",
-      "de": "Dampflok"
+      "de": "Dampflok",
+      "id": "Kereta Uap",
+      "es": "Tren de vapor",
+      "fr": "Train à vapeur",
+      "it": "Treno a vapore",
+      "nl": "Stoomtrein",
+      "pl": "Parowóz",
+      "pt": "Trem a vapor",
+      "vi": "Tàu hơi nước",
+      "ru": "Паровоз",
+      "uk": "Паротяг",
+      "ar": "قطار بخاري",
+      "hi": "भाप वाली ट्रेन",
+      "th": "รถไฟไอน้ำ",
+      "ko": "증기 기관차",
+      "ja": "蒸気機関車",
+      "zh": "蒸汽火车"
      }
     },
     {
@@ -2021,7 +3845,23 @@
      "name": {
       "en": "Hot Air Balloon",
       "tr": "Sıcak Hava Balonu",
-      "de": "Heißluftballon"
+      "de": "Heißluftballon",
+      "id": "Balon Udara",
+      "es": "Globo aerostático",
+      "fr": "Montgolfière",
+      "it": "Mongolfiera",
+      "nl": "Luchtballon",
+      "pl": "Balon na ogrzane powietrze",
+      "pt": "Balão de ar quente",
+      "vi": "Khinh khí cầu",
+      "ru": "Воздушный шар",
+      "uk": "Повітряна куля",
+      "ar": "منطاد هوائي",
+      "hi": "गरम हवा का गुब्बारा",
+      "th": "บอลลูนลมร้อน",
+      "ko": "열기구",
+      "ja": "熱気球",
+      "zh": "热气球"
      }
     },
     {
@@ -2032,7 +3872,23 @@
      "name": {
       "en": "Biplane",
       "tr": "Çift Kanatlı Uçak",
-      "de": "Doppeldecker"
+      "de": "Doppeldecker",
+      "id": "Pesawat Bersayap Ganda",
+      "es": "Biplano",
+      "fr": "Biplan",
+      "it": "Biplano",
+      "nl": "Tweedekker",
+      "pl": "Dwupłatowiec",
+      "pt": "Biplano",
+      "vi": "Máy bay hai tầng cánh",
+      "ru": "Биплан",
+      "uk": "Біплан",
+      "ar": "طائرة ثنائية الجناح",
+      "hi": "बाइप्लेन",
+      "th": "เครื่องบินปีกสองชั้น",
+      "ko": "복엽기",
+      "ja": "複葉機",
+      "zh": "双翼飞机"
      }
     },
     {
@@ -2043,7 +3899,23 @@
      "name": {
       "en": "Classic Car",
       "tr": "Klasik Araba",
-      "de": "Oldtimer"
+      "de": "Oldtimer",
+      "id": "Mobil Klasik",
+      "es": "Coche clásico",
+      "fr": "Voiture ancienne",
+      "it": "Auto d'epoca",
+      "nl": "Oldtimer",
+      "pl": "Klasyczne auto",
+      "pt": "Carro antigo",
+      "vi": "Xe cổ",
+      "ru": "Ретроавтомобиль",
+      "uk": "Ретроавтомобіль",
+      "ar": "سيارة كلاسيكية",
+      "hi": "क्लासिक कार",
+      "th": "รถคลาสสิก",
+      "ko": "클래식 카",
+      "ja": "クラシックカー",
+      "zh": "老爷车"
      }
     },
     {
@@ -2054,7 +3926,23 @@
      "name": {
       "en": "Tram",
       "tr": "Tramvay",
-      "de": "Straßenbahn"
+      "de": "Straßenbahn",
+      "id": "Trem",
+      "es": "Tranvía",
+      "fr": "Tramway",
+      "it": "Tram",
+      "nl": "Tram",
+      "pl": "Tramwaj",
+      "pt": "Bonde",
+      "vi": "Tàu điện",
+      "ru": "Трамвай",
+      "uk": "Трамвай",
+      "ar": "ترام",
+      "hi": "ट्राम",
+      "th": "รถราง",
+      "ko": "전차",
+      "ja": "路面電車",
+      "zh": "有轨电车"
      }
     },
     {
@@ -2065,7 +3953,23 @@
      "name": {
       "en": "Train over the Bridge",
       "tr": "Köprüdeki Tren",
-      "de": "Zug auf der Brücke"
+      "de": "Zug auf der Brücke",
+      "id": "Kereta di Atas Jembatan",
+      "es": "Tren sobre el puente",
+      "fr": "Train sur le pont",
+      "it": "Treno sul ponte",
+      "nl": "Trein over de brug",
+      "pl": "Pociąg na moście",
+      "pt": "Trem sobre a ponte",
+      "vi": "Tàu qua cầu",
+      "ru": "Поезд на мосту",
+      "uk": "Потяг на мосту",
+      "ar": "قطار فوق الجسر",
+      "hi": "पुल पर ट्रेन",
+      "th": "รถไฟข้ามสะพาน",
+      "ko": "다리 위 기차",
+      "ja": "橋をわたる汽車",
+      "zh": "过桥的火车"
      }
     },
     {
@@ -2076,7 +3980,23 @@
      "name": {
       "en": "Penny-Farthing",
       "tr": "Büyük Tekerlekli Bisiklet",
-      "de": "Hochrad"
+      "de": "Hochrad",
+      "id": "Sepeda Roda Besar",
+      "es": "Velocípedo",
+      "fr": "Grand-bi",
+      "it": "Biciclo",
+      "nl": "Hoge bi",
+      "pl": "Bicykl",
+      "pt": "Velocípede",
+      "vi": "Xe đạp bánh lớn",
+      "ru": "Пенни-фартинг",
+      "uk": "Пенні-фартинг",
+      "ar": "دراجة بعجلة كبيرة",
+      "hi": "बड़े पहिये वाली साइकिल",
+      "th": "จักรยานล้อโต",
+      "ko": "하이휠 자전거",
+      "ja": "ペニー・ファージング",
+      "zh": "大小轮自行车"
      }
     }
    ],
