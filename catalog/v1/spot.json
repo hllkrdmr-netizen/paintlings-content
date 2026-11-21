@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "mode": "spot_the_pixel",
  "note": "Picture A = <id>.png, picture B = <id>_b.png (5 differences already applied). diffs are grid cells (x, y, size) on a grid_width x grid_height grid laid over the image; cell px = image px / grid.",
  "categories": [
@@ -2581,6 +2581,129 @@
     "file": "medieval-castle/stable_well_garden.json",
     "image": "medieval-castle/stable_well_garden.png",
     "image_b": "medieval-castle/stable_well_garden_b.png",
+    "width": 500,
+    "height": 500,
+    "status": "ready"
+   }
+  },
+  {
+   "id": "kyoto-street",
+   "name": {
+    "en": "Kyoto Street",
+    "tr": "Kyoto Sokağı",
+    "de": "Kyoto-Gasse"
+   },
+   "tier": "hard",
+   "pictures": [
+    {
+     "id": "tea_house",
+     "order": 1,
+     "name": {
+      "en": "Tea House",
+      "tr": "Çay Evi",
+      "de": "Teehaus"
+     },
+     "role": "picture",
+     "file": "kyoto-street/tea_house.json",
+     "image": "kyoto-street/tea_house.png",
+     "image_b": "kyoto-street/tea_house_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "kimono_shop",
+     "order": 2,
+     "name": {
+      "en": "Kimono Shop",
+      "tr": "Kimono Dükkânı",
+      "de": "Kimonoladen"
+     },
+     "role": "picture",
+     "file": "kyoto-street/kimono_shop.json",
+     "image": "kyoto-street/kimono_shop.png",
+     "image_b": "kyoto-street/kimono_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "lantern_shop",
+     "order": 3,
+     "name": {
+      "en": "Lantern Shop",
+      "tr": "Fener Dükkânı",
+      "de": "Laternenladen"
+     },
+     "role": "picture",
+     "file": "kyoto-street/lantern_shop.json",
+     "image": "kyoto-street/lantern_shop.png",
+     "image_b": "kyoto-street/lantern_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "shrine_gate",
+     "order": 4,
+     "name": {
+      "en": "Shrine Gate",
+      "tr": "Tapınak Kapısı",
+      "de": "Schreintor"
+     },
+     "role": "picture",
+     "file": "kyoto-street/shrine_gate.json",
+     "image": "kyoto-street/shrine_gate.png",
+     "image_b": "kyoto-street/shrine_gate_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "sweets_shop",
+     "order": 5,
+     "name": {
+      "en": "Sweets Shop",
+      "tr": "Tatlıcı",
+      "de": "Süßwarenladen"
+     },
+     "role": "picture",
+     "file": "kyoto-street/sweets_shop.json",
+     "image": "kyoto-street/sweets_shop.png",
+     "image_b": "kyoto-street/sweets_shop_b.png",
+     "width": 500,
+     "height": 500,
+     "status": "ready"
+    },
+    {
+     "id": "masterpiece_kyoto_street",
+     "order": 6,
+     "name": {
+      "en": "Kyoto Street",
+      "tr": "Kyoto Sokağı",
+      "de": "Kyoto-Gasse"
+     },
+     "role": "masterpiece",
+     "file": "kyoto-street/masterpiece_kyoto_street.json",
+     "image": "kyoto-street/masterpiece_kyoto_street.png",
+     "image_b": "kyoto-street/masterpiece_kyoto_street_b.png",
+     "width": 1254,
+     "height": 1254,
+     "status": "ready"
+    }
+   ],
+   "spare": {
+    "id": "koi_pond_bridge",
+    "order": 0,
+    "name": {
+     "en": "Koi Pond Bridge",
+     "tr": "Koi Göleti Köprüsü",
+     "de": "Brücke am Koi-Teich"
+    },
+    "role": "spare",
+    "file": "kyoto-street/koi_pond_bridge.json",
+    "image": "kyoto-street/koi_pond_bridge.png",
+    "image_b": "kyoto-street/koi_pond_bridge_b.png",
     "width": 500,
     "height": 500,
     "status": "ready"
@@ -7438,6 +7561,237 @@
      1
     ]
    ]
+  },
+  "kyoto-street/tea_house": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     25,
+     25,
+     1
+    ],
+    [
+     83,
+     29,
+     1
+    ],
+    [
+     53,
+     48,
+     1
+    ],
+    [
+     9,
+     47,
+     1
+    ],
+    [
+     54,
+     73,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/kimono_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     48,
+     58,
+     1
+    ],
+    [
+     61,
+     62,
+     1
+    ],
+    [
+     4,
+     19,
+     1
+    ],
+    [
+     60,
+     78,
+     1
+    ],
+    [
+     12,
+     49,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/lantern_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     36,
+     70,
+     1
+    ],
+    [
+     43,
+     10,
+     1
+    ],
+    [
+     69,
+     41,
+     1
+    ],
+    [
+     52,
+     53,
+     1
+    ],
+    [
+     85,
+     56,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/shrine_gate": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     73,
+     72,
+     1
+    ],
+    [
+     10,
+     34,
+     1
+    ],
+    [
+     5,
+     23,
+     1
+    ],
+    [
+     29,
+     73,
+     1
+    ],
+    [
+     78,
+     48,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/sweets_shop": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     6,
+     15,
+     1
+    ],
+    [
+     27,
+     28,
+     1
+    ],
+    [
+     85,
+     16,
+     1
+    ],
+    [
+     6,
+     57,
+     1
+    ],
+    [
+     37,
+     27,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/masterpiece_kyoto_street": {
+   "iw": 1254,
+   "ih": 1254,
+   "gw": 208,
+   "gh": 213,
+   "d": [
+    [
+     135,
+     121,
+     1
+    ],
+    [
+     149,
+     158,
+     1
+    ],
+    [
+     46,
+     102,
+     1
+    ],
+    [
+     180,
+     148,
+     1
+    ],
+    [
+     62,
+     50,
+     1
+    ]
+   ]
+  },
+  "kyoto-street/koi_pond_bridge": {
+   "iw": 500,
+   "ih": 500,
+   "gw": 88,
+   "gh": 92,
+   "d": [
+    [
+     66,
+     42,
+     1
+    ],
+    [
+     24,
+     50,
+     1
+    ],
+    [
+     78,
+     40,
+     1
+    ],
+    [
+     34,
+     9,
+     1
+    ],
+    [
+     70,
+     54,
+     1
+    ]
+   ]
   }
  },
  "files": {
@@ -8616,6 +8970,62 @@
   "medieval-castle/stable_well_garden_b.png": {
    "size": 232242,
    "sha": "8d80b5ca5d680c4616422dd2a4e60b12931e33276b2f9457f68829daf0ea0487"
+  },
+  "kyoto-street/tea_house.png": {
+   "size": 212166,
+   "sha": "ea78a4a21c94eb304a443ae5a81577c963409933de55a0ebdb949330b82b5b82"
+  },
+  "kyoto-street/tea_house_b.png": {
+   "size": 212110,
+   "sha": "ddb01121aff1843f238340c6a5eb18755bded8cb3cdfffa83bf07d6e253c377b"
+  },
+  "kyoto-street/kimono_shop.png": {
+   "size": 222822,
+   "sha": "a9d34d6d5e9b69fbff1300fd789a12e74d20179bce909db199c40ccd9216e428"
+  },
+  "kyoto-street/kimono_shop_b.png": {
+   "size": 222748,
+   "sha": "de8f7da4e2d6a5fec9d719fbc0cf520b69add93c292fd7f0dfc0d68cc67d5246"
+  },
+  "kyoto-street/lantern_shop.png": {
+   "size": 220220,
+   "sha": "e199dd35b71b6e421afd890972c0c882402e9895a5024814b3505aa0e44c1ce7"
+  },
+  "kyoto-street/lantern_shop_b.png": {
+   "size": 220136,
+   "sha": "5bbd9b20310d6656847a9d949d2b28389368ff42b4845eb01ff2e623881fa3d8"
+  },
+  "kyoto-street/shrine_gate.png": {
+   "size": 216834,
+   "sha": "ef77c6f73f087aab0f34e658ba643c60c8f9c4d3d15f4ddfdd95b8808f6f97c3"
+  },
+  "kyoto-street/shrine_gate_b.png": {
+   "size": 216763,
+   "sha": "882c2766f98c95252c9988b46b1a027607e45da7450b62bc91cc0c36aee8df29"
+  },
+  "kyoto-street/sweets_shop.png": {
+   "size": 219884,
+   "sha": "d185227a8f971adaa6a144f3efdd7051fe2f97a1894b3dee9a8769b9d085537d"
+  },
+  "kyoto-street/sweets_shop_b.png": {
+   "size": 219838,
+   "sha": "416970c7efef5c08cf10916894be966f9701047063834cd6dc5a2ce4abd5a99e"
+  },
+  "kyoto-street/masterpiece_kyoto_street.png": {
+   "size": 1193763,
+   "sha": "de052cacd88011dcea09d9f4d048b2dae7ba955b7d6ce33623b13b9fc213cf22"
+  },
+  "kyoto-street/masterpiece_kyoto_street_b.png": {
+   "size": 1193693,
+   "sha": "0bb3b9a0a5aedbf7ce04c9d9d1e97efd49d88f47e4e67348da2a61a400c31a22"
+  },
+  "kyoto-street/koi_pond_bridge.png": {
+   "size": 217240,
+   "sha": "0bc35f9f043932e46de3fd49bdf2903059156b1b29620cc37ec8f4a1b0778326"
+  },
+  "kyoto-street/koi_pond_bridge_b.png": {
+   "size": 217138,
+   "sha": "36c3fb7ce4f8ad2fde37f6cf4b3f03febeb5bd16f81bc2a652be22fe5b5454fd"
   }
  }
 }
